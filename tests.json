@@ -1,0 +1,317 @@
+
+{
+  "tests": [
+    {
+      "id": "BT-X-MATH-01",
+      "title": "Real Numbers - Test 01",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "chapter": "Real Numbers",
+      "durationMinutes": 30,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is the value of the square root of 144?",
+          "options": ["10", "11", "12", "14"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "text": "Which of the following is a prime number?",
+          "options": ["9", "15", "21", "17"],
+          "correctAnswer": 3
+        }
+      ]
+    },
+    {
+      "id": "BT-X-MATH-02",
+      "title": "Polynomials - Test 02",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "chapter": "Polynomials",
+      "durationMinutes": 10,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is the degree of the polynomial 5x³ + 2x² - 7?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "text": "What is the sum of the zeroes of x² - 5x + 6?",
+          "options": ["-5", "5", "6", "-6"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "text": "What is the product of the zeroes of x² - 7x + 10?",
+          "options": ["7", "10", "-7", "-10"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "text": "Which of the following is a zero of p(x) = x - 4?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 5,
+          "text": "How many zeroes can a quadratic polynomial have at most?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "text": "If the zeroes of x² + 3x + 2 are alpha and beta, what is alpha + beta?",
+          "options": ["3", "-3", "2", "-2"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "text": "Which polynomial has zeroes 2 and 3?",
+          "options": ["x² + 5x + 6", "x² - x + 6", "x² - 5x + 6", "x² + x - 6"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 8,
+          "text": "If one zero of x² - 9 is 3, what is the other zero?",
+          "options": ["-3", "0", "3", "9"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 9,
+          "text": "What is the value of p(2) if p(x) = x² + 2x + 1?",
+          "options": ["5", "7", "8", "9"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 10,
+          "text": "If the sum of the zeroes of x² + kx + 12 is -5, find k.",
+          "options": ["-5", "5", "12", "-12"],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "BT-X-ENG-03",
+      "title": "English Grammar - Test 03",
+      "class": "Class 10",
+      "subject": "English",
+      "chapter": "Grammar",
+      "durationMinutes": 10,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Choose the correct preposition: She is good ___ Mathematics.",
+          "options": ["in", "at", "on", "for"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "text": "Choose the correct article: He is ___ honest man.",
+          "options": ["a", "an", "the", "no article"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "text": "Choose the correct verb: Each of the students ___ a notebook.",
+          "options": ["have", "are having", "has", "were having"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "text": "Choose the correct passive voice: They completed the work.",
+          "options": ["The work completed them.", "The work was completed by them.", "The work is completed by them.", "The work had completing."],
+          "correctAnswer": 1
+        },
+        {
+          "id": 5,
+          "text": "Choose the synonym of 'rapid'.",
+          "options": ["Slow", "Weak", "Swift", "Quiet"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 6,
+          "text": "Choose the antonym of 'ancient'.",
+          "options": ["Old", "Modern", "Historic", "Past"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "text": "Change into indirect speech: He said, 'I am tired.'",
+          "options": ["He said that I am tired.", "He said that he is tired.", "He said that he was tired.", "He says that he was tired."],
+          "correctAnswer": 2
+        },
+        {
+          "id": 8,
+          "text": "Choose the correct conjunction: I was tired, ___ I finished my homework.",
+          "options": ["because", "but", "unless", "or"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 9,
+          "text": "Identify the tense: She has finished her assignment.",
+          "options": ["Simple past", "Present continuous", "Present perfect", "Past perfect"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 10,
+          "text": "Choose the correct question tag: You are coming, ___?",
+          "options": ["are you", "aren't you", "don't you", "won't you"],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "BT-X-SCI-04",
+      "title": "Chemical Reactions - Test 04",
+      "class": "Class 10",
+      "subject": "Science",
+      "chapter": "Chemical Reactions and Equations",
+      "durationMinutes": 10,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which gas is released when zinc reacts with dilute hydrochloric acid?",
+          "options": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon dioxide"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "text": "What type of reaction is CaO + H2O -> Ca(OH)2?",
+          "options": ["Decomposition", "Combination", "Displacement", "Double displacement"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "text": "Which substance is commonly used to prevent rancidity in packaged food?",
+          "options": ["Antioxidants", "Water", "Salt only", "Oxygen"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 4,
+          "text": "What is the colour of copper sulphate solution?",
+          "options": ["Red", "Green", "Blue", "Yellow"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "text": "Which reaction involves the gain of oxygen?",
+          "options": ["Reduction", "Oxidation", "Neutralisation", "Precipitation"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "text": "What is formed when silver chloride is exposed to sunlight?",
+          "options": ["Silver and chlorine", "Silver oxide only", "Silver and oxygen", "Hydrogen and chlorine"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 7,
+          "text": "Which of the following is a displacement reaction?",
+          "options": ["CaO + H2O -> Ca(OH)2", "2H2 + O2 -> 2H2O", "Zn + CuSO4 -> ZnSO4 + Cu", "CaCO3 -> CaO + CO2"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 8,
+          "text": "Why should a chemical equation be balanced?",
+          "options": ["To change the products", "To obey the law of conservation of mass", "To increase the reaction speed", "To change the reactants"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 9,
+          "text": "Which gas turns limewater milky?",
+          "options": ["Hydrogen", "Oxygen", "Carbon dioxide", "Nitrogen"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 10,
+          "text": "Which of the following is an exothermic process?",
+          "options": ["Photosynthesis", "Thermal decomposition of calcium carbonate", "Decomposition of silver chloride by sunlight", "Burning of natural gas"],
+          "correctAnswer": 3
+        }
+      ]
+    },
+    {
+      "id": "BT-IX-MATH-05",
+      "title": "Number Systems - Test 05",
+      "class": "Class 9",
+      "subject": "Mathematics",
+      "chapter": "Number Systems",
+      "durationMinutes": 10,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following is an irrational number?",
+          "options": ["1/2", "0.25", "√(2)", "3"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "text": "What is the decimal expansion of 1/4?",
+          "options": ["0.25", "0.4", "0.14", "0.125"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "text": "Which of the following is a rational number?",
+          "options": ["√(3)", "pi", "√(5)", "7/9"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 4,
+          "text": "Between which two consecutive integers does √(10) lie?",
+          "options": ["1 and 2", "2 and 3", "3 and 4", "4 and 5"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "text": "What is the value of 2³?",
+          "options": ["6", "8", "9", "12"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "text": "Which of the following has a terminating decimal expansion?",
+          "options": ["1/3", "2/7", "3/8", "5/6"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 7,
+          "text": "What is the value of √(49)?",
+          "options": ["6", "7", "8", "9"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 8,
+          "text": "What is the additive inverse of -5?",
+          "options": ["-5", "0", "5", "1/5"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "text": "Which statement about rational numbers is correct?",
+          "options": ["They cannot be written as fractions", "They can be written as p/q where p and q are integers and q is not zero", "Their decimal expansions are always non-terminating", "They are all integers"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 10,
+          "text": "Simplify 3² x 3³.",
+          "options": ["3^5", "3^6", "9^5", "6^5"],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ]
+}

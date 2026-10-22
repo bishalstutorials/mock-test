@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#12346b">
+    <title>Take Mock Test | Bishal's Tutorials</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="assets/logo.png"
+                 alt="Bishal's Tutorials Logo"
+                 class="brand-logo">
+
+            <div>
+                <h1>Bishal's Tutorials</h1>
+                <p>LEARN &amp; SUCCEED</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="test-page">
+        <div class="test-heading">
+            <a class="back-link" href="index.html">← Back to Home</a>
+            <h2 id="test-title">Real Numbers - Test 01</h2>
+            <p id="test-details">Class 10 | Mathematics</p>
+        </div>
+
+        <section class="test-info">
+            <div>
+                <span class="info-label">QUESTION</span>
+                <strong id="question-progress">1 of 2</strong>
+            </div>
+            <div>
+                <span class="info-label">TIME LEFT</span>
+                <strong id="timer">30:00</strong>
+            </div>
+        </section>
+
+        <section class="question-card">
+            <div class="question-number" id="question-number">
+                Question 1
+            </div>
+
+            <h3 id="question-text" aria-live="polite">
+                Your question will appear here.
+            </h3>
+
+            <div id="options-container" class="options-container">
+                <p class="loading-message">
+                    Questions will appear here when the test is connected.
+                </p>
+            </div>
+
+            <p id="test-message" class="test-message" role="status"></p>
+
+            <div class="test-navigation">
+                <button id="previous-button" class="secondary-button"
+                        type="button" disabled>
+                    Previous
+                </button>
+
+                <button id="next-button" class="primary-button"
+                        type="button">
+                    Next →
+                </button>
+            </div>
+
+            <button id="submit-button" class="submit-button"
+                    type="button">
+                Submit Test
+            </button>
+        </section>
+
+        <p class="test-note">
+            Check your answers before submitting the test.
+        </p>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="test-year"></span> Bishal's Tutorials</p>
+        <p>LEARN &amp; SUCCEED</p>
+    </footer>
+
+    <script src="js/test.js"></script>
+</body>
+</html>
