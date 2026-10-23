@@ -68,6 +68,7 @@ async function loadMockTests() {
         }
 
         populateFilters();
+        updateFiltersForTestType();
         renderTests();
 
     } catch (error) {
@@ -139,7 +140,7 @@ function populateDropdown(dropdown, defaultLabel, values) {
         dropdown.appendChild(option);
     });
 
-    // Keep the previous selection if it is still available
+    // Preserve the previous selection if it still exists
     if (
         previousValue !== "all" &&
         uniqueValues.includes(previousValue)
@@ -187,14 +188,52 @@ function updateChapterFilter() {
     }
 }
 
+// Enable or disable filters according to the selected test type
+function updateFiltersForTestType() {
+    if (!testTypeFilter) return;
+
+    const selectedType = testTypeFilter.value;
+
+    const disableSubject = selectedType === "complete";
+
+    const disableChapter =
+        selectedType === "subject" ||
+        selectedType === "complete";
+
+    if (subjectFilter) {
+        subjectFilter.disabled = disableSubject;
+
+        if (disableSubject) {
+            subjectFilter.value = "all";
+        }
+    }
+
+    if (chapterFilter) {
+        chapterFilter.disabled = disableChapter;
+
+        if (disableChapter) {
+            chapterFilter.value = "all";
+        }
+    }
+
+    updateChapterFilter();
+
+    // Keep Chapter disabled after updating its available options
+    if (chapterFilter) {
+        chapterFilter.disabled = disableChapter;
+    }
+}
+
 // Display tests matching all selected filters
 function renderTests() {
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const selectedChapter = chapterFilter.value;
+
     const selectedLanguage = languageFilter
         ? languageFilter.value
         : "all";
+
     const selectedTestType = testTypeFilter
         ? testTypeFilter.value
         : "all";
@@ -205,10 +244,13 @@ function renderTests() {
             test.class === selectedClass;
 
         const matchesSubject =
+            selectedTestType === "complete" ||
             selectedSubject === "all" ||
             test.subject === selectedSubject;
 
         const matchesChapter =
+            selectedTestType === "subject" ||
+            selectedTestType === "complete" ||
             selectedChapter === "all" ||
             test.chapter === selectedChapter;
 
@@ -350,9 +392,12 @@ if (languageFilter) {
     languageFilter.addEventListener("change", renderTests);
 }
 
-// Update results when Test Type changes
+// Update filters and results when Test Type changes
 if (testTypeFilter) {
-    testTypeFilter.addEventListener("change", renderTests);
+    testTypeFilter.addEventListener("change", function () {
+        updateFiltersForTestType();
+        renderTests();
+    });
 }
 
 // Reset all filters
@@ -360,6 +405,7 @@ if (resetFiltersButton) {
     resetFiltersButton.addEventListener("click", function () {
         classFilter.value = "all";
         subjectFilter.value = "all";
+        chapterFilter.value = "all";
 
         if (languageFilter) {
             languageFilter.value = "all";
@@ -369,6 +415,7 @@ if (resetFiltersButton) {
             testTypeFilter.value = "all";
         }
 
+        updateFiltersForTestType();
         updateChapterFilter();
 
         chapterFilter.value = "all";
