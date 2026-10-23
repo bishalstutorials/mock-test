@@ -15,8 +15,8 @@
     <header class="site-header">
         <div class="brand">
             <img src="assets/logo.png"
-            alt="Bishal's Tutorials Logo"
-            class="brand-logo">
+                 alt="Bishal's Tutorials Logo"
+                 class="brand-logo">
             <div>
                 <h1>Bishal's Tutorials</h1>
                 <p>LEARN &amp; SUCCEED</p>
@@ -65,48 +65,53 @@
             </div>
         </section>
 
-        
-<section class="test-list-section" id="mock-tests-section" hidden>
-    <div class="test-list-heading">
-        <h2>Available Mock Tests</h2>
-        <p>Find a test by selecting your class, subject, and chapter.</p>
-    </div>
+        <section class="test-list-section" id="mock-tests-section" hidden>
+            <div class="test-list-heading">
+                <h2>Available Mock Tests</h2>
+                <p>Find a test by selecting your class, subject, chapter, or language.</p>
+            </div>
 
-    <div class="test-filters">
-        <div class="filter-group">
-            <label for="class-filter">Class</label>
-            <select id="class-filter">
-                <option value="all">All Classes</option>
-            </select>
-        </div>
+            <div class="test-filters">
+                <div class="filter-group">
+                    <label for="class-filter">Class</label>
+                    <select id="class-filter">
+                        <option value="all">All Classes</option>
+                    </select>
+                </div>
 
-        <div class="filter-group">
-            <label for="subject-filter">Subject</label>
-            <select id="subject-filter">
-                <option value="all">All Subjects</option>
-            </select>
-        </div>
+                <div class="filter-group">
+                    <label for="subject-filter">Subject</label>
+                    <select id="subject-filter">
+                        <option value="all">All Subjects</option>
+                    </select>
+                </div>
 
-        <div class="filter-group">
-            <label for="chapter-filter">Chapter</label>
-            <select id="chapter-filter">
-                <option value="all">All Chapters</option>
-            </select>
-        </div>
+                <div class="filter-group">
+                    <label for="chapter-filter">Chapter</label>
+                    <select id="chapter-filter">
+                        <option value="all">All Chapters</option>
+                    </select>
+                </div>
 
-        <button type="button" id="reset-filters"
-                class="secondary-button">
-            Reset Filters
-        </button>
-    </div>
+                <div class="filter-group">
+                    <label for="language-filter">Language</label>
+                    <select id="language-filter">
+                        <option value="all">All Languages</option>
+                    </select>
+                </div>
 
-    <p id="test-count" class="test-count" aria-live="polite"></p>
+                <button type="button" id="reset-filters"
+                        class="secondary-button">
+                    Reset Filters
+                </button>
+            </div>
 
-    <div class="test-list" id="test-list">
-        <p class="test-list-message">Loading available tests...</p>
-    </div>
-</section>
+            <p id="test-count" class="test-count" aria-live="polite"></p>
 
+            <div class="test-list" id="test-list">
+                <p class="test-list-message">Loading available tests...</p>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
