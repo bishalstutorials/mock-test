@@ -9,6 +9,8 @@ const testList = document.getElementById("test-list");
 const classFilter = document.getElementById("class-filter");
 const subjectFilter = document.getElementById("subject-filter");
 const chapterFilter = document.getElementById("chapter-filter");
+const languageFilter = document.getElementById("language-filter");
+const testTypeFilter = document.getElementById("test-type-filter");
 const resetFiltersButton = document.getElementById("reset-filters");
 const testCount = document.getElementById("test-count");
 
@@ -32,7 +34,10 @@ if (startButton) {
         startButton.disabled = true;
         startButton.textContent = "Mock Tests Available";
 
-        statusMessage.textContent = "Choose a test below to begin.";
+        if (statusMessage) {
+            statusMessage.textContent =
+                "Choose a test below to begin.";
+        }
 
         loadMockTests();
     });
@@ -78,7 +83,7 @@ async function loadMockTests() {
     }
 }
 
-// Populate Class and Subject dropdowns
+// Populate all filter dropdowns
 function populateFilters() {
     populateDropdown(
         classFilter,
@@ -92,12 +97,21 @@ function populateFilters() {
         allTests.map(test => test.subject)
     );
 
-    // Chapters depend on the selected Class and Subject
+    populateDropdown(
+        languageFilter,
+        "All Languages",
+        allTests.map(test => test.language)
+    );
+
     updateChapterFilter();
 }
 
 // Add unique values to a dropdown
 function populateDropdown(dropdown, defaultLabel, values) {
+    if (!dropdown) return;
+
+    const previousValue = dropdown.value;
+
     dropdown.innerHTML = "";
 
     const defaultOption = document.createElement("option");
@@ -124,10 +138,20 @@ function populateDropdown(dropdown, defaultLabel, values) {
 
         dropdown.appendChild(option);
     });
+
+    // Keep the previous selection if it is still available
+    if (
+        previousValue !== "all" &&
+        uniqueValues.includes(previousValue)
+    ) {
+        dropdown.value = previousValue;
+    }
 }
 
 // Update Chapter dropdown according to Class and Subject
 function updateChapterFilter() {
+    if (!classFilter || !subjectFilter || !chapterFilter) return;
+
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const previousChapter = chapterFilter.value;
@@ -163,11 +187,17 @@ function updateChapterFilter() {
     }
 }
 
-// Display tests matching the selected filters
+// Display tests matching all selected filters
 function renderTests() {
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const selectedChapter = chapterFilter.value;
+    const selectedLanguage = languageFilter
+        ? languageFilter.value
+        : "all";
+    const selectedTestType = testTypeFilter
+        ? testTypeFilter.value
+        : "all";
 
     const filteredTests = allTests.filter(function (test) {
         const matchesClass =
@@ -182,10 +212,22 @@ function renderTests() {
             selectedChapter === "all" ||
             test.chapter === selectedChapter;
 
+        const matchesLanguage =
+            selectedLanguage === "all" ||
+            (test.language || "").toLowerCase() ===
+            selectedLanguage.toLowerCase();
+
+        const matchesTestType =
+            selectedTestType === "all" ||
+            (test.testType || "").toLowerCase() ===
+            selectedTestType.toLowerCase();
+
         return (
             matchesClass &&
             matchesSubject &&
-            matchesChapter
+            matchesChapter &&
+            matchesLanguage &&
+            matchesTestType
         );
     });
 
@@ -227,9 +269,30 @@ function renderTests() {
         chapterInfo.textContent =
             "Chapter: " + (test.chapter || "Not specified");
 
+        const languageInfo = document.createElement("p");
+        languageInfo.textContent =
+            "Language: " + (test.language || "Not specified");
+
+        const testTypeLabels = {
+            chapter: "Chapter Test",
+            subject: "Subject Test",
+            complete: "Complete All Subject Test"
+        };
+
+        const testTypeInfo = document.createElement("p");
+        const normalizedTestType =
+            (test.testType || "").toLowerCase();
+
+        testTypeInfo.textContent =
+            "Test Type: " +
+            (testTypeLabels[normalizedTestType] ||
+                "Not specified");
+
         const durationInfo = document.createElement("p");
         durationInfo.textContent =
-            "Duration: " + (test.durationMinutes || 0) + " minutes";
+            "Duration: " +
+            (test.durationMinutes ?? test.duration ?? 0) +
+            " minutes";
 
         const questionInfo = document.createElement("p");
         questionInfo.textContent =
@@ -257,6 +320,8 @@ function renderTests() {
         card.appendChild(classInfo);
         card.appendChild(subjectInfo);
         card.appendChild(chapterInfo);
+        card.appendChild(languageInfo);
+        card.appendChild(testTypeInfo);
         card.appendChild(durationInfo);
         card.appendChild(questionInfo);
         card.appendChild(button);
@@ -280,14 +345,34 @@ subjectFilter.addEventListener("change", function () {
 // Update results when Chapter changes
 chapterFilter.addEventListener("change", renderTests);
 
+// Update results when Language changes
+if (languageFilter) {
+    languageFilter.addEventListener("change", renderTests);
+}
+
+// Update results when Test Type changes
+if (testTypeFilter) {
+    testTypeFilter.addEventListener("change", renderTests);
+}
+
 // Reset all filters
-resetFiltersButton.addEventListener("click", function () {
-    classFilter.value = "all";
-    subjectFilter.value = "all";
+if (resetFiltersButton) {
+    resetFiltersButton.addEventListener("click", function () {
+        classFilter.value = "all";
+        subjectFilter.value = "all";
 
-    updateChapterFilter();
+        if (languageFilter) {
+            languageFilter.value = "all";
+        }
 
-    chapterFilter.value = "all";
+        if (testTypeFilter) {
+            testTypeFilter.value = "all";
+        }
 
-    renderTests();
-});
+        updateChapterFilter();
+
+        chapterFilter.value = "all";
+
+        renderTests();
+    });
+}
