@@ -1,288 +1,293 @@
+
+const yearElement = document.getElementById("current-year");
+const startButton = document.getElementById("start-button");
+const statusMessage = document.getElementById("status-message");
+
+const mockTestsSection = document.getElementById("mock-tests-section");
 const testList = document.getElementById("test-list");
-const testCount = document.getElementById("test-count");
 
 const classFilter = document.getElementById("class-filter");
 const subjectFilter = document.getElementById("subject-filter");
 const chapterFilter = document.getElementById("chapter-filter");
-const languageFilter = document.getElementById("language-filter");
-const testTypeFilter = document.getElementById("test-type-filter");
+const resetFiltersButton = document.getElementById("reset-filters");
+const testCount = document.getElementById("test-count");
 
 let allTests = [];
 
-const testTypeNames = {
-    chapter: "Chapter Test",
-    subject: "Subject Test",
-    complete: "Complete All Subject Test"
-};
-
-function getTestType(test) {
-    return String(test.testType || test.type || "chapter")
-        .trim()
-        .toLowerCase();
+// Display the current year
+if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
 }
 
-function getLanguage(test) {
-    return String(test.language || "Not specified").trim();
-}
+// Open the mock-test catalogue
+if (startButton) {
+    startButton.addEventListener("click", function () {
+        mockTestsSection.hidden = false;
 
-function getDuration(test) {
-    return test.duration ?? test.durationMinutes ?? 0;
-}
+        mockTestsSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
 
-function getUniqueValues(tests, property) {
-    return [...new Set(
-        tests
-            .map(test => test[property])
-            .filter(value => value !== undefined && value !== null && String(value).trim() !== "")
-            .map(value => String(value).trim())
-    )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-}
+        startButton.disabled = true;
+        startButton.textContent = "Mock Tests Available";
 
-function populateDropdown(selectElement, values, defaultLabel) {
-    const previousValue = selectElement.value || "all";
+        statusMessage.textContent = "Choose a test below to begin.";
 
-    selectElement.innerHTML = "";
-
-    const defaultOption = document.createElement("option");
-    defaultOption.value = "all";
-    defaultOption.textContent = defaultLabel;
-    selectElement.appendChild(defaultOption);
-
-    values.forEach(value => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = value;
-        selectElement.appendChild(option);
+        loadMockTests();
     });
+}
 
-    if ([...selectElement.options].some(option => option.value === previousValue)) {
-        selectElement.value = previousValue;
-    } else {
-        selectElement.value = "all";
+// Load available tests
+async function loadMockTests() {
+    testList.innerHTML =
+        '<p class="test-list-message">Loading available tests...</p>';
+
+    try {
+        const response = await fetch("data/tests.json");
+
+        if (!response.ok) {
+            throw new Error("Could not load test data.");
+        }
+
+        const data = await response.json();
+
+        allTests = Array.isArray(data.tests) ? data.tests : [];
+
+        if (allTests.length === 0) {
+            testList.innerHTML =
+                '<p class="test-list-message">No mock tests are available yet.</p>';
+
+            testCount.textContent = "0 tests available";
+            return;
+        }
+
+        populateFilters();
+        renderTests();
+
+    } catch (error) {
+        console.error("Error loading mock tests:", error);
+
+        testList.innerHTML =
+            '<p class="test-list-message">' +
+            'Unable to load mock tests. Please check Live Server and ' +
+            'the data/tests.json file.' +
+            '</p>';
+
+        testCount.textContent = "";
     }
 }
 
+// Populate Class and Subject dropdowns
 function populateFilters() {
     populateDropdown(
         classFilter,
-        getUniqueValues(allTests, "class"),
-        "All Classes"
+        "All Classes",
+        allTests.map(test => test.class)
     );
 
     populateDropdown(
         subjectFilter,
-        getUniqueValues(allTests, "subject"),
-        "All Subjects"
+        "All Subjects",
+        allTests.map(test => test.subject)
     );
 
-    populateDropdown(
-        languageFilter,
-        getUniqueValues(allTests, "language").length
-            ? getUniqueValues(allTests, "language")
-            : [],
-        "All Languages"
-    );
-
-    populateDropdown(
-        testTypeFilter,
-        [...new Set(allTests.map(getTestType))]
-            .filter(type => testTypeNames[type])
-            .sort(),
-        "All Test Types"
-    );
-
+    // Chapters depend on the selected Class and Subject
     updateChapterFilter();
 }
 
+// Add unique values to a dropdown
+function populateDropdown(dropdown, defaultLabel, values) {
+    dropdown.innerHTML = "";
+
+    const defaultOption = document.createElement("option");
+    defaultOption.value = "all";
+    defaultOption.textContent = defaultLabel;
+
+    dropdown.appendChild(defaultOption);
+
+    const uniqueValues = [...new Set(
+        values
+            .filter(
+                value =>
+                    typeof value === "string" &&
+                    value.trim() !== ""
+            )
+            .map(value => value.trim())
+    )].sort((a, b) => a.localeCompare(b));
+
+    uniqueValues.forEach(function (value) {
+        const option = document.createElement("option");
+
+        option.value = value;
+        option.textContent = value;
+
+        dropdown.appendChild(option);
+    });
+}
+
+// Update Chapter dropdown according to Class and Subject
 function updateChapterFilter() {
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
+    const previousChapter = chapterFilter.value;
 
-    let filteredTests = allTests;
+    const relevantTests = allTests.filter(function (test) {
+        const matchesClass =
+            selectedClass === "all" ||
+            test.class === selectedClass;
 
-    if (selectedClass !== "all") {
-        filteredTests = filteredTests.filter(
-            test => String(test.class) === selectedClass
-        );
-    }
+        const matchesSubject =
+            selectedSubject === "all" ||
+            test.subject === selectedSubject;
 
-    if (selectedSubject !== "all") {
-        filteredTests = filteredTests.filter(
-            test => String(test.subject) === selectedSubject
-        );
-    }
+        return matchesClass && matchesSubject;
+    });
+
+    const relevantChapters = relevantTests.map(
+        test => test.chapter
+    );
 
     populateDropdown(
         chapterFilter,
-        getUniqueValues(filteredTests, "chapter"),
-        "All Chapters"
+        "All Chapters",
+        relevantChapters
     );
+
+    // Preserve the selected chapter if it is still relevant
+    if (
+        previousChapter !== "all" &&
+        relevantChapters.includes(previousChapter)
+    ) {
+        chapterFilter.value = previousChapter;
+    }
 }
 
+// Display tests matching the selected filters
 function renderTests() {
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const selectedChapter = chapterFilter.value;
-    const selectedLanguage = languageFilter.value;
-    const selectedTestType = testTypeFilter.value;
 
-    const filteredTests = allTests.filter(test => {
+    const filteredTests = allTests.filter(function (test) {
         const matchesClass =
             selectedClass === "all" ||
-            String(test.class) === selectedClass;
+            test.class === selectedClass;
 
         const matchesSubject =
             selectedSubject === "all" ||
-            String(test.subject) === selectedSubject;
+            test.subject === selectedSubject;
 
         const matchesChapter =
             selectedChapter === "all" ||
-            String(test.chapter) === selectedChapter;
-
-        const matchesLanguage =
-            selectedLanguage === "all" ||
-            getLanguage(test) === selectedLanguage;
-
-        const matchesTestType =
-            selectedTestType === "all" ||
-            getTestType(test) === selectedTestType;
+            test.chapter === selectedChapter;
 
         return (
             matchesClass &&
             matchesSubject &&
-            matchesChapter &&
-            matchesLanguage &&
-            matchesTestType
+            matchesChapter
         );
     });
 
-    testCount.textContent =
-        `${filteredTests.length} mock test${filteredTests.length === 1 ? "" : "s"} found`;
-
     testList.innerHTML = "";
 
+    testCount.textContent =
+        "Showing " +
+        filteredTests.length +
+        (filteredTests.length === 1 ? " test" : " tests");
+
+    // Show a message when no tests match
     if (filteredTests.length === 0) {
-        const message = document.createElement("p");
-        message.className = "no-tests";
-        message.textContent =
-            "No mock tests found. Please try changing your filters.";
-        testList.appendChild(message);
+        testList.innerHTML =
+            '<p class="test-list-message">' +
+            'No tests match these filters. Try different selections ' +
+            'or click Reset Filters.' +
+            '</p>';
+
         return;
     }
 
-    filteredTests.forEach(test => {
-        const card = document.createElement("div");
-        card.className = "test-card";
+    // Create a card for each matching test
+    filteredTests.forEach(function (test) {
+        const card = document.createElement("article");
+        card.className = "test-list-card";
 
         const title = document.createElement("h3");
-        title.textContent = test.title || "Untitled Test";
-
-        const details = document.createElement("div");
-        details.className = "test-details";
+        title.textContent = test.title || "Untitled Mock Test";
 
         const classInfo = document.createElement("p");
-        classInfo.textContent = `Class: ${test.class || "Not specified"}`;
+        classInfo.textContent =
+            "Class: " + (test.class || "Not specified");
 
         const subjectInfo = document.createElement("p");
-        subjectInfo.textContent = `Subject: ${test.subject || "Not specified"}`;
+        subjectInfo.textContent =
+            "Subject: " + (test.subject || "Not specified");
 
         const chapterInfo = document.createElement("p");
-        chapterInfo.textContent = `Chapter: ${test.chapter || "All chapters"}`;
-
-        const languageInfo = document.createElement("p");
-        languageInfo.textContent = `Language: ${getLanguage(test)}`;
-
-        const typeInfo = document.createElement("p");
-        typeInfo.textContent =
-            `Test Type: ${testTypeNames[getTestType(test)] || "Not specified"}`;
+        chapterInfo.textContent =
+            "Chapter: " + (test.chapter || "Not specified");
 
         const durationInfo = document.createElement("p");
-        durationInfo.textContent = `Duration: ${getDuration(test)} minutes`;
+        durationInfo.textContent =
+            "Duration: " + (test.durationMinutes || 0) + " minutes";
 
-        const questionCount = document.createElement("p");
-        const totalQuestions = Array.isArray(test.questions)
-            ? test.questions.length
-            : 0;
-        questionCount.textContent = `Questions: ${totalQuestions}`;
+        const questionInfo = document.createElement("p");
+        questionInfo.textContent =
+            "Questions: " +
+            (Array.isArray(test.questions)
+                ? test.questions.length
+                : 0);
 
-        const startLink = document.createElement("a");
-        startLink.className = "btn";
-        startLink.href = `test.html?id=${encodeURIComponent(test.id)}`;
-        startLink.textContent = "Start Test";
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "primary-button";
+        button.textContent = "Start Test →";
 
-        details.append(
-            classInfo,
-            subjectInfo,
-            chapterInfo,
-            languageInfo,
-            typeInfo,
-            durationInfo,
-            questionCount
-        );
+        button.addEventListener("click", function () {
+            if (!test.id) {
+                alert("This test is missing its test ID.");
+                return;
+            }
 
-        card.append(title, details, startLink);
+            window.location.href =
+                "test.html?id=" + encodeURIComponent(test.id);
+        });
+
+        card.appendChild(title);
+        card.appendChild(classInfo);
+        card.appendChild(subjectInfo);
+        card.appendChild(chapterInfo);
+        card.appendChild(durationInfo);
+        card.appendChild(questionInfo);
+        card.appendChild(button);
+
         testList.appendChild(card);
     });
 }
 
-async function loadMockTests() {
-    try {
-        testList.innerHTML = "<p>Loading mock tests...</p>";
-
-        const response = await fetch("data/tests.json");
-
-        if (!response.ok) {
-            throw new Error("Could not load the test data.");
-        }
-
-        const data = await response.json();
-        allTests = Array.isArray(data.tests) ? data.tests : [];
-
-        populateFilters();
-        renderTests();
-    } catch (error) {
-        console.error("Error loading mock tests:", error);
-
-        testCount.textContent = "";
-
-        testList.innerHTML =
-            "<p>Unable to load mock tests. Please refresh the page and try again.</p>";
-    }
-}
-
-classFilter.addEventListener("change", () => {
+// Update chapters and results when Class changes
+classFilter.addEventListener("change", function () {
     updateChapterFilter();
     renderTests();
 });
 
-subjectFilter.addEventListener("change", () => {
+// Update chapters and results when Subject changes
+subjectFilter.addEventListener("change", function () {
     updateChapterFilter();
     renderTests();
 });
 
+// Update results when Chapter changes
 chapterFilter.addEventListener("change", renderTests);
-languageFilter.addEventListener("change", renderTests);
-testTypeFilter.addEventListener("change", renderTests);
 
-const resetButton = document.getElementById("reset-filters");
+// Reset all filters
+resetFiltersButton.addEventListener("click", function () {
+    classFilter.value = "all";
+    subjectFilter.value = "all";
 
-if (resetButton) {
-    resetButton.addEventListener("click", () => {
-        classFilter.value = "all";
-        subjectFilter.value = "all";
-        chapterFilter.value = "all";
-        languageFilter.value = "all";
-        testTypeFilter.value = "all";
+    updateChapterFilter();
 
-        updateChapterFilter();
-        renderTests();
-    });
-}
+    chapterFilter.value = "all";
 
-loadMockTests();
-
-const currentYear = document.getElementById("current-year");
-
-if (currentYear) {
-    currentYear.textContent = new Date().getFullYear();
-}
+    renderTests();
+});
