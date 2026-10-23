@@ -9,6 +9,7 @@ const testList = document.getElementById("test-list");
 const classFilter = document.getElementById("class-filter");
 const subjectFilter = document.getElementById("subject-filter");
 const chapterFilter = document.getElementById("chapter-filter");
+const languageFilter = document.getElementById("language-filter");
 const resetFiltersButton = document.getElementById("reset-filters");
 const testCount = document.getElementById("test-count");
 
@@ -32,7 +33,10 @@ if (startButton) {
         startButton.disabled = true;
         startButton.textContent = "Mock Tests Available";
 
-        statusMessage.textContent = "Choose a test below to begin.";
+        if (statusMessage) {
+            statusMessage.textContent =
+                "Choose a test below to begin.";
+        }
 
         loadMockTests();
     });
@@ -55,8 +59,12 @@ async function loadMockTests() {
         allTests = Array.isArray(data.tests) ? data.tests : [];
 
         if (allTests.length === 0) {
+            populateFilters();
+
             testList.innerHTML =
-                '<p class="test-list-message">No mock tests are available yet.</p>';
+                '<p class="test-list-message">' +
+                'No mock tests are available yet.' +
+                '</p>';
 
             testCount.textContent = "0 tests available";
             return;
@@ -70,15 +78,15 @@ async function loadMockTests() {
 
         testList.innerHTML =
             '<p class="test-list-message">' +
-            'Unable to load mock tests. Please check Live Server and ' +
-            'the data/tests.json file.' +
+            'Unable to load mock tests. Please check the ' +
+            'data/tests.json file.' +
             '</p>';
 
         testCount.textContent = "";
     }
 }
 
-// Populate Class and Subject dropdowns
+// Populate all four filter dropdowns
 function populateFilters() {
     populateDropdown(
         classFilter,
@@ -92,7 +100,12 @@ function populateFilters() {
         allTests.map(test => test.subject)
     );
 
-    // Chapters depend on the selected Class and Subject
+    populateDropdown(
+        languageFilter,
+        "All Languages",
+        allTests.map(test => test.language)
+    );
+
     updateChapterFilter();
 }
 
@@ -103,7 +116,6 @@ function populateDropdown(dropdown, defaultLabel, values) {
     const defaultOption = document.createElement("option");
     defaultOption.value = "all";
     defaultOption.textContent = defaultLabel;
-
     dropdown.appendChild(defaultOption);
 
     const uniqueValues = [...new Set(
@@ -118,10 +130,8 @@ function populateDropdown(dropdown, defaultLabel, values) {
 
     uniqueValues.forEach(function (value) {
         const option = document.createElement("option");
-
         option.value = value;
         option.textContent = value;
-
         dropdown.appendChild(option);
     });
 }
@@ -154,7 +164,7 @@ function updateChapterFilter() {
         relevantChapters
     );
 
-    // Preserve the selected chapter if it is still relevant
+    // Preserve the chapter if it is still available
     if (
         previousChapter !== "all" &&
         relevantChapters.includes(previousChapter)
@@ -163,11 +173,12 @@ function updateChapterFilter() {
     }
 }
 
-// Display tests matching the selected filters
+// Display tests matching all selected filters
 function renderTests() {
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const selectedChapter = chapterFilter.value;
+    const selectedLanguage = languageFilter.value;
 
     const filteredTests = allTests.filter(function (test) {
         const matchesClass =
@@ -182,10 +193,15 @@ function renderTests() {
             selectedChapter === "all" ||
             test.chapter === selectedChapter;
 
+        const matchesLanguage =
+            selectedLanguage === "all" ||
+            test.language === selectedLanguage;
+
         return (
             matchesClass &&
             matchesSubject &&
-            matchesChapter
+            matchesChapter &&
+            matchesLanguage
         );
     });
 
@@ -196,7 +212,6 @@ function renderTests() {
         filteredTests.length +
         (filteredTests.length === 1 ? " test" : " tests");
 
-    // Show a message when no tests match
     if (filteredTests.length === 0) {
         testList.innerHTML =
             '<p class="test-list-message">' +
@@ -227,9 +242,15 @@ function renderTests() {
         chapterInfo.textContent =
             "Chapter: " + (test.chapter || "Not specified");
 
+        const languageInfo = document.createElement("p");
+        languageInfo.textContent =
+            "Language: " + (test.language || "Not specified");
+
         const durationInfo = document.createElement("p");
         durationInfo.textContent =
-            "Duration: " + (test.durationMinutes || 0) + " minutes";
+            "Duration: " +
+            (test.duration ?? test.durationMinutes ?? 0) +
+            " minutes";
 
         const questionInfo = document.createElement("p");
         questionInfo.textContent =
@@ -257,6 +278,7 @@ function renderTests() {
         card.appendChild(classInfo);
         card.appendChild(subjectInfo);
         card.appendChild(chapterInfo);
+        card.appendChild(languageInfo);
         card.appendChild(durationInfo);
         card.appendChild(questionInfo);
         card.appendChild(button);
@@ -280,13 +302,16 @@ subjectFilter.addEventListener("change", function () {
 // Update results when Chapter changes
 chapterFilter.addEventListener("change", renderTests);
 
-// Reset all filters
+// Update results when Language changes
+languageFilter.addEventListener("change", renderTests);
+
+// Reset all four filters
 resetFiltersButton.addEventListener("click", function () {
     classFilter.value = "all";
     subjectFilter.value = "all";
+    languageFilter.value = "all";
 
     updateChapterFilter();
-
     chapterFilter.value = "all";
 
     renderTests();
