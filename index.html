@@ -69,7 +69,7 @@
 <section class="test-list-section" id="mock-tests-section" hidden>
     <div class="test-list-heading">
         <h2>Available Mock Tests</h2>
-        <p>Find a test by selecting your class, subject, and chapter.</p>
+       <p>Find a test by selecting your class, subject, chapter, language, or test type.</p>
     </div>
 
     <div class="test-filters">
@@ -93,6 +93,23 @@
                 <option value="all">All Chapters</option>
             </select>
         </div>
+        
+<div class="filter-group">
+    <label for="language-filter">Language</label>
+    <select id="language-filter">
+        <option value="all">All Languages</option>
+    </select>
+</div>
+
+<div class="filter-group">
+    <label for="test-type-filter">Test Type</label>
+    <select id="test-type-filter">
+        <option value="all">All Test Types</option>
+        <option value="chapter">Chapter Test</option>
+        <option value="subject">Subject Test</option>
+        <option value="complete">Complete All Subject Test</option>
+    </select>
+</div>
 
         <button type="button" id="reset-filters"
                 class="secondary-button">
