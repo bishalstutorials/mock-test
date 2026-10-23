@@ -1,4 +1,3 @@
-
 const testList = document.getElementById("test-list");
 const testCount = document.getElementById("test-count");
 
