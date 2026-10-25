@@ -137,8 +137,7 @@ function updateTimerDisplay() {
 }
 
 function startTimer() {
-    timeRemaining = currentTest.durationMinutes * 60;
-
+    timeRemaining = (currentTest.duration ?? currentTest.durationMinutes) * 60;
     clearInterval(timerInterval);
     updateTimerDisplay();
 
