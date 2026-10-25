@@ -2369,6 +2369,246 @@
       "correctAnswer": 0
     }
   ]
+},
+
+{
+  "id": "BT-X-MATH-AS-TRIG-01",
+  "title": "Introduction to Trigonometry (ত্ৰিকোনোমিতিৰ পৰিচয়) - Test 01",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Introduction to Trigonometry (ত্ৰিকোনোমিতিৰ পৰিচয়)",
+  "language": "Assamese",
+  "testType": "chapter",
+  "duration": 60,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "text": "সমকোণী ত্ৰিভুজ ΔABC ৰ ∠B = 90° হ'লে sin A ৰ মান হ'ব—",
+      "options": ["BC / AC", "AB / AC", "BC / AB", "AB / BC"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "ΔABC ত ∠B = 90°, AB = 24 cm আৰু BC = 7 cm হ'লে sin A ৰ মান কিমান?",
+      "options": ["7/25", "24/25", "7/24", "24/7"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "ΔABC ত ∠B = 90°, AB = 24 cm আৰু BC = 7 cm হ'লে cos A ৰ মান কিমান?",
+      "options": ["24/25", "7/25", "24/7", "7/24"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি 15 cot A = 8 হয়, তেন্তে sin A ৰ মান হ'ব—",
+      "options": ["15/17", "8/17", "17/15", "17/8"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি sec θ = 13/12 হয়, তেন্তে cos θ ৰ মান কিমান?",
+      "options": ["12/13", "5/13", "13/5", "5/12"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি sin A = 3/4 হয়, তেন্তে cos A ৰ মান কিমান হ'ব?",
+      "options": ["√7 / 4", "4 / √7", "3 / √7", "1/4"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin 60° cos 30° + sin 30° cos 60° ৰ মান হ'ল—",
+      "options": ["1", "0", "1/2", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "2 tan² 45° + cos² 30° - sin² 60° ৰ মান কিমান?",
+      "options": ["2", "1", "0", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(cos 45°) / (sec 30° + cosec 30°) ৰ সৰলীকৃত মান হ'ল—",
+      "options": ["(3√2 - √6) / 8", "(√6 - √2) / 4", "(3√6 - √2) / 8", "(√3 - 1) / 2"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(2 tan 30°) / (1 + tan² 30°) ৰ মান তলৰ কাৰ সমান?",
+      "options": ["sin 60°", "cos 60°", "tan 60°", "sin 30°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(1 - tan² 45°) / (1 + tan² 45°) ৰ মান কিমান?",
+      "options": ["0", "1", "tan 90°", "sin 45°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin 2A = 2 sin A উক্তিটো সত্য হ'ব যেতিয়া A = —",
+      "options": ["0°", "30°", "45°", "60°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(2 tan 30°) / (1 - tan² 30°) ৰ মান তলৰ কাৰ সমান?",
+      "options": ["tan 60°", "cos 60°", "sin 60°", "sin 30°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি tan (A + B) = √3 আৰু tan (A - B) = 1/√3, য'ত 0° < A + B ≤ 90° আৰু A > B, তেন্তে A ৰ মান হ'ব—",
+      "options": ["45°", "60°", "30°", "15°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "উপৰোক্ত প্ৰশ্নত B ৰ মান কিমান হ'ব?",
+      "options": ["15°", "30°", "45°", "60°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin (90° - A) ৰ মান তলৰ কাৰ সমান?",
+      "options": ["cos A", "tan A", "cot A", "cosec A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "tan (90° - A) = —",
+      "options": ["cot A", "tan A", "sin A", "sec A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sec (90° - A) = —",
+      "options": ["cosec A", "sec A", "cos A", "sin A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(sin 18°) / (cos 72°) ৰ মান কিমান?",
+      "options": ["1", "0", "1/2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(tan 26°) / (cot 64°) ৰ মান হ'ব—",
+      "options": ["1", "0", "2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "cos 48° - sin 42° ৰ মান কিমান?",
+      "options": ["0", "1", "2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "cosec 31° - sec 59° ৰ মান হ'ল—",
+      "options": ["0", "1", "-1", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "tan 48° tan 23° tan 42° tan 67° ৰ মান কিমান?",
+      "options": ["1", "0", "2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "cos 38° cos 52° - sin 38° sin 52° ৰ মান হ'ব—",
+      "options": ["0", "1", "2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি tan 2A = cot (A - 18°), য'ত 2A এটা সূক্ষ্মকোণ, তেন্তে A ৰ মান হ'ব—",
+      "options": ["36°", "18°", "24°", "54°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি tan A = cot B হয়, তেন্তে A + B ৰ মান কিমান?",
+      "options": ["90°", "180°", "45°", "60°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি sec 4A = cosec (A - 20°), য'ত 4A এটা সূক্ষ্মকোণ, তেন্তে A ৰ মান কিমান?",
+      "options": ["22°", "20°", "25°", "30°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি A, B আৰু C ΔABC ৰ অন্তোঃকোণ হয়, তেন্তে sin ((B + C) / 2) ৰ মান হ'ব—",
+      "options": ["cos (A / 2)", "sin (A / 2)", "tan (A / 2)", "cot (A / 2)"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin 67° + cos 75° ক 0° আৰু 45° ৰ মাজৰ কোণৰ ত্ৰিকোণমিতীয় অনুপাতত প্ৰকাশ কৰিলে পাব পৰা ৰূপটো হ'ল—",
+      "options": ["cos 23° + sin 15°", "sin 23° + cos 15°", "cos 23° + cos 15°", "sin 23° + sin 15°"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin² θ + cos² θ ৰ মান সদায়—",
+      "options": ["1", "0", "-1", "2"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "1 + tan² θ = —",
+      "options": ["sec² θ", "cosec² θ", "cot² θ", "sin² θ"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "1 + cot² θ = —",
+      "options": ["cosec² θ", "sec² θ", "tan² θ", "cos² θ"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "9 sec² A - 9 tan² A ৰ মান কিমান?",
+      "options": ["9", "1", "8", "0"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(1 + tan θ + sec θ)(1 + cot θ - cosec θ) ৰ মান হ'ব—",
+      "options": ["2", "1", "0", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(sec A + tan A)(1 - sin A) ৰ সৰলীকৃত মান তলৰ কাৰ সমান?",
+      "options": ["cos A", "sec A", "sin A", "cosec A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(1 + tan² A) / (1 + cot² A) ৰ মান হ'ব—",
+      "options": ["tan² A", "sec² A", "-1", "cot² A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(cos A) / (1 + sin A) + (1 + sin A) / (cos A) ৰ সৰলীকৃত মান হ'ল—",
+      "options": ["2 sec A", "2 cos A", "2 sin A", "2 cosec A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(sin A + cosec A)² + (cos A + sec A)² ৰ মান হ'ব—",
+      "options": ["7 + tan² A + cot² A", "5 + tan² A + cot² A", "7 + sec² A + cosec² A", "1 + tan² A + cot² A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "√[(1 + sin A) / (1 - sin A)] ৰ মান তলৰ কাৰ সমান?",
+      "options": ["sec A + tan A", "sec A - tan A", "cosec A + cot A", "cos A + sin A"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "(1 - cos A) / (1 + cos A) ৰ মান হ'ব—",
+      "options": ["(cosec A - cot A)²", "(cosec A + cot A)²", "(sec A - tan A)²", "(tan A - sec A)²"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "যদি sin A = 1/2 হয়, তেন্তে cot A ৰ মান কিমান?",
+      "options": ["√3", "1/√3", "1", "1/2"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "tan θ · cot θ ৰ মান কিমান?",
+      "options": ["1", "0", "2", "-1"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "θ ৰ মান বৃদ্ধি পোৱাৰ লগে লগে sin θ ৰ মান—",
+      "options": ["বৃদ্ধি পায়", "হ্ৰাস পায়", "অপৰিৱৰ্তিত থাকে", "প্ৰথমতে হ্ৰাস পায় আৰু পিছত বৃদ্ধি পায়"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "θ ৰ মান বৃদ্ধি পোৱাৰ লগে লগে cos θ ৰ মান—",
+      "options": ["হ্ৰাস পায়", "বৃদ্ধি পায়", "অপৰিৱৰ্তিত থাকে", "প্ৰথমতে বৃদ্ধি পায় আৰু পিছত হ্ৰাস পায়"],
+      "correctAnswer": 0
+    },
+    {
+      "text": "sin θ = cos θ সত্য হ'ব যদিহে θ ৰ মান হয়—",
+      "options": ["45°", "30°", "60°", "0°"],
+      "correctAnswer": 0
+    }
+  ]
 }
 
   ]
