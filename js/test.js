@@ -138,6 +138,9 @@ function updateTimerDisplay() {
 
 function startTimer() {
     timeRemaining = (currentTest.duration ?? currentTest.durationMinutes) * 60;
+    console.log("Selected test:", currentTest.id);
+    console.log("Duration:", currentTest.duration);
+    console.log("Time remaining:", timeRemaining);
     clearInterval(timerInterval);
     updateTimerDisplay();
 
