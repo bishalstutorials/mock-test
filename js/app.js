@@ -24,12 +24,14 @@ if (yearElement) {
 // Open the mock-test catalogue
 if (startButton) {
     startButton.addEventListener("click", function () {
-        mockTestsSection.hidden = false;
+        if (mockTestsSection) {
+            mockTestsSection.hidden = false;
 
-        mockTestsSection.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        });
+            mockTestsSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
 
         startButton.disabled = true;
         startButton.textContent = "Mock Tests Available";
@@ -45,6 +47,8 @@ if (startButton) {
 
 // Load available tests
 async function loadMockTests() {
+    if (!testList) return;
+
     testList.innerHTML =
         '<p class="test-list-message">Loading available tests...</p>';
 
@@ -63,12 +67,14 @@ async function loadMockTests() {
             testList.innerHTML =
                 '<p class="test-list-message">No mock tests are available yet.</p>';
 
-            testCount.textContent = "0 tests available";
+            if (testCount) {
+                testCount.textContent = "0 tests available";
+            }
+
             return;
         }
 
         populateFilters();
-        updateFiltersForTestType();
         renderTests();
 
     } catch (error) {
@@ -76,11 +82,12 @@ async function loadMockTests() {
 
         testList.innerHTML =
             '<p class="test-list-message">' +
-            'Unable to load mock tests. Please check Live Server and ' +
-            'the data/tests.json file.' +
+            'Unable to load mock tests. Please check the data/tests.json file.' +
             '</p>';
 
-        testCount.textContent = "";
+        if (testCount) {
+            testCount.textContent = "";
+        }
     }
 }
 
@@ -118,7 +125,6 @@ function populateDropdown(dropdown, defaultLabel, values) {
     const defaultOption = document.createElement("option");
     defaultOption.value = "all";
     defaultOption.textContent = defaultLabel;
-
     dropdown.appendChild(defaultOption);
 
     const uniqueValues = [...new Set(
@@ -133,10 +139,8 @@ function populateDropdown(dropdown, defaultLabel, values) {
 
     uniqueValues.forEach(function (value) {
         const option = document.createElement("option");
-
         option.value = value;
         option.textContent = value;
-
         dropdown.appendChild(option);
     });
 
@@ -188,44 +192,12 @@ function updateChapterFilter() {
     }
 }
 
-// Enable or disable filters according to the selected test type
-function updateFiltersForTestType() {
-    if (!testTypeFilter) return;
-
-    const selectedType = testTypeFilter.value;
-
-    const disableSubject = selectedType === "complete";
-
-    const disableChapter =
-        selectedType === "subject" ||
-        selectedType === "complete";
-
-    if (subjectFilter) {
-        subjectFilter.disabled = disableSubject;
-
-        if (disableSubject) {
-            subjectFilter.value = "all";
-        }
-    }
-
-    if (chapterFilter) {
-        chapterFilter.disabled = disableChapter;
-
-        if (disableChapter) {
-            chapterFilter.value = "all";
-        }
-    }
-
-    updateChapterFilter();
-
-    // Keep Chapter disabled after updating its available options
-    if (chapterFilter) {
-        chapterFilter.disabled = disableChapter;
-    }
-}
-
 // Display tests matching all selected filters
 function renderTests() {
+    if (!testList || !classFilter || !subjectFilter || !chapterFilter) {
+        return;
+    }
+
     const selectedClass = classFilter.value;
     const selectedSubject = subjectFilter.value;
     const selectedChapter = chapterFilter.value;
@@ -244,13 +216,10 @@ function renderTests() {
             test.class === selectedClass;
 
         const matchesSubject =
-            selectedTestType === "complete" ||
             selectedSubject === "all" ||
             test.subject === selectedSubject;
 
         const matchesChapter =
-            selectedTestType === "subject" ||
-            selectedTestType === "complete" ||
             selectedChapter === "all" ||
             test.chapter === selectedChapter;
 
@@ -275,10 +244,12 @@ function renderTests() {
 
     testList.innerHTML = "";
 
-    testCount.textContent =
-        "Showing " +
-        filteredTests.length +
-        (filteredTests.length === 1 ? " test" : " tests");
+    if (testCount) {
+        testCount.textContent =
+            "Showing " +
+            filteredTests.length +
+            (filteredTests.length === 1 ? " test" : " tests");
+    }
 
     // Show a message when no tests match
     if (filteredTests.length === 0) {
@@ -317,8 +288,7 @@ function renderTests() {
 
         const testTypeLabels = {
             chapter: "Chapter Test",
-            subject: "Subject Test",
-            complete: "Complete All Subject Test"
+            subject: "Subject Test"
         };
 
         const testTypeInfo = document.createElement("p");
@@ -373,52 +343,50 @@ function renderTests() {
 }
 
 // Update chapters and results when Class changes
-classFilter.addEventListener("change", function () {
-    updateChapterFilter();
-    renderTests();
-});
+if (classFilter) {
+    classFilter.addEventListener("change", function () {
+        updateChapterFilter();
+        renderTests();
+    });
+}
 
 // Update chapters and results when Subject changes
-subjectFilter.addEventListener("change", function () {
-    updateChapterFilter();
-    renderTests();
-});
+if (subjectFilter) {
+    subjectFilter.addEventListener("change", function () {
+        updateChapterFilter();
+        renderTests();
+    });
+}
 
 // Update results when Chapter changes
-chapterFilter.addEventListener("change", renderTests);
+if (chapterFilter) {
+    chapterFilter.addEventListener("change", renderTests);
+}
 
 // Update results when Language changes
 if (languageFilter) {
     languageFilter.addEventListener("change", renderTests);
 }
 
-// Update filters and results when Test Type changes
+// Update results when Test Type changes
 if (testTypeFilter) {
-    testTypeFilter.addEventListener("change", function () {
-        updateFiltersForTestType();
-        renderTests();
-    });
+    testTypeFilter.addEventListener("change", renderTests);
 }
 
 // Reset all filters
 if (resetFiltersButton) {
     resetFiltersButton.addEventListener("click", function () {
-        classFilter.value = "all";
-        subjectFilter.value = "all";
-        chapterFilter.value = "all";
+        if (classFilter) classFilter.value = "all";
+        if (subjectFilter) subjectFilter.value = "all";
+        if (chapterFilter) chapterFilter.value = "all";
+        if (languageFilter) languageFilter.value = "all";
+        if (testTypeFilter) testTypeFilter.value = "all";
 
-        if (languageFilter) {
-            languageFilter.value = "all";
-        }
-
-        if (testTypeFilter) {
-            testTypeFilter.value = "all";
-        }
-
-        updateFiltersForTestType();
         updateChapterFilter();
 
-        chapterFilter.value = "all";
+        if (chapterFilter) {
+            chapterFilter.value = "all";
+        }
 
         renderTests();
     });
