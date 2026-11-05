@@ -40,11 +40,28 @@ currentTest = testId
     ? data.tests.find(test => test.id === testId)
     : data.tests[0];
 
-        if (!currentTest || !currentTest.questions.length) {
-            throw new Error("No questions were found in the test data.");
-        }
+if (!currentTest || !currentTest.questions.length) {
+    throw new Error("No questions were found in the test data.");
+}
 
-        selectedAnswers = Array(currentTest.questions.length).fill(null);
+// Check whether this test has already been attempted
+const attemptKey = "attempted_" + currentTest.id;
+
+if (localStorage.getItem(attemptKey) === "true") {
+    testTitle.textContent = currentTest.title;
+    questionText.textContent = "You have already attempted this test.";
+    questionProgress.textContent = "Attempt completed";
+    testMessage.textContent =
+        "You cannot attempt this test again. Please contact your teacher.";
+    optionsContainer.innerHTML = "";
+    previousButton.style.display = "none";
+    nextButton.style.display = "none";
+    submitButton.style.display = "none";
+    timerElement.textContent = "Completed";
+    return;
+}
+
+selectedAnswers = Array(currentTest.questions.length).fill(null);
 
         testTitle.textContent = currentTest.title;
         testDetails.textContent =
@@ -202,8 +219,11 @@ function submitTest() {
         selectedAnswers
     };
 
-    sessionStorage.setItem("mockTestResult", JSON.stringify(result));
-    window.location.href = "result.html";
+ // Save this test as attempted
+localStorage.setItem("attempted_" + currentTest.id, "true");
+
+sessionStorage.setItem("mockTestResult", JSON.stringify(result));
+window.location.href = "result.html";
 }
 
 submitButton.addEventListener("click", function () {
