@@ -93,10 +93,8 @@ async function loadMockTests() {
             testCount.textContent = "0 tests available";
             return;
         }
-
-        populateFilters();
-        updateFiltersForTestType();
-        renderTests();
+populateFilters();
+renderTests();
 
     } catch (error) {
         console.error("Error loading active test:", error);
