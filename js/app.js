@@ -45,49 +45,68 @@ if (startButton) {
     });
 }
 
-// Load available tests
+// Load only the teacher-selected active test
 async function loadMockTests() {
-    if (!testList) return;
-
     testList.innerHTML =
         '<p class="test-list-message">Loading available tests...</p>';
 
     try {
-        const response = await fetch("data/tests.json");
+        // First, load the active test ID
+        const activeResponse = await fetch(
+            "data/active-test.json",
+            { cache: "no-store" }
+        );
+
+        if (!activeResponse.ok) {
+            throw new Error("Could not load active-test.json");
+        }
+
+        const activeData = await activeResponse.json();
+        const activeTestId = activeData.activeTestId;
+
+        if (!activeTestId) {
+            throw new Error("No active test has been selected.");
+        }
+
+        // Load the complete test data
+        const response = await fetch(
+            "data/tests.json",
+            { cache: "no-store" }
+        );
 
         if (!response.ok) {
-            throw new Error("Could not load test data.");
+            throw new Error("Could not load tests.json");
         }
 
         const data = await response.json();
 
-        allTests = Array.isArray(data.tests) ? data.tests : [];
+        // Keep only the teacher-selected test
+        allTests = (Array.isArray(data.tests) ? data.tests : [])
+            .filter(test => test.id === activeTestId);
 
         if (allTests.length === 0) {
             testList.innerHTML =
-                '<p class="test-list-message">No mock tests are available yet.</p>';
+                '<p class="test-list-message">' +
+                'The selected test is unavailable. Please contact your teacher.' +
+                '</p>';
 
-            if (testCount) {
-                testCount.textContent = "0 tests available";
-            }
-
+            testCount.textContent = "0 tests available";
             return;
         }
 
         populateFilters();
+        updateFiltersForTestType();
         renderTests();
 
     } catch (error) {
-        console.error("Error loading mock tests:", error);
+        console.error("Error loading active test:", error);
 
         testList.innerHTML =
             '<p class="test-list-message">' +
-            'Unable to load mock tests. Please check the data/tests.json file.' +
+            'Unable to load the assigned test. Please try again later.' +
             '</p>';
 
-        if (testCount) {
-            testCount.textContent = "";
-        }
+        testCount.textContent = "";
     }
 }
 
