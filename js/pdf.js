@@ -1,108 +1,270 @@
 
 function downloadResultPDF(result) {
-    if (!window.jspdf || !window.jspdf.jsPDF) {
-        alert("PDF library could not load. Please check your internet connection.");
+    if (!result || !Array.isArray(result.questions)) {
+        alert("Result data is missing or invalid.");
         return;
     }
 
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
+    // Open a new printable document
+    const printWindow = window.open("", "_blank");
 
-    const pageWidth = doc.internal.pageSize.getWidth();
-    const pageHeight = doc.internal.pageSize.getHeight();
-    const margin = 15;
-    const maxWidth = pageWidth - margin * 2;
-    let y = 20;
-
-    // Load the institute logo before creating the PDF
-    const logoImage = new Image();
-    logoImage.src = "assets/logo.png";
-
-    logoImage.onload = function () {
-        createPDF();
-    };
-
-    logoImage.onerror = function () {
-        alert("Logo could not be loaded. Please check that assets/logo.png exists.");
-        createPDF();
-    };
-
-    function addText(text, size = 11, style = "normal") {
-        doc.setFont("helvetica", style);
-        doc.setFontSize(size);
-
-        const lines = doc.splitTextToSize(String(text), maxWidth);
-
-        if (y + lines.length * (size * 0.45) > pageHeight - 15) {
-            doc.addPage();
-            y = 20;
-        }
-
-        doc.text(lines, margin, y);
-        y += lines.length * (size * 0.45) + 3;
+    if (!printWindow) {
+        alert("Please allow pop-ups for this website to download your result.");
+        return;
     }
 
-    function createPDF() {
-        
-        // Add the institute logo
-        if (logoImage.complete && logoImage.naturalWidth > 0) {
-            const logoWidth = 60;
-            const logoHeight = 40
-                logoWidth * (logoImage.naturalHeight / logoImage.naturalWidth);
-
-            doc.addImage(
-                logoImage,
-                "PNG",
-                margin,
-                3,
-                logoWidth,
-                logoHeight
-            );
-        }
-
-        // Institute name
-        doc.setFont("helvetica", "bold");
-        doc.setFontSize(20);
-        doc.text("Bishal's Tutorials", margin + 53, 20);
-
-        // Tagline directly below the institute name
-        doc.setFont("helvetica", "bold");
-        doc.setFontSize(11);
-        doc.text("LEARN & SUCCEED", margin + 53, 28);
-
-        // Start the report content below the header
-        y = 45;
-
-        addText("MOCK TEST RESULT", 15, "bold");
-        addText(`Test: ${result.testTitle}`);
-        addText(`Class: ${result.className}`);
-        addText(`Subject: ${result.subject}`);
-        addText(
-            `Score: ${result.score} / ${result.totalQuestions * result.marksPerQuestion}`
-        );
-        addText(
-            `Correct: ${result.correct} | Wrong: ${result.wrong} | Unattempted: ${result.unattempted}`
-        );
-
-        y += 5;
-        addText("ANSWER REVIEW", 13, "bold");
-
-        result.questions.forEach((question, index) => {
-            const chosen = result.selectedAnswers[index];
-
-            const chosenText = chosen === null
-                ? "Unattempted"
-                : `${String.fromCharCode(65 + chosen)}. ${question.options[chosen]}`;
-
-            const correctText =
-                `${String.fromCharCode(65 + question.correctAnswer)}. ${question.options[question.correctAnswer]}`;
-
-            y += 2;
-            addText(`Q${index + 1}. ${question.text}`, 11, "bold");
-            addText(`Your answer: ${chosenText}`);
-            addText(`Correct answer: ${correctText}`);
+    // Safely display all question text, including Assamese characters
+    function escapeHTML(value) {
+        return String(value ?? "").replace(/[&<>"']/g, function (char) {
+            return {
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+            }[char];
         });
-
-        doc.save("Bishals-Tutorials-Test-Result.pdf");
     }
+
+    const totalMarks =
+        result.totalQuestions * result.marksPerQuestion;
+
+    const questionHTML = result.questions.map((question, index) => {
+        const chosen = result.selectedAnswers[index];
+
+        const yourAnswer = chosen === null || chosen === undefined
+            ? "Unattempted"
+            : String.fromCharCode(65 + chosen) + ". " +
+              (question.options?.[chosen] ?? "");
+
+        const correctAnswer =
+            String.fromCharCode(65 + question.correctAnswer) + ". " +
+            (question.options?.[question.correctAnswer] ?? "");
+
+        return `
+            <div class="question">
+                <div class="question-text">
+                    Q${index + 1}. ${escapeHTML(question.text)}
+                </div>
+
+                <p>
+                    <strong>Your answer:</strong>
+                    ${escapeHTML(yourAnswer)}
+                </p>
+
+                <p>
+                    <strong>Correct answer:</strong>
+                    ${escapeHTML(correctAnswer)}
+                </p>
+            </div>
+        `;
+    }).join("");
+
+    const html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Bishal's Tutorials - Test Result</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    "Noto Sans Bengali",
+                    "Nirmala UI",
+                    "Vrinda",
+                    "Arial Unicode MS",
+                    sans-serif;
+
+                color: #111;
+                background: white;
+                font-size: 12pt;
+                line-height: 1.65;
+                margin: 0;
+            }
+
+            .page {
+                max-width: 800px;
+                margin: 25px auto;
+                padding: 25px;
+            }
+
+            .header {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                border-bottom: 2px solid #12346b;
+                padding-bottom: 15px;
+                margin-bottom: 25px;
+            }
+
+            .logo {
+                width: 110px;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .institute-name {
+                font-size: 25px;
+                font-weight: bold;
+                color: #12346b;
+            }
+
+            .tagline {
+                font-size: 13px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+
+            .summary {
+                line-height: 1.9;
+                margin-bottom: 25px;
+            }
+
+            .section-title {
+                font-size: 17px;
+                font-weight: bold;
+                border-bottom: 1px solid #999;
+                padding-bottom: 7px;
+                margin: 25px 0 15px;
+            }
+
+            .question {
+                margin-bottom: 22px;
+                padding-bottom: 14px;
+                border-bottom: 1px solid #ddd;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .question-text {
+                font-weight: bold;
+                margin-bottom: 10px;
+                white-space: pre-wrap;
+                overflow-wrap: anywhere;
+            }
+
+            .question p {
+                margin: 5px 0;
+                white-space: pre-wrap;
+                overflow-wrap: anywhere;
+            }
+
+            .footer {
+                margin-top: 30px;
+                padding-top: 10px;
+                border-top: 1px solid #ccc;
+                text-align: center;
+                font-size: 10px;
+            }
+
+            @media print {
+                @page {
+                    size: A4;
+                    margin: 15mm;
+                }
+
+                body {
+                    font-size: 11pt;
+                    -webkit-print-color-adjust: exact;
+                    print-color-adjust: exact;
+                }
+
+                .page {
+                    max-width: none;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .question {
+                    break-inside: avoid;
+                    page-break-inside: avoid;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <main class="page">
+
+            <header class="header">
+                <img
+                    class="logo"
+                    src="assets/logo.png"
+                    alt="Bishal's Tutorials"
+                >
+
+                <div>
+                    <div class="institute-name">
+                        Bishal's Tutorials
+                    </div>
+
+                    <div class="tagline">
+                        LEARN &amp; SUCCEED
+                    </div>
+                </div>
+            </header>
+
+            <h2>MOCK TEST RESULT</h2>
+
+            <div class="summary">
+                <div><strong>Test:</strong>
+                    ${escapeHTML(result.testTitle)}</div>
+
+                <div><strong>Class:</strong>
+                    ${escapeHTML(result.className)}</div>
+
+                <div><strong>Subject:</strong>
+                    ${escapeHTML(result.subject)}</div>
+
+                <div><strong>Score:</strong>
+                    ${escapeHTML(result.score)} / ${escapeHTML(totalMarks)}</div>
+
+                <div>
+                    <strong>Correct:</strong> ${escapeHTML(result.correct)}
+                    &nbsp; | &nbsp;
+                    <strong>Wrong:</strong> ${escapeHTML(result.wrong)}
+                    &nbsp; | &nbsp;
+                    <strong>Unattempted:</strong> ${escapeHTML(result.unattempted)}
+                </div>
+            </div>
+
+            <div class="section-title">
+                ANSWER REVIEW
+            </div>
+
+            ${questionHTML}
+
+            <div class="footer">
+                Bishal's Tutorials | LEARN &amp; SUCCEED
+            </div>
+
+        </main>
+
+        <script>
+            window.onload = function () {
+                window.focus();
+                setTimeout(function () {
+                    window.print();
+                }, 700);
+            };
+        </script>
+    </body>
+    </html>
+    `;
+
+    printWindow.document.open();
+    printWindow.document.write(html);
+    printWindow.document.close();
 }
