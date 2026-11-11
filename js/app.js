@@ -81,9 +81,8 @@ async function loadMockTests() {
         const data = await response.json();
 
         // Keep only the teacher-selected test
-        allTests = (Array.isArray(data.tests) ? data.tests : [])
-            .filter(test => test.id === activeTestId);
-
+allTests = (Array.isArray(data.tests) ? data.tests : [])
+    .filter(test => activeTestId === "all" || test.id === activeTestId);
         if (allTests.length === 0) {
             testList.innerHTML =
                 '<p class="test-list-message">' +
