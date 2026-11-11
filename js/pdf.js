@@ -5,60 +5,57 @@ function downloadResultPDF(result) {
         return;
     }
 
-    // Open a new printable document
     const printWindow = window.open("", "_blank");
 
     if (!printWindow) {
-        alert("Please allow pop-ups for this website to download your result.");
+        alert("Please allow pop-ups for this website.");
         return;
     }
 
-    // Safely display all question text, including Assamese characters
     function escapeHTML(value) {
-        return String(value ?? "").replace(/[&<>"']/g, function (char) {
-            return {
-                "&": "&amp;",
-                "<": "&lt;",
-                ">": "&gt;",
-                '"': "&quot;",
-                "'": "&#39;"
-            }[char];
-        });
+        return String(value ?? "").replace(/[&<>"']/g, char => ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;"
+        })[char]);
     }
+
+    function getAnswer(index) {
+        const answer = result.selectedAnswers[index];
+
+        if (answer === null || answer === undefined) {
+            return "Unattempted";
+        }
+
+        return String.fromCharCode(65 + answer) + ". " +
+            (result.questions[index].options?.[answer] ?? "");
+    }
+
+    function getCorrectAnswer(question) {
+        return String.fromCharCode(65 + question.correctAnswer) +
+            ". " + (question.options?.[question.correctAnswer] ?? "");
+    }
+
+    const questionHTML = result.questions.map((question, index) => `
+        <div class="question">
+            <div class="question-text">
+                Q${index + 1}. ${escapeHTML(question.text)}
+            </div>
+
+            <p><strong>Your answer:</strong>
+                ${escapeHTML(getAnswer(index))}
+            </p>
+
+            <p><strong>Correct answer:</strong>
+                ${escapeHTML(getCorrectAnswer(question))}
+            </p>
+        </div>
+    `).join("");
 
     const totalMarks =
         result.totalQuestions * result.marksPerQuestion;
-
-    const questionHTML = result.questions.map((question, index) => {
-        const chosen = result.selectedAnswers[index];
-
-        const yourAnswer = chosen === null || chosen === undefined
-            ? "Unattempted"
-            : String.fromCharCode(65 + chosen) + ". " +
-              (question.options?.[chosen] ?? "");
-
-        const correctAnswer =
-            String.fromCharCode(65 + question.correctAnswer) + ". " +
-            (question.options?.[question.correctAnswer] ?? "");
-
-        return `
-            <div class="question">
-                <div class="question-text">
-                    Q${index + 1}. ${escapeHTML(question.text)}
-                </div>
-
-                <p>
-                    <strong>Your answer:</strong>
-                    ${escapeHTML(yourAnswer)}
-                </p>
-
-                <p>
-                    <strong>Correct answer:</strong>
-                    ${escapeHTML(correctAnswer)}
-                </p>
-            </div>
-        `;
-    }).join("");
 
     const html = `
     <!DOCTYPE html>
@@ -81,16 +78,15 @@ function downloadResultPDF(result) {
                     "Vrinda",
                     "Arial Unicode MS",
                     sans-serif;
-
                 color: #111;
                 background: white;
                 font-size: 12pt;
-                line-height: 1.65;
+                line-height: 1.8;
                 margin: 0;
             }
 
             .page {
-                max-width: 800px;
+                max-width: 850px;
                 margin: 25px auto;
                 padding: 25px;
             }
@@ -98,14 +94,14 @@ function downloadResultPDF(result) {
             .header {
                 display: flex;
                 align-items: center;
-                gap: 20px;
+                gap: 22px;
                 border-bottom: 2px solid #12346b;
-                padding-bottom: 15px;
-                margin-bottom: 25px;
+                padding-bottom: 18px;
+                margin-bottom: 28px;
             }
 
             .logo {
-                width: 110px;
+                width: 105px;
                 height: auto;
                 object-fit: contain;
             }
@@ -124,25 +120,25 @@ function downloadResultPDF(result) {
 
             h2 {
                 font-size: 20px;
-                margin-bottom: 15px;
+                margin-bottom: 18px;
             }
 
             .summary {
-                line-height: 1.9;
-                margin-bottom: 25px;
+                line-height: 2;
+                margin-bottom: 30px;
             }
 
             .section-title {
                 font-size: 17px;
                 font-weight: bold;
                 border-bottom: 1px solid #999;
-                padding-bottom: 7px;
-                margin: 25px 0 15px;
+                padding-bottom: 8px;
+                margin: 28px 0 20px;
             }
 
             .question {
-                margin-bottom: 22px;
-                padding-bottom: 14px;
+                margin-bottom: 26px;
+                padding-bottom: 18px;
                 border-bottom: 1px solid #ddd;
                 break-inside: avoid;
                 page-break-inside: avoid;
@@ -150,33 +146,40 @@ function downloadResultPDF(result) {
 
             .question-text {
                 font-weight: bold;
-                margin-bottom: 10px;
+                margin-bottom: 12px;
                 white-space: pre-wrap;
                 overflow-wrap: anywhere;
             }
 
             .question p {
-                margin: 5px 0;
+                margin: 7px 0;
                 white-space: pre-wrap;
                 overflow-wrap: anywhere;
             }
 
+            mjx-container {
+                max-width: 100%;
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+
             .footer {
-                margin-top: 30px;
-                padding-top: 10px;
+                margin-top: 35px;
+                padding-top: 12px;
                 border-top: 1px solid #ccc;
                 text-align: center;
                 font-size: 10px;
             }
 
-            @media print {
-                @page {
-                    size: A4;
-                    margin: 15mm;
-                }
+            @page {
+                size: A4;
+                margin: 20mm 20mm;
+            }
 
+            @media print {
                 body {
-                    font-size: 11pt;
+                    font-size: 11.5pt;
+                    line-height: 1.75;
                     -webkit-print-color-adjust: exact;
                     print-color-adjust: exact;
                 }
@@ -193,23 +196,40 @@ function downloadResultPDF(result) {
                 }
             }
         </style>
+
+        <script>
+            window.MathJax = {
+                tex: {
+                    inlineMath: [['\\\\(', '\\\\)'], ['$', '$']],
+                    displayMath: [['\\\\[', '\\\\]'], ['$$', '$$']],
+                    processEscapes: true
+                },
+                svg: {
+                    fontCache: 'global'
+                },
+                startup: {
+                    typeset: false
+                }
+            };
+        </script>
+
+        <script defer
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+        </script>
     </head>
 
     <body>
         <main class="page">
 
             <header class="header">
-                <img
-                    class="logo"
-                    src="assets/logo.png"
-                    alt="Bishal's Tutorials"
-                >
+                <img class="logo"
+                     src="assets/logo.png"
+                     alt="Bishal's Tutorials">
 
                 <div>
                     <div class="institute-name">
                         Bishal's Tutorials
                     </div>
-
                     <div class="tagline">
                         LEARN &amp; SUCCEED
                     </div>
@@ -240,9 +260,7 @@ function downloadResultPDF(result) {
                 </div>
             </div>
 
-            <div class="section-title">
-                ANSWER REVIEW
-            </div>
+            <div class="section-title">ANSWER REVIEW</div>
 
             ${questionHTML}
 
@@ -253,12 +271,39 @@ function downloadResultPDF(result) {
         </main>
 
         <script>
-            window.onload = function () {
+            async function preparePDF() {
+                try {
+                    await new Promise((resolve, reject) => {
+                        const start = Date.now();
+
+                        const check = setInterval(() => {
+                            if (window.MathJax &&
+                                window.MathJax.startup &&
+                                window.MathJax.startup.promise) {
+                                clearInterval(check);
+                                resolve();
+                            } else if (Date.now() - start > 15000) {
+                                clearInterval(check);
+                                reject(new Error("MathJax loading timed out."));
+                            }
+                        }, 100);
+                    });
+
+                    await MathJax.startup.promise;
+                    await MathJax.typesetPromise();
+                } catch (error) {
+                    console.error("Math rendering error:", error);
+                    alert("Mathematical formatting could not load. Please check your internet connection.");
+                }
+
                 window.focus();
-                setTimeout(function () {
+
+                setTimeout(() => {
                     window.print();
-                }, 700);
-            };
+                }, 500);
+            }
+
+            window.addEventListener("load", preparePDF);
         </script>
     </body>
     </html>
