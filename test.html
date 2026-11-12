@@ -4,87 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#12346b">
-    <title>Take Mock Test | Bishal's Tutorials</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="site-header">
-        <div class="brand">
-            <img src="assets/logo.png"
-                 alt="Bishal's Tutorials Logo"
-                 class="brand-logo">
 
-            <div>
+    <title>Mock Test | Bishal's Tutorials</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)'], ['$', '$']],
+                displayMath: [['\\[', '\\]'], ['$$', '$$']],
+                processEscapes: true
+            },
+            svg: {
+                fontCache: 'global'
+            },
+            startup: {
+                typeset: false
+            }
+        };
+    </script>
+
+    <!-- MathJax Library -->
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/logo.png" alt="Bishal's Tutorials" class="logo">
+            </a>
+            <div class="header-text">
                 <h1>Bishal's Tutorials</h1>
                 <p>LEARN &amp; SUCCEED</p>
             </div>
         </div>
     </header>
 
-    <main class="test-page">
-        <div class="test-heading">
-            <a class="back-link" href="index.html">← Back to Home</a>
-            <h2 id="test-title">Real Numbers - Test 01</h2>
-            <p id="test-details">Class 10 | Mathematics</p>
-        </div>
+    <main class="test-container">
 
-        <section class="test-info">
-            <div>
-                <span class="info-label">QUESTION</span>
-                <strong id="question-progress">1 of 2</strong>
-            </div>
-            <div>
-                <span class="info-label">TIME LEFT</span>
-                <strong id="timer">30:00</strong>
-            </div>
+        <section class="test-header">
+            <h2 id="test-title">Loading Test...</h2>
+            <p id="test-details"></p>
         </section>
 
-        <section class="question-card">
-            <div class="question-number" id="question-number">
-                Question 1
-            </div>
+        <section class="test-info">
+            <div id="question-progress">0 of 0</div>
+            <div id="timer">00:00</div>
+        </section>
 
-            <h3 id="question-text" aria-live="polite">
-                Your question will appear here.
-            </h3>
+        <section class="question-section">
+
+            <h3 id="question-number">Question 1</h3>
+
+            <div id="question-text" class="question-text">
+                Loading question...
+            </div>
 
             <div id="options-container" class="options-container">
-                <p class="loading-message">
-                    Questions will appear here when the test is connected.
-                </p>
             </div>
 
-            <p id="test-message" class="test-message" role="status"></p>
+            <p id="test-message" class="test-message"></p>
 
-            <div class="test-navigation">
-                <button id="previous-button" class="secondary-button"
-                        type="button" disabled>
-                    Previous
-                </button>
+        </section>
 
-                <button id="next-button" class="primary-button"
-                        type="button">
-                    Next →
-                </button>
-            </div>
+        <section class="test-navigation">
+            <button id="previous-button" type="button">
+                Previous
+            </button>
 
-            <button id="submit-button" class="submit-button"
-                    type="button">
+            <button id="next-button" type="button">
+                Next
+            </button>
+
+            <button id="submit-button" type="button">
                 Submit Test
             </button>
         </section>
 
-        <p class="test-note">
-            Check your answers before submitting the test.
-        </p>
     </main>
 
     <footer class="site-footer">
-        <p>© <span id="test-year"></span> Bishal's Tutorials</p>
-        <p>LEARN &amp; SUCCEED</p>
+        <p>
+            &copy; <span id="test-year"></span>
+            Bishal's Tutorials | LEARN &amp; SUCCEED
+        </p>
     </footer>
 
+    <!-- Test JavaScript: Keep this after MathJax -->
     <script src="js/test.js"></script>
+
 </body>
 </html>
