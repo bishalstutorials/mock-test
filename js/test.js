@@ -162,31 +162,38 @@ async function renderQuestion() {
     optionsContainer.innerHTML = "";
     testMessage.textContent = "";
 
-    question.options.forEach((option, index) => {
-        const label = document.createElement("label");
-        label.className = "option-item";
+   
+question.options.forEach((option, index) => {
+    const label = document.createElement("label");
+    label.className = "option-item";
+    label.style.display = "flex";
+    label.style.alignItems = "center";
+    label.style.gap = "10px";
+    label.style.width = "100%";
+    label.style.marginBottom = "12px";
 
-        const radio = document.createElement("input");
-        radio.type = "radio";
-        radio.name = "answer";
-        radio.value = index;
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "answer";
+    radio.value = index;
 
-        radio.checked =
-            selectedAnswers[currentQuestionIndex] === index;
+    radio.checked =
+        selectedAnswers[currentQuestionIndex] === index;
 
-        radio.addEventListener("change", function () {
-            selectedAnswers[currentQuestionIndex] = index;
-        });
-
-        const optionText = document.createElement("span");
-
-      optionText.innerHTML = formatMathText(
-    `${String.fromCharCode(65 + index)}. ${option}`
-);
-
-        label.append(radio, optionText);
-        optionsContainer.appendChild(label);
+    radio.addEventListener("change", function () {
+        selectedAnswers[currentQuestionIndex] = index;
     });
+
+    const optionText = document.createElement("span");
+
+    optionText.innerHTML =
+        `${String.fromCharCode(65 + index)}. ` +
+        formatMathText(option);
+
+    label.append(radio, optionText);
+    optionsContainer.appendChild(label);
+});
+
 
     // Typeset both the question and all its options.
     await renderMath([
