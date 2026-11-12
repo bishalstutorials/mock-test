@@ -11,6 +11,7 @@ const previousButton = document.getElementById("previous-button");
 const nextButton = document.getElementById("next-button");
 const submitButton = document.getElementById("submit-button");
 const timerElement = document.getElementById("timer");
+
 const marksPerQuestion = 1;
 const negativeMarks = 0;
 
@@ -24,6 +25,20 @@ if (testYear) {
     testYear.textContent = new Date().getFullYear();
 }
 
+// Render mathematical expressions after inserting question content.
+async function renderMath(elements) {
+    if (!window.MathJax || !window.MathJax.typesetPromise) {
+        return;
+    }
+
+    try {
+        await window.MathJax.startup.promise;
+        await window.MathJax.typesetPromise(elements);
+    } catch (error) {
+        console.error("MathJax rendering error:", error);
+    }
+}
+
 async function loadTest() {
     try {
         const response = await fetch("data/tests.json");
@@ -34,34 +49,38 @@ async function loadTest() {
 
         const data = await response.json();
         const params = new URLSearchParams(window.location.search);
-const testId = params.get("id");
+        const testId = params.get("id");
 
-currentTest = testId
-    ? data.tests.find(test => test.id === testId)
-    : data.tests[0];
+        currentTest = testId
+            ? data.tests.find(test => test.id === testId)
+            : data.tests[0];
 
-if (!currentTest || !currentTest.questions.length) {
-    throw new Error("No questions were found in the test data.");
-}
+        if (!currentTest || !currentTest.questions.length) {
+            throw new Error("No questions were found in the test data.");
+        }
 
-// Check whether this test has already been attempted
-const attemptKey = "attempted_" + currentTest.id;
+        // Check whether this test has already been attempted.
+        const attemptKey = "attempted_" + currentTest.id;
 
-if (localStorage.getItem(attemptKey) === "true") {
-    testTitle.textContent = currentTest.title;
-    questionText.textContent = "You have already attempted this test.";
-    questionProgress.textContent = "Attempt completed";
-    testMessage.textContent =
-        "You cannot attempt this test again. Please contact your teacher.";
-    optionsContainer.innerHTML = "";
-    previousButton.style.display = "none";
-    nextButton.style.display = "none";
-    submitButton.style.display = "none";
-    timerElement.textContent = "Completed";
-    return;
-}
+        if (localStorage.getItem(attemptKey) === "true") {
+            testTitle.textContent = currentTest.title;
+            questionText.textContent =
+                "You have already attempted this test.";
 
-selectedAnswers = Array(currentTest.questions.length).fill(null);
+            questionProgress.textContent = "Attempt completed";
+            testMessage.textContent =
+                "You cannot attempt this test again. Please contact your teacher.";
+
+            optionsContainer.innerHTML = "";
+            previousButton.style.display = "none";
+            nextButton.style.display = "none";
+            submitButton.style.display = "none";
+            timerElement.textContent = "Completed";
+
+            return;
+        }
+
+        selectedAnswers = Array(currentTest.questions.length).fill(null);
 
         testTitle.textContent = currentTest.title;
         testDetails.textContent =
@@ -73,23 +92,35 @@ selectedAnswers = Array(currentTest.questions.length).fill(null);
 
     } catch (error) {
         console.error("Test loading error:", error);
+
         questionText.textContent = "Unable to load the test.";
         optionsContainer.innerHTML = "";
         questionProgress.textContent = "Unavailable";
+
         testMessage.textContent =
             "Unable to load the questions. Check the data file and browser Console.";
     }
 }
 
-function renderQuestion() {
+async function renderQuestion() {
     if (!currentTest) return;
 
     const question = currentTest.questions[currentQuestionIndex];
 
+    // Clear previous MathJax-rendered content before replacing it.
+    if (window.MathJax && window.MathJax.typesetClear) {
+        window.MathJax.typesetClear([
+            questionText,
+            optionsContainer
+        ]);
+    }
+
     questionProgress.textContent =
         `${currentQuestionIndex + 1} of ${currentTest.questions.length}`;
 
-    questionNumber.textContent = `Question ${currentQuestionIndex + 1}`;
+    questionNumber.textContent =
+        `Question ${currentQuestionIndex + 1}`;
+
     questionText.textContent = question.text;
     optionsContainer.innerHTML = "";
     testMessage.textContent = "";
@@ -102,19 +133,28 @@ function renderQuestion() {
         radio.type = "radio";
         radio.name = "answer";
         radio.value = index;
-        radio.checked = selectedAnswers[currentQuestionIndex] === index;
+
+        radio.checked =
+            selectedAnswers[currentQuestionIndex] === index;
 
         radio.addEventListener("change", function () {
             selectedAnswers[currentQuestionIndex] = index;
         });
 
         const optionText = document.createElement("span");
+
         optionText.textContent =
             `${String.fromCharCode(65 + index)}. ${option}`;
 
         label.append(radio, optionText);
         optionsContainer.appendChild(label);
     });
+
+    // Typeset both the question and all its options.
+    await renderMath([
+        questionText,
+        optionsContainer
+    ]);
 }
 
 function updateNavigation() {
@@ -137,8 +177,10 @@ previousButton.addEventListener("click", function () {
 });
 
 nextButton.addEventListener("click", function () {
-    if (currentTest &&
-        currentQuestionIndex < currentTest.questions.length - 1) {
+    if (
+        currentTest &&
+        currentQuestionIndex < currentTest.questions.length - 1
+    ) {
         currentQuestionIndex++;
         renderQuestion();
         updateNavigation();
@@ -154,10 +196,13 @@ function updateTimerDisplay() {
 }
 
 function startTimer() {
-    timeRemaining = (currentTest.duration ?? currentTest.durationMinutes) * 60;
+    timeRemaining =
+        (currentTest.duration ?? currentTest.durationMinutes) * 60;
+
     console.log("Selected test:", currentTest.id);
     console.log("Duration:", currentTest.duration);
     console.log("Time remaining:", timeRemaining);
+
     clearInterval(timerInterval);
     updateTimerDisplay();
 
@@ -167,6 +212,7 @@ function startTimer() {
 
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
+
             timeRemaining = 0;
             updateTimerDisplay();
 
@@ -181,7 +227,6 @@ function startTimer() {
 
 loadTest();
 
-
 function submitTest() {
     if (!currentTest) return;
 
@@ -194,15 +239,18 @@ function submitTest() {
     currentTest.questions.forEach((question, index) => {
         if (selectedAnswers[index] === null) {
             unattempted++;
-        } else if (selectedAnswers[index] === question.correctAnswer) {
+        } else if (
+            selectedAnswers[index] === question.correctAnswer
+        ) {
             correct++;
         } else {
             wrong++;
         }
     });
 
-    const score = (correct * marksPerQuestion) -
-                  (wrong * negativeMarks);
+    const score =
+        (correct * marksPerQuestion) -
+        (wrong * negativeMarks);
 
     const result = {
         testTitle: currentTest.title,
@@ -219,11 +267,18 @@ function submitTest() {
         selectedAnswers
     };
 
- // Save this test as attempted
-localStorage.setItem("attempted_" + currentTest.id, "true");
+    // Save this test as attempted.
+    localStorage.setItem(
+        "attempted_" + currentTest.id,
+        "true"
+    );
 
-sessionStorage.setItem("mockTestResult", JSON.stringify(result));
-window.location.href = "result.html";
+    sessionStorage.setItem(
+        "mockTestResult",
+        JSON.stringify(result)
+    );
+
+    window.location.href = "result.html";
 }
 
 submitButton.addEventListener("click", function () {
