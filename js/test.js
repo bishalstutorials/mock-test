@@ -25,6 +25,43 @@ if (testYear) {
     testYear.textContent = new Date().getFullYear();
 }
 
+function formatMathText(value) {
+    let text = String(value ?? "");
+
+    // Escape HTML before inserting formatted mathematical content.
+    text = text.replace(/&/g, "&amp;")
+               .replace(/</g, "&lt;")
+               .replace(/>/g, "&gt;")
+               .replace(/"/g, "&quot;")
+               .replace(/'/g, "&#039;");
+
+    // Convert mathematical symbols to LaTeX.
+    function toLatex(part) {
+        return part
+            .replace(/√\s*([A-Za-z0-9]+)/g, "\\\\sqrt{$1}")
+            .replace(/²/g, "^{2}")
+            .replace(/³/g, "^{3}")
+            .replace(/θ/g, "\\\\theta")
+            .replace(/°/g, "^\\\\circ")
+            .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g,
+                "\\\\$1");
+    }
+
+    // Convert simple and parenthesized fractions into stacked fractions.
+    const fractionPattern =
+        /(\([^()]*\)|[A-Za-z0-9√θ°]+)\s*\/\s*(\([^()]*\)|[A-Za-z0-9√θ°]+)/g;
+
+    text = text.replace(fractionPattern, function(match, numerator, denominator) {
+        return "\\\\(\\\\frac{" +
+            toLatex(numerator.trim()) +
+            "}{" +
+            toLatex(denominator.trim()) +
+            "}\\\\)";
+    });
+
+    return text;
+}
+
 // Render mathematical expressions after inserting question content.
 async function renderMath(elements) {
     if (!window.MathJax || !window.MathJax.typesetPromise) {
