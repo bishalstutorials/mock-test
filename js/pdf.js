@@ -22,6 +22,28 @@ function downloadResultPDF(result) {
         })[char]);
     }
 
+    // Render basic Markdown safely while preserving LaTeX for MathJax
+    function renderRichText(value) {
+        const safeText = escapeHTML(value);
+
+        function formatInline(text) {
+            return text
+                .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+                .replace(/\*(.+?)\*/g, "<em>$1</em>");
+        }
+
+        return safeText.split(/\r?\n/).map(line => {
+            const heading = line.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
+
+            if (heading) {
+                const level = Math.min(heading[1].length, 4);
+                return `<h${level}>${formatInline(heading[2])}</h${level}>`;
+            }
+
+            return formatInline(line);
+        }).join("<br>");
+    }
+
     function getAnswer(index) {
         const answer = result.selectedAnswers[index];
 
@@ -41,15 +63,17 @@ function downloadResultPDF(result) {
     const questionHTML = result.questions.map((question, index) => `
         <div class="question">
             <div class="question-text">
-                Q${index + 1}. ${escapeHTML(question.text)}
+                Q${index + 1}. ${renderRichText(question.text)}
             </div>
 
-            <p><strong>Your answer:</strong>
-                ${escapeHTML(getAnswer(index))}
+            <p>
+                <strong>Your answer:</strong>
+                ${renderRichText(getAnswer(index))}
             </p>
 
-            <p><strong>Correct answer:</strong>
-                ${escapeHTML(getCorrectAnswer(question))}
+            <p>
+                <strong>Correct answer:</strong>
+                ${renderRichText(getCorrectAnswer(question))}
             </p>
         </div>
     `).join("");
@@ -59,12 +83,21 @@ function downloadResultPDF(result) {
 
     const html = `
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="as">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Bishal's Tutorials - Test Result</title>
+
+        <!-- Load a proper Unicode font for Assamese and Bengali -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        >
 
         <style>
             * {
@@ -76,13 +109,16 @@ function downloadResultPDF(result) {
                     "Noto Sans Bengali",
                     "Nirmala UI",
                     "Vrinda",
-                    "Arial Unicode MS",
                     sans-serif;
+
                 color: #111;
                 background: white;
                 font-size: 12pt;
-                line-height: 1.8;
+                line-height: 1.9;
                 margin: 0;
+                font-kerning: normal;
+                font-feature-settings: "kern" 1, "liga" 1;
+                letter-spacing: normal;
             }
 
             .page {
@@ -147,20 +183,27 @@ function downloadResultPDF(result) {
             .question-text {
                 font-weight: bold;
                 margin-bottom: 12px;
-                white-space: pre-wrap;
                 overflow-wrap: anywhere;
             }
 
             .question p {
                 margin: 7px 0;
-                white-space: pre-wrap;
                 overflow-wrap: anywhere;
+            }
+
+            .question h1,
+            .question h2,
+            .question h3,
+            .question h4 {
+                font-family: inherit;
+                font-size: 1em;
+                line-height: 1.9;
+                display: inline;
+                margin: 0;
             }
 
             mjx-container {
                 max-width: 100%;
-                overflow-x: auto;
-                overflow-y: hidden;
             }
 
             .footer {
@@ -173,13 +216,13 @@ function downloadResultPDF(result) {
 
             @page {
                 size: A4;
-                margin: 20mm 20mm;
+                margin: 20mm;
             }
 
             @media print {
                 body {
                     font-size: 11.5pt;
-                    line-height: 1.75;
+                    line-height: 1.85;
                     -webkit-print-color-adjust: exact;
                     print-color-adjust: exact;
                 }
@@ -200,8 +243,8 @@ function downloadResultPDF(result) {
         <script>
             window.MathJax = {
                 tex: {
-                  inlineMath: [['\\(', '\\)'], ['$', '$']],
-                  displayMath: [['\\[', '\\]'], ['$$', '$$']],
+                    inlineMath: [['\\\\(', '\\\\)'], ['$', '$']],
+                    displayMath: [['\\\\[', '\\\\]'], ['$$', '$$']],
                     processEscapes: true
                 },
                 svg: {
@@ -213,7 +256,8 @@ function downloadResultPDF(result) {
             };
         </script>
 
-        <script defer
+        <script
+            defer
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
         </script>
     </head>
@@ -222,14 +266,17 @@ function downloadResultPDF(result) {
         <main class="page">
 
             <header class="header">
-                <img class="logo"
-                     src="assets/logo.png"
-                     alt="Bishal's Tutorials">
+                <img
+                    class="logo"
+                    src="assets/logo.png"
+                    alt="Bishal's Tutorials"
+                >
 
                 <div>
                     <div class="institute-name">
                         Bishal's Tutorials
                     </div>
+
                     <div class="tagline">
                         LEARN &amp; SUCCEED
                     </div>
@@ -239,17 +286,25 @@ function downloadResultPDF(result) {
             <h2>MOCK TEST RESULT</h2>
 
             <div class="summary">
-                <div><strong>Test:</strong>
-                    ${escapeHTML(result.testTitle)}</div>
+                <div>
+                    <strong>Test:</strong>
+                    ${escapeHTML(result.testTitle)}
+                </div>
 
-                <div><strong>Class:</strong>
-                    ${escapeHTML(result.className)}</div>
+                <div>
+                    <strong>Class:</strong>
+                    ${escapeHTML(result.className)}
+                </div>
 
-                <div><strong>Subject:</strong>
-                    ${escapeHTML(result.subject)}</div>
+                <div>
+                    <strong>Subject:</strong>
+                    ${escapeHTML(result.subject)}
+                </div>
 
-                <div><strong>Score:</strong>
-                    ${escapeHTML(result.score)} / ${escapeHTML(totalMarks)}</div>
+                <div>
+                    <strong>Score:</strong>
+                    ${escapeHTML(result.score)} / ${escapeHTML(totalMarks)}
+                </div>
 
                 <div>
                     <strong>Correct:</strong> ${escapeHTML(result.correct)}
@@ -273,6 +328,10 @@ function downloadResultPDF(result) {
         <script>
             async function preparePDF() {
                 try {
+                    // Wait until the Assamese font has loaded
+                    await document.fonts.ready;
+
+                    // Wait until MathJax is available
                     await new Promise((resolve, reject) => {
                         const start = Date.now();
 
@@ -282,7 +341,7 @@ function downloadResultPDF(result) {
                                 window.MathJax.startup.promise) {
                                 clearInterval(check);
                                 resolve();
-                            } else if (Date.now() - start > 15000) {
+                            } else if (Date.now() - start > 20000) {
                                 clearInterval(check);
                                 reject(new Error("MathJax loading timed out."));
                             }
@@ -291,9 +350,19 @@ function downloadResultPDF(result) {
 
                     await MathJax.startup.promise;
                     await MathJax.typesetPromise();
+
+                    // Wait for final layout and font rendering
+                    await document.fonts.ready;
+
                 } catch (error) {
-                    console.error("Math rendering error:", error);
-                    alert("Mathematical formatting could not load. Please check your internet connection.");
+                    console.error("PDF rendering error:", error);
+
+                    alert(
+                        "Font or mathematical formatting failed to load. " +
+                        "Please check your internet connection before printing."
+                    );
+
+                    return;
                 }
 
                 window.focus();
