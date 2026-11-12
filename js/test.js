@@ -158,7 +158,7 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    questionText.textContent = question.text;
+    questionText.innerHTML = formatMathText(question.text);
     optionsContainer.innerHTML = "";
     testMessage.textContent = "";
 
