@@ -22,25 +22,53 @@ function downloadResultPDF(result) {
         })[char]);
     }
 
-    // Render basic Markdown safely while preserving LaTeX for MathJax
-    function renderRichText(value) {
-        const safeText = escapeHTML(value);
+    // Convert ordinary fractions into stacked mathematical fractions.
+    // Existing LaTeX expressions are preserved.
+    function convertFractions(text) {
+        const mathPattern =
+            /(\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|\$[^$]*?\$)/g;
 
-        function formatInline(text) {
-            return text
-                .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-                .replace(/\*(.+?)\*/g, "<em>$1</em>");
-        }
-
-        return safeText.split(/\r?\n/).map(line => {
-            const heading = line.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
-
-            if (heading) {
-                const level = Math.min(heading[1].length, 4);
-                return `<h${level}>${formatInline(heading[2])}</h${level}>`;
+        return text.split(mathPattern).map(part => {
+            // Do not modify existing mathematical expressions.
+            if (
+                part.startsWith("\\(") ||
+                part.startsWith("\\[") ||
+                part.startsWith("$$") ||
+                part.startsWith("$")
+            ) {
+                return part;
             }
 
-            return formatInline(line);
+            // Convert numeric and simple algebraic fractions.
+            return part.replace(
+                /(?<![\w.])([A-Za-z][A-Za-z0-9₀-₉]*|\d+)\s*\/\s*([A-Za-z][A-Za-z0-9₀-₉]*|\d+)(?![\w.])/g,
+                (match, numerator, denominator) => {
+                    return `\\(\\frac{${numerator}}{${denominator}}\\)`;
+                }
+            );
+        }).join("");
+    }
+
+    // Format Markdown and preserve mathematical expressions.
+    function renderRichText(value) {
+        let text = String(value ?? "").replace(/\r\n?/g, "\n");
+
+        // Convert simple fractions before escaping HTML.
+        text = convertFractions(text);
+
+        return text.split("\n").map(line => {
+            // Remove Markdown heading markers.
+            line = line.replace(/^\s{0,3}#{1,6}\s*/, "");
+
+            // Escape HTML safely.
+            let safeLine = escapeHTML(line);
+
+            // Basic Markdown formatting.
+            safeLine = safeLine
+                .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+                .replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+            return safeLine;
         }).join("<br>");
     }
 
@@ -90,7 +118,7 @@ function downloadResultPDF(result) {
 
         <title>Bishal's Tutorials - Test Result</title>
 
-        <!-- Load a proper Unicode font for Assamese and Bengali -->
+        <!-- Assamese and Bengali Unicode font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -243,8 +271,8 @@ function downloadResultPDF(result) {
         <script>
             window.MathJax = {
                 tex: {
-                    inlineMath: [['\\\\(', '\\\\)'], ['$', '$']],
-                    displayMath: [['\\\\[', '\\\\]'], ['$$', '$$']],
+                    inlineMath: [['\\(', '\\)'], ['$', '$']],
+                    displayMath: [['\\[', '\\]'], ['$$', '$$']],
                     processEscapes: true
                 },
                 svg: {
@@ -328,17 +356,19 @@ function downloadResultPDF(result) {
         <script>
             async function preparePDF() {
                 try {
-                    // Wait until the Assamese font has loaded
+                    // Wait for the Assamese font.
                     await document.fonts.ready;
 
-                    // Wait until MathJax is available
+                    // Wait for MathJax to load.
                     await new Promise((resolve, reject) => {
                         const start = Date.now();
 
                         const check = setInterval(() => {
-                            if (window.MathJax &&
+                            if (
+                                window.MathJax &&
                                 window.MathJax.startup &&
-                                window.MathJax.startup.promise) {
+                                window.MathJax.startup.promise
+                            ) {
                                 clearInterval(check);
                                 resolve();
                             } else if (Date.now() - start > 20000) {
@@ -349,17 +379,18 @@ function downloadResultPDF(result) {
                     });
 
                     await MathJax.startup.promise;
+
+                    // Render all mathematical expressions.
                     await MathJax.typesetPromise();
 
-                    // Wait for final layout and font rendering
                     await document.fonts.ready;
 
                 } catch (error) {
                     console.error("PDF rendering error:", error);
 
                     alert(
-                        "Font or mathematical formatting failed to load. " +
-                        "Please check your internet connection before printing."
+                        "Mathematical formatting failed to load. " +
+                        "Please check your internet connection."
                     );
 
                     return;
