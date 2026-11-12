@@ -180,8 +180,9 @@ async function renderQuestion() {
 
         const optionText = document.createElement("span");
 
-        optionText.textContent =
-            `${String.fromCharCode(65 + index)}. ${option}`;
+      optionText.innerHTML = formatMathText(
+    `${String.fromCharCode(65 + index)}. ${option}`
+);
 
         label.append(radio, optionText);
         optionsContainer.appendChild(label);
