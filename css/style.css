@@ -618,3 +618,19 @@ body {
         width: 100%;
     }
 }
+
+/* Mathematical expression formatting */
+mjx-container {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+mjx-container[display="true"] {
+    margin: 12px 0 !important;
+}
+
+.option-item mjx-container {
+    display: inline-block;
+    vertical-align: middle;
+}
