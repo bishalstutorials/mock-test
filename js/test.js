@@ -25,56 +25,88 @@ if (testYear) {
     testYear.textContent = new Date().getFullYear();
 }
 
+
+// ============================================
+// MATHEMATICAL TEXT FORMATTING
+// ============================================
+
 function formatMathText(value) {
     let text = String(value ?? "");
 
-    // Escape HTML before inserting formatted mathematical content.
+    // Normalize double-escaped LaTeX delimiters.
+    // Converts \\( into \( and \\) into \).
+    text = text.replace(/\\\\([()[\]])/g, "\\$1");
+
+    // Escape HTML characters safely.
     text = text.replace(/&/g, "&amp;")
                .replace(/</g, "&lt;")
                .replace(/>/g, "&gt;")
                .replace(/"/g, "&quot;")
                .replace(/'/g, "&#039;");
 
-    // Convert mathematical symbols to LaTeX.
-    function toLatex(part) {
-        return part
-            .replace(/√\s*([A-Za-z0-9]+)/g, "\\\\sqrt{$1}")
-            .replace(/²/g, "^{2}")
-            .replace(/³/g, "^{3}")
-            .replace(/θ/g, "\\\\theta")
-            .replace(/°/g, "^\\\\circ")
-            .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g,
-                "\\\\$1");
+    // Preserve existing LaTeX expressions.
+    // Do not convert their fractions a second time.
+    if (text.includes("\\(") || text.includes("\\[")) {
+        return text;
     }
 
-    // Convert simple and parenthesized fractions into stacked fractions.
+    // Convert ordinary mathematical symbols.
+    function toLatex(part) {
+        return part
+            .replace(/√\s*([A-Za-z0-9]+)/g, "\\sqrt{$1}")
+            .replace(/²/g, "^{2}")
+            .replace(/³/g, "^{3}")
+            .replace(/θ/g, "\\theta")
+            .replace(/°/g, "^\\circ")
+            .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g, "\\$1");
+    }
+
+    // Convert simple fractions into stacked fractions.
     const fractionPattern =
         /(\([^()]*\)|[A-Za-z0-9√θ°]+)\s*\/\s*(\([^()]*\)|[A-Za-z0-9√θ°]+)/g;
 
-    text = text.replace(fractionPattern, function(match, numerator, denominator) {
-        return "\\\\(\\\\frac{" +
-            toLatex(numerator.trim()) +
-            "}{" +
-            toLatex(denominator.trim()) +
-            "}\\\\)";
-    });
+    text = text.replace(
+        fractionPattern,
+        function(match, numerator, denominator) {
+            return "\\(\\frac{" +
+                toLatex(numerator.trim()) +
+                "}{" +
+                toLatex(denominator.trim()) +
+                "}\\)";
+        }
+    );
 
     return text;
 }
 
-// Render mathematical expressions after inserting question content.
-async function renderMath(elements) {
-    if (!window.MathJax || !window.MathJax.typesetPromise) {
-        return;
-    }
 
+// ============================================
+// MATHJAX RENDERING
+// ============================================
+
+async function renderMath(elements) {
     try {
+        // Wait for MathJax to become available.
+        if (!window.MathJax) {
+            console.error("MathJax library is not loaded.");
+            return;
+        }
+
         await window.MathJax.startup.promise;
-        await window.MathJax.typesetPromise(elements);
+
+        if (window.MathJax.typesetPromise) {
+            await window.MathJax.typesetPromise(elements);
+        }
+
     } catch (error) {
         console.error("MathJax rendering error:", error);
     }
 }
+
+
+// ============================================
+// LOAD TEST
+// ============================================
 
 async function loadTest() {
     try {
@@ -85,6 +117,7 @@ async function loadTest() {
         }
 
         const data = await response.json();
+
         const params = new URLSearchParams(window.location.search);
         const testId = params.get("id");
 
@@ -101,29 +134,37 @@ async function loadTest() {
 
         if (localStorage.getItem(attemptKey) === "true") {
             testTitle.textContent = currentTest.title;
+
             questionText.textContent =
                 "You have already attempted this test.";
 
             questionProgress.textContent = "Attempt completed";
+
             testMessage.textContent =
                 "You cannot attempt this test again. Please contact your teacher.";
 
             optionsContainer.innerHTML = "";
+
             previousButton.style.display = "none";
             nextButton.style.display = "none";
             submitButton.style.display = "none";
+
             timerElement.textContent = "Completed";
 
             return;
         }
 
-        selectedAnswers = Array(currentTest.questions.length).fill(null);
+        selectedAnswers = Array(
+            currentTest.questions.length
+        ).fill(null);
 
         testTitle.textContent = currentTest.title;
+
         testDetails.textContent =
             `${currentTest.class} | ${currentTest.subject}`;
 
-        renderQuestion();
+        await renderQuestion();
+
         updateNavigation();
         startTimer();
 
@@ -131,7 +172,9 @@ async function loadTest() {
         console.error("Test loading error:", error);
 
         questionText.textContent = "Unable to load the test.";
+
         optionsContainer.innerHTML = "";
+
         questionProgress.textContent = "Unavailable";
 
         testMessage.textContent =
@@ -139,12 +182,17 @@ async function loadTest() {
     }
 }
 
+
+// ============================================
+// RENDER QUESTION AND OPTIONS
+// ============================================
+
 async function renderQuestion() {
     if (!currentTest) return;
 
     const question = currentTest.questions[currentQuestionIndex];
 
-    // Clear previous MathJax-rendered content before replacing it.
+    // Clear previously rendered MathJax content.
     if (window.MathJax && window.MathJax.typesetClear) {
         window.MathJax.typesetClear([
             questionText,
@@ -158,54 +206,77 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
+    // Display question.
     questionText.innerHTML = formatMathText(question.text);
+
+    // Clear old options.
     optionsContainer.innerHTML = "";
+
+    // Display options vertically.
+    optionsContainer.style.display = "flex";
+    optionsContainer.style.flexDirection = "column";
+    optionsContainer.style.alignItems = "stretch";
+    optionsContainer.style.gap = "12px";
+
     testMessage.textContent = "";
 
-   
-question.options.forEach((option, index) => {
-    const label = document.createElement("label");
-    label.className = "option-item";
-    label.style.display = "flex";
-    label.style.alignItems = "center";
-    label.style.gap = "10px";
-    label.style.width = "100%";
-    label.style.marginBottom = "12px";
+    // Create each option separately.
+    question.options.forEach((option, index) => {
 
-    const radio = document.createElement("input");
-    radio.type = "radio";
-    radio.name = "answer";
-    radio.value = index;
+        const label = document.createElement("label");
 
-    radio.checked =
-        selectedAnswers[currentQuestionIndex] === index;
+        label.className = "option-item";
 
-    radio.addEventListener("change", function () {
-        selectedAnswers[currentQuestionIndex] = index;
+        label.style.display = "flex";
+        label.style.alignItems = "center";
+        label.style.gap = "12px";
+        label.style.width = "100%";
+        label.style.boxSizing = "border-box";
+        label.style.marginBottom = "0";
+
+        const radio = document.createElement("input");
+
+        radio.type = "radio";
+        radio.name = "answer";
+        radio.value = index;
+
+        radio.checked =
+            selectedAnswers[currentQuestionIndex] === index;
+
+        radio.addEventListener("change", function() {
+            selectedAnswers[currentQuestionIndex] = index;
+        });
+
+        const optionText = document.createElement("span");
+
+        // Convert and display mathematical expressions.
+        optionText.innerHTML =
+            `${String.fromCharCode(65 + index)}. ` +
+            formatMathText(option);
+
+        label.appendChild(radio);
+        label.appendChild(optionText);
+
+        optionsContainer.appendChild(label);
     });
 
-    const optionText = document.createElement("span");
-
-    optionText.innerHTML =
-        `${String.fromCharCode(65 + index)}. ` +
-        formatMathText(option);
-
-    label.append(radio, optionText);
-    optionsContainer.appendChild(label);
-});
-
-
-    // Typeset both the question and all its options.
+    // Render mathematical expressions in question and options.
     await renderMath([
         questionText,
         optionsContainer
     ]);
 }
 
+
+// ============================================
+// NAVIGATION
+// ============================================
+
 function updateNavigation() {
     if (!currentTest) return;
 
-    previousButton.disabled = currentQuestionIndex === 0;
+    previousButton.disabled =
+        currentQuestionIndex === 0;
 
     nextButton.style.display =
         currentQuestionIndex === currentTest.questions.length - 1
@@ -213,26 +284,40 @@ function updateNavigation() {
             : "inline-flex";
 }
 
-previousButton.addEventListener("click", function () {
+previousButton.addEventListener("click", async function() {
+
     if (currentQuestionIndex > 0) {
+
         currentQuestionIndex--;
-        renderQuestion();
+
+        await renderQuestion();
+
         updateNavigation();
     }
 });
 
-nextButton.addEventListener("click", function () {
+nextButton.addEventListener("click", async function() {
+
     if (
         currentTest &&
         currentQuestionIndex < currentTest.questions.length - 1
     ) {
+
         currentQuestionIndex++;
-        renderQuestion();
+
+        await renderQuestion();
+
         updateNavigation();
     }
 });
 
+
+// ============================================
+// TIMER
+// ============================================
+
 function updateTimerDisplay() {
+
     const minutes = Math.floor(timeRemaining / 60);
     const seconds = timeRemaining % 60;
 
@@ -241,6 +326,7 @@ function updateTimerDisplay() {
 }
 
 function startTimer() {
+
     timeRemaining =
         (currentTest.duration ?? currentTest.durationMinutes) * 60;
 
@@ -249,16 +335,21 @@ function startTimer() {
     console.log("Time remaining:", timeRemaining);
 
     clearInterval(timerInterval);
+
     updateTimerDisplay();
 
-    timerInterval = setInterval(function () {
+    timerInterval = setInterval(function() {
+
         timeRemaining--;
+
         updateTimerDisplay();
 
         if (timeRemaining <= 0) {
+
             clearInterval(timerInterval);
 
             timeRemaining = 0;
+
             updateTimerDisplay();
 
             testMessage.textContent =
@@ -267,12 +358,17 @@ function startTimer() {
             nextButton.disabled = true;
             previousButton.disabled = true;
         }
+
     }, 1000);
 }
 
-loadTest();
+
+// ============================================
+// SUBMIT TEST
+// ============================================
 
 function submitTest() {
+
     if (!currentTest) return;
 
     clearInterval(timerInterval);
@@ -282,13 +378,19 @@ function submitTest() {
     let unattempted = 0;
 
     currentTest.questions.forEach((question, index) => {
+
         if (selectedAnswers[index] === null) {
+
             unattempted++;
+
         } else if (
             selectedAnswers[index] === question.correctAnswer
         ) {
+
             correct++;
+
         } else {
+
             wrong++;
         }
     });
@@ -298,16 +400,22 @@ function submitTest() {
         (wrong * negativeMarks);
 
     const result = {
+
         testTitle: currentTest.title,
         className: currentTest.class,
         subject: currentTest.subject,
+
         totalQuestions: currentTest.questions.length,
+
         correct,
         wrong,
         unattempted,
+
         score,
+
         marksPerQuestion,
         negativeMarks,
+
         questions: currentTest.questions,
         selectedAnswers
     };
@@ -318,6 +426,7 @@ function submitTest() {
         "true"
     );
 
+    // Save result.
     sessionStorage.setItem(
         "mockTestResult",
         JSON.stringify(result)
@@ -326,7 +435,13 @@ function submitTest() {
     window.location.href = "result.html";
 }
 
-submitButton.addEventListener("click", function () {
+
+// ============================================
+// SUBMIT BUTTON
+// ============================================
+
+submitButton.addEventListener("click", function() {
+
     const confirmed = confirm(
         "Are you sure you want to submit your test?"
     );
@@ -335,3 +450,10 @@ submitButton.addEventListener("click", function () {
         submitTest();
     }
 });
+
+
+// ============================================
+// START
+// ============================================
+
+loadTest();
