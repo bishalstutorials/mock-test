@@ -12,9 +12,18 @@ const nextButton = document.getElementById("next-button");
 const submitButton = document.getElementById("submit-button");
 const timerElement = document.getElementById("timer");
 
+// NEW QUESTION PALETTE ELEMENTS
+const paletteGrid = document.getElementById("palette-grid");
+const answeredCount = document.getElementById("answered-count");
+const unansweredCount = document.getElementById("unanswered-count");
+const notVisitedCount = document.getElementById("not-visited-count");
+const paletteToggle = document.getElementById("palette-toggle");
+const questionPalette = document.getElementById("question-palette");
+
 let currentTest = null;
 let currentQuestionIndex = 0;
 let selectedAnswers = [];
+let visitedQuestions = [];
 let timeRemaining = 0;
 let timerInterval = null;
 
@@ -118,11 +127,167 @@ async function renderMath(elements) {
 
 
 // ============================================
+// QUESTION PALETTE
+// ============================================
+
+function createQuestionPalette() {
+
+    if (!paletteGrid || !currentTest) return;
+
+    paletteGrid.innerHTML = "";
+
+    currentTest.questions.forEach((question, index) => {
+
+        const button = document.createElement("button");
+
+        button.type = "button";
+        button.className = "palette-question";
+        button.textContent = index + 1;
+
+        button.setAttribute(
+            "aria-label",
+            `Go to question ${index + 1}`
+        );
+
+        button.addEventListener("click", function() {
+
+            if (timeRemaining <= 0) {
+                testMessage.textContent =
+                    "Time is up! Please submit your test.";
+                return;
+            }
+
+            currentQuestionIndex = index;
+
+            renderQuestion();
+            updateNavigation();
+
+            // Close palette automatically on mobile.
+            if (window.innerWidth <= 720) {
+                closeMobilePalette();
+            }
+
+        });
+
+        paletteGrid.appendChild(button);
+    });
+
+    updateQuestionPalette();
+}
+
+
+// ============================================
+// UPDATE QUESTION PALETTE STATUS
+// ============================================
+
+function updateQuestionPalette() {
+
+    if (!currentTest || !paletteGrid) return;
+
+    let answered = 0;
+    let visitedUnanswered = 0;
+    let notVisited = 0;
+
+    const buttons = paletteGrid.querySelectorAll(
+        ".palette-question"
+    );
+
+    buttons.forEach((button, index) => {
+
+        button.className = "palette-question";
+
+        const isAnswered =
+            selectedAnswers[index] !== null;
+
+        const isVisited =
+            visitedQuestions[index] === true;
+
+        if (isAnswered) {
+
+            answered++;
+
+            button.classList.add("answered");
+
+        } else if (isVisited) {
+
+            visitedUnanswered++;
+
+            button.classList.add("visited-unanswered");
+
+        } else {
+
+            notVisited++;
+
+            button.classList.add("not-visited");
+        }
+
+        if (index === currentQuestionIndex) {
+
+            button.classList.add("current");
+
+            button.setAttribute("aria-current", "step");
+
+        } else {
+
+            button.removeAttribute("aria-current");
+        }
+    });
+
+    if (answeredCount) {
+        answeredCount.textContent = answered;
+    }
+
+    if (unansweredCount) {
+        unansweredCount.textContent = visitedUnanswered;
+    }
+
+    if (notVisitedCount) {
+        notVisitedCount.textContent = notVisited;
+    }
+}
+
+
+// ============================================
+// MOBILE PALETTE
+// ============================================
+
+function closeMobilePalette() {
+
+    if (!questionPalette || !paletteToggle) return;
+
+    questionPalette.classList.remove("mobile-open");
+
+    paletteToggle.setAttribute("aria-expanded", "false");
+    paletteToggle.textContent = "☰ Question Palette";
+}
+
+if (paletteToggle && questionPalette) {
+
+    paletteToggle.addEventListener("click", function() {
+
+        const isOpen =
+            questionPalette.classList.toggle("mobile-open");
+
+        paletteToggle.setAttribute(
+            "aria-expanded",
+            String(isOpen)
+        );
+
+        paletteToggle.textContent = isOpen
+            ? "✕ Close Question Palette"
+            : "☰ Question Palette";
+    });
+}
+
+
+// ============================================
 // LOAD TEST
 // ============================================
 
 async function loadTest() {
+
     try {
+
         const response = await fetch("data/tests.json");
 
         if (!response.ok) {
@@ -145,6 +310,21 @@ async function loadTest() {
         ) {
             throw new Error("No questions were found in the test data.");
         }
+
+        // Validate question structure.
+        currentTest.questions.forEach((question, index) => {
+
+            if (
+                typeof question.question !== "string" ||
+                !Array.isArray(question.options) ||
+                question.options.length !== 4
+            ) {
+                throw new Error(
+                    `Invalid question data at question ${index + 1}.`
+                );
+            }
+
+        });
 
         const attemptKey = "attempted_" + currentTest.id;
 
@@ -171,6 +351,14 @@ async function loadTest() {
 
             timerElement.textContent = "Completed";
 
+            if (paletteToggle) {
+                paletteToggle.style.display = "none";
+            }
+
+            if (questionPalette) {
+                questionPalette.style.display = "none";
+            }
+
             return;
         }
 
@@ -178,17 +366,28 @@ async function loadTest() {
             currentTest.questions.length
         ).fill(null);
 
+        visitedQuestions = Array(
+            currentTest.questions.length
+        ).fill(false);
+
         testTitle.textContent = currentTest.title;
 
         testDetails.textContent =
             `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
+        // Mark the first question as visited.
+        visitedQuestions[0] = true;
+
+        createQuestionPalette();
+
         await renderQuestion();
 
         updateNavigation();
+
         startTimer();
 
     } catch (error) {
+
         console.error("Test loading error:", error);
 
         questionText.textContent = "Unable to load the test.";
@@ -208,16 +407,22 @@ async function loadTest() {
 // ============================================
 
 async function renderQuestion() {
+
     if (!currentTest) return;
 
-    const question = currentTest.questions[currentQuestionIndex];
+    const question =
+        currentTest.questions[currentQuestionIndex];
 
     if (window.MathJax && window.MathJax.typesetClear) {
+
         window.MathJax.typesetClear([
             questionText,
             optionsContainer
         ]);
     }
+
+    // Mark current question as visited.
+    visitedQuestions[currentQuestionIndex] = true;
 
     questionProgress.textContent =
         `${currentQuestionIndex + 1} of ${currentTest.questions.length}`;
@@ -225,9 +430,8 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    // Use question.question ONLY.
     questionText.innerHTML =
-        formatMathText(question.question ?? "");
+        formatMathText(question.question);
 
     optionsContainer.innerHTML = "";
 
@@ -265,7 +469,10 @@ async function renderQuestion() {
             selectedAnswers[currentQuestionIndex] === index;
 
         radio.addEventListener("change", function() {
+
             selectedAnswers[currentQuestionIndex] = index;
+
+            updateQuestionPalette();
         });
 
         const optionText = document.createElement("span");
@@ -284,6 +491,8 @@ async function renderQuestion() {
         optionsContainer.appendChild(label);
     });
 
+    updateQuestionPalette();
+
     await renderMath([
         questionText,
         optionsContainer
@@ -296,6 +505,7 @@ async function renderQuestion() {
 // ============================================
 
 function updateNavigation() {
+
     if (!currentTest) return;
 
     previousButton.disabled =
@@ -305,11 +515,17 @@ function updateNavigation() {
         currentQuestionIndex === currentTest.questions.length - 1
             ? "none"
             : "inline-flex";
+
+    updateQuestionPalette();
 }
+
 
 previousButton.addEventListener("click", async function() {
 
-    if (currentQuestionIndex > 0) {
+    if (
+        currentQuestionIndex > 0 &&
+        timeRemaining > 0
+    ) {
 
         currentQuestionIndex--;
 
@@ -319,11 +535,13 @@ previousButton.addEventListener("click", async function() {
     }
 });
 
+
 nextButton.addEventListener("click", async function() {
 
     if (
         currentTest &&
-        currentQuestionIndex < currentTest.questions.length - 1
+        currentQuestionIndex < currentTest.questions.length - 1 &&
+        timeRemaining > 0
     ) {
 
         currentQuestionIndex++;
@@ -348,13 +566,20 @@ function updateTimerDisplay() {
         `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
+
 function startTimer() {
 
-    timeRemaining =
-        (currentTest.duration ?? currentTest.durationMinutes) * 60;
+    const duration =
+        currentTest.duration ?? currentTest.durationMinutes;
+
+    timeRemaining = Number(duration) * 60;
+
+    if (!Number.isFinite(timeRemaining) || timeRemaining <= 0) {
+        throw new Error("Invalid test duration.");
+    }
 
     console.log("Selected test:", currentTest.id);
-    console.log("Duration:", currentTest.duration);
+    console.log("Duration:", duration);
     console.log("Time remaining:", timeRemaining);
 
     clearInterval(timerInterval);
@@ -380,6 +605,13 @@ function startTimer() {
 
             nextButton.disabled = true;
             previousButton.disabled = true;
+
+            if (paletteGrid) {
+                paletteGrid.querySelectorAll("button").forEach(button => {
+                    button.disabled = true;
+                });
+            }
+
         }
 
     }, 1000);
