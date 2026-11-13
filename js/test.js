@@ -33,24 +33,18 @@ if (testYear) {
 function formatMathText(value) {
     let text = String(value ?? "");
 
-    // Normalize double-escaped LaTeX delimiters.
-    // Converts \\( into \( and \\) into \).
-    text = text.replace(/\\\\([()[\]])/g, "\\$1");
+    // Normalize double-escaped LaTeX delimiters and commands.
+    text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
 
-    // Escape HTML characters safely.
-    text = text.replace(/&/g, "&amp;")
-               .replace(/</g, "&lt;")
-               .replace(/>/g, "&gt;")
-               .replace(/"/g, "&quot;")
-               .replace(/'/g, "&#039;");
+    // Escape HTML characters.
+    text = text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 
-    // Preserve existing LaTeX expressions.
-    // Do not convert their fractions a second time.
-    if (text.includes("\\(") || text.includes("\\[")) {
-        return text;
-    }
-
-    // Convert ordinary mathematical symbols.
+    // Convert common mathematical symbols.
     function toLatex(part) {
         return part
             .replace(/√\s*([A-Za-z0-9]+)/g, "\\sqrt{$1}")
@@ -61,20 +55,35 @@ function formatMathText(value) {
             .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g, "\\$1");
     }
 
-    // Convert simple fractions into stacked fractions.
-    const fractionPattern =
-        /(\([^()]*\)|[A-Za-z0-9√θ°]+)\s*\/\s*(\([^()]*\)|[A-Za-z0-9√θ°]+)/g;
+    // Preserve existing LaTeX expressions.
+    // Convert ordinary fractions only when no LaTeX is already present.
+    if (!text.includes("\\(") && !text.includes("\\[")) {
 
-    text = text.replace(
-        fractionPattern,
-        function(match, numerator, denominator) {
-            return "\\(\\frac{" +
-                toLatex(numerator.trim()) +
-                "}{" +
-                toLatex(denominator.trim()) +
-                "}\\)";
+        const fractionPattern =
+            /(\([^()]*\)|[A-Za-z0-9√θ°]+)\s*\/\s*(\([^()]*\)|[A-Za-z0-9√θ°]+)/g;
+
+        text = text.replace(
+            fractionPattern,
+            function(match, numerator, denominator) {
+                return "\\(\\frac{" +
+                    toLatex(numerator.trim()) +
+                    "}{" +
+                    toLatex(denominator.trim()) +
+                    "}\\)";
+            }
+        );
+
+        // Convert mathematical symbols outside fractions too.
+        if (
+            text.includes("√") ||
+            text.includes("²") ||
+            text.includes("³") ||
+            text.includes("θ") ||
+            text.includes("°")
+        ) {
+            text = toLatex(text);
         }
-    );
+    }
 
     return text;
 }
@@ -86,7 +95,6 @@ function formatMathText(value) {
 
 async function renderMath(elements) {
     try {
-        // Wait for MathJax to become available.
         if (!window.MathJax) {
             console.error("MathJax library is not loaded.");
             return;
@@ -133,6 +141,7 @@ async function loadTest() {
         const attemptKey = "attempted_" + currentTest.id;
 
         if (localStorage.getItem(attemptKey) === "true") {
+
             testTitle.textContent = currentTest.title;
 
             questionText.textContent =
@@ -228,7 +237,8 @@ async function renderQuestion() {
         label.className = "option-item";
 
         label.style.display = "flex";
-        label.style.alignItems = "center";
+        label.style.flexDirection = "row";
+        label.style.alignItems = "flex-start";
         label.style.gap = "12px";
         label.style.width = "100%";
         label.style.boxSizing = "border-box";
@@ -240,6 +250,9 @@ async function renderQuestion() {
         radio.name = "answer";
         radio.value = index;
 
+        radio.style.flexShrink = "0";
+        radio.style.marginTop = "4px";
+
         radio.checked =
             selectedAnswers[currentQuestionIndex] === index;
 
@@ -249,7 +262,10 @@ async function renderQuestion() {
 
         const optionText = document.createElement("span");
 
-        // Convert and display mathematical expressions.
+        optionText.style.display = "block";
+        optionText.style.flex = "1";
+        optionText.style.minWidth = "0";
+
         optionText.innerHTML =
             `${String.fromCharCode(65 + index)}. ` +
             formatMathText(option);
