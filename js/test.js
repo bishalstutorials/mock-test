@@ -33,15 +33,29 @@ function formatMathText(value) {
     // Normalize line endings.
     text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 
-    // Normalize double-escaped LaTeX delimiters and commands.
-    text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
-
-    // Convert literal HTML space entities into actual spaces.
+    // Convert HTML space entities into actual spaces.
     text = text.replace(/&#x20;|&#32;|&nbsp;/gi, " ");
 
-    // Remove accidental Markdown heading markers.
-    text = text.replace(/(^|\s)#{1,6}(?=\s|$)/g, "$1");
-    text = text.replace(/#{3,}/g, "");
+    // Normalize double-escaped LaTeX commands and delimiters.
+    text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
+
+    // Remove accidental Markdown heading markers while preserving text.
+    text = text.replace(/^\s*#{1,6}\s*/gm, "");
+
+    // Remove accidental inline triple-hash markers.
+    text = text.replace(/#{3,}\s*/g, "");
+
+    // Automatically add Column I when Column II exists
+    // but Column I is missing.
+    if (
+        text.includes("স্তম্ভ-II:") &&
+        !text.includes("স্তম্ভ-I:")
+    ) {
+        text = text.replace(
+            /^(\s*\(i\))/m,
+            "স্তম্ভ-I:\n$1"
+        );
+    }
 
     // Escape HTML characters safely.
     text = text
@@ -51,7 +65,7 @@ function formatMathText(value) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 
-    // Convert common mathematical symbols into LaTeX.
+    // Convert mathematical symbols into LaTeX.
     function toLatex(part) {
         return part
             .replace(/√\s*([A-Za-z0-9]+)/g, "\\sqrt{$1}")
@@ -62,8 +76,8 @@ function formatMathText(value) {
             .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g, "\\$1");
     }
 
-    // Preserve existing LaTeX.
-    // Convert ordinary fractions only when no LaTeX is present.
+    // Preserve existing LaTeX expressions.
+    // Convert ordinary fractions only when LaTeX is absent.
     if (!text.includes("\\(") && !text.includes("\\[")) {
 
         const fractionPattern =
@@ -80,7 +94,6 @@ function formatMathText(value) {
             }
         );
 
-        // Convert mathematical symbols outside fractions.
         if (
             text.includes("√") ||
             text.includes("²") ||
@@ -92,7 +105,7 @@ function formatMathText(value) {
         }
     }
 
-    // Display JSON newline characters as visible line breaks.
+    // Display line breaks correctly.
     return text.replace(/\n/g, "<br>");
 }
 
@@ -149,7 +162,6 @@ async function loadTest() {
             throw new Error("No questions were found in the test data.");
         }
 
-        // Check whether this test has already been attempted.
         const attemptKey = "attempted_" + currentTest.id;
 
         if (localStorage.getItem(attemptKey) === "true") {
@@ -184,7 +196,6 @@ async function loadTest() {
 
         testTitle.textContent = currentTest.title;
 
-        // Display class, subject and test type.
         testDetails.textContent =
             `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
@@ -217,7 +228,6 @@ async function renderQuestion() {
 
     const question = currentTest.questions[currentQuestionIndex];
 
-    // Clear previously rendered MathJax content.
     if (window.MathJax && window.MathJax.typesetClear) {
         window.MathJax.typesetClear([
             questionText,
@@ -231,13 +241,10 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    // Display question.
     questionText.innerHTML = formatMathText(question.text);
 
-    // Clear old options.
     optionsContainer.innerHTML = "";
 
-    // Display options vertically.
     optionsContainer.style.display = "flex";
     optionsContainer.style.flexDirection = "column";
     optionsContainer.style.alignItems = "stretch";
@@ -245,7 +252,6 @@ async function renderQuestion() {
 
     testMessage.textContent = "";
 
-    // Create each option separately.
     question.options.forEach((option, index) => {
 
         const label = document.createElement("label");
@@ -292,7 +298,6 @@ async function renderQuestion() {
         optionsContainer.appendChild(label);
     });
 
-    // Render mathematical expressions.
     await renderMath([
         questionText,
         optionsContainer
@@ -438,33 +443,25 @@ function submitTest() {
         (wrong * negativeMarks);
 
     const result = {
-
         testTitle: currentTest.title,
         className: currentTest.class,
         subject: currentTest.subject,
-
         totalQuestions: currentTest.questions.length,
-
         correct,
         wrong,
         unattempted,
-
         score,
-
         marksPerQuestion,
         negativeMarks,
-
         questions: currentTest.questions,
         selectedAnswers
     };
 
-    // Save this test as attempted.
     localStorage.setItem(
         "attempted_" + currentTest.id,
         "true"
     );
 
-    // Save result.
     sessionStorage.setItem(
         "mockTestResult",
         JSON.stringify(result)
