@@ -30,23 +30,12 @@ if (testYear) {
 function formatMathText(value) {
     let text = String(value ?? "");
 
-    // Normalize line endings.
     text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
-
-    // Convert HTML space entities into actual spaces.
     text = text.replace(/&#x20;|&#32;|&nbsp;/gi, " ");
-
-    // Normalize double-escaped LaTeX commands and delimiters.
     text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
-
-    // Remove accidental Markdown heading markers while preserving text.
     text = text.replace(/^\s*#{1,6}\s*/gm, "");
-
-    // Remove accidental inline triple-hash markers.
     text = text.replace(/#{3,}\s*/g, "");
 
-    // Automatically add Column I when Column II exists
-    // but Column I is missing.
     if (
         text.includes("স্তম্ভ-II:") &&
         !text.includes("স্তম্ভ-I:")
@@ -57,7 +46,6 @@ function formatMathText(value) {
         );
     }
 
-    // Escape HTML characters safely.
     text = text
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
@@ -65,7 +53,6 @@ function formatMathText(value) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 
-    // Convert mathematical symbols into LaTeX.
     function toLatex(part) {
         return part
             .replace(/√\s*([A-Za-z0-9]+)/g, "\\sqrt{$1}")
@@ -76,8 +63,6 @@ function formatMathText(value) {
             .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g, "\\$1");
     }
 
-    // Preserve existing LaTeX expressions.
-    // Convert ordinary fractions only when LaTeX is absent.
     if (!text.includes("\\(") && !text.includes("\\[")) {
 
         const fractionPattern =
@@ -105,7 +90,6 @@ function formatMathText(value) {
         }
     }
 
-    // Display line breaks correctly.
     return text.replace(/\n/g, "<br>");
 }
 
@@ -241,9 +225,9 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-   const questionContent = question.text ?? question.question;
-
-questionText.innerHTML = formatMathText(questionContent ?? "");
+    // Use question.question ONLY.
+    questionText.innerHTML =
+        formatMathText(question.question ?? "");
 
     optionsContainer.innerHTML = "";
 
