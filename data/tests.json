@@ -93,7 +93,7 @@
           "correctAnswer": 1
         },
         {
-          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^m \\div b^m\\)\n(ii) \\((a^m)^n \\times a^{-mn}\\)\n(iii) \\(\\sqrt[n]{x}\\)\n\nস্তম্ভ-II:\n(a) \\(1\\)\n(b) \\(x^{\\frac{1}{n}}\\)\n(c) \\(\\left(\\frac{a}{b}\\right)^m\\)\n\nসঠিক জোৰণটো বাছক:",
+          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^m \\div b^m\\)\n(ii) \\((a^m)^n \\times a^{-mn}\\)\n(iii) \\(\\sqrt[n]{x}\\)\n\nস্তম্ভ-II:\n(a) \\(1\\)\n(b) \\(x^{\\frac{1}{n}}\\)\n(c) \\(\\left(\\frac{a}{b}\\right)^m\\)\n\nসঠিক যোৰাটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
@@ -133,7 +133,7 @@
           "correctAnswer": 0
         },
         {
-          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^3 + b^3 + c^3 - 3abc\\)\n(ii) \\((a+b)^3 - 3ab(a+b)\\)\n(iii) \\(a^4 - b^4\\)\n\nস্তম্ভ-II:\n(a) \\(a^3 + b^3\\)\n(b) \\((a-b)(a+b)(a^2+b^2)\\)\n(c) \\((a+b+c)(a^2+b^2+c^2-ab-bc-ca)\\)\n\nসঠিক জোৰণটো বাছক:",
+          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^3 + b^3 + c^3 - 3abc\\)\n(ii) \\((a+b)^3 - 3ab(a+b)\\)\n(iii) \\(a^4 - b^4\\)\n\nস্তম্ভ-II:\n(a) \\(a^3 + b^3\\)\n(b) \\((a-b)(a+b)(a^2+b^2)\\)\n(c) \\((a+b+c)(a^2+b^2+c^2-ab-bc-ca)\\)\n\nসঠিক যোৰাটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
@@ -198,7 +198,7 @@
           "correctAnswer": 1
         },
         {
-          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(\\sqrt{x} = 3 \\Rightarrow x^3\\)\n(ii) \\(\\sqrt[3]{x} = 2 \\Rightarrow x^2\\)\n(iii) \\(x^0 + y^0 + z^0\\)\n\nস্তম্ভ-II:\n(a) \\(64\\)\n(b) \\(3\\)\n(c) \\(729\\)\n\nসঠিক জোৰণটো বাছক:",
+          "question": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(\\sqrt{x} = 3 \\Rightarrow x^3\\)\n(ii) \\(\\sqrt[3]{x} = 2 \\Rightarrow x^2\\)\n(iii) \\(x^0 + y^0 + z^0\\)\n\nস্তম্ভ-II:\n(a) \\(64\\)\n(b) \\(3\\)\n(c) \\(729\\)\n\nসঠিক যোৰাটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
@@ -335,7 +335,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) পৰিমেয় আৰু অপৰিমেয় সংখ্যাৰ যোগফল\n(ii) দুটা অপৰিমেয় সংখ্যাৰ পূৰণফল\n(iii) ধনাত্মক পূৰ্ণসংখ্যাৰ মৌলিক উৎপাদকীকৰণ\n\nস্তম্ভ-II:\n(a) পৰিমেয় বা অপৰিমেয় হ'ব পাৰে\n(b) সদায় অদ্বিতীয় (ইউক্লিডৰ অংকশাস্ত্ৰৰ মৌলিক প্ৰমেয়)\n(c) সদায় অপৰিমেয় সংখ্যা\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) পৰিমেয় আৰু অপৰিমেয় সংখ্যাৰ যোগফল\n(ii) দুটা অপৰিমেয় সংখ্যাৰ পূৰণফল\n(iii) ধনাত্মক পূৰ্ণসংখ্যাৰ মৌলিক উৎপাদকীকৰণ\n\nস্তম্ভ-II:\n(a) পৰিমেয় বা অপৰিমেয় হ'ব পাৰে\n(b) সদায় অদ্বিতীয় (ইউক্লিডৰ অংকশাস্ত্ৰৰ মৌলিক প্ৰমেয়)\n(c) সদায় অপৰিমেয় সংখ্যা\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(c), (ii)-(a), (iii)-(b)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
@@ -390,7 +390,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $\\text{HCF}(a, b) \\times \\text{LCM}(a, b)$\n(ii) $\\sqrt{2} + \\sqrt{3}$\n(iii) $2 \\times 3 \\times 5 + 5$\n\nস্তম্ভ-II:\n(a) এটা যৌগিক সংখ্যা\n(b) $a \\times b$\n(c) এটা অপৰিমেয় সংখ্যা\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $\\text{HCF}(a, b) \\times \\text{LCM}(a, b)$\n(ii) $\\sqrt{2} + \\sqrt{3}$\n(iii) $2 \\times 3 \\times 5 + 5$\n\nস্তম্ভ-II:\n(a) এটা যৌগিক সংখ্যা\n(b) $a \\times b$\n(c) এটা অপৰিমেয় সংখ্যা\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(b), (ii)-(c), (iii)-(a)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
@@ -475,7 +475,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $2 + \\sqrt{5}$\n(ii) $(2+\\sqrt{3})(2-\\sqrt{3})$\n(iii) $\\text{HCF}(13, 17)$\n\nস্তম্ভ-II:\n(a) 1\n(b) অপৰিমেয় সংখ্যা\n(c) 1 (পৰিমেয় সংখ্যা)\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $2 + \\sqrt{5}$\n(ii) $(2+\\sqrt{3})(2-\\sqrt{3})$\n(iii) $\\text{HCF}(13, 17)$\n\nস্তম্ভ-II:\n(a) 1\n(b) অপৰিমেয় সংখ্যা\n(c) 1 (পৰিমেয় সংখ্যা)\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(b), (ii)-(c), (iii)-(a)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
@@ -672,7 +672,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) ৰৈখিক বহুপদৰ শূণ্যকৰ সংখ্যা\n(ii) দ্বিঘাত বহুপদ $ax^2 + bx + c$ ৰ শূণ্যকদ্বয়ৰ পূৰণফল\n(iii) ত্ৰিঘাত বহুপদ $ax^3 + bx^2 + cx + d$ ৰ শূণ্যকৰ সৰ্বোচ্চ সংখ্যা\n\nস্তম্ভ-II:\n(a) $\\frac{c}{a}$\n(b) 3\n(c) 1\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) ৰৈখিক বহুপদৰ শূণ্যকৰ সংখ্যা\n(ii) দ্বিঘাত বহুপদ $ax^2 + bx + c$ ৰ শূণ্যকদ্বয়ৰ পূৰণফল\n(iii) ত্ৰিঘাত বহুপদ $ax^3 + bx^2 + cx + d$ ৰ শূণ্যকৰ সৰ্বোচ্চ সংখ্যা\n\nস্তম্ভ-II:\n(a) $\\frac{c}{a}$\n(b) 3\n(c) 1\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(c), (ii)-(a), (iii)-(b)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
@@ -742,7 +742,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $y = p(x)$ ৰ লেখচিত্ৰ $X$-অক্ষৰ সমান্তৰাল হ'লে শূণ্যকৰ সংখ্যা\n(ii) $p(x) = ax + b$ ৰ শূণ্যক\n(iii) $p(x) = 4x^2 - 9$ ৰ শূণ্যক দুটা\n\nস্তম্ভ-II:\n(a) $-\\frac{b}{a}$\n(b) $\\frac{3}{2}, -\\frac{3}{2}$\n(c) 0\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $y = p(x)$ ৰ লেখচিত্ৰ $X$-অক্ষৰ সমান্তৰাল হ'লে শূণ্যকৰ সংখ্যা\n(ii) $p(x) = ax + b$ ৰ শূণ্যক\n(iii) $p(x) = 4x^2 - 9$ ৰ শূণ্যক দুটা\n\nস্তম্ভ-II:\n(a) $-\\frac{b}{a}$\n(b) $\\frac{3}{2}, -\\frac{3}{2}$\n(c) 0\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(c), (ii)-(a), (iii)-(b)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
@@ -837,7 +837,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $p(x) = 3x - 2$ ৰ শূণ্যক\n(ii) $p(x) = x^2 - 16$ ৰ শূণ্যকদ্বয়ৰ যোগফল\n(iii) $p(x) = 2x^2 - 8x + 6$ ৰ শূণ্যকদ্বয়ৰ যোগফল\n\nস্তম্ভ-II:\n(a) 4\n(b) $\\frac{2}{3}$\n(c) 0\n\nসঠিক জোৰণটো বাছক:",
+      "question": "স্তম্ভ মিলোৱা (Match The Column):\nস্তম্ভ-I:\n(i) $p(x) = 3x - 2$ ৰ শূণ্যক\n(ii) $p(x) = x^2 - 16$ ৰ শূণ্যকদ্বয়ৰ যোগফল\n(iii) $p(x) = 2x^2 - 8x + 6$ ৰ শূণ্যকদ্বয়ৰ যোগফল\n\nস্তম্ভ-II:\n(a) 4\n(b) $\\frac{2}{3}$\n(c) 0\n\nসঠিক যোৰাটো বাছক:",
       "options": [
         "(i)-(b), (ii)-(c), (iii)-(a)",
         "(i)-(a), (ii)-(b), (iii)-(c)",
