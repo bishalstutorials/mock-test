@@ -29,7 +29,7 @@ function downloadResultPDF(result) {
             /(\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|\$[^$]*?\$)/g;
 
         return text.split(mathPattern).map(part => {
-            // Do not modify existing mathematical expressions.
+
             if (
                 part.startsWith("\\(") ||
                 part.startsWith("\\[") ||
@@ -39,7 +39,6 @@ function downloadResultPDF(result) {
                 return part;
             }
 
-            // Convert numeric and simple algebraic fractions.
             return part.replace(
                 /(?<![\w.])([A-Za-z][A-Za-z0-9₀-₉]*|\d+)\s*\/\s*([A-Za-z][A-Za-z0-9₀-₉]*|\d+)(?![\w.])/g,
                 (match, numerator, denominator) => {
@@ -53,22 +52,20 @@ function downloadResultPDF(result) {
     function renderRichText(value) {
         let text = String(value ?? "").replace(/\r\n?/g, "\n");
 
-        // Convert simple fractions before escaping HTML.
         text = convertFractions(text);
 
         return text.split("\n").map(line => {
-            // Remove Markdown heading markers.
+
             line = line.replace(/^\s{0,3}#{1,6}\s*/, "");
 
-            // Escape HTML safely.
             let safeLine = escapeHTML(line);
 
-            // Basic Markdown formatting.
             safeLine = safeLine
                 .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
                 .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
             return safeLine;
+
         }).join("<br>");
     }
 
@@ -88,10 +85,11 @@ function downloadResultPDF(result) {
             ". " + (question.options?.[question.correctAnswer] ?? "");
     }
 
+    // Use question.question, matching the actual JSON structure.
     const questionHTML = result.questions.map((question, index) => `
         <div class="question">
             <div class="question-text">
-                Q${index + 1}. ${renderRichText(question.text)}
+                Q${index + 1}. ${renderRichText(question.question)}
             </div>
 
             <p>
@@ -109,6 +107,28 @@ function downloadResultPDF(result) {
     const totalMarks =
         result.totalQuestions * result.marksPerQuestion;
 
+    const attemptNumber =
+        Number.isInteger(result.attemptNumber) &&
+        result.attemptNumber > 0
+            ? result.attemptNumber
+            : 1;
+
+    function getAttemptSuffix(number) {
+        if (number % 100 >= 11 && number % 100 <= 13) {
+            return "th";
+        }
+
+        switch (number % 10) {
+            case 1: return "st";
+            case 2: return "nd";
+            case 3: return "rd";
+            default: return "th";
+        }
+    }
+
+    const attemptLabel =
+        `${attemptNumber}${getAttemptSuffix(attemptNumber)} Attempt`;
+
     const html = `
     <!DOCTYPE html>
     <html lang="as">
@@ -118,7 +138,6 @@ function downloadResultPDF(result) {
 
         <title>Bishal's Tutorials - Test Result</title>
 
-        <!-- Assamese and Bengali Unicode font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -190,6 +209,11 @@ function downloadResultPDF(result) {
             .summary {
                 line-height: 2;
                 margin-bottom: 30px;
+            }
+
+            .attempt-number {
+                font-weight: bold;
+                color: #12346b;
             }
 
             .section-title {
@@ -329,6 +353,11 @@ function downloadResultPDF(result) {
                     ${escapeHTML(result.subject)}
                 </div>
 
+                <div class="attempt-number">
+                    <strong>Attempt Number:</strong>
+                    ${escapeHTML(attemptLabel)}
+                </div>
+
                 <div>
                     <strong>Score:</strong>
                     ${escapeHTML(result.score)} / ${escapeHTML(totalMarks)}
@@ -356,14 +385,13 @@ function downloadResultPDF(result) {
         <script>
             async function preparePDF() {
                 try {
-                    // Wait for the Assamese font.
                     await document.fonts.ready;
 
-                    // Wait for MathJax to load.
                     await new Promise((resolve, reject) => {
                         const start = Date.now();
 
                         const check = setInterval(() => {
+
                             if (
                                 window.MathJax &&
                                 window.MathJax.startup &&
@@ -371,16 +399,16 @@ function downloadResultPDF(result) {
                             ) {
                                 clearInterval(check);
                                 resolve();
+
                             } else if (Date.now() - start > 20000) {
                                 clearInterval(check);
                                 reject(new Error("MathJax loading timed out."));
                             }
+
                         }, 100);
                     });
 
                     await MathJax.startup.promise;
-
-                    // Render all mathematical expressions.
                     await MathJax.typesetPromise();
 
                     await document.fonts.ready;
