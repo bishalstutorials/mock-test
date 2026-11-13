@@ -31,6 +31,7 @@
 </head>
 
 <body>
+
     <header class="site-header">
         <div class="brand">
             <img src="assets/logo.png"
@@ -45,61 +46,169 @@
     </header>
 
     <main class="test-page">
+
         <div class="test-heading">
             <a class="back-link" href="index.html">← Back to Home</a>
+
             <h2 id="test-title">Real Numbers - Test 01</h2>
+
             <p id="test-details">Class 10 | Mathematics</p>
         </div>
 
+        <!-- TEST INFORMATION -->
         <section class="test-info">
+
             <div>
                 <span class="info-label">QUESTION</span>
                 <strong id="question-progress">1 of 2</strong>
             </div>
+
             <div>
                 <span class="info-label">TIME LEFT</span>
                 <strong id="timer">30:00</strong>
             </div>
+
         </section>
 
-        <section class="question-card">
-            <div class="question-number" id="question-number">
-                Question 1
-            </div>
+        <!-- MOBILE PALETTE TOGGLE -->
+        <button
+            type="button"
+            id="palette-toggle"
+            class="palette-toggle"
+            aria-expanded="false"
+            aria-controls="question-palette">
+            ☰ Question Palette
+        </button>
 
-            <h3 id="question-text" aria-live="polite">
-                Your question will appear here.
-            </h3>
+        <!-- MAIN TEST WORKSPACE -->
+        <div class="test-workspace">
 
-            <div id="options-container" class="options-container">
-                <p class="loading-message">
-                    Questions will appear here when the test is connected.
-                </p>
-            </div>
+            <!-- QUESTION AREA -->
+            <section class="question-card">
 
-            <p id="test-message" class="test-message" role="status"></p>
+                <div class="question-number" id="question-number">
+                    Question 1
+                </div>
 
-            <div class="test-navigation">
-                <button id="previous-button" class="secondary-button"
-                        type="button" disabled>
-                    Previous
-                </button>
+                <h3 id="question-text" aria-live="polite">
+                    Your question will appear here.
+                </h3>
 
-                <button id="next-button" class="primary-button"
+                <div id="options-container" class="options-container">
+                    <p class="loading-message">
+                        Questions will appear here when the test is connected.
+                    </p>
+                </div>
+
+                <p id="test-message" class="test-message" role="status"></p>
+
+                <div class="test-navigation">
+
+                    <button
+                        id="previous-button"
+                        class="secondary-button"
+                        type="button"
+                        disabled>
+                        ← Previous
+                    </button>
+
+                    <button
+                        id="next-button"
+                        class="primary-button"
                         type="button">
-                    Next →
-                </button>
-            </div>
+                        Next →
+                    </button>
 
-            <button id="submit-button" class="submit-button"
+                </div>
+
+                <button
+                    id="submit-button"
+                    class="submit-button"
                     type="button">
-                Submit Test
-            </button>
-        </section>
+                    Submit Test
+                </button>
+
+            </section>
+
+            <!-- QUESTION PROGRESSION PANEL -->
+            <aside
+                class="question-palette"
+                id="question-palette"
+                aria-label="Question progression panel">
+
+                <div class="palette-heading">
+                    <h3>Question Palette</h3>
+                    <p>Navigate between questions</p>
+                </div>
+
+                <!-- LIVE QUESTION COUNTS -->
+                <div class="palette-stats">
+
+                    <div class="palette-stat answered-stat">
+                        <strong id="answered-count">0</strong>
+                        <span>Answered</span>
+                    </div>
+
+                    <div class="palette-stat skipped-stat">
+                        <strong id="unanswered-count">0</strong>
+                        <span>Visited</span>
+                    </div>
+
+                    <div class="palette-stat not-visited-stat">
+                        <strong id="not-visited-count">0</strong>
+                        <span>Not visited</span>
+                    </div>
+
+                </div>
+
+                <div class="palette-divider"></div>
+
+                <p class="palette-instruction">
+                    Click a number to open that question.
+                </p>
+
+                <!-- QUESTION NUMBERS ARE GENERATED BY JAVASCRIPT -->
+                <div
+                    id="palette-grid"
+                    class="palette-grid"
+                    aria-label="Question numbers">
+                </div>
+
+                <div class="palette-divider"></div>
+
+                <!-- COLOUR LEGEND -->
+                <div class="palette-legend">
+
+                    <div class="legend-item">
+                        <span class="legend-color legend-answered"></span>
+                        <span>Answered</span>
+                    </div>
+
+                    <div class="legend-item">
+                        <span class="legend-color legend-unanswered"></span>
+                        <span>Visited, unanswered</span>
+                    </div>
+
+                    <div class="legend-item">
+                        <span class="legend-color legend-not-visited"></span>
+                        <span>Not visited</span>
+                    </div>
+
+                    <div class="legend-item">
+                        <span class="legend-color legend-current"></span>
+                        <span>Current question</span>
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
 
         <p class="test-note">
             Check your answers before submitting the test.
         </p>
+
     </main>
 
     <footer class="site-footer">
@@ -108,5 +217,6 @@
     </footer>
 
     <script src="js/test.js"></script>
+
 </body>
 </html>
