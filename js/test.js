@@ -12,9 +12,6 @@ const nextButton = document.getElementById("next-button");
 const submitButton = document.getElementById("submit-button");
 const timerElement = document.getElementById("timer");
 
-const marksPerQuestion = 1;
-const negativeMarks = 0;
-
 let currentTest = null;
 let currentQuestionIndex = 0;
 let selectedAnswers = [];
@@ -33,10 +30,20 @@ if (testYear) {
 function formatMathText(value) {
     let text = String(value ?? "");
 
-    // Normalize double-escaped LaTeX delimiters and commands.
-    text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
+    // Normalize Windows and Unix line endings.
+    text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 
-    // Escape HTML characters.
+    // Convert literal HTML space entities into actual spaces.
+    text = text.replace(/&#x20;|&#32;|&nbsp;/gi, " ");
+
+    // Remove accidental Markdown heading markers.
+    // Handles markers at the beginning of a line or inline.
+    text = text.replace(/(^|\s)#{1,6}(?=\s|$)/gm, "$1");
+
+    // Remove any remaining accidental triple-hash markers.
+    text = text.replace(/#{3,}/g, "");
+
+    // Escape HTML characters safely.
     text = text
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
@@ -44,7 +51,7 @@ function formatMathText(value) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 
-    // Convert common mathematical symbols.
+    // Convert common mathematical symbols into LaTeX.
     function toLatex(part) {
         return part
             .replace(/√\s*([A-Za-z0-9]+)/g, "\\sqrt{$1}")
@@ -56,7 +63,7 @@ function formatMathText(value) {
     }
 
     // Preserve existing LaTeX expressions.
-    // Convert ordinary fractions only when no LaTeX is already present.
+    // Convert ordinary fractions only when LaTeX is not already present.
     if (!text.includes("\\(") && !text.includes("\\[")) {
 
         const fractionPattern =
@@ -73,7 +80,6 @@ function formatMathText(value) {
             }
         );
 
-        // Convert mathematical symbols outside fractions too.
         if (
             text.includes("√") ||
             text.includes("²") ||
@@ -85,7 +91,8 @@ function formatMathText(value) {
         }
     }
 
-    return text;
+    // Convert line breaks into visible HTML line breaks.
+    return text.replace(/\n/g, "<br>");
 }
 
 
@@ -133,11 +140,14 @@ async function loadTest() {
             ? data.tests.find(test => test.id === testId)
             : data.tests[0];
 
-        if (!currentTest || !currentTest.questions.length) {
+        if (
+            !currentTest ||
+            !Array.isArray(currentTest.questions) ||
+            currentTest.questions.length === 0
+        ) {
             throw new Error("No questions were found in the test data.");
         }
 
-        // Check whether this test has already been attempted.
         const attemptKey = "attempted_" + currentTest.id;
 
         if (localStorage.getItem(attemptKey) === "true") {
@@ -215,7 +225,7 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    // Display question.
+    // Display question with preserved line breaks.
     questionText.innerHTML = formatMathText(question.text);
 
     // Clear old options.
@@ -392,6 +402,12 @@ function submitTest() {
     let correct = 0;
     let wrong = 0;
     let unattempted = 0;
+
+    const marksPerQuestion =
+        currentTest.marksPerQuestion ?? 1;
+
+    const negativeMarks =
+        currentTest.negativeMarks ?? 0;
 
     currentTest.questions.forEach((question, index) => {
 
