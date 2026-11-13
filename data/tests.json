@@ -93,7 +93,7 @@
           "correctAnswer": 1
         },
         {
-         "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^m \\div b^m\\)\n(ii) \\((a^m)^n \\times a^{-mn}\\)\n(iii) \\(\\sqrt[n]{x}\\)\n\nস্তম্ভ-II:\n(a) \\(1\\)\n(b) \\(x^{\\frac{1}{n}}\\)\n(c) \\(\\left(\\frac{a}{b}\\right)^m\\)\n\nসঠিক জোৰণটো বাছক:"
+          "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^m \\div b^m\\)\n(ii) \\((a^m)^n \\times a^{-mn}\\)\n(iii) \\(\\sqrt[n]{x}\\)\n\nস্তম্ভ-II:\n(a) \\(1\\)\n(b) \\(x^{\\frac{1}{n}}\\)\n(c) \\(\\left(\\frac{a}{b}\\right)^m\\)\n\nসঠিক জোৰণটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
@@ -133,7 +133,7 @@
           "correctAnswer": 0
         },
         {
-         "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^3 + b^3 + c^3 - 3abc\\)\n(ii) \\((a+b)^3 - 3ab(a+b)\\)\n(iii) \\(a^4 - b^4\\)\n\nস্তম্ভ-II:\n(a) \\(a^3 + b^3\\)\n(b) \\((a-b)(a+b)(a^2+b^2)\\)\n(c) \\((a+b+c)(a^2+b^2+c^2-ab-bc-ca)\\)\n\nসঠিক জোৰণটো বাছক:"
+          "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(a^3 + b^3 + c^3 - 3abc\\)\n(ii) \\((a+b)^3 - 3ab(a+b)\\)\n(iii) \\(a^4 - b^4\\)\n\nস্তম্ভ-II:\n(a) \\(a^3 + b^3\\)\n(b) \\((a-b)(a+b)(a^2+b^2)\\)\n(c) \\((a+b+c)(a^2+b^2+c^2-ab-bc-ca)\\)\n\nসঠিক জোৰণটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
@@ -198,7 +198,7 @@
           "correctAnswer": 1
         },
         {
-          "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(\\sqrt{x} = 3 \\Rightarrow x^3\\)\n(ii) \\(\\sqrt[3]{x} = 2 \\Rightarrow x^2\\)\n(iii) \\(x^0 + y^0 + z^0\\)\n\nস্তম্ভ-II:\n(a) \\(64\\)\n(b) \\(3\\)\n(c) \\(729\\)\n\nসঠিক জোৰণটো বাছক:"
+          "text": "স্তম্ভ মিলোৱা (Match The Column):\n\nস্তম্ভ-I:\n(i) \\(\\sqrt{x} = 3 \\Rightarrow x^3\\)\n(ii) \\(\\sqrt[3]{x} = 2 \\Rightarrow x^2\\)\n(iii) \\(x^0 + y^0 + z^0\\)\n\nস্তম্ভ-II:\n(a) \\(64\\)\n(b) \\(3\\)\n(c) \\(729\\)\n\nসঠিক জোৰণটো বাছক:",
           "options": ["(i)-(c), (ii)-(a), (iii)-(b)", "(i)-(a), (ii)-(b), (iii)-(c)", "(i)-(b), (ii)-(c), (iii)-(a)", "(i)-(c), (ii)-(b), (iii)-(a)"],
           "correctAnswer": 0
         },
