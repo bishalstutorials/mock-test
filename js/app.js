@@ -15,10 +15,40 @@ const resetFiltersButton = document.getElementById("reset-filters");
 const testCount = document.getElementById("test-count");
 
 let allTests = [];
+let testsLoaded = false;
 
 // Display the current year
 if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
+}
+
+// Normalize text for reliable comparisons
+function normalizeText(value) {
+    return String(value || "").trim().toLowerCase();
+}
+
+// Format test type for display
+function formatTestType(value) {
+    const normalized = normalizeText(value);
+
+    const testTypeLabels = {
+        "chapter": "Chapter Test",
+        "chapter test": "Chapter Test",
+        "subject": "Subject Test",
+        "subject test": "Subject Test",
+        "complete": "Complete All Subject Test",
+        "complete test": "Complete All Subject Test",
+        "complete all subject test": "Complete All Subject Test",
+        "mock test": "Mock Test"
+    };
+
+    if (!normalized) {
+        return "Not specified";
+    }
+
+    // Return the standard label when recognized.
+    // Otherwise, display the original value instead of hiding it.
+    return testTypeLabels[normalized] || String(value).trim();
 }
 
 // Open the mock-test catalogue
@@ -41,17 +71,21 @@ if (startButton) {
                 "Choose a test below to begin.";
         }
 
-        loadMockTests();
+        if (!testsLoaded) {
+            loadMockTests();
+        }
     });
 }
 
 // Load only the teacher-selected active test
 async function loadMockTests() {
+    if (!testList) return;
+
     testList.innerHTML =
         '<p class="test-list-message">Loading available tests...</p>';
 
     try {
-        // First, load the active test ID
+        // Load the active test configuration
         const activeResponse = await fetch(
             "data/active-test.json",
             { cache: "no-store" }
@@ -68,7 +102,7 @@ async function loadMockTests() {
             throw new Error("No active test has been selected.");
         }
 
-        // Load the complete test data
+        // Load all test data
         const response = await fetch(
             "data/tests.json",
             { cache: "no-store" }
@@ -80,20 +114,36 @@ async function loadMockTests() {
 
         const data = await response.json();
 
-        // Keep only the teacher-selected test
-allTests = (Array.isArray(data.tests) ? data.tests : [])
-    .filter(test => activeTestId === "all" || test.id === activeTestId);
+        if (!Array.isArray(data.tests)) {
+            throw new Error("The tests array is missing or invalid.");
+        }
+
+        // Keep only the teacher-selected test.
+        // "all" displays every test.
+        allTests = data.tests.filter(function (test) {
+            return (
+                activeTestId === "all" ||
+                test.id === activeTestId
+            );
+        });
+
         if (allTests.length === 0) {
             testList.innerHTML =
                 '<p class="test-list-message">' +
                 'The selected test is unavailable. Please contact your teacher.' +
                 '</p>';
 
-            testCount.textContent = "0 tests available";
+            if (testCount) {
+                testCount.textContent = "0 tests available";
+            }
+
             return;
         }
-populateFilters();
-renderTests();
+
+        populateFilters();
+        renderTests();
+
+        testsLoaded = true;
 
     } catch (error) {
         console.error("Error loading active test:", error);
@@ -103,7 +153,15 @@ renderTests();
             'Unable to load the assigned test. Please try again later.' +
             '</p>';
 
-        testCount.textContent = "";
+        if (testCount) {
+            testCount.textContent = "";
+        }
+
+        // Allow another attempt if loading failed
+        if (startButton) {
+            startButton.disabled = false;
+            startButton.textContent = "Try Again";
+        }
     }
 }
 
@@ -125,6 +183,12 @@ function populateFilters() {
         languageFilter,
         "All Languages",
         allTests.map(test => test.language)
+    );
+
+    populateDropdown(
+        testTypeFilter,
+        "All Test Types",
+        allTests.map(test => test.testType)
     );
 
     updateChapterFilter();
@@ -171,10 +235,16 @@ function populateDropdown(dropdown, defaultLabel, values) {
 
 // Update Chapter dropdown according to Class and Subject
 function updateChapterFilter() {
-    if (!classFilter || !subjectFilter || !chapterFilter) return;
+    if (!chapterFilter) return;
 
-    const selectedClass = classFilter.value;
-    const selectedSubject = subjectFilter.value;
+    const selectedClass = classFilter
+        ? classFilter.value
+        : "all";
+
+    const selectedSubject = subjectFilter
+        ? subjectFilter.value
+        : "all";
+
     const previousChapter = chapterFilter.value;
 
     const relevantTests = allTests.filter(function (test) {
@@ -210,13 +280,19 @@ function updateChapterFilter() {
 
 // Display tests matching all selected filters
 function renderTests() {
-    if (!testList || !classFilter || !subjectFilter || !chapterFilter) {
-        return;
-    }
+    if (!testList) return;
 
-    const selectedClass = classFilter.value;
-    const selectedSubject = subjectFilter.value;
-    const selectedChapter = chapterFilter.value;
+    const selectedClass = classFilter
+        ? classFilter.value
+        : "all";
+
+    const selectedSubject = subjectFilter
+        ? subjectFilter.value
+        : "all";
+
+    const selectedChapter = chapterFilter
+        ? chapterFilter.value
+        : "all";
 
     const selectedLanguage = languageFilter
         ? languageFilter.value
@@ -241,13 +317,13 @@ function renderTests() {
 
         const matchesLanguage =
             selectedLanguage === "all" ||
-            (test.language || "").toLowerCase() ===
-            selectedLanguage.toLowerCase();
+            normalizeText(test.language) ===
+            normalizeText(selectedLanguage);
 
         const matchesTestType =
             selectedTestType === "all" ||
-            (test.testType || "").toLowerCase() ===
-            selectedTestType.toLowerCase();
+            normalizeText(test.testType) ===
+            normalizeText(selectedTestType);
 
         return (
             matchesClass &&
@@ -302,19 +378,9 @@ function renderTests() {
         languageInfo.textContent =
             "Language: " + (test.language || "Not specified");
 
-        const testTypeLabels = {
-            chapter: "Chapter Test",
-            subject: "Subject Test"
-        };
-
         const testTypeInfo = document.createElement("p");
-        const normalizedTestType =
-            (test.testType || "").toLowerCase();
-
         testTypeInfo.textContent =
-            "Test Type: " +
-            (testTypeLabels[normalizedTestType] ||
-                "Not specified");
+            "Test Type: " + formatTestType(test.testType);
 
         const durationInfo = document.createElement("p");
         durationInfo.textContent =
