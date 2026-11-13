@@ -241,7 +241,9 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    questionText.innerHTML = formatMathText(question.text);
+   const questionContent = question.text ?? question.question;
+
+questionText.innerHTML = formatMathText(questionContent ?? "");
 
     optionsContainer.innerHTML = "";
 
