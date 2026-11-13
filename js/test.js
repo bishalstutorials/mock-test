@@ -30,17 +30,17 @@ if (testYear) {
 function formatMathText(value) {
     let text = String(value ?? "");
 
-    // Normalize Windows and Unix line endings.
+    // Normalize line endings.
     text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+
+    // Normalize double-escaped LaTeX delimiters and commands.
+    text = text.replace(/\\\\(?=[()[\]]|[a-zA-Z])/g, "\\");
 
     // Convert literal HTML space entities into actual spaces.
     text = text.replace(/&#x20;|&#32;|&nbsp;/gi, " ");
 
     // Remove accidental Markdown heading markers.
-    // Handles markers at the beginning of a line or inline.
-    text = text.replace(/(^|\s)#{1,6}(?=\s|$)/gm, "$1");
-
-    // Remove any remaining accidental triple-hash markers.
+    text = text.replace(/(^|\s)#{1,6}(?=\s|$)/g, "$1");
     text = text.replace(/#{3,}/g, "");
 
     // Escape HTML characters safely.
@@ -62,8 +62,8 @@ function formatMathText(value) {
             .replace(/\b(sin|cos|tan|cot|sec|cosec)\b/g, "\\$1");
     }
 
-    // Preserve existing LaTeX expressions.
-    // Convert ordinary fractions only when LaTeX is not already present.
+    // Preserve existing LaTeX.
+    // Convert ordinary fractions only when no LaTeX is present.
     if (!text.includes("\\(") && !text.includes("\\[")) {
 
         const fractionPattern =
@@ -80,6 +80,7 @@ function formatMathText(value) {
             }
         );
 
+        // Convert mathematical symbols outside fractions.
         if (
             text.includes("√") ||
             text.includes("²") ||
@@ -91,7 +92,7 @@ function formatMathText(value) {
         }
     }
 
-    // Convert line breaks into visible HTML line breaks.
+    // Display JSON newline characters as visible line breaks.
     return text.replace(/\n/g, "<br>");
 }
 
@@ -148,11 +149,15 @@ async function loadTest() {
             throw new Error("No questions were found in the test data.");
         }
 
+        // Check whether this test has already been attempted.
         const attemptKey = "attempted_" + currentTest.id;
 
         if (localStorage.getItem(attemptKey) === "true") {
 
             testTitle.textContent = currentTest.title;
+
+            testDetails.textContent =
+                `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
             questionText.textContent =
                 "You have already attempted this test.";
@@ -179,8 +184,9 @@ async function loadTest() {
 
         testTitle.textContent = currentTest.title;
 
+        // Display class, subject and test type.
         testDetails.textContent =
-            `${currentTest.class} | ${currentTest.subject}`;
+            `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
         await renderQuestion();
 
@@ -225,7 +231,7 @@ async function renderQuestion() {
     questionNumber.textContent =
         `Question ${currentQuestionIndex + 1}`;
 
-    // Display question with preserved line breaks.
+    // Display question.
     questionText.innerHTML = formatMathText(question.text);
 
     // Clear old options.
@@ -286,7 +292,7 @@ async function renderQuestion() {
         optionsContainer.appendChild(label);
     });
 
-    // Render mathematical expressions in question and options.
+    // Render mathematical expressions.
     await renderMath([
         questionText,
         optionsContainer
