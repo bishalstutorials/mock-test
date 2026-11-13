@@ -12,7 +12,7 @@ const nextButton = document.getElementById("next-button");
 const submitButton = document.getElementById("submit-button");
 const timerElement = document.getElementById("timer");
 
-// NEW QUESTION PALETTE ELEMENTS
+// QUESTION PALETTE ELEMENTS
 const paletteGrid = document.getElementById("palette-grid");
 const answeredCount = document.getElementById("answered-count");
 const unansweredCount = document.getElementById("unanswered-count");
@@ -26,6 +26,7 @@ let selectedAnswers = [];
 let visitedQuestions = [];
 let timeRemaining = 0;
 let timerInterval = null;
+let isSubmitting = false;
 
 if (testYear) {
     testYear.textContent = new Date().getFullYear();
@@ -149,7 +150,7 @@ function createQuestionPalette() {
             `Go to question ${index + 1}`
         );
 
-        button.addEventListener("click", function() {
+        button.addEventListener("click", async function() {
 
             if (timeRemaining <= 0) {
                 testMessage.textContent =
@@ -159,10 +160,9 @@ function createQuestionPalette() {
 
             currentQuestionIndex = index;
 
-            renderQuestion();
+            await renderQuestion();
             updateNavigation();
 
-            // Close palette automatically on mobile.
             if (window.innerWidth <= 720) {
                 closeMobilePalette();
             }
@@ -205,26 +205,22 @@ function updateQuestionPalette() {
         if (isAnswered) {
 
             answered++;
-
             button.classList.add("answered");
 
         } else if (isVisited) {
 
             visitedUnanswered++;
-
             button.classList.add("visited-unanswered");
 
         } else {
 
             notVisited++;
-
             button.classList.add("not-visited");
         }
 
         if (index === currentQuestionIndex) {
 
             button.classList.add("current");
-
             button.setAttribute("aria-current", "step");
 
         } else {
@@ -317,7 +313,10 @@ async function loadTest() {
             if (
                 typeof question.question !== "string" ||
                 !Array.isArray(question.options) ||
-                question.options.length !== 4
+                question.options.length !== 4 ||
+                !Number.isInteger(question.correctAnswer) ||
+                question.correctAnswer < 0 ||
+                question.correctAnswer > 3
             ) {
                 throw new Error(
                     `Invalid question data at question ${index + 1}.`
@@ -326,42 +325,7 @@ async function loadTest() {
 
         });
 
-        const attemptKey = "attempted_" + currentTest.id;
-
-        if (localStorage.getItem(attemptKey) === "true") {
-
-            testTitle.textContent = currentTest.title;
-
-            testDetails.textContent =
-                `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
-
-            questionText.textContent =
-                "You have already attempted this test.";
-
-            questionProgress.textContent = "Attempt completed";
-
-            testMessage.textContent =
-                "You cannot attempt this test again. Please contact your teacher.";
-
-            optionsContainer.innerHTML = "";
-
-            previousButton.style.display = "none";
-            nextButton.style.display = "none";
-            submitButton.style.display = "none";
-
-            timerElement.textContent = "Completed";
-
-            if (paletteToggle) {
-                paletteToggle.style.display = "none";
-            }
-
-            if (questionPalette) {
-                questionPalette.style.display = "none";
-            }
-
-            return;
-        }
-
+        // Unlimited attempts: no previous-attempt blocking.
         selectedAnswers = Array(
             currentTest.questions.length
         ).fill(null);
@@ -375,7 +339,6 @@ async function loadTest() {
         testDetails.textContent =
             `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
-        // Mark the first question as visited.
         visitedQuestions[0] = true;
 
         createQuestionPalette();
@@ -421,7 +384,6 @@ async function renderQuestion() {
         ]);
     }
 
-    // Mark current question as visited.
     visitedQuestions[currentQuestionIndex] = true;
 
     questionProgress.textContent =
@@ -611,7 +573,6 @@ function startTimer() {
                     button.disabled = true;
                 });
             }
-
         }
 
     }, 1000);
@@ -624,7 +585,9 @@ function startTimer() {
 
 function submitTest() {
 
-    if (!currentTest) return;
+    if (!currentTest || isSubmitting) return;
+
+    isSubmitting = true;
 
     clearInterval(timerInterval);
 
@@ -660,7 +623,21 @@ function submitTest() {
         (correct * marksPerQuestion) -
         (wrong * negativeMarks);
 
+    // Count this completed submission for this particular test.
+    const attemptKey = "attempt_count_" + currentTest.id;
+
+    const previousAttempts = Number.parseInt(
+        localStorage.getItem(attemptKey) || "0",
+        10
+    );
+
+    const attemptNumber =
+        (Number.isFinite(previousAttempts) && previousAttempts >= 0
+            ? previousAttempts
+            : 0) + 1;
+
     const result = {
+        testId: currentTest.id,
         testTitle: currentTest.title,
         className: currentTest.class,
         subject: currentTest.subject,
@@ -671,13 +648,15 @@ function submitTest() {
         score,
         marksPerQuestion,
         negativeMarks,
+        attemptNumber,
         questions: currentTest.questions,
         selectedAnswers
     };
 
+    // Save the new attempt count.
     localStorage.setItem(
-        "attempted_" + currentTest.id,
-        "true"
+        attemptKey,
+        String(attemptNumber)
     );
 
     sessionStorage.setItem(
@@ -694,6 +673,8 @@ function submitTest() {
 // ============================================
 
 submitButton.addEventListener("click", function() {
+
+    if (isSubmitting) return;
 
     const confirmed = confirm(
         "Are you sure you want to submit your test?"
