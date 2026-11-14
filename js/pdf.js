@@ -258,6 +258,12 @@ function downloadResultPDF(result) {
                 max-width: 100%;
             }
 
+            mjx-container[display="true"] {
+                overflow-x: auto;
+                overflow-y: hidden;
+                padding: 4px 0;
+            }
+
             .footer {
                 margin-top: 35px;
                 padding-top: 12px;
@@ -293,10 +299,19 @@ function downloadResultPDF(result) {
         </style>
 
         <script>
+            // IMPORTANT:
+            // These delimiters require double escaping because
+            // this script is inside an outer JavaScript template literal.
             window.MathJax = {
                 tex: {
-                    inlineMath: [['\\(', '\\)'], ['$', '$']],
-                    displayMath: [['\\[', '\\]'], ['$$', '$$']],
+                    inlineMath: [
+                        ['\\\\(', '\\\\)'],
+                        ['$', '$']
+                    ],
+                    displayMath: [
+                        ['\\\\[', '\\\\]'],
+                        ['$$', '$$']
+                    ],
                     processEscapes: true
                 },
                 svg: {
@@ -320,7 +335,7 @@ function downloadResultPDF(result) {
             <header class="header">
                 <img
                     class="logo"
-                    src="assets/logo.png"
+                    src="https://bishalstutorials.github.io/mock-test/assets/logo.png"
                     alt="Bishal's Tutorials"
                 >
 
@@ -387,38 +402,46 @@ function downloadResultPDF(result) {
                 try {
                     await document.fonts.ready;
 
-                    await new Promise((resolve, reject) => {
-                        const start = Date.now();
+                    // Wait until MathJax has loaded.
+                    const start = Date.now();
 
-                        const check = setInterval(() => {
+                    while (
+                        !window.MathJax ||
+                        !window.MathJax.startup ||
+                        !window.MathJax.startup.promise
+                    ) {
+                        if (Date.now() - start > 30000) {
+                            throw new Error("MathJax loading timed out.");
+                        }
 
-                            if (
-                                window.MathJax &&
-                                window.MathJax.startup &&
-                                window.MathJax.startup.promise
-                            ) {
-                                clearInterval(check);
-                                resolve();
+                        await new Promise(resolve =>
+                            setTimeout(resolve, 100)
+                        );
+                    }
 
-                            } else if (Date.now() - start > 20000) {
-                                clearInterval(check);
-                                reject(new Error("MathJax loading timed out."));
-                            }
-
-                        }, 100);
-                    });
-
+                    // Wait for MathJax initialization.
                     await MathJax.startup.promise;
-                    await MathJax.typesetPromise();
 
+                    // Render all mathematical expressions.
+                    await MathJax.typesetPromise([
+                        document.querySelector(".page")
+                    ]);
+
+                    // Wait for fonts and rendering to finish.
                     await document.fonts.ready;
+
+                    await new Promise(resolve =>
+                        requestAnimationFrame(() =>
+                            requestAnimationFrame(resolve)
+                        )
+                    );
 
                 } catch (error) {
                     console.error("PDF rendering error:", error);
 
                     alert(
                         "Mathematical formatting failed to load. " +
-                        "Please check your internet connection."
+                        "Please check your internet connection and try again."
                     );
 
                     return;
