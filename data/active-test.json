@@ -1,3 +1,6 @@
 {
-  "activeTestId": "all"
+  "activeTestId": [
+    "BT-X-MATH-AS-REAL-01",
+    "BT-X-MATH-AS-POLY-02"
+  ]
 }
