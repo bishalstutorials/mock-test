@@ -46,8 +46,6 @@ function formatTestType(value) {
         return "Not specified";
     }
 
-    // Return the standard label when recognized.
-    // Otherwise, display the original value instead of hiding it.
     return testTypeLabels[normalized] || String(value).trim();
 }
 
@@ -77,7 +75,7 @@ if (startButton) {
     });
 }
 
-// Load only the teacher-selected active test
+// Load teacher-selected active tests
 async function loadMockTests() {
     if (!testList) return;
 
@@ -85,7 +83,7 @@ async function loadMockTests() {
         '<p class="test-list-message">Loading available tests...</p>';
 
     try {
-        // Load the active test configuration
+        // Load active test configuration
         const activeResponse = await fetch(
             "data/active-test.json",
             { cache: "no-store" }
@@ -98,8 +96,14 @@ async function loadMockTests() {
         const activeData = await activeResponse.json();
         const activeTestId = activeData.activeTestId;
 
-        if (!activeTestId) {
-            throw new Error("No active test has been selected.");
+        if (
+            !activeTestId ||
+            (
+                !Array.isArray(activeTestId) &&
+                typeof activeTestId !== "string"
+            )
+        ) {
+            throw new Error("Invalid active test configuration.");
         }
 
         // Load all test data
@@ -118,13 +122,18 @@ async function loadMockTests() {
             throw new Error("The tests array is missing or invalid.");
         }
 
-        // Keep only the teacher-selected test.
-        // "all" displays every test.
+        // Support "all", a single ID, or multiple IDs.
         allTests = data.tests.filter(function (test) {
-            return (
-                activeTestId === "all" ||
-                test.id === activeTestId
-            );
+
+            if (activeTestId === "all") {
+                return true;
+            }
+
+            if (Array.isArray(activeTestId)) {
+                return activeTestId.includes(test.id);
+            }
+
+            return test.id === activeTestId;
         });
 
         if (allTests.length === 0) {
@@ -146,7 +155,7 @@ async function loadMockTests() {
         testsLoaded = true;
 
     } catch (error) {
-        console.error("Error loading active test:", error);
+        console.error("Error loading active tests:", error);
 
         testList.innerHTML =
             '<p class="test-list-message">' +
@@ -157,7 +166,6 @@ async function loadMockTests() {
             testCount.textContent = "";
         }
 
-        // Allow another attempt if loading failed
         if (startButton) {
             startButton.disabled = false;
             startButton.textContent = "Try Again";
@@ -224,7 +232,6 @@ function populateDropdown(dropdown, defaultLabel, values) {
         dropdown.appendChild(option);
     });
 
-    // Preserve the previous selection if it still exists
     if (
         previousValue !== "all" &&
         uniqueValues.includes(previousValue)
@@ -269,7 +276,6 @@ function updateChapterFilter() {
         relevantChapters
     );
 
-    // Preserve the selected chapter if it is still relevant
     if (
         previousChapter !== "all" &&
         relevantChapters.includes(previousChapter)
@@ -343,7 +349,6 @@ function renderTests() {
             (filteredTests.length === 1 ? " test" : " tests");
     }
 
-    // Show a message when no tests match
     if (filteredTests.length === 0) {
         testList.innerHTML =
             '<p class="test-list-message">' +
