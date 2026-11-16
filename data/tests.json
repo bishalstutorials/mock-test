@@ -162,4 +162,1955 @@
       {
         "id": "Q8",
         "question": "Simplifying \\(\\left(\\frac{81}{16}\\right)^{-\\frac{3}{4}}\\) gives—",
-        "options": [}
+        "options": [
+          "\\(-\\frac{27}{8}\\)",
+          "\\(\\frac{27}{8}\\)",
+          "\\(-\\frac{8}{27}\\)",
+          "\\(\\frac{8}{27}\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "If one factor of \\(a^3 + b^3 + c^3 - 3abc\\) is \\((a+b+c)\\), then the other factor is—",
+        "options": [
+          "\\(a^2 + b^2 + c^2 + ab + bc + ca\\)",
+          "\\(a^2 + b^2 + c^2 - ab - bc - ca\\)",
+          "\\(a^2 + b^2 + c^2 - 2ab - 2bc - 2ca\\)",
+          "\\((a-b)^2 + (b-c)^2 + (c-a)^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q10",
+        "question": "The exact value of \\(\\sqrt[3]{-0.000064}\\) is—",
+        "options": [
+          "\\(-0.04\\)",
+          "\\(0.04\\)",
+          "\\(-0.4\\)",
+          "\\(-0.004\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "Match the Column:\nColumn-I:\n(i) \\(a^3 - b^3\\)\n(ii) \\(a^3 + b^3\\)\n(iii) \\(a^2 - b^2\\)\n\nColumn-II:\n(a) \\((a-b)(a+b)\\)\n(b) \\((a-b)(a^2+ab+b^2)\\)\n(c) \\((a+b)(a^2-ab+b^2)\\)\n\nSelect the correct pair:",
+        "options": [
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(b), (iii)-(a)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "If \\(5^{x-2} \\times 3^{2x-3} = 135\\), then what is the value of \\(x\\)?",
+        "options": [
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)",
+          "\\(3\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q13",
+        "question": "The factors of \\(x^2 - y^2 - 2y - 1\\) are—",
+        "options": [
+          "\\((x-y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x+y+1)\\)",
+          "\\((x+y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x-y+1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q14",
+        "question": "If a number has \\(7\\) in its units place, what digit will be in the units place of its cube?",
+        "options": [
+          "\\(7\\)",
+          "\\(3\\)",
+          "\\(1\\)",
+          "\\(9\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q15",
+        "question": "In \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\angle A = \\angle P\\), \\(\\angle B = \\angle Q\\), and \\(AB = PQ\\). The criterion for congruence of the two triangles is—",
+        "options": [
+          "ASA",
+          "SAS",
+          "RHS",
+          "SSS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q16",
+        "question": "If \\(x + \\frac{1}{x} = 4\\), then what is the value of \\(x^4 + \\frac{1}{x^4}\\)?",
+        "options": [
+          "\\(194\\)",
+          "\\(192\\)",
+          "\\(196\\)",
+          "\\(186\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "By what smallest number should \\(1080\\) be multiplied so that the product becomes a perfect square?",
+        "options": [
+          "\\(15\\)",
+          "\\(3\\)",
+          "\\(30\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q18",
+        "question": "(i) Assertion (A): Any negative rational number raised to an even power is always positive.\n(ii) Reason (R): Multiplying a negative base an even number of times makes the negative sign positive.",
+        "options": [
+          "(A) is true but (R) is false.",
+          "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+          "(A) is false but (R) is true.",
+          "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "What is the cube root of \\(91125\\)?",
+        "options": [
+          "\\(35\\)",
+          "\\(25\\)",
+          "\\(45\\)",
+          "\\(55\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "The simplified value of \\(\\left(\\frac{x^a}{x^b}\\right)^{a+b} \\times \\left(\\frac{x^b}{x^c}\\right)^{b+c} \\times \\left(\\frac{x^c}{x^a}\\right)^{c+a}\\) is—",
+        "options": [
+          "\\(x^{a^2+b^2+c^2}\\)",
+          "\\(x^{a+b+c}\\)",
+          "\\(1\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q21",
+        "question": "In \\(\\triangle ABC\\), \\(AB = AC\\) and \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). The condition for \\(\\triangle ABD \\cong \\triangle ACD\\) is—",
+        "options": [
+          "SAS",
+          "SSS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q22",
+        "question": "Factorization of \\(6x^2 - 7x - 3\\) gives—",
+        "options": [
+          "\\((6x + 1)(x - 3)\\)",
+          "\\((2x - 3)(3x + 1)\\)",
+          "\\((3x - 3)(2x + 1)\\)",
+          "\\((2x + 3)(3x - 1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q23",
+        "question": "If \\(\\sqrt{1 + \\frac{27}{169}} = 1 + \\frac{x}{13}\\), then find the value of \\(x\\).",
+        "options": [
+          "\\(1\\)",
+          "\\(14\\)",
+          "\\(3\\)",
+          "\\(2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "Match the Column:\nColumn-I:\n(i) SSS Congruence Criterion\n(ii) SAS Congruence Criterion\n(iii) RHS Congruence Criterion\n\nColumn-II:\n(a) Three corresponding sides are equal\n(b) Right angle, hypotenuse, and one corresponding side\n(c) Two sides and the included angle\n\nSelect the correct pair:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q25",
+        "question": "How many perfect square numbers lie between \\(1000\\) and \\(2000\\)?",
+        "options": [
+          "\\(13\\)",
+          "\\(14\\)",
+          "\\(15\\)",
+          "\\(12\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q26",
+        "question": "If the surface area of a cube is \\(294\\text{ cm}^2\\), what is its volume?",
+        "options": [
+          "\\(343\\text{ cm}^3\\)",
+          "\\(512\\text{ cm}^3\\)",
+          "\\(729\\text{ cm}^3\\)",
+          "\\(216\\text{ cm}^3\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q27",
+        "question": "The factors of \\(a^4 + a^2 b^2 + b^4\\) are—",
+        "options": [
+          "\\((a^2 - b^2)(a^2 + b^2)\\)",
+          "\\((a^2 + b^2)^2\\)",
+          "\\((a^2 + ab - b^2)(a^2 - ab + b^2)\\)",
+          "\\((a^2 - ab + b^2)(a^2 + ab + b^2)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q28",
+        "question": "If \\(3^{x+1} + 3^{x-1} = 90\\), then find the value of \\(x\\).",
+        "options": [
+          "\\(3\\)",
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q29",
+        "question": "In \\(\\triangle ABC\\), \\(\\angle A = 90^\\circ\\) and \\(AB = AC\\). What is the measure of \\(\\angle B\\)?",
+        "options": [
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(30^\\circ\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q30",
+        "question": "What is the value of \\(\\sqrt{5\\sqrt{5\\sqrt{5\\dots}}}\\) (up to infinity)?",
+        "options": [
+          "\\(25\\)",
+          "\\(1\\)",
+          "\\(5\\)",
+          "\\(\\sqrt{5}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q31",
+        "question": "By what smallest number should \\(13824\\) be divided so that the quotient becomes a perfect square?",
+        "options": [
+          "\\(4\\)",
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "The factorized form of \\(x^2 + (p+q)x + pq\\) is—",
+        "options": [
+          "\\((x+p)(x-q)\\)",
+          "\\((x-p)(x-q)\\)",
+          "\\((x-p)(x+q)\\)",
+          "\\((x+p)(x+q)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q33",
+        "question": "What is the simplified value of \\(\\left(\\frac{1}{4}\\right)^{-2} + \\left(\\frac{1}{3}\\right)^{-3} + \\left(\\frac{1}{2}\\right)^{-4}\\)?",
+        "options": [
+          "\\(43\\)",
+          "\\(29\\)",
+          "\\(57\\)",
+          "\\(59\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "Which of the following is NOT a criterion for congruence of two triangles?",
+        "options": [
+          "AAA",
+          "RHS",
+          "SSS",
+          "SAS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "Using algebraic identities, the value of \\(105 \\times 95\\) is—",
+        "options": [
+          "\\(9975\\)",
+          "\\(10025\\)",
+          "\\(9925\\)",
+          "\\(9985\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "What is the value of \\(\\sqrt[3]{175616}\\)?",
+        "options": [
+          "\\(36\\)",
+          "\\(46\\)",
+          "\\(66\\)",
+          "\\(56\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q37",
+        "question": "The complete factorization of \\(x^4 - 81\\) is—",
+        "options": [
+          "\\((x^2-9)(x^2+9)\\)",
+          "\\((x-3)^2(x+3)^2\\)",
+          "\\((x-9)(x+9)\\)",
+          "\\((x-3)(x+3)(x^2+9)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q38",
+        "question": "If \\(\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-5}\\), then find the value of \\(x\\).",
+        "options": [
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(3\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q39",
+        "question": "\\(\\triangle ABC \\cong \\triangle DEF\\). If \\(AB = 6\\text{ cm}\\), \\(\\angle B = 50^\\circ\\), and \\(\\angle A = 70^\\circ\\), what is the measure of \\(\\angle F\\)?",
+        "options": [
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "What is the value of \\(\\sqrt{41^2 - 40^2}\\)?",
+        "options": [
+          "8",
+          "\\(1\\)",
+          "\\(9\\)",
+          "\\(81\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q41",
+        "question": "A perfect cube number \\(N\\) ends with \\(9\\) zeros. How many zeros will be in the cube root of \\(N\\)?",
+        "options": [
+          "\\(3\\)",
+          "\\(6\\)",
+          "\\(9\\)",
+          "\\(1\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q42",
+        "question": "A factor of \\(8x^3 - 27y^3\\) is—",
+        "options": [
+          "\\(4x^2 + 12xy + 9y^2\\)",
+          "\\(2x + 3y\\)",
+          "\\(4x^2 + 6xy + 9y^2\\)",
+          "\\(4x^2 - 6xy + 9y^2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q43",
+        "question": "What is the value of \\((0.000064)^{\\frac{5}{6}}\\)?",
+        "options": [
+          "\\(0.000032\\)",
+          "\\(0.032\\)",
+          "\\(0.0032\\)",
+          "\\(0.00032\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q44",
+        "question": "In \\(\\triangle ABC\\), \\(AB = AC\\) and \\(\\angle B = 65^\\circ\\). What is the measure of \\(\\angle A\\)?",
+        "options": [
+          "\\(65^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(130^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q45",
+        "question": "What is the value of \\(\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}\\) (up to infinity)?",
+        "options": [
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(-2\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-HI-CH00-01",
+    "title": "पुनरावृत्ति - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Hindi",
+    "chapter": "पुनरावृत्ति",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "यदि \\(x = \\sqrt{3 + 2\\sqrt{2}}\\) है, तो \\(x + \\frac{1}{x}\\) का मान क्या होगा?",
+        "options": [
+          "\\(2\\)",
+          "\\(2\\sqrt{2}\\)",
+          "\\(4\\)",
+          "\\(\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q2",
+        "question": "\\(250\\) को किस सबसे छोटी संख्या से भाग दिया जाए कि भागफल एक पूर्ण घन बन जाए?",
+        "options": [
+          "\\(25\\)",
+          "\\(2\\)",
+          "\\(10\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q3",
+        "question": "स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) \\(a^m \\times a^n\\)\n(ii) \\((a^m)^n\\)\n(iii) \\(\\frac{a^m}{a^n}\\)\n\nस्तंभ-II:\n(a) \\(a^{m-n}\\)\n(b) \\(a^{mn}\\)\n(c) \\(a^{m+n}\\)\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "यदि \\(2^{x-1} + 2^{x+1} = 320\\) है, तो \\(x\\) का मान ज्ञात कीजिए।",
+        "options": [
+          "\\(5\\)",
+          "\\(6\\)",
+          "\\(7\\)",
+          "\\(8\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "\\(x^4 + 4y^4\\) का सही गुणनखंड रूप है—",
+        "options": [
+          "\\((x^2 - 2y^2)(x^2 + 2y^2)\\)",
+          "\\((x^2 - 2y^2)^2\\)",
+          "\\((x^2 - 2xy + 2y^2)(x^2 + 2xy + 2y^2)\\)",
+          "\\((x^2 + 2xy - 2y^2)(x^2 - 2xy - 2y^2)\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "(i) कथन (A): \\(\\triangle ABC\\) और \\(\\triangle DEF\\) में, यदि \\(AB = DE\\), \\(BC = EF\\) और \\(\\angle B = \\angle E = 90^\\circ\\) है, तो \\(\\triangle ABC \\cong \\triangle DEF\\) होगा।\n(ii) कारण (R): भुजा-कोण-भुजा (SAS) सर्वांगसमता नियम के अनुसार, यदि दो भुजाएँ और उनके अंतर्गत कोण बराबर हों, तो त्रिभुज सर्वांगसम होते हैं।",
+        "options": [
+          "(A) और (R) दोनों सत्य हैं परंतु (R), (A) की सही व्याख्या नहीं है।",
+          "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।",
+          "(A) असत्य है परंतु (R) सत्य है।",
+          "(A) सत्य है परंतु (R) असत्य है।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q7",
+        "question": "\\(\\sqrt{0.000441}\\) का मान क्या है?",
+        "options": [
+          "\\(2.1\\)",
+          "\\(0.0021\\)",
+          "\\(0.21\\)",
+          "\\(0.021\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q8",
+        "question": "\\(\\left(\\frac{81}{16}\\right)^{-\\frac{3}{4}}\\) को सरल करने पर प्राप्त होगा—",
+        "options": [
+          "\\(-\\frac{27}{8}\\)",
+          "\\(\\frac{27}{8}\\)",
+          "\\(-\\frac{8}{27}\\)",
+          "\\(\\frac{8}{27}\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "यदि \\(a^3 + b^3 + c^3 - 3abc\\) का एक गुणनखंड \\((a+b+c)\\) है, तो दूसरा गुणनखंड होगा—",
+        "options": [
+          "\\(a^2 + b^2 + c^2 + ab + bc + ca\\)",
+          "\\(a^2 + b^2 + c^2 - ab - bc - ca\\)",
+          "\\(a^2 + b^2 + c^2 - 2ab - 2bc - 2ca\\)",
+          "\\((a-b)^2 + (b-c)^2 + (c-a)^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q10",
+        "question": "\\(\\sqrt[3]{-0.000064}\\) का सही मान है—",
+        "options": [
+          "\\(-0.04\\)",
+          "\\(0.04\\)",
+          "\\(-0.4\\)",
+          "\\(-0.004\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) \\(a^3 - b^3\\)\n(ii) \\(a^3 + b^3\\)\n(iii) \\(a^2 - b^2\\)\n\nस्तंभ-II:\n(a) \\((a-b)(a+b)\\)\n(b) \\((a-b)(a^2+ab+b^2)\\)\n(c) \\((a+b)(a^2-ab+b^2)\\)\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(b), (iii)-(a)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "यदि \\(5^{x-2} \\times 3^{2x-3} = 135\\) है, तो \\(x\\) का मान क्या होगा?",
+        "options": [
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)",
+          "\\(3\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q13",
+        "question": "\\(x^2 - y^2 - 2y - 1\\) के गुणनखंड हैं—",
+        "options": [
+          "\\((x-y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x+y+1)\\)",
+          "\\((x+y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x-y+1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q14",
+        "question": "यदि किसी संख्या की इकाई के स्थान पर \\(7\\) है, तो उसके घन की इकाई के स्थान पर कौन-सा अंक होगा?",
+        "options": [
+          "\\(7\\)",
+          "\\(3\\)",
+          "\\(1\\)",
+          "\\(9\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q15",
+        "question": "\\(\\triangle ABC\\) और \\(\\triangle PQR\\) में, \\(\\angle A = \\angle P\\), \\(\\angle B = \\angle Q\\) और \\(AB = PQ\\) है। दोनों त्रिभुजों की सर्वांगसमता की कसौटी है—",
+        "options": [
+          "ASA",
+          "SAS",
+          "RHS",
+          "SSS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q16",
+        "question": "यदि \\(x + \\frac{1}{x} = 4\\) है, तो \\(x^4 + \\frac{1}{x^4}\\) का मान क्या होगा?",
+        "options": [
+          "\\(194\\)",
+          "\\(192\\)",
+          "\\(196\\)",
+          "\\(186\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "\\(1080\\) को किस सबसे छोटी संख्या से गुणा किया जाए कि गुणनफल एक पूर्ण वर्ग बन जाए?",
+        "options": [
+          "\\(15\\)",
+          "\\(3\\)",
+          "\\(30\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q18",
+        "question": "(i) कथन (A): किसी भी ऋणात्मक परिमेय संख्या की सम घात हमेशा धनात्मक होती है।\n(ii) कारण (R): ऋणात्मक आधार को सम बार गुणा करने पर ऋणात्मक चिन्ह धनात्मक हो जाता है।",
+        "options": [
+          "(A) सत्य है परंतु (R) असत्य है।",
+          "(A) और (R) दोनों सत्य हैं परंतु (R), (A) की सही व्याख्या नहीं है।",
+          "(A) असत्य है परंतु (R) सत्य है।",
+          "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(91125\\) का घनमूल क्या है?",
+        "options": [
+          "\\(35\\)",
+          "\\(25\\)",
+          "\\(45\\)",
+          "\\(55\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "\\(\\left(\\frac{x^a}{x^b}\\right)^{a+b} \\times \\left(\\frac{x^b}{x^c}\\right)^{b+c} \\times \\left(\\frac{x^c}{x^a}\\right)^{c+a}\\) का सरल मान है—",
+        "options": [
+          "\\(x^{a^2+b^2+c^2}\\)",
+          "\\(x^{a+b+c}\\)",
+          "\\(1\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q21",
+        "question": "\\(\\triangle ABC\\) में, \\(AB = AC\\) और \\(AD\\), \\(\\angle A\\) का समद्विभाजक है जो \\(BC\\) से \\(D\\) पर मिलता है। \\(\\triangle ABD \\cong \\triangle ACD\\) होने की शर्त है—",
+        "options": [
+          "SAS",
+          "SSS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q22",
+        "question": "\\(6x^2 - 7x - 3\\) का गुणनखंड करने पर प्राप्त होगा—",
+        "options": [
+          "\\((6x + 1)(x - 3)\\)",
+          "\\((2x - 3)(3x + 1)\\)",
+          "\\((3x - 3)(2x + 1)\\)",
+          "\\((2x + 3)(3x - 1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q23",
+        "question": "यदि \\(\\sqrt{1 + \\frac{27}{169}} = 1 + \\frac{x}{13}\\) है, तो \\(x\\) का मान ज्ञात कीजिए।",
+        "options": [
+          "\\(1\\)",
+          "\\(14\\)",
+          "\\(3\\)",
+          "\\(2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) SSS सर्वांगसमता कसौटी\n(ii) SAS सर्वांगसमता कसौटी\n(iii) RHS सर्वांगसमता कसौटी\n\nस्तंभ-II:\n(a) तीनों संगत भुजाएँ बराबर\n(b) समकोण, कर्ण और एक संगत भुजा\n(c) दो भुजाएँ और अंतर्गत कोण\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q25",
+        "question": "\\(1000\\) और \\(2000\\) के बीच कितनी पूर्ण वर्ग संख्याएँ हैं?",
+        "options": [
+          "\\(13\\)",
+          "\\(14\\)",
+          "\\(15\\)",
+          "\\(12\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q26",
+        "question": "यदि एक घन का पृष्ठीय क्षेत्रफल \\(294\\text{ cm}^2\\) है, तो इसका आयतन क्या होगा?",
+        "options": [
+          "\\(343\\text{ cm}^3\\)",
+          "\\(512\\text{ cm}^3\\)",
+          "\\(729\\text{ cm}^3\\)",
+          "\\(216\\text{ cm}^3\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q27",
+        "question": "\\(a^4 + a^2 b^2 + b^4\\) के गुणनखंड हैं—",
+        "options": [
+          "\\((a^2 - b^2)(a^2 + b^2)\\)",
+          "\\((a^2 + b^2)^2\\)",
+          "\\((a^2 + ab - b^2)(a^2 - ab + b^2)\\)",
+          "\\((a^2 - ab + b^2)(a^2 + ab + b^2)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q28",
+        "question": "यदि \\(3^{x+1} + 3^{x-1} = 90\\) है, तो \\(x\\) का मान ज्ञात कीजिए।",
+        "options": [
+          "\\(3\\)",
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q29",
+        "question": "\\(\\triangle ABC\\) में, \\(\\angle A = 90^\\circ\\) और \\(AB = AC\\) है। \\(\\angle B\\) का मान क्या होगा?",
+        "options": [
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(30^\\circ\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q30",
+        "question": "\\(\\sqrt{5\\sqrt{5\\sqrt{5\\dots}}}\\) (अनंत तक) का मान क्या होगा?",
+        "options": [
+          "\\(25\\)",
+          "\\(1\\)",
+          "\\(5\\)",
+          "\\(\\sqrt{5}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q31",
+        "question": "\\(13824\\) को किस सबसे छोटी संख्या से भाग दिया जाए कि भागफल एक पूर्ण वर्ग बन जाए?",
+        "options": [
+          "\\(4\\)",
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "\\(x^2 + (p+q)x + pq\\) का गुणनखंड रूप है—",
+        "options": [
+          "\\((x+p)(x-q)\\)",
+          "\\((x-p)(x-q)\\)",
+          "\\((x-p)(x+q)\\)",
+          "\\((x+p)(x+q)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q33",
+        "question": "\\(\\left(\\frac{1}{4}\\right)^{-2} + \\left(\\frac{1}{3}\\right)^{-3} + \\left(\\frac{1}{2}\\right)^{-4}\\) का सरल मान क्या है?",
+        "options": [
+          "\\(43\\)",
+          "\\(29\\)",
+          "\\(57\\)",
+          "\\(59\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "निम्नलिखित में से कौन-सा दो त्रिभुजों की सर्वांगसमता की कसौटी नहीं है?",
+        "options": [
+          "AAA",
+          "RHS",
+          "SSS",
+          "SAS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "बीजगणितीय सर्वसमिकाओं का उपयोग करके \\(105 \\times 95\\) का मान होगा—",
+        "options": [
+          "\\(9975\\)",
+          "\\(10025\\)",
+          "\\(9925\\)",
+          "\\(9985\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "\\(\\sqrt[3]{175616}\\) का मान क्या है?",
+        "options": [
+          "\\(36\\)",
+          "\\(46\\)",
+          "\\(66\\)",
+          "\\(56\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q37",
+        "question": "\\(x^4 - 81\\) का पूर्ण गुणनखंड है—",
+        "options": [
+          "\\((x^2-9)(x^2+9)\\)",
+          "\\((x-3)^2(x+3)^2\\)",
+          "\\((x-9)(x+9)\\)",
+          "\\((x-3)(x+3)(x^2+9)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q38",
+        "question": "यदि \\(\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-5}\\) है, तो \\(x\\) का मान ज्ञात कीजिए।",
+        "options": [
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(3\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q39",
+        "question": "\\(\\triangle ABC \\cong \\triangle DEF\\) है। यदि \\(AB = 6\\text{ cm}\\), \\(\\angle B = 50^\\circ\\) और \\(\\angle A = 70^\\circ\\) है, तो \\(\\angle F\\) का मान क्या होगा?",
+        "options": [
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "\\(\\sqrt{41^2 - 40^2}\\) का मान क्या है?",
+        "options": [
+          "8",
+          "\\(1\\)",
+          "\\(9\\)",
+          "\\(81\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q41",
+        "question": "एक पूर्ण घन संख्या \\(N\\) के अंत में \\(9\\) शून्य हैं। \\(N\\) के घनमूल में कितने शून्य होंगे?",
+        "options": [
+          "\\(3\\)",
+          "\\(6\\)",
+          "\\(9\\)",
+          "\\(1\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q42",
+        "question": "\\(8x^3 - 27y^3\\) का एक गुणनखंड है—",
+        "options": [
+          "\\(4x^2 + 12xy + 9y^2\\)",
+          "\\(2x + 3y\\)",
+          "\\(4x^2 + 6xy + 9y^2\\)",
+          "\\(4x^2 - 6xy + 9y^2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q43",
+        "question": "\\((0.000064)^{\\frac{5}{6}}\\) का मान क्या है?",
+        "options": [
+          "\\(0.000032\\)",
+          "\\(0.032\\)",
+          "\\(0.0032\\)",
+          "\\(0.00032\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q44",
+        "question": "\\(\\triangle ABC\\) में, \\(AB = AC\\) और \\(\\angle B = 65^\\circ\\) है। \\(\\angle A\\) का मान क्या होगा?",
+        "options": [
+          "\\(65^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(130^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q45",
+        "question": "\\(\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}\\) (अनंत तक) का मान क्या होगा?",
+        "options": [
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(-2\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-AS-CH00-01",
+    "title": "Revision Exercise (পুনৰালোচনা) - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Assamese",
+    "chapter": "পুনৰালোচনা",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "যদি \\(x = \\sqrt{3 + 2\\sqrt{2}}\\) হয়, তেন্তে \\(x + \\frac{1}{x}\\) ৰ মান কিমান?",
+        "options": [
+          "\\(2\\)",
+          "\\(2\\sqrt{2}\\)",
+          "\\(4\\)",
+          "\\(\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q2",
+        "question": "আটাইতকৈ সৰু কোনটো সংখ্যাৰে \\(250\\) ক হৰণ কৰিলে ভাগফল এটা পূৰ্ণঘন সংখ্যা হ'ব?",
+        "options": [
+          "\\(25\\)",
+          "\\(2\\)",
+          "\\(10\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q3",
+        "question": "স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) \\(a^m \\times a^n\\)\n(ii) \\((a^m)^n\\)\n(iii) \\(\\frac{a^m}{a^n}\\)\n\nস্তম্ভ-II:\n(a) \\(a^{m-n}\\)\n(b) \\(a^{mn}\\)\n(c) \\(a^{m+n}\\)\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "যদি \\(2^{x-1} + 2^{x+1} = 320\\) হয়, তেন্তে \\(x\\) ৰ মান কিমান?",
+        "options": [
+          "\\(5\\)",
+          "\\(6\\)",
+          "\\(7\\)",
+          "\\(8\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "\\(x^4 + 4y^4\\) ৰ শুদ্ধ উৎপাদক বিশ্লেষণ ৰূপটো হ'ল—",
+        "options": [
+          "\\((x^2 - 2y^2)(x^2 + 2y^2)\\)",
+          "\\((x^2 - 2y^2)^2\\)",
+          "\\((x^2 - 2xy + 2y^2)(x^2 + 2xy + 2y^2)\\)",
+          "\\((x^2 + 2xy - 2y^2)(x^2 - 2xy - 2y^2)\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "(i) উক্তি (A): \\(\\triangle ABC\\) আৰু \\(\\triangle DEF\\) ত যদি \\(AB = DE\\), \\(BC = EF\\) আৰু \\(\\angle B = \\angle E = 90^\\circ\\) হয়, তেন্তে \\(\\triangle ABC \\cong \\triangle DEF\\)।\n(ii) যুক্তি (R): বাহু-কোণ-বাহু (SAS) সৰ্বসমতাৰ নীতি অনুসৰি দুটা বাহু আৰু সিহঁতৰ অন্তৰ্গত কোণ সমান হ'লে ত্ৰিভুজ দুটা সৰ্বসম হয়।",
+        "options": [
+          "(A) আৰু (R) দুয়োটাই সত্য, কিন্তু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা নহয়।",
+          "(A) আৰু (R) দুয়োটাই সত্য আৰু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা।",
+          "(A) অসত্য, কিন্তু (R) সত্য।",
+          "(A) সত্য, কিন্তু (R) অসত্য।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q7",
+        "question": "\\(\\sqrt{0.000441}\\) ৰ মান কিমান?",
+        "options": [
+          "\\(2.1\\)",
+          "\\(0.0021\\)",
+          "\\(0.21\\)",
+          "\\(0.021\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q8",
+        "question": "\\(\\left(\\frac{81}{16}\\right)^{-\\frac{3}{4}}\\) ৰ মান সৰল কৰিলে পাব—",
+        "options": [
+          "\\(-\\frac{27}{8}\\)",
+          "\\(\\frac{27}{8}\\)",
+          "\\(-\\frac{8}{27}\\)",
+          "\\(\\frac{8}{27}\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "\\(a^3 + b^3 + c^3 - 3abc\\) ৰ এটা উৎপাদক \\((a+b+c)\\) হ'লে আনটো উৎপাদক হ'ব—",
+        "options": [
+          "\\(a^2 + b^2 + c^2 + ab + bc + ca\\)",
+          "\\(a^2 + b^2 + c^2 - ab - bc - ca\\)",
+          "\\(a^2 + b^2 + c^2 - 2ab - 2bc - 2ca\\)",
+          "\\((a-b)^2 + (b-c)^2 + (c-a)^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q10",
+        "question": "\\(\\sqrt[3]{-0.000064}\\) ৰ নিৰ্ভুল মান হ'ল—",
+        "options": [
+          "\\(-0.04\\)",
+          "\\(0.04\\)",
+          "\\(-0.4\\)",
+          "\\(-0.004\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) \\(a^3 - b^3\\)\n(ii) \\(a^3 + b^3\\)\n(iii) \\(a^2 - b^2\\)\n\nস্তম্ভ-II:\n(a) \\((a-b)(a+b)\\)\n(b) \\((a-b)(a^2+ab+b^2)\\)\n(c) \\((a+b)(a^2-ab+b^2)\\)\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(b), (iii)-(a)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "যদি \\(5^{x-2} \\times 3^{2x-3} = 135\\) হয়, তেন্তে \\(x\\) ৰ মান কিমান?",
+        "options": [
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)",
+          "\\(3\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q13",
+        "question": "\\(x^2 - y^2 - 2y - 1\\) ৰ উৎপাদকসমূহ হ'ল—",
+        "options": [
+          "\\((x-y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x+y+1)\\)",
+          "\\((x+y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x-y+1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q14",
+        "question": "এটা সংখ্যাৰ এককত \\(7\\) থাকলে, তাৰ ঘন সংখ্যাটোৰ এককত কি অংক থাকিব?",
+        "options": [
+          "\\(7\\)",
+          "\\(3\\)",
+          "\\(1\\)",
+          "\\(9\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q15",
+        "question": "\\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\) ৰ \\(\\angle A = \\angle P\\), \\(\\angle B = \\angle Q\\) আৰু \\(AB = PQ\\)। ত্ৰিভুজ দুটা সৰ্বসম হোৱাৰ ধৰ্মটো হ'ল—",
+        "options": [
+          "ASA",
+          "SAS",
+          "RHS",
+          "SSS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q16",
+        "question": "যদি \\(x + \\frac{1}{x} = 4\\) হয়, তেন্তে \\(x^4 + \\frac{1}{x^4}\\) ৰ মান কিমান?",
+        "options": [
+          "\\(194\\)",
+          "\\(192\\)",
+          "\\(196\\)",
+          "\\(186\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "\\(1080\\) ক আটাইতকৈ সৰু কোনটো সংখ্যাৰে গুণ কৰিলে গুণফল এটা পূৰ্ণবৰ্গ সংখ্যা হ'ব?",
+        "options": [
+          "\\(15\\)",
+          "\\(3\\)",
+          "\\(30\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q18",
+        "question": "(i) উক্তি (A): যিকোনো ঋণাত্মক পৰিমেয় সংখ্যাৰ যুগ্ম ঘাত সদায় ধনাত্মক।\n(ii) যুক্তি (R): একে ঋণাত্মক ভূমি দুবাৰ বা যুগ্মসংখ্যক বাৰ পূৰণ কৰিলে ঋণাত্মক চিহ্ন ধনাত্মক হৈ পৰে।",
+        "options": [
+          "(A) সত্য, কিন্তু (R) অসত্য।",
+          "(A) আৰু (R) দুয়োটাই সত্য, কিন্তু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা নহয়।",
+          "(A) অসত্য, কিন্তু (R) সত্য।",
+          "(A) আৰু (R) দুয়োটাই সত্য আৰু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(91125\\) ৰ ঘনমূল কিমান?",
+        "options": [
+          "\\(35\\)",
+          "\\(25\\)",
+          "\\(45\\)",
+          "\\(55\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "\\(\\left(\\frac{x^a}{x^b}\\right)^{a+b} \\times \\left(\\frac{x^b}{x^c}\\right)^{b+c} \\times \\left(\\frac{x^c}{x^a}\\right)^{c+a}\\) ৰ সৰল মান হ'ল—",
+        "options": [
+          "\\(x^{a^2+b^2+c^2}\\)",
+          "\\(x^{a+b+c}\\)",
+          "\\(1\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q21",
+        "question": "\\(\\triangle ABC\\) ৰ \\(AB = AC\\) আৰু \\(AD\\) হ'ল \\(\\angle A\\) ৰ সমদ্বিখণ্ডক যি \\(BC\\) ক \\(D\\) বিন্দুত লগ লাগে। \\(\\triangle ABD \\cong \\triangle ACD\\) হোৱাৰ চৰ্তটো হ'ল—",
+        "options": [
+          "SAS",
+          "SSS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q22",
+        "question": "\\(6x^2 - 7x - 3\\) ৰ উৎপাদক বিশ্লেষণ হ'ল—",
+        "options": [
+          "\\((6x + 1)(x - 3)\\)",
+          "\\((2x - 3)(3x + 1)\\)",
+          "\\((3x - 3)(2x + 1)\\)",
+          "\\((2x + 3)(3x - 1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q23",
+        "question": "\\(\\sqrt{1 + \\frac{27}{169}} = 1 + \\frac{x}{13}\\) হ'লে \\(x\\) ৰ মান কিমান?",
+        "options": [
+          "\\(1\\)",
+          "\\(14\\)",
+          "\\(3\\)",
+          "\\(2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) SSS সৰ্বসমতা চৰ্ত\n(ii) SAS সৰ্বসমতা চৰ্ত\n(iii) RHS সৰ্বসমতা চৰ্ত\n\nস্তম্ভ-II:\n(a) তিনিটা সংগত বাহু সমান\n(b) সমকোণ, অতিভুজ আৰু সংগত বাহু\n(c) দুটা বাহু আৰু অন্তৰ্গত কোণ\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q25",
+        "question": "\\(1000\\) আৰু \\(2000\\) ৰ মাজত থকা পূৰ্ণবৰ্গ সংখ্যাৰ সংখ্যা কেইটা?",
+        "options": [
+          "\\(13\\)",
+          "\\(14\\)",
+          "\\(15\\)",
+          "\\(12\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q26",
+        "question": "যদি এটা ঘনকৰ পৃষ্ঠকালি \\(294\\) বৰ্গ চে.মি. হয়, তেন্তে ইয়াৰ আয়তন কিমান?",
+        "options": [
+          "\\(343\\) ঘন চে.মি.",
+          "\\(512\\) ঘন চে.মি.",
+          "\\(729\\) ঘন চে.মি.",
+          "\\(216\\) ঘন চে.মি."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q27",
+        "question": "\\(a^4 + a^2 b^2 + b^4\\) ৰ উৎপাদকসমূহ হ'ল—",
+        "options": [
+          "\\((a^2 - b^2)(a^2 + b^2)\\)",
+          "\\((a^2 + b^2)^2\\)",
+          "\\((a^2 + ab - b^2)(a^2 - ab + b^2)\\)",
+          "\\((a^2 - ab + b^2)(a^2 + ab + b^2)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q28",
+        "question": "যদি \\(3^{x+1} + 3^{x-1} = 90\\) হয়, তেন্তে \\(x\\) ৰ মান—",
+        "options": [
+          "\\(3\\)",
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q29",
+        "question": "\\(\\triangle ABC\\) ত \\(\\angle A = 90^\\circ\\) আৰু \\(AB = AC\\)। \\(\\angle B\\) ৰ মান কিমান?",
+        "options": [
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(30^\\circ\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q30",
+        "question": "\\(\\sqrt{5\\sqrt{5\\sqrt{5\\dots}}}\\) (অসীম লৈকে) ৰ মান কিমান?",
+        "options": [
+          "\\(25\\)",
+          "\\(1\\)",
+          "\\(5\\)",
+          "\\(\\sqrt{5}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q31",
+        "question": "\\(13824\\) ক আটাইতকৈ সৰু কোনটো সংখ্যাৰে হৰণ কৰিলে ভাগফল এটা পূৰ্ণবৰ্গ সংখ্যা হ'ব?",
+        "options": [
+          "\\(4\\)",
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "\\(x^2 + (p+q)x + pq\\) ৰ উৎপাদকীকৰণ ৰূপ হ'ল—",
+        "options": [
+          "\\((x+p)(x-q)\\)",
+          "\\((x-p)(x-q)\\)",
+          "\\((x-p)(x+q)\\)",
+          "\\((x+p)(x+q)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q33",
+        "question": "\\(\\left(\\frac{1}{4}\\right)^{-2} + \\left(\\frac{1}{3}\\right)^{-3} + \\left(\\frac{1}{2}\\right)^{-4}\\) ৰ সৰল মান কিমান?",
+        "options": [
+          "\\(43\\)",
+          "\\(29\\)",
+          "\\(57\\)",
+          "\\(59\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "দুটা ত্ৰিভুজৰ সৰ্বসমতাৰ বাবে তলৰ কোনটো চৰ্ত প্ৰযোজ্য নহয়?",
+        "options": [
+          "AAA",
+          "RHS",
+          "SSS",
+          "SAS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "\\(105 \\times 95\\) ৰ মান বীজগণীতীয় সূত্ৰ প্ৰয়োগ কৰি উলিয়ালে পাব—",
+        "options": [
+          "\\(9975\\)",
+          "\\(10025\\)",
+          "\\(9925\\)",
+          "\\(9985\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "\\(\\sqrt[3]{175616}\\) ৰ মান কিমান?",
+        "options": [
+          "\\(36\\)",
+          "\\(46\\)",
+          "\\(66\\)",
+          "\\(56\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q37",
+        "question": "\\(x^4 - 81\\) ৰ সম্পূৰ্ণ উৎপাদক বিশ্লেষণ হ'ল—",
+        "options": [
+          "\\((x^2-9)(x^2+9)\\)",
+          "\\((x-3)^2(x+3)^2\\)",
+          "\\((x-9)(x+9)\\)",
+          "\\((x-3)(x+3)(x^2+9)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q38",
+        "question": "যদি \\(\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-5}\\) হয়, তেন্তে \\(x\\) ৰ মান কিমান?",
+        "options": [
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(3\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q39",
+        "question": "\\(\\triangle ABC \\cong \\triangle DEF\\)। যদি \\(AB = 6\\) চে.মি., \\(\\angle B = 50^\\circ\\) আৰু \\(\\angle A = 70^\\circ\\) হয়, তেন্তে \\(\\angle F\\) ৰ মান কিমান?",
+        "options": [
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "\\(\\sqrt{41^2 - 40^2}\\) ৰ মান কিমান?",
+        "options": [
+          "8",
+          "\\(1\\)",
+          "\\(9\\)",
+          "\\(81\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q41",
+        "question": "এটা পূৰ্ণঘন সংখ্যা \\(N\\) ৰ শেষত \\(9\\) টা শূন্য আছে। \\(N\\) ৰ ঘনমূলত কেইটা শূন্য থাকিব?",
+        "options": [
+          "\\(3\\) টা",
+          "\\(6\\) টা",
+          "\\(9\\) টা",
+          "\\(1\\) টা"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q42",
+        "question": "\\(8x^3 - 27y^3\\) ৰ এটা উৎপাদক হ'ল—",
+        "options": [
+          "\\(4x^2 + 12xy + 9y^2\\)",
+          "\\(2x + 3y\\)",
+          "\\(4x^2 + 6xy + 9y^2\\)",
+          "\\(4x^2 - 6xy + 9y^2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q43",
+        "question": "\\((0.000064)^{\\frac{5}{6}}\\) ৰ মান কিমান?",
+        "options": [
+          "\\(0.000032\\)",
+          "\\(0.032\\)",
+          "\\(0.0032\\)",
+          "\\(0.00032\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q44",
+        "question": "\\(\\triangle ABC\\) ৰ \\(AB = AC\\) আৰু \\(\\angle B = 65^\\circ\\)। \\(\\angle A\\) ৰ মান কিমান?",
+        "options": [
+          "\\(65^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(130^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q45",
+        "question": "\\(\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}\\) (অসীম লৈকে) ৰ মান কিমান?",
+        "options": [
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(-2\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-BN-CH00-01",
+    "title": "পুনরাবৃত্তি - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Bengali",
+    "chapter": "পুনরাবৃত্তি",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "যদি \\(x = \\sqrt{3 + 2\\sqrt{2}}\\) হয়, তবে \\(x + \\frac{1}{x}\\)-এর মান কত?",
+        "options": [
+          "\\(2\\)",
+          "\\(2\\sqrt{2}\\)",
+          "\\(4\\)",
+          "\\(\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q2",
+        "question": "ক্ষুদ্রতম কোন সংখ্যা দিয়ে \\(250\\)-কে ভাগ করলে ভাগফল একটি পূর্ণঘন সংখ্যা হবে?",
+        "options": [
+          "\\(25\\)",
+          "\\(2\\)",
+          "\\(10\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q3",
+        "question": "স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) \\(a^m \\times a^n\\)\n(ii) \\((a^m)^n\\)\n(iii) \\(\\frac{a^m}{a^n}\\)\n\nস্তম্ভ-II:\n(a) \\(a^{m-n}\\)\n(b) \\(a^{mn}\\)\n(c) \\(a^{m+n}\\)\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "যদি \\(2^{x-1} + 2^{x+1} = 320\\) হয়, তবে \\(x\\)-এর মান কত?",
+        "options": [
+          "\\(5\\)",
+          "\\(6\\)",
+          "\\(7\\)",
+          "\\(8\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "\\(x^4 + 4y^4\\)-এর সঠিক উৎপাদকে বিশ্লেষণ রূপ হলো—",
+        "options": [
+          "\\((x^2 - 2y^2)(x^2 + 2y^2)\\)",
+          "\\((x^2 - 2y^2)^2\\)",
+          "\\((x^2 - 2xy + 2y^2)(x^2 + 2xy + 2y^2)\\)",
+          "\\((x^2 + 2xy - 2y^2)(x^2 - 2xy - 2y^2)\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "(i) উক্তি (A): \\(\\triangle ABC\\) এবং \\(\\triangle DEF\\)-এ যদি \\(AB = DE\\), \\(BC = EF\\) এবং \\(\\angle B = \\angle E = 90^\\circ\\) হয়, তবে \\(\\triangle ABC \\cong \\triangle DEF\\)।\n(ii) যুক্তি (R): বাহু-কোণ-বাহু (SAS) সর্বসমতার নিয়ম অনুযায়ী দুটি বাহু এবং তাদের অন্তর্গত কোণ সমান হলে ত্রিভুজ দুটি সর্বসম হয়।",
+        "options": [
+          "(A) এবং (R) উভয়ই সত্য কিন্তু (R) হলো (A)-এর সঠিক ব্যাখ্যা নয়।",
+          "(A) এবং (R) উভয়ই সত্য এবং (R) হলো (A)-এর সঠিক ব্যাখ্যা।",
+          "(A) মিথ্যা কিন্তু (R) সত্য।",
+          "(A) সত্য কিন্তু (R) মিথ্যা।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q7",
+        "question": "\\(\\sqrt{0.000441}\\)-এর মান কত?",
+        "options": [
+          "\\(2.1\\)",
+          "\\(0.0021\\)",
+          "\\(0.21\\)",
+          "\\(0.021\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q8",
+        "question": "\\(\\left(\\frac{81}{16}\\right)^{-\\frac{3}{4}}\\)-কে সরল করলে পাওয়া যাবে—",
+        "options": [
+          "\\(-\\frac{27}{8}\\)",
+          "\\(\\frac{27}{8}\\)",
+          "\\(-\\frac{8}{27}\\)",
+          "\\(\\frac{8}{27}\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "যদি \\(a^3 + b^3 + c^3 - 3abc\\)-এর একটি উৎপাদক \\((a+b+c)\\) হয়, তবে অপর উৎপাদকটি হবে—",
+        "options": [
+          "\\(a^2 + b^2 + c^2 + ab + bc + ca\\)",
+          "\\(a^2 + b^2 + c^2 - ab - bc - ca\\)",
+          "\\(a^2 + b^2 + c^2 - 2ab - 2bc - 2ca\\)",
+          "\\((a-b)^2 + (b-c)^2 + (c-a)^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q10",
+        "question": "\\(\\sqrt[3]{-0.000064}\\)-এর সঠিক মান হলো—",
+        "options": [
+          "\\(-0.04\\)",
+          "\\(0.04\\)",
+          "\\(-0.4\\)",
+          "\\(-0.004\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) \\(a^3 - b^3\\)\n(ii) \\(a^3 + b^3\\)\n(iii) \\(a^2 - b^2\\)\n\nস্তম্ভ-II:\n(a) \\((a-b)(a+b)\\)\n(b) \\((a-b)(a^2+ab+b^2)\\)\n(c) \\((a+b)(a^2-ab+b^2)\\)\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(b), (iii)-(a)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "যদি \\(5^{x-2} \\times 3^{2x-3} = 135\\) হয়, তবে \\(x\\)-এর মান কত?",
+        "options": [
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)",
+          "\\(3\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q13",
+        "question": "\\(x^2 - y^2 - 2y - 1\\)-এর উৎপাদকগুলি হলো—",
+        "options": [
+          "\\((x-y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x+y+1)\\)",
+          "\\((x+y+1)(x+y-1)\\)",
+          "\\((x-y-1)(x-y+1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q14",
+        "question": "কোনো সংখ্যার এককের ঘরে \\(7\\) থাকলে, তার ঘনের এককের ঘরে কোন অংকটি থাকবে?",
+        "options": [
+          "\\(7\\)",
+          "\\(3\\)",
+          "\\(1\\)",
+          "\\(9\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q15",
+        "question": "\\(\\triangle ABC\\) এবং \\(\\triangle PQR\\)-এ \\(\\angle A = \\angle P\\), \\(\\angle B = \\angle Q\\) এবং \\(AB = PQ\\)। ত্রিভুজ দুটি সর্বসম হওয়ার শর্তটি হলো—",
+        "options": [
+          "ASA",
+          "SAS",
+          "RHS",
+          "SSS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q16",
+        "question": "যদি \\(x + \\frac{1}{x} = 4\\) হয়, তবে \\(x^4 + \\frac{1}{x^4}\\)-এর মান কত?",
+        "options": [
+          "\\(194\\)",
+          "\\(192\\)",
+          "\\(196\\)",
+          "\\(186\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "ক্ষুদ্রতম কোন সংখ্যা দিয়ে \\(1080\\)-কে গুণ করলে গুণফল একটি পূর্ণবর্গ সংখ্যা হবে?",
+        "options": [
+          "\\(15\\)",
+          "\\(3\\)",
+          "\\(30\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q18",
+        "question": "(i) উক্তি (A): যেকোনো ঋণাত্মক মূলদ সংখ্যার জোড় ঘাত সর্বদা ধনাত্মক হয়।\n(ii) যুক্তি (R): যেকোনো ঋণাত্মক নিধানকে জোড় সংখ্যক বার গুণ করলে ঋণাত্মক চিহ্নটি ধনাত্মক হয়ে যায়।",
+        "options": [
+          "(A) সত্য কিন্তু (R) মিথ্যা।",
+          "(A) এবং (R) উভয়ই সত্য কিন্তু (R) হলো (A)-এর সঠিক ব্যাখ্যা নয়।",
+          "(A) মিথ্যা কিন্তু (R) সত্য।",
+          "(A) এবং (R) উভয়ই সত্য এবং (R) হলো (A)-এর সঠিক ব্যাখ্যা।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(91125\\)-এর ঘনমূল কত?",
+        "options": [
+          "\\(35\\)",
+          "\\(25\\)",
+          "\\(45\\)",
+          "\\(55\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "\\(\\left(\\frac{x^a}{x^b}\\right)^{a+b} \\times \\left(\\frac{x^b}{x^c}\\right)^{b+c} \\times \\left(\\frac{x^c}{x^a}\\right)^{c+a}\\)-এর সরলতম মান হলো—",
+        "options": [
+          "\\(x^{a^2+b^2+c^2}\\)",
+          "\\(x^{a+b+c}\\)",
+          "\\(1\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q21",
+        "question": "\\(\\triangle ABC\\)-এর \\(AB = AC\\) এবং \\(AD\\) হলো \\(\\angle A\\)-এর সমদ্বিখণ্ডক যা \\(BC\\)-কে \\(D\\) বিন্দুতে ছেদ করে। \\(\\triangle ABD \\cong \\triangle ACD\\) হওয়ার শর্তটি হলো—",
+        "options": [
+          "SAS",
+          "SSS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q22",
+        "question": "\\(6x^2 - 7x - 3\\)-এর উৎপাদকে বিশ্লেষণ হলো—",
+        "options": [
+          "\\((6x + 1)(x - 3)\\)",
+          "\\((2x - 3)(3x + 1)\\)",
+          "\\((3x - 3)(2x + 1)\\)",
+          "\\((2x + 3)(3x - 1)\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q23",
+        "question": "\\(\\sqrt{1 + \\frac{27}{169}} = 1 + \\frac{x}{13}\\) হলে \\(x\\)-এর মান কত?",
+        "options": [
+          "\\(1\\)",
+          "\\(14\\)",
+          "\\(3\\)",
+          "\\(2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) SSS সর্বসমতার শর্ত\n(ii) SAS সর্বসমতার শর্ত\n(iii) RHS সর্বসমতার শর্ত\n\nস্তম্ভ-II:\n(a) তিনটি অনুরূপ বাহু সমান\n(b) সমকোণ, অতিভুজ এবং একটি অনুরূপ বাহু\n(c) দুটি বাহু এবং তাদের অন্তর্গত কোণ\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(a), (ii)-(c), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q25",
+        "question": "\\(1000\\) এবং \\(2000\\)-এর মধ্যে কতগুলি পূর্ণবর্গ সংখ্যা আছে?",
+        "options": [
+          "\\(13\\)",
+          "\\(14\\)",
+          "\\(15\\)",
+          "\\(12\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q26",
+        "question": "যদি একটি ঘনকের সমগ্রতলের ক্ষেত্রফল \\(294\\) বর্গ সেমি হয়, তবে এর আয়তন কত?",
+        "options": [
+          "\\(343\\text{ cm}^3\\)",
+          "\\(512\\text{ cm}^3\\)",
+          "\\(729\\text{ cm}^3\\)",
+          "\\(216\\text{ cm}^3\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q27",
+        "question": "\\(a^4 + a^2 b^2 + b^4\\)-এর উৎপাদকগুলি হলো—",
+        "options": [
+          "\\((a^2 - b^2)(a^2 + b^2)\\)",
+          "\\((a^2 + b^2)^2\\)",
+          "\\((a^2 + ab - b^2)(a^2 - ab + b^2)\\)",
+          "\\((a^2 - ab + b^2)(a^2 + ab + b^2)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q28",
+        "question": "যদি \\(3^{x+1} + 3^{x-1} = 90\\) হয়, তবে \\(x\\)-এর মান কত?",
+        "options": [
+          "\\(3\\)",
+          "\\(2\\)",
+          "\\(1\\)",
+          "\\(4\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q29",
+        "question": "\\(\\triangle ABC\\)-এ \\(\\angle A = 90^\\circ\\) এবং \\(AB = AC\\)। \\(\\angle B\\)-এর মান কত?",
+        "options": [
+          "\\(45^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(90^\\circ\\)",
+          "\\(30^\\circ\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q30",
+        "question": "\\(\\sqrt{5\\sqrt{5\\sqrt{5\\dots}}}\\) (অসীম পর্যন্ত)-এর মান কত?",
+        "options": [
+          "\\(25\\)",
+          "\\(1\\)",
+          "\\(5\\)",
+          "\\(\\sqrt{5}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q31",
+        "question": "ক্ষুদ্রতম কোন সংখ্যা দিয়ে \\(13824\\)-কে ভাগ করলে ভাগফল একটি পূর্ণবর্গ সংখ্যা হবে?",
+        "options": [
+          "\\(4\\)",
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "\\(x^2 + (p+q)x + pq\\)-এর উৎপাদকে বিশ্লেষণ রূপ হলো—",
+        "options": [
+          "\\((x+p)(x-q)\\)",
+          "\\((x-p)(x-q)\\)",
+          "\\((x-p)(x+q)\\)",
+          "\\((x+p)(x+q)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q33",
+        "question": "\\(\\left(\\frac{1}{4}\\right)^{-2} + \\left(\\frac{1}{3}\\right)^{-3} + \\left(\\frac{1}{2}\\right)^{-4}\\)-এর সরলতম মান কত?",
+        "options": [
+          "\\(43\\)",
+          "\\(29\\)",
+          "\\(57\\)",
+          "\\(59\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "নিচের কোনটি দুটি ত্রিভুজের সর্বসমতার শর্ত নয়?",
+        "options": [
+          "AAA",
+          "RHS",
+          "SSS",
+          "SAS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "বীজগণিতীয় সূত্র প্রয়োগ করে \\(105 \\times 95\\)-এর মান পাওয়া যাবে—",
+        "options": [
+          "\\(9975\\)",
+          "\\(10025\\)",
+          "\\(9925\\)",
+          "\\(9985\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "\\(\\sqrt[3]{175616}\\)-এর মান কত?",
+        "options": [
+          "\\(36\\)",
+          "\\(46\\)",
+          "\\(66\\)",
+          "\\(56\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q37",
+        "question": "\\(x^4 - 81\\)-এর সম্পূর্ণ উৎপাদকে বিশ্লেষণ হলো—",
+        "options": [
+          "\\((x^2-9)(x^2+9)\\)",
+          "\\((x-3)^2(x+3)^2\\)",
+          "\\((x-9)(x+9)\\)",
+          "\\((x-3)(x+3)(x^2+9)\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q38",
+        "question": "যদি \\(\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-5}\\) হয়, তবে \\(x\\)-এর মান কত?",
+        "options": [
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(3\\)",
+          "\\(5\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q39",
+        "question": "\\(\\triangle ABC \\cong \\triangle DEF\\)। যদি \\(AB = 6\\) সেমি, \\(\\angle B = 50^\\circ\\) এবং \\(\\angle A = 70^\\circ\\) হয়, তবে \\(\\angle F\\)-এর মান কত?",
+        "options": [
+          "\\(70^\\circ\\)",
+          "\\(60^\\circ\\)",
+          "\\(80^\\circ\\)",
+          "\\(50^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "\\(\\sqrt{41^2 - 40^2}\\)-এর মান কত?",
+        "options": [
+          "8",
+          "\\(1\\)",
+          "\\(9\\)",
+          "\\(81\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q41",
+        "question": "একটি পূর্ণঘন সংখ্যা \\(N\\)-এর শেষে \\(9\\) টি শূন্য আছে। \\(N\\)-এর ঘনমূলে কয়টি শূন্য থাকবে?",
+        "options": [
+          "\\(3\\) টি",
+          "\\(6\\) টি",
+          "\\(9\\) টি",
+          "\\(1\\) টি"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q42",
+        "question": "\\(8x^3 - 27y^3\\)-এর একটি উৎপাদক হলো—",
+        "options": [
+          "\\(4x^2 + 12xy + 9y^2\\)",
+          "\\(2x + 3y\\)",
+          "\\(4x^2 + 6xy + 9y^2\\)",
+          "\\(4x^2 - 6xy + 9y^2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q43",
+        "question": "\\((0.000064)^{\\frac{5}{6}}\\)-এর মান কত?",
+        "options": [
+          "\\(0.000032\\)",
+          "\\(0.032\\)",
+          "\\(0.0032\\)",
+          "\\(0.00032\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q44",
+        "question": "\\(\\triangle ABC\\)-এ \\(AB = AC\\) এবং \\(\\angle B = 65^\\circ\\)। \\(\\angle A\\)-এর মান কত?",
+        "options": [
+          "\\(65^\\circ\\)",
+          "\\(50^\\circ\\)",
+          "\\(40^\\circ\\)",
+          "\\(130^\\circ\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q45",
+        "question": "\\(\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}\\) (অসীম পর্যন্ত)-এর মান কত?",
+        "options": [
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(-2\\)",
+          "\\(6\\)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+]
+}
