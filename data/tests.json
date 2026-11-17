@@ -2106,6 +2106,2052 @@
         "correctAnswer": 1
       }
     ]
+  },
+[
+  {
+    "id": "BT-X-MATH-EN-CH01-01",
+    "title": "Real Numbers - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "English",
+    "chapter": "Real Numbers",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "Q1) If two positive integers \\(a\\) and \\(b\\) are expressed as \\(a = x^3y^2\\) and \\(b = xy^3\\), where \\(x, y\\) are prime numbers, then what is \\(\\text{HCF}(a, b)\\)?",
+        "options": [
+          "\\(xy^2\\)",
+          "\\(x^2y^2\\)",
+          "\\(xy\\)",
+          "\\(x^3y^3\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q2",
+        "question": "Q2) What is the product of the \\(\\text{HCF}\\) and \\(\\text{LCM}\\) of the smallest prime number and the smallest composite number?",
+        "options": [
+          "8",
+          "16",
+          "4",
+          "2"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q3",
+        "question": "Q3) Match the Column:\nColumn-I:\n(i) Sum of a rational number and an irrational number\n(ii) \\(\\text{HCF}\\) of two co-prime numbers\n(iii) Prime factorization of a positive integer\n\nColumn-II:\n(a) 1\n(b) Unique (Fundamental Theorem of Arithmetic)\n(c) Always an irrational number\n\nSelect the correct pair:",
+        "options": [
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(c), (ii)-(b), (iii)-(a)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "Q4) If \\(p\\) and \\(q\\) are two co-prime numbers, then what are \\(p^2\\) and \\(q^2\\)?",
+        "options": [
+          "Even numbers",
+          "Not co-prime",
+          "Co-prime numbers",
+          "Odd numbers"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "Q5) Can the number \\(6^n\\), for any natural number \\(n\\), ever end with the digit \\(0\\)?",
+        "options": [
+          "Yes, if \\(n\\) is odd",
+          "Yes, for \\(n = 5\\)",
+          "Cannot end with digit \\(0\\) for any \\(n\\)",
+          "Yes, if \\(n\\) is even"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "Q6)\n(i) Assertion (A): \\(\\sqrt{p}\\) is an irrational number, where \\(p\\) is a prime number.\n(ii) Reason (R): If a prime number \\(p\\) divides \\(a^2\\), then \\(p\\) divides \\(a\\) (where \\(a\\) is a positive integer).",
+        "options": [
+          "(A) is true but (R) is false.",
+          "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+          "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+          "(A) is false but (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q7",
+        "question": "Q7) If \\(\\text{HCF}(306, 657) = 9\\), then what is the value of \\(\\text{LCM}(306, 657)\\)?",
+        "options": [
+          "22328",
+          "3069",
+          "22338",
+          "22838"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q8",
+        "question": "Q8) What type of number is \\(3 + 2\\sqrt{5}\\)?",
+        "options": [
+          "Natural number",
+          "Integer",
+          "Rational number",
+          "Irrational number"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "Q9) For two positive integers \\(A\\) and \\(B\\), if \\(A = x^3 y^2\\) and \\(B = x y^4\\) (where \\(x, y\\) are prime numbers), what is \\(\\text{LCM}(A, B)\\)?",
+        "options": [
+          "\\(x y^2\\)",
+          "\\(x^2 y^2\\)",
+          "\\(x^3 y^4\\)",
+          "\\(x^4 y^6\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q10",
+        "question": "Q10) What is the sum of exponents of prime factors in the prime factorization of \\(144\\)?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "Q11) Match the Column:\nColumn-I:\n(i) \\(\\text{HCF}(a, b) \\times \\text{LCM}(a, b)\\)\n(ii) \\(\\sqrt{2} + \\sqrt{3}\\)\n(iii) \\(2 \\times 3 \\times 5 + 5\\)\n\nColumn-II:\n(a) A composite number\n(b) \\(a \\times b\\)\n(c) An irrational number\n\nSelect the correct pair:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "Q12) If \\(\\text{HCF}(a, 8) = 4\\) and \\(\\text{LCM}(a, 8) = 24\\), then what is the value of \\(a\\)?",
+        "options": [
+          "12",
+          "16",
+          "8",
+          "10"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q13",
+        "question": "Q13) Three persons complete one round of a circular track in 10 minutes, 15 minutes, and 20 minutes respectively. If they start running together from the same point, after how much time will they meet again at the starting point?",
+        "options": [
+          "60 minutes",
+          "120 minutes",
+          "30 minutes",
+          "90 minutes"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q14",
+        "question": "Q14) What type of number is \\(7 \\times 11 \\times 13 + 13\\)?",
+        "options": [
+          "Prime number",
+          "Undefined",
+          "Irrational number",
+          "Composite number"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q15",
+        "question": "Q15) If \\(x\\) and \\(y\\) are two consecutive positive even integers, what will their \\(\\text{HCF}\\) always be?",
+        "options": [
+          "\\(xy\\)",
+          "4",
+          "1",
+          "2"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q16",
+        "question": "Q16) How many prime factors does \\(5005\\) have?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "2"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "Q17) If \\(\\text{LCM}(x, 18) = 36\\) and \\(\\text{HCF}(x, 18) = 2\\), then the value of \\(x\\) is—",
+        "options": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q18",
+        "question": "Q18)\n(i) Assertion (A): The \\(\\text{HCF}\\) of two distinct prime numbers \\(p\\) and \\(q\\) is always \\(1\\).\n(ii) Reason (R): Prime numbers have only two factors— \\(1\\) and the number itself.",
+        "options": [
+          "(A) is false but (R) is true.",
+          "(A) is true but (R) is false.",
+          "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+          "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "Which of the following numbers should be multiplied by \\(2\\sqrt{3}\\) to obtain a rational number?",
+        "options": [
+          "\\(3\\)",
+          "\\(\\sqrt{2}\\)",
+          "\\(\\sqrt{3}\\)",
+          "\\(2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "Q20) If the \\(\\text{LCM}\\) of two numbers is 1200, which of the following CANNOT be their \\(\\text{HCF}\\)?",
+        "options": [
+          "400",
+          "500",
+          "600",
+          "200"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q21",
+        "question": "Q21) If \\(p\\) and \\(q\\) are two distinct prime numbers, what is \\(\\text{LCM}(p, q)\\)?",
+        "options": [
+          "\\(p + q\\)",
+          "1",
+          "\\(pq\\)",
+          "\\(p/q\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q22",
+        "question": "Q22) Expressing \\(3825\\) as a product of prime factors gives—",
+        "options": [
+          "\\(3^2 \\times 5^2 \\times 17\\)",
+          "\\(3 \\times 5^3 \\times 17\\)",
+          "\\(3^3 \\times 5 \\times 17\\)",
+          "\\(3^2 \\times 5 \\times 17^2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q23",
+        "question": "Q23) The number \\(\\frac{22}{7}\\) is—",
+        "options": [
+          "A rational number",
+          "Not an integer",
+          "A prime number",
+          "An irrational number"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "Q24) Match the Column:\nColumn-I:\n(i) \\(2 + \\sqrt{5}\\)\n(ii) \\((2+\\sqrt{3})(2-\\sqrt{3})\\)\n(iii) \\(\\text{HCF}(13, 26)\\)\n\nColumn-II:\n(a) 13\n(b) Irrational number\n(c) 1 (Rational number)\n\nSelect the correct pair:",
+        "options": [
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q25",
+        "question": "Q25) What is the product of the smallest prime number and the smallest even positive integer?",
+        "options": [
+          "6",
+          "2",
+          "8",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q26",
+        "question": "Q26) If \\(n\\) is a natural number, then \\((\\sqrt{4})^n\\) is always—",
+        "options": [
+          "Undefined",
+          "A fraction",
+          "A natural number",
+          "An irrational number"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q27",
+        "question": "Q27) Prime factorization of \\(156\\) is—",
+        "options": [
+          "\\(2 \\times 3^2 \\times 13\\)",
+          "\\(2^2 \\times 3 \\times 13\\)",
+          "\\(2 \\times 3 \\times 13^2\\)",
+          "\\(2^2 \\times 3^2 \\times 13\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q28",
+        "question": "Q28) If \\(\\text{HCF}(a, b) = 1\\), then \\(a\\) and \\(b\\) are called—",
+        "options": [
+          "Composite numbers",
+          "Even numbers",
+          "Prime numbers",
+          "Co-prime numbers"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q29",
+        "question": "Q29) What is the exponent of 2 in the prime factorization of 540?",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q30",
+        "question": "Q30) If \\(p_1\\) and \\(p_2\\) are two consecutive odd prime numbers (where \\(p_1 > p_2\\)), then \\(p_1^2 - p_2^2\\) is always divisible by—",
+        "options": [
+          "12",
+          "8",
+          "16",
+          "3"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q31",
+        "question": "Q31) The number \\(5 \\times 11 \\times 17 + 17\\) is—",
+        "options": [
+          "Divisible by 17 only",
+          "An irrational number",
+          "A prime number",
+          "A composite number"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "Q32) If the \\(\\text{HCF}\\) of 96 and 404 is 4, what is their \\(\\text{LCM}\\)?",
+        "options": [
+          "3840",
+          "9696",
+          "4040",
+          "9600"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q33",
+        "question": "Q33) The number \\(\\pi\\) (pi) is—",
+        "options": [
+          "An integer",
+          "A rational number",
+          "None of these",
+          "An irrational number"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "Q34) For two positive integers \\(k\\) and \\(m\\), if \\(\\text{LCM}(k, m) = k \\times m\\), then what is their \\(\\text{HCF}(k, m)\\)?",
+        "options": [
+          "1",
+          "\\(k\\)",
+          "\\(m\\)",
+          "0"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "Q35) Expressing 7429 as a product of prime factors gives—",
+        "options": [
+          "\\(17 \\times 19 \\times 23\\)",
+          "\\(17 \\times 23 \\times 29\\)",
+          "\\(11 \\times 13 \\times 29\\)",
+          "\\(13 \\times 17 \\times 19\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "Q36) Can \\(4^n\\) (where \\(n \\in \\mathbb{N}\\)) ever end with the digit \\(0\\)?",
+        "options": [
+          "Yes, if \\(n\\) is even",
+          "Yes, if \\(n\\) is odd",
+          "Cannot end with \\(0\\) for any \\(n\\) (since 5 is not in its prime factorization)",
+          "Yes, if \\(n = 0\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q37",
+        "question": "Q37) If \\(\\sqrt{2} = 1.414\\), then what is the value of \\(\\frac{1}{\\sqrt{2}}\\)?",
+        "options": [
+          "2.828",
+          "0.707",
+          "1.707",
+          "0.414"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q38",
+        "question": "Q38) Into how many prime factors can 3 be expressed as a product?",
+        "options": [
+          "0",
+          "2",
+          "Infinite",
+          "1 (the number itself)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q39",
+        "question": "Q39) If \\(n\\) is a natural number greater than 1, and \\(a = 2^3 \\times 3\\), \\(b = 2 \\times 3 \\times 5\\), \\(c = 3^n \\times 5\\), and \\(\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5\\), then find the value of \\(n\\).",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "Q40) The value of \\((\\sqrt{3} + \\sqrt{2})(\\sqrt{3} - \\sqrt{2})\\) is—",
+        "options": [
+          "0",
+          "1",
+          "\\(\\sqrt{5}\\)",
+          "5"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q41",
+        "question": "Q41) For two numbers, \\(\\text{HCF} = 11\\) and \\(\\text{LCM} = 693\\). If one number is 77, what is the other number?",
+        "options": [
+          "121",
+          "99",
+          "88",
+          "66"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q42",
+        "question": "Q42) Which of the following expressions is NOT an irrational number?",
+        "options": [
+          "\\((\\sqrt{2} + \\sqrt{3})^2\\)",
+          "\\((\\sqrt{7} - 3)(\\sqrt{7} + 3)\\)",
+          "\\((2 - \\sqrt{3})^2\\)",
+          "\\(3\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q43",
+        "question": "Q43) The number \\(5 - \\sqrt{3}\\) is—",
+        "options": [
+          "A natural number",
+          "An irrational number",
+          "Undefined",
+          "A rational number"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q44",
+        "question": "Q44) What is the smallest number that is divisible by all numbers from \\(1\\) to \\(10\\) (both inclusive)?",
+        "options": [
+          "2520",
+          "5040",
+          "1260",
+          "1000"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q45",
+        "question": "Q45) According to the Fundamental Theorem of Arithmetic, every composite number can be—",
+        "options": [
+          "Uniquely expressed as a product of prime numbers (apart from the order of factors)",
+          "Expressed as a sum of two prime numbers",
+          "Expressed as a product of odd numbers only",
+          "Expressed as a product of irrational numbers"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-HI-CH01-01",
+    "title": "वास्तविक संख्याएँ - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Hindi",
+    "chapter": "वास्तविक संख्याएँ",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "Q1) यदि दो धनात्मक पूर्णांकों \\(a\\) और \\(b\\) को \\(a = x^3y^2\\) और \\(b = xy^3\\) के रूप में व्यक्त किया जाता है, जहाँ \\(x, y\\) अभाज्य संख्याएँ हैं, तो \\(\\text{HCF}(a, b)\\) क्या होगा?",
+        "options": [
+          "\\(xy^2\\)",
+          "\\(xy\\)",
+          "\\(x^3y^3\\)",
+          "\\(x^2y^2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q2",
+        "question": "Q2) सबसे छोटी अभाज्य संख्या और सबसे छोटी भाज्य संख्या के \\(\\text{HCF}\\) और \\(\\text{LCM}\\) का गुणनफल क्या है?",
+        "options": [
+          "8",
+          "2",
+          "16",
+          "4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q3",
+        "question": "Q3) स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) एक परिमेय संख्या और एक अपरिमेय संख्या का योगफल\n(ii) दो सह-अभाज्य संख्याओं का \\(\\text{HCF}\\)\n(iii) धनात्मक पूर्णांक का अभाज्य गुणनखंडन\n\nस्तंभ-II:\n(a) 1\n(b) अद्वितीय (अंकगणित की आधारभूत प्रमेय)\n(c) हमेशा एक अपरिमेय संख्या\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "Q4) यदि \\(p\\) और \\(q\\) दो सह-अभाज्य संख्याएँ हैं, तो \\(p^2\\) और \\(q^2\\) क्या होंगी?",
+        "options": [
+          "सम संख्याएँ",
+          "सह-अभाज्य नहीं",
+          "सह-अभाज्य संख्याएँ",
+          "विषम संख्याएँ"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "Q5) क्या किसी प्राकृतिक संख्या \\(n\\) के लिए संख्या \\(6^n\\) अंक \\(0\\) पर समाप्त हो सकती है?",
+        "options": [
+          "हाँ, यदि \\(n\\) सम है",
+          "हाँ, \\(n = 5\\) के लिए",
+          "किसी भी \\(n\\) के लिए अंक \\(0\\) पर समाप्त नहीं हो सकती",
+          "हाँ, यदि \\(n\\) विषम है"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "Q6)\n(i) कथन (A): \\(\\sqrt{p}\\) एक अपरिमेय संख्या है, जहाँ \\(p\\) एक अभाज्य संख्या है।\n(ii) कारण (R): यदि एक अभाज्य संख्या \\(p\\), \\(a^2\\) को विभाजित करती है, तो \\(p\\), \\(a\\) को भी विभाजित करेगी (जहाँ \\(a\\) एक धनात्मक पूर्णांक है)।",
+        "options": [
+          "(A) असत्य है परंतु (R) सत्य है।",
+          "(A) और (R) दोनों सत्य हैं परंतु (R), (A) की सही व्याख्या नहीं है।",
+          "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।",
+          "(A) सत्य है परंतु (R) असत्य है।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q7",
+        "question": "Q7) यदि \\(\\text{HCF}(306, 657) = 9\\) है, तो \\(\\text{LCM}(306, 657)\\) का मान क्या होगा?",
+        "options": [
+          "22838",
+          "22328",
+          "22338",
+          "3069"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q8",
+        "question": "Q8) \\(3 + 2\\sqrt{5}\\) किस प्रकार की संख्या है?",
+        "options": [
+          "पूर्णांक",
+          "परिमेय संख्या",
+          "प्राकृतिक संख्या",
+          "अपरिमेय संख्या"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "Q9) दो धनात्मक पूर्णांकों \\(A\\) और \\(B\\) के लिए यदि \\(A = x^3 y^2\\) और \\(B = x y^4\\) है (जहाँ \\(x, y\\) अभाज्य संख्याएँ हैं), तो \\(\\text{LCM}(A, B)\\) क्या होगा?",
+        "options": [
+          "\\(x^4 y^6\\)",
+          "\\(x^2 y^2\\)",
+          "\\(x^3 y^4\\)",
+          "\\(x y^2\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q10",
+        "question": "Q10) \\(144\\) के अभाज्य गुणनखंडन में अभाज्य गुणनखंडों की घातों का योगफल क्या है?",
+        "options": [
+          "6",
+          "7",
+          "4",
+          "5"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "Q11) स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) \\(\\text{HCF}(a, b) \\times \\text{LCM}(a, b)\\)\n(ii) \\(\\sqrt{2} + \\sqrt{3}\\)\n(iii) \\(2 \\times 3 \\times 5 + 5\\)\n\nस्तंभ-II:\n(a) एक भाज्य संख्या\n(b) \\(a \\times b\\)\n(c) एक अपरिमेय संख्या\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "Q12) यदि \\(\\text{HCF}(a, 8) = 4\\) और \\(\\text{LCM}(a, 8) = 24\\) है, तो \\(a\\) का मान क्या होगा?",
+        "options": [
+          "12",
+          "8",
+          "10",
+          "16"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q13",
+        "question": "Q13) तीन व्यक्ति एक वृत्ताकार पथ का एक चक्कर क्रमशः 10 मिनट, 15 मिनट और 20 मिनट में पूरा करते हैं। यदि वे एक ही बिंदु से एक साथ दौड़ना शुरू करते हैं, तो कितने समय बाद वे पुनः प्रारंभिक बिंदु पर मिलेंगे?",
+        "options": [
+          "60 मिनट",
+          "90 मिनट",
+          "30 मिनट",
+          "120 मिनट"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q14",
+        "question": "Q14) \\(7 \\times 11 \\times 13 + 13\\) किस प्रकार की संख्या है?",
+        "options": [
+          "अपरिभाषित",
+          "अभाज्य संख्या",
+          "अपरिमेय संख्या",
+          "भाज्य संख्या"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q15",
+        "question": "Q15) यदि \\(x\\) और \\(y\\) दो क्रमागत धनात्मक सम पूर्णांक हैं, तो उनका \\(\\text{HCF}\\) हमेशा क्या होगा?",
+        "options": [
+          "\\(xy\\)",
+          "4",
+          "1",
+          "2"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q16",
+        "question": "Q16) \\(5005\\) के कितने अभाज्य गुणनखंड हैं?",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "Q17) यदि \\(\\text{LCM}(x, 18) = 36\\) और \\(\\text{HCF}(x, 18) = 2\\) है, तो \\(x\\) का मान है—",
+        "options": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q18",
+        "question": "Q18)\n(i) कथन (A): दो भिन्न अभाज्य संख्याओं \\(p\\) और \\(q\\) का \\(\\text{HCF}\\) हमेशा \\(1\\) होता है।\n(ii) कारण (R): अभाज्य संख्याओं के केवल दो गुणनखंड होते हैं— \\(1\\) और स्वयं वह संख्या।",
+        "options": [
+          "(A) और (R) दोनों सत्य हैं परंतु (R), (A) की सही व्याख्या नहीं है।",
+          "(A) सत्य है परंतु (R) असत्य है।",
+          "(A) असत्य है परंतु (R) सत्य है।",
+          "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(2\\sqrt{3}\\) को निम्नलिखित में से किस संख्या से गुणा करने पर एक परिमेय संख्या प्राप्त होगी?",
+        "options": [
+          "\\(2\\)",
+          "\\(3\\)",
+          "\\(\\sqrt{3}\\)",
+          "\\(\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "Q20) यदि दो संख्याओं का \\(\\text{LCM}\\) 1200 है, तो निम्नलिखित में से कौन-सा उनका \\(\\text{HCF}\\) नहीं हो सकता?",
+        "options": [
+          "600",
+          "500",
+          "200",
+          "400"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q21",
+        "question": "Q21) यदि \\(p\\) और \\(q\\) दो भिन्न अभाज्य संख्याएँ हैं, तो \\(\\text{LCM}(p, q)\\) क्या होगा?",
+        "options": [
+          "\\(p + q\\)",
+          "1",
+          "\\(pq\\)",
+          "\\(p/q\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q22",
+        "question": "Q22) \\(3825\\) को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त करने पर प्राप्त होगा—",
+        "options": [
+          "\\(3^2 \\times 5^2 \\times 17\\)",
+          "\\(3^2 \\times 5 \\times 17^2\\)",
+          "\\(3^3 \\times 5 \\times 17\\)",
+          "\\(3 \\times 5^3 \\times 17\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q23",
+        "question": "Q23) संख्या \\(\\frac{22}{7}\\) है—",
+        "options": [
+          "एक परिमेय संख्या",
+          "पूर्णांक नहीं है",
+          "एक अपरिमेय संख्या",
+          "अभाज्य संख्या"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "Q24) स्तंभ मिलाइए (Match the Column):\nस्तंभ-I:\n(i) \\(2 + \\sqrt{5}\\)\n(ii) \\((2+\\sqrt{3})(2-\\sqrt{3})\\)\n(iii) \\(\\text{HCF}(13, 26)\\)\n\nस्तंभ-II:\n(a) 13\n(b) अपरिमेय संख्या\n(c) 1 (परिमेय संख्या)\n\nसही जोड़ा होगा:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q25",
+        "question": "Q25) सबसे छोटी अभाज्य संख्या और सबसे छोटी सम धनात्मक पूर्णांक का गुणनफल क्या है?",
+        "options": [
+          "6",
+          "8",
+          "2",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q26",
+        "question": "Q26) यदि \\(n\\) एक प्राकृतिक संख्या है, तो \\((\\sqrt{4})^n\\) हमेशा होगा—",
+        "options": [
+          "एक अपरिमेय संख्या",
+          "अपरिभाषित",
+          "एक प्राकृतिक संख्या",
+          "भिन्न"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q27",
+        "question": "Q27) \\(156\\) का अभाज्य गुणनखंडन है—",
+        "options": [
+          "\\(2 \\times 3^2 \\times 13\\)",
+          "\\(2^2 \\times 3 \\times 13\\)",
+          "\\(2 \\times 3 \\times 13^2\\)",
+          "\\(2^2 \\times 3^2 \\times 13\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q28",
+        "question": "Q28) यदि \\(\\text{HCF}(a, b) = 1\\) है, तो \\(a\\) और \\(b\\) को क्या कहा जाता है?",
+        "options": [
+          "अभाज्य संख्याएँ",
+          "भाज्य संख्याएँ",
+          "सम संख्याएँ",
+          "सह-अभाज्य संख्याएँ (Co-prime)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q29",
+        "question": "Q29) 540 के अभाज्य गुणनखंडन में 2 की अधिकतम घात क्या है?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q30",
+        "question": "Q30) यदि \\(p_1\\) और \\(p_2\\) दो क्रमागत विषम अभाज्य संख्याएँ हैं (जहाँ \\(p_1 > p_2\\)), तो \\(p_1^2 - p_2^2\\) हमेशा किससे विभाज्य होगा?",
+        "options": [
+          "3",
+          "8",
+          "12",
+          "16"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q31",
+        "question": "Q31) संख्या \\(5 \\times 11 \\times 17 + 17\\) है—",
+        "options": [
+          "एक अभाज्य संख्या",
+          "अपरिमेय संख्या",
+          "केवल 17 से विभाज्य",
+          "एक भाज्य संख्या"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "Q32) यदि 96 और 404 का \\(\\text{HCF}\\) 4 है, तो उनका \\(\\text{LCM}\\) क्या होगा?",
+        "options": [
+          "4040",
+          "9696",
+          "3840",
+          "9600"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q33",
+        "question": "Q33) \\(\\pi\\) (पाई) संख्या है—",
+        "options": [
+          "इनमें से कोई नहीं",
+          "परिमेय संख्या",
+          "पूर्णांक",
+          "अपरिमेय संख्या"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "Q34) दो धनात्मक पूर्णांकों \\(k\\) और \\(m\\) के लिए यदि \\(\\text{LCM}(k, m) = k \\times m\\) है, तो उनका \\(\\text{HCF}(k, m)\\) क्या होगा?",
+        "options": [
+          "1",
+          "\\(m\\)",
+          "0",
+          "\\(k\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "Q35) 7429 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त करने पर प्राप्त होगा—",
+        "options": [
+          "\\(17 \\times 19 \\times 23\\)",
+          "\\(17 \\times 23 \\times 29\\)",
+          "\\(11 \\times 13 \\times 29\\)",
+          "\\(13 \\times 17 \\times 19\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "Q36) क्या \\(4^n\\) (जहाँ \\(n \\in \\mathbb{N}\\)) कभी अंक \\(0\\) पर समाप्त हो सकती है?",
+        "options": [
+          "हाँ, यदि \\(n\\) सम है",
+          "यदि \\(n\\) विषम हो",
+          "किसी भी \\(n\\) के लिए \\(0\\) पर समाप्त नहीं हो सकती (क्योंकि 5 इसके अभाज्य गुणनखंडन में नहीं है)",
+          "हाँ, यदि \\(n = 0\\) है"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q37",
+        "question": "Q37) यदि \\(\\sqrt{2} = 1.414\\) है, तो \\(\\frac{1}{\\sqrt{2}}\\) का मान क्या होगा?",
+        "options": [
+          "2.828",
+          "0.707",
+          "1.707",
+          "0.414"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q38",
+        "question": "Q38) 3 को कितने अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त किया जा सकता है?",
+        "options": [
+          "0",
+          "अनंत",
+          "2",
+          "1 (स्वयं वह संख्या)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q39",
+        "question": "Q39) यदि \\(n\\) एक 1 से बड़ी प्राकृतिक संख्या है और \\(a = 2^3 \\times 3\\), \\(b = 2 \\times 3 \\times 5\\), \\(c = 3^n \\times 5\\) और \\(\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5\\) है, तो \\(n\\) का मान क्या होगा?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "Q40) \\((\\sqrt{3} + \\sqrt{2})(\\sqrt{3} - \\sqrt{2})\\) का मान है—",
+        "options": [
+          "5",
+          "1",
+          "\\(\\sqrt{5}\\)",
+          "0"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q41",
+        "question": "Q41) दो संख्याओं का \\(\\text{HCF} = 11\\) और \\(\\text{LCM} = 693\\) है। यदि एक संख्या 77 है, तो दूसरी संख्या क्या होगी?",
+        "options": [
+          "88",
+          "99",
+          "66",
+          "121"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q42",
+        "question": "Q42) निम्नलिखित में से कौन-सा व्यंजक अपरिमेय संख्या नहीं है?",
+        "options": [
+          "\\((2 - \\sqrt{3})^2\\)",
+          "\\((\\sqrt{7} - 3)(\\sqrt{7} + 3)\\)",
+          "\\(3\\sqrt{2}\\)",
+          "\\((\\sqrt{2} + \\sqrt{3})^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q43",
+        "question": "Q43) \\(5 - \\sqrt{3}\\) संख्या है—",
+        "options": [
+          "अपरिभाषित",
+          "एक अपरिमेय संख्या",
+          "एक परिमेय संख्या",
+          "एक प्राकृतिक संख्या"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q44",
+        "question": "Q44) वह सबसे छोटी संख्या कौन-सी है जो \\(1\\) से \\(10\\) तक (दोनों शामिल) सभी संख्याओं से विभाज्य है?",
+        "options": [
+          "2520",
+          "1000",
+          "1260",
+          "5040"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q45",
+        "question": "Q45) अंकगणित की आधारभूत प्रमेय (Fundamental Theorem of Arithmetic) के अनुसार प्रत्येक भाज्य संख्या को—",
+        "options": [
+          "अद्वितीय रूप से अभाज्य संख्याओं के गुणनफल के रूप में व्यक्त किया जा सकता है (गुणनखंडों के क्रम को छोड़कर)",
+          "केवल दो अभाज्य संख्याओं के योग के रूप में व्यक्त किया जा सकता है",
+          "केवल विषम संख्याओं के गुणनफल के रूप में लिखा जा सकता है",
+          "अपरिमेय संख्याओं के गुणनफल के रूप में व्यक्त किया जा सकता है"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-AS-CH01-01",
+    "title": "বাস্তৱ সংখ্যা - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Assamese",
+    "chapter": "বাস্তৱ সংখ্যা",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "Q1) যদি দুটা ধনাত্মক পূৰ্ণসংখ্যা \\(a\\) আৰু \\(b\\) ক \\(a = x^3y^2\\) আৰু \\(b = xy^3\\) ৰূপে প্ৰকাশ কৰা হয়, য'ত \\(x, y\\) মৌলিক সংখ্যা, তেন্তে \\(\\text{HCF}(a, b)\\) কিমান?",
+        "options": [
+          "\\(xy^2\\)",
+          "\\(x^3y^3\\)",
+          "\\(x^2y^2\\)",
+          "\\(xy\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q2",
+        "question": "Q2) আটাইতকৈ সৰু মৌলিক সংখ্যা আৰু আটাইতকৈ সৰু যৌগিক সংখ্যাৰ গ.সা.গু. (HCF) আৰু ল.সা.গু. (LCM) ৰ পূৰণফল কিমান?",
+        "options": [
+          "8",
+          "2",
+          "4",
+          "16"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q3",
+        "question": "Q3) স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) পৰিমেয় সংখ্যা আৰু অপৰিমেয় সংখ্যাৰ যোগফল\n(ii) দুটা সহ-মৌলিক সংখ্যাৰ গ.সা.গু. (HCF)\n(iii) ধনাত্মক পূৰ্ণসংখ্যাৰ মৌলিক উৎপাদকীকৰণ\n\nস্তম্ভ-II:\n(a) 1\n(b) অদ্বিতীয় (অংকশাস্ত্ৰৰ মৌলিক উপপাদ্য)\n(c) সদায় অপৰিমেয় সংখ্যা\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "Q4) যদি \\(p\\) আৰু \\(q\\) দুটা সহ-মৌলিক সংখ্যা হয়, তেন্তে \\(p^2\\) আৰু \\(q^2\\) কি হ'ব?",
+        "options": [
+          "যুগ্ম সংখ্যা",
+          "সহ-মৌলিক নহয়",
+          "সহ-মৌলিক সংখ্যা",
+          "অযুগ্ম সংখ্যা"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "Q5) \\(n\\) ৰ যিকোনো প্ৰাকৃতিক মানৰ বাবে \\(6^n\\) সংখ্যাটোৰ শেষৰ অংকটো কেতিয়াবা \\(0\\) হ'ব পাৰিবনে?",
+        "options": [
+          "হ'ব, যদি \\(n\\) অযুগ্ম হয়",
+          "\\(n = 5\\) ৰ বাবে হ'ব",
+          "কোনো \\(n\\) ৰ বাবেই \\(0\\) হ'ব নোৱাৰে",
+          "হ'ব, যদি \\(n\\) যুগ্ম হয়"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "Q6)\n(i) উক্তি (A): \\(\\sqrt{p}\\) এটা অপৰিমেয় সংখ্যা, য'ত \\(p\\) এটা মৌলিক সংখ্যা।\n(ii) যুক্তি (R): যদি এটা মৌলিক সংখ্যা \\(p\\) এ \\(a^2\\) ক হৰণ কৰে, তেন্তে \\(p\\) এ \\(a\\) কো হৰণ কৰিব (য'ত \\(a\\) এটা ধনাত্মক পূৰ্ণসংখ্যা)।",
+        "options": [
+          "(A) অসত্য, কিন্তু (R) সত্য।",
+          "(A) সত্য, কিন্তু (R) অসত্য।",
+          "(A) আৰু (R) দুয়োটাই সত্য আৰু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা।",
+          "(A) আৰু (R) দুয়োটাই সত্য, কিন্তু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা নহয়।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q7",
+        "question": "Q7) যদি \\(\\text{HCF}(306, 657) = 9\\) হয়, তেন্তে \\(\\text{LCM}(306, 657)\\) ৰ মান কিমান?",
+        "options": [
+          "22328",
+          "22838",
+          "22338",
+          "3069"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q8",
+        "question": "Q8) \\(3 + 2\\sqrt{5}\\) সংখ্যাটো কেনেকুৱা সংখ্যা?",
+        "options": [
+          "প্ৰাকৃতিক সংখ্যা",
+          "পূৰ্ণসংখ্যা",
+          "পৰিমেয় সংখ্যা",
+          "অপৰিমেয় সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "Q9) দুটা ধনাত্মক পূৰ্ণসংখ্যা \\(A\\) আৰু \\(B\\) ৰ বাবে যদি \\(A = x^3 y^2\\) আৰু \\(B = x y^4\\) হয় (য'ত \\(x, y\\) মৌলিক সংখ্যা), তেন্তে \\(\\text{LCM}(A, B)\\) কিমান হ'ব?",
+        "options": [
+          "\\(x^2 y^2\\)",
+          "\\(x y^2\\)",
+          "\\(x^3 y^4\\)",
+          "\\(x^4 y^6\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q10",
+        "question": "Q10) \\(144\\) ৰ মৌলিক উৎপাদকীকৰণত সূচকবোৰৰ যোগফল (Sum of exponents) কিমান?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "Q11) স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) \\(\\text{HCF}(a, b) \\times \\text{LCM}(a, b)\\)\n(ii) \\(\\sqrt{2} + \\sqrt{3}\\)\n(iii) \\(2 \\times 3 \\times 5 + 5\\)\n\nস্তম্ভ-II:\n(a) এটা যৌগিক সংখ্যা\n(b) \\(a \\times b\\)\n(c) এটা অপৰিমেয় সংখ্যা\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "Q12) যদি \\(\\text{HCF}(a, 8) = 4\\) আৰু \\(\\text{LCM}(a, 8) = 24\\) হয়, তেন্তে \\(a\\) ৰ মান কিমান?",
+        "options": [
+          "12",
+          "8",
+          "10",
+          "16"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q13",
+        "question": "Q13) এটা বৃত্তাকাৰ পথত তিনিজন ব্যক্তিয়ে ক্ৰমে 10 মিনিট, 15 মিনিট আৰু 20 মিনিটত একোটা পাক সম্পূৰ্ণ কৰে। যদি তেওঁলোকে একে সময়তে একেটা বিন্দুৰ পৰা দৌৰিবলৈ আৰম্ভ কৰে, তেন্তে কিমান সময়ৰ পিছত তেওঁলোক পুনৰ প্ৰথম বিন্দুটিত লগ হ'ব?",
+        "options": [
+          "60 মিনিট",
+          "90 মিনিট",
+          "120 মিনিট",
+          "30 মিনিট"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q14",
+        "question": "Q14) \\(7 \\times 11 \\times 13 + 13\\) সংখ্যাটো কেনেকুৱা সংখ্যা?",
+        "options": [
+          "অসংজ্ঞাত",
+          "অপৰিমেয় সংখ্যা",
+          "মৌলিক সংখ্যা",
+          "যৌগিক সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q15",
+        "question": "Q15) যদি \\(x\\) আৰু \\(y\\) দুটা ক্ৰমিক ধনাত্মক যুগ্ম সংখ্যা হয়, তেন্তে তেওঁলোকৰ গ.সা.গু. (HCF) সদায় কিমান হ'ব?",
+        "options": [
+          "\\(xy\\)",
+          "4",
+          "1",
+          "2"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q16",
+        "question": "Q16) \\(5005\\) ৰ মৌলিক উৎপাদক কেইটা?",
+        "options": [
+          "4 টা",
+          "3 টা",
+          "2 টা",
+          "5 টা"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "Q17) যদি \\(\\text{LCM}(x, 18) = 36\\) আৰু \\(\\text{HCF}(x, 18) = 2\\) হয়, তেন্তে \\(x\\) ৰ মান—",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q18",
+        "question": "Q18)\n(i) উক্তি (A): দুটা ভিন্ন মৌলিক সংখ্যা \\(p\\) আৰু \\(q\\) ৰ গ.সা.গু. (HCF) সদায় \\(1\\)।\n(ii) যুক্তি (R): মৌলিক সংখ্যাৰ কেৱল দুটাহে উৎপাদক থাকে— \\(1\\) আৰু সংখ্যাটো নিজেই।",
+        "options": [
+          "(A) আৰু (R) দুয়োটাই সত্য, কিন্তু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা নহয়।",
+          "(A) সত্য, কিন্তু (R) অসত্য।",
+          "(A) অসত্য, কিন্তু (R) সত্য।",
+          "(A) আৰু (R) দুয়োটাই সত্য আৰু (R) হৈছে (A) ৰ সঠিক ব্যাখ্যা।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(2\\sqrt{3}\\) ক তলৰ কোনটো সংখ্যাৰে পূৰণ কৰিলে এটা পৰিমেয় সংখ্যা পোৱা যাব?",
+        "options": [
+          "\\(2\\)",
+          "\\(\\sqrt{2}\\)",
+          "\\(\\sqrt{3}\\)",
+          "\\(3\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "Q20) যদি দুটা সংখ্যাৰ ল.সা.গু. (LCM) 1200 হয়, তেন্তে তলৰ কোনটো সংখ্যা তেওঁলোকৰ গ.সা.গু. (HCF) হ'ব নোৱাৰে?",
+        "options": [
+          "200",
+          "500",
+          "600",
+          "400"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q21",
+        "question": "Q21) \\(p\\) আৰু \\(q\\) দুটা ভিন্ন মৌলিক সংখ্যা হ'লে \\(\\text{LCM}(p, q)\\) কিমান?",
+        "options": [
+          "\\(p/q\\)",
+          "\\(p + q\\)",
+          "\\(pq\\)",
+          "1"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q22",
+        "question": "Q22) \\(3825\\) ক মৌলিক উৎপাদকৰ পূৰণফল ৰূপে প্ৰকাশ কৰিলে পাব—",
+        "options": [
+          "\\(3^2 \\times 5^2 \\times 17\\)",
+          "\\(3 \\times 5^3 \\times 17\\)",
+          "\\(3^3 \\times 5 \\times 17\\)",
+          "\\(3^2 \\times 5 \\times 17^2\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q23",
+        "question": "Q23) \\(\\frac{22}{7}\\) সংখ্যাটো—",
+        "options": [
+          "এটা পৰিমেয় সংখ্যা",
+          "মৌলিক সংখ্যা",
+          "পূৰ্ণসংখ্যা নহয়",
+          "এটা অপৰিমেয় সংখ্যা"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "Q24) স্তম্ভ মিলোৱা (Match the Column):\nস্তম্ভ-I:\n(i) \\(2 + \\sqrt{5}\\)\n(ii) \\((2+\\sqrt{3})(2-\\sqrt{3})\\)\n(iii) \\(\\text{HCF}(13, 26)\\)\n\nস্তম্ভ-II:\n(a) 13\n(b) অপৰিমেয় সংখ্যা\n(c) 1 (পৰিমেয় সংখ্যা)\n\nসঠিক যোৰাটো হ'ব:",
+        "options": [
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q25",
+        "question": "Q25) আটাইতকৈ সৰু মৌলিক সংখ্যা আৰু আটাইতকৈ সৰু যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ পূৰণফল কিমান?",
+        "options": [
+          "8",
+          "2",
+          "6",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q26",
+        "question": "Q26) যদি \\(n\\) এটা প্ৰাকৃতিক সংখ্যা হয়, তেন্তে \\((\\sqrt{4})^n\\) সদায়—",
+        "options": [
+          "ভগ্নাংশ",
+          "এটা অপৰিমেয় সংখ্যা",
+          "এটা স্বাভাৱিক বা প্ৰাকৃতিক সংখ্যা",
+          "অসংজ্ঞাত"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q27",
+        "question": "Q27) \\(156\\) ৰ মৌলিক উৎপাদকীকৰণ হ'ল—",
+        "options": [
+          "\\(2 \\times 3 \\times 13^2\\)",
+          "\\(2^2 \\times 3 \\times 13\\)",
+          "\\(2^2 \\times 3^2 \\times 13\\)",
+          "\\(2 \\times 3^2 \\times 13\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q28",
+        "question": "Q28) যদি \\(\\text{HCF}(a, b) = 1\\) হয়, তেন্তে \\(a\\) আৰু \\(b\\) ক কি বোলা হয়?",
+        "options": [
+          "যৌগিক সংখ্যা",
+          "মৌলিক সংখ্যা",
+          "যুগ্ম সংখ্যা",
+          "সহ-মৌলিক সংখ্যা (Co-prime)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q29",
+        "question": "Q29) 540 ৰ মৌলিক উৎপাদকসমূহত 2 ৰ সৰ্বোচ্চ ঘাত (Exponent of 2) কিমান?",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q30",
+        "question": "Q30) যদি \\(p_1\\) আৰু \\(p_2\\) দুটা ক্ৰমিক অযুগ্ম মৌলিক সংখ্যা হয় (য'ত \\(p_1 > p_2\\)), তেন্তে \\(p_1^2 - p_2^2\\) সদায় কিহেৰে বিভাজ্য?",
+        "options": [
+          "16",
+          "8",
+          "3",
+          "12"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q31",
+        "question": "Q31) \\(5 \\times 11 \\times 17 + 17\\) সংখ্যাটো—",
+        "options": [
+          "কেৱল 17 ৰে বিভাজ্য",
+          "অপৰিমেয় সংখ্যা",
+          "এটা মৌলিক সংখ্যা",
+          "এটা যৌগিক সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "Q32) 96 আৰু 404 ৰ গ.সা.গু. (HCF) 4 হ'লে, তেওঁলোকৰ ল.সা.গু. (LCM) কিমান?",
+        "options": [
+          "3840",
+          "9696",
+          "4040",
+          "9600"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q33",
+        "question": "Q33) \\(\\pi\\) (পাই) সংখ্যাটো—",
+        "options": [
+          "পূৰ্ণসংখ্যা",
+          "কোনো এটাও নহয়",
+          "পৰিমেয় সংখ্যা",
+          "অপৰিমেয় সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "Q34) দুটা ধনাত্মক পূৰ্ণসংখ্যা \\(k\\) আৰু \\(m\\) ৰ বাবে যদি \\(\\text{LCM}(k, m) = k \\times m\\) হয়, তেন্তে তেওঁলোকৰ \\(\\text{HCF}(k, m)\\) কিমান হ'ব?",
+        "options": [
+          "1",
+          "0",
+          "\\(k\\)",
+          "\\(m\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "Q35) 7429 ক মৌলিক উৎপাদকসমূহৰ পূৰণফল ৰূপে প্ৰকাশ কৰিলে পাব—",
+        "options": [
+          "\\(17 \\times 19 \\times 23\\)",
+          "\\(11 \\times 13 \\times 29\\)",
+          "\\(17 \\times 23 \\times 29\\)",
+          "\\(13 \\times 17 \\times 19\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "Q36) \\(4^n\\) (য'ত \\(n \\in \\mathbb{N}\\)) ৰ শেষৰ অংক কেতিয়াবা \\(0\\) হ'ব পাৰিবনে?",
+        "options": [
+          "হ'ব, যদি \\(n\\) যুগ্ম হয়",
+          "\\(n\\) অযুগ্ম হ'লে হ'ব",
+          "কোনো \\(n\\) ৰ বাবেই \\(0\\) হ'ব নোৱাৰে (কাৰণ 5 মৌলিক উৎপাদকত নাই)",
+          "হ'ব, যদি \\(n = 0\\) হয়"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q37",
+        "question": "Q37) যদি \\(\\sqrt{2} = 1.414\\) হয়, তেন্তে \\(\\frac{1}{\\sqrt{2}}\\) ৰ মান কিমান?",
+        "options": [
+          "1.707",
+          "0.707",
+          "2.828",
+          "0.414"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q38",
+        "question": "Q38) 3 কেইটা মৌলিক উৎপাদকৰ পূৰণফল ৰূপে প্ৰকাশ কৰিব পাৰি?",
+        "options": [
+          "অসীম",
+          "2",
+          "0",
+          "1 (সংখ্যাটো নিজেই)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q39",
+        "question": "Q39) \\(n\\) এটা 1 তকৈ ডাঙৰ প্ৰাকৃতিক সংখ্যা আৰু যদি \\(a = 2^3 \\times 3\\), \\(b = 2 \\times 3 \\times 5\\), \\(c = 3^n \\times 5\\) আৰু \\(\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5\\) হয়, তেন্তে \\(n\\) ৰ মান কিমান?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "Q40) \\((\\sqrt{3} + \\sqrt{2})(\\sqrt{3} - \\sqrt{2})\\) ৰ মান—",
+        "options": [
+          "\\(\\sqrt{5}\\)",
+          "1",
+          "0",
+          "5"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q41",
+        "question": "Q41) দুটা সংখ্যাৰ \\(\\text{HCF} = 11\\) আৰু \\(\\text{LCM} = 693\\)। যদি এটা সংখ্যা 77 হয়, তেন্তে আনটো সংখ্যা কিমান?",
+        "options": [
+          "121",
+          "99",
+          "88",
+          "66"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q42",
+        "question": "Q42) তলৰ কোনটো ৰাশি অপৰিমেয় সংখ্যা নহয়?",
+        "options": [
+          "\\((\\sqrt{2} + \\sqrt{3})^2\\)",
+          "\\((\\sqrt{7} - 3)(\\sqrt{7} + 3)\\)",
+          "\\((2 - \\sqrt{3})^2\\)",
+          "\\(3\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q43",
+        "question": "Q43) \\(5 - \\sqrt{3}\\) সংখ্যাটো—",
+        "options": [
+          "এটা স্বাভাৱিক সংখ্যা",
+          "এটা অপৰিমেয় সংখ্যা",
+          "এটা পৰিমেয় সংখ্যা",
+          "অসংজ্ঞাত"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q44",
+        "question": "Q44) \\(1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\) এই সকলোবোৰ সংখ্যাৰে বিভাজ্য আটাইতকৈ সৰু সংখ্যাটো কি?",
+        "options": [
+          "2520",
+          "1000",
+          "1260",
+          "5040"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q45",
+        "question": "Q45) পাটিগণিতৰ মৌলিক উপপাদ্য (Fundamental Theorem of Arithmetic) অনুসৰি প্ৰত্যেক যৌগিক সংখ্যাকে—",
+        "options": [
+          "অদ্বিতীয়ভাৱে মৌলিক সংখ্যাবোৰৰ পূৰণফল ৰূপে প্ৰকাশ কৰিব পাৰি (উৎপাদকবোৰৰ ক্ৰমটো বাদ দি)",
+          "কেৱল অযুগ্ম সংখ্যাৰ পূৰণফল ৰূপে লিখিব পাৰি",
+          "কেৱল দুটা মৌলিক সংখ্যাৰ যোগফল ৰূপে প্ৰকাশ কৰিব পাৰি",
+          "অপৰিমেয় সংখ্যাৰ পূৰণফল ৰূপে প্ৰকাশ কৰিব পাৰি"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-BN-CH01-01",
+    "title": "বাস্তব সংখ্যা - Test 01",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Bengali",
+    "chapter": "বাস্তব সংখ্যা",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "Q1) যদি দুটি ধনাত্মক পূর্ণসংখ্যা \\(a\\) এবং \\(b\\)-কে \\(a = x^3y^2\\) এবং \\(b = xy^3\\) রূপে প্রকাশ করা হয়, যেখানে \\(x, y\\) মৌলিক সংখ্যা, তবে \\(\\text{HCF}(a, b)\\) কত?",
+        "options": [
+          "\\(xy^2\\)",
+          "\\(x^2y^2\\)",
+          "\\(x^3y^3\\)",
+          "\\(xy\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q2",
+        "question": "Q2) ক্ষুদ্রতম মৌলিক সংখ্যা এবং ক্ষুদ্রতম যৌগিক সংখ্যার \\(\\text{HCF}\\) এবং \\(\\text{LCM}\\)-এর গুণফল কত?",
+        "options": [
+          "8",
+          "16",
+          "2",
+          "4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q3",
+        "question": "Q3) স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) একটি মূলদ সংখ্যা এবং একটি অমূলদ সংখ্যার যোগফল\n(ii) দুটি পরষ্পর মৌলিক সংখ্যার \\(\\text{HCF}\\)\n(iii) ধনাত্মক পূর্ণসংখ্যার মৌলিক উৎপাদকে বিশ্লেষণ\n\nস্তম্ভ-II:\n(a) 1\n(b) অনন্য (পাটিগণিতের মৌলিক উপপাদ্য)\n(c) সর্বদা একটি অমূলদ সংখ্যা\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(b), (iii)-(a)",
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q4",
+        "question": "Q4) যদি \\(p\\) এবং \\(q\\) দুটি পরষ্পর মৌলিক সংখ্যা হয়, তবে \\(p^2\\) এবং \\(q^2\\) কী হবে?",
+        "options": [
+          "পরষ্পর মৌলিক নয়",
+          "জোড় সংখ্যা",
+          "পরষ্পর মৌলিক সংখ্যা",
+          "বিজোড় সংখ্যা"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q5",
+        "question": "Q5) যেকোনো স্বাভাবিক সংখ্যা \\(n\\)-এর জন্য \\(6^n\\) সংখ্যাটির শেষ অংক কি কখনো \\(0\\) হতে পারে?",
+        "options": [
+          "হ্যাঁ, যদি \\(n\\) বিজোড় হয়",
+          "\\(n = 5\\)-এর জন্য হবে",
+          "কোনো \\(n\\)-এর জন্যই \\(0\\) হতে পারে না",
+          "হ্যাঁ, যদি \\(n\\) জোড় হয়"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q6",
+        "question": "Q6)\n(i) উক্তি (A): \\(\\sqrt{p}\\) একটি অমূলদ সংখ্যা, যেখানে \\(p\\) একটি মৌলিক সংখ্যা।\n(ii) যুক্তি (R): যদি একটি মৌলিক সংখ্যা \\(p\\), \\(a^2\\)-কে ভাগ করে, তবে \\(p\\), \\(a\\)-কেও ভাগ করবে (যেখানে \\(a\\) একটি ধনাত্মক পূর্ণসংখ্যা)।",
+        "options": [
+          "(A) এবং (R) উভয়ই সত্য কিন্তু (R) হলো (A)-এর সঠিক ব্যাখ্যা নয়।",
+          "(A) মিথ্যা কিন্তু (R) সত্য।",
+          "(A) এবং (R) উভয়ই সত্য এবং (R) হলো (A)-এর সঠিক ব্যাখ্যা।",
+          "(A) সত্য কিন্তু (R) মিথ্যা।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q7",
+        "question": "Q7) যদি \\(\\text{HCF}(306, 657) = 9\\) হয়, তবে \\(\\text{LCM}(306, 657)\\)-এর মান কত?",
+        "options": [
+          "22328",
+          "3069",
+          "22338",
+          "22838"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q8",
+        "question": "Q8) \\(3 + 2\\sqrt{5}\\) সংখ্যাটি কী ধরনের সংখ্যা?",
+        "options": [
+          "পূর্ণসংখ্যা",
+          "মূলদ সংখ্যা",
+          "স্বাভাবিক সংখ্যা",
+          "অমূলদ সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q9",
+        "question": "Q9) দুটি ধনাত্মক পূর্ণসংখ্যা \\(A\\) এবং \\(B\\)-এর জন্য যদি \\(A = x^3 y^2\\) এবং \\(B = x y^4\\) হয় (যেখানে \\(x, y\\) মৌলিক সংখ্যা), তবে \\(\\text{LCM}(A, B)\\) কত হবে?",
+        "options": [
+          "\\(x y^2\\)",
+          "\\(x^2 y^2\\)",
+          "\\(x^3 y^4\\)",
+          "\\(x^4 y^6\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q10",
+        "question": "Q10) \\(144\\)-এর মৌলিক উৎপাদকে বিশ্লেষণে সূচকগুলির যোগফল (Sum of exponents) কত?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q11",
+        "question": "Q11) স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) \\(\\text{HCF}(a, b) \\times \\text{LCM}(a, b)\\)\n(ii) \\(\\sqrt{2} + \\sqrt{3}\\)\n(iii) \\(2 \\times 3 \\times 5 + 5\\)\n\nস্তম্ভ-II:\n(a) একটি যৌগিক সংখ্যা\n(b) \\(a \\times b\\)\n(c) একটি অমূলদ সংখ্যা\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(c), (ii)-(a), (iii)-(b)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q12",
+        "question": "Q12) যদি \\(\\text{HCF}(a, 8) = 4\\) এবং \\(\\text{LCM}(a, 8) = 24\\) হয়, তবে \\(a\\)-এর মান কত?",
+        "options": [
+          "12",
+          "16",
+          "10",
+          "8"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q13",
+        "question": "Q13) একটি বৃত্তাকার পথে তিনজন ব্যক্তি যথাক্রমে 10 মিনিট, 15 মিনিট এবং 20 মিনিটে একটি পাক সম্পন্ন করে। তারা একই সময়ে একই বিন্দু থেকে দৌড়ানো শুরু করলে, কত সময় পর তারা পুনরায় প্রথম বিন্দুতে মিলিত হবে?",
+        "options": [
+          "60 মিনিট",
+          "30 মিনিট",
+          "90 মিনিট",
+          "120 মিনিট"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q14",
+        "question": "Q14) \\(7 \\times 11 \\times 13 + 13\\) সংখ্যাটি কী ধরনের সংখ্যা?",
+        "options": [
+          "মৌলিক সংখ্যা",
+          "অমূলদ সংখ্যা",
+          "অসংজ্ঞায়িত",
+          "যৌগিক সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q15",
+        "question": "Q15) যদি \\(x\\) এবং \\(y\\) দুটি পর পর ধনাত্মক জোড় পূর্ণসংখ্যা হয়, তবে তাদের \\(\\text{HCF}\\) সর্বদা কত হবে?",
+        "options": [
+          "1",
+          "\\(xy\\)",
+          "4",
+          "2"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q16",
+        "question": "Q16) \\(5005\\)-এর মৌলিক উৎপাদক কয়টি?",
+        "options": [
+          "4 টি",
+          "2 টি",
+          "5 টি",
+          "3 টি"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q17",
+        "question": "Q17) যদি \\(\\text{LCM}(x, 18) = 36\\) এবং \\(\\text{HCF}(x, 18) = 2\\) হয়, তবে \\(x\\)-এর মান—",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q18",
+        "question": "Q18)\n(i) উক্তি (A): দুটি ভিন্ন মৌলিক সংখ্যা \\(p\\) এবং \\(q\\)-এর \\(\\text{HCF}\\) সর্বদা \\(1\\)।\n(ii) যুক্তি (R): মৌলিক সংখ্যার কেবল দুটি উৎপাদক থাকে— \\(1\\) এবং সংখ্যাটি নিজে।",
+        "options": [
+          "(A) মিথ্যা কিন্তু (R) সত্য।",
+          "(A) সত্য কিন্তু (R) মিথ্যা।",
+          "(A) এবং (R) উভয়ই সত্য কিন্তু (R) হলো (A)-এর সঠিক ব্যাখ্যা নয়।",
+          "(A) এবং (R) উভয়ই সত্য এবং (R) হলো (A)-এর সঠিক ব্যাখ্যা।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q19",
+        "question": "\\(2\\sqrt{3}\\)-কে নিচের কোন সংখ্যাটি দিয়ে গুণ করলে একটি মূলদ সংখ্যা পাওয়া যাবে?",
+        "options": [
+          "\\(3\\)",
+          "\\(2\\)",
+          "\\(\\sqrt{3}\\)",
+          "\\(\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q20",
+        "question": "Q20) দুটি সংখ্যার \\(\\text{LCM}\\) যদি 1200 হয়, তবে নিচের কোনটি তাদের \\(\\text{HCF}\\) হতে পারে না?",
+        "options": [
+          "200",
+          "500",
+          "600",
+          "400"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q21",
+        "question": "Q21) \\(p\\) এবং \\(q\\) দুটি ভিন্ন মৌলিক সংখ্যা হলে \\(\\text{LCM}(p, q)\\) কত?",
+        "options": [
+          "1",
+          "\\(p/q\\)",
+          "\\(pq\\)",
+          "\\(p + q\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q22",
+        "question": "Q22) \\(3825\\)-কে মৌলিক উৎপাদকের গুণফল রূপে প্রকাশ করলে পাওয়া যাবে—",
+        "options": [
+          "\\(3^2 \\times 5^2 \\times 17\\)",
+          "\\(3^2 \\times 5 \\times 17^2\\)",
+          "\\(3 \\times 5^3 \\times 17\\)",
+          "\\(3^3 \\times 5 \\times 17\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q23",
+        "question": "Q23) \\(\\frac{22}{7}\\) সংখ্যাটি—",
+        "options": [
+          "একটি মূলদ সংখ্যা",
+          "মৌলিক সংখ্যা",
+          "পূর্ণসংখ্যা নয়",
+          "একটি অমূলদ সংখ্যা"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q24",
+        "question": "Q24) স্তম্ভ মেলান (Match the Column):\nস্তম্ভ-I:\n(i) \\(2 + \\sqrt{5}\\)\n(ii) \\((2+\\sqrt{3})(2-\\sqrt{3})\\)\n(iii) \\(\\text{HCF}(13, 26)\\)\n\nস্তম্ভ-II:\n(a) 13\n(b) অমূলদ সংখ্যা\n(c) 1 (মূলদ সংখ্যা)\n\nসঠিক জোড়াটি হবে:",
+        "options": [
+          "(i)-(c), (ii)-(a), (iii)-(b)",
+          "(i)-(a), (ii)-(b), (iii)-(c)",
+          "(i)-(b), (ii)-(a), (iii)-(c)",
+          "(i)-(b), (ii)-(c), (iii)-(a)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q25",
+        "question": "Q25) ক্ষুদ্রতম মৌলিক সংখ্যা এবং ক্ষুদ্রতম জোড় ধনাত্মক পূর্ণসংখ্যার গুণফল কত?",
+        "options": [
+          "8",
+          "2",
+          "6",
+          "4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q26",
+        "question": "Q26) যদি \\(n\\) একটি স্বাভাবিক সংখ্যা হয়, তবে \\((\\sqrt{4})^n\\) সর্বদা—",
+        "options": [
+          "ভগ্নাংশ",
+          "অসংজ্ঞায়িত",
+          "একটি স্বাভাবিক সংখ্যা",
+          "একটি অমূলদ সংখ্যা"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q27",
+        "question": "Q27) \\(156\\)-এর মৌলিক উৎপাদকে বিশ্লেষণ হলো—",
+        "options": [
+          "\\(2^2 \\times 3^2 \\times 13\\)",
+          "\\(2^2 \\times 3 \\times 13\\)",
+          "\\(2 \\times 3^2 \\times 13\\)",
+          "\\(2 \\times 3 \\times 13^2\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q28",
+        "question": "Q28) যদি \\(\\text{HCF}(a, b) = 1\\) হয়, তবে \\(a\\) এবং \\(b\\)-কে কী বলা হয়?",
+        "options": [
+          "জোড় সংখ্যা",
+          "যৌগিক সংখ্যা",
+          "মৌলিক সংখ্যা",
+          "পরষ্পর মৌলিক সংখ্যা (Co-prime)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q29",
+        "question": "Q29) 540-এর মৌলিক উৎপাদকে বিশ্লেষণে 2-এর সর্বোচ্চ সূচক (Exponent of 2) কত?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q30",
+        "question": "Q30) যদি \\(p_1\\) এবং \\(p_2\\) দুটি পর পর বিজোড় মৌলিক সংখ্যা হয় (যেখানে \\(p_1 > p_2\\)), তবে \\(p_1^2 - p_2^2\\) সর্বদা কী দিয়ে বিভাজ্য?",
+        "options": [
+          "16",
+          "8",
+          "12",
+          "3"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q31",
+        "question": "Q31) \\(5 \\times 11 \\times 17 + 17\\) সংখ্যাটি—",
+        "options": [
+          "কেবল 17 দিয়ে বিভাজ্য",
+          "একটি মৌলিক সংখ্যা",
+          "অমূলদ সংখ্যা",
+          "একটি যৌগিক সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q32",
+        "question": "Q32) 96 এবং 404-এর \\(\\text{HCF}\\) 4 হলে, তাদের \\(\\text{LCM}\\) কত?",
+        "options": [
+          "9600",
+          "9696",
+          "4040",
+          "3840"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q33",
+        "question": "Q33) \\(\\pi\\) (পাই) সংখ্যাটি—",
+        "options": [
+          "পূর্ণসংখ্যা",
+          "মূলদ সংখ্যা",
+          "কোনোটিই নয়",
+          "অমূলদ সংখ্যা"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q34",
+        "question": "Q34) দুটি ধনাত্মক পূর্ণসংখ্যা \\(k\\) এবং \\(m\\)-এর জন্য যদি \\(\\text{LCM}(k, m) = k \\times m\\) হয়, তবে তাদের \\(\\text{HCF}(k, m)\\) কত হবে?",
+        "options": [
+          "1",
+          "\\(k\\)",
+          "\\(m\\)",
+          "0"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q35",
+        "question": "Q35) 7429-কে মৌলিক উৎপাদকের গুণফল রূপে প্রকাশ করলে পাওয়া যাবে—",
+        "options": [
+          "\\(17 \\times 19 \\times 23\\)",
+          "\\(13 \\times 17 \\times 19\\)",
+          "\\(17 \\times 23 \\times 29\\)",
+          "\\(11 \\times 13 \\times 29\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q36",
+        "question": "Q36) \\(4^n\\) (যেখানে \\(n \\in \\mathbb{N}\\)) এর শেষ অংক কি কখনো \\(0\\) হতে পারে?",
+        "options": [
+          "হ্যাঁ, যদি \\(n\\) জোড় হয়",
+          "হ্যাঁ, যদি \\(n = 0\\) হয়",
+          "কোনো \\(n\\)-এর জন্যই \\(0\\) হতে পারে না (কারণ 5 এর মৌলিক উৎপাদকে নেই)",
+          "\\(n\\) বিজোড় হলে হবে"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "Q37",
+        "question": "Q37) যদি \\(\\sqrt{2} = 1.414\\) হয়, তবে \\(\\frac{1}{\\sqrt{2}}\\)-এর মান কত?",
+        "options": [
+          "0.414",
+          "0.707",
+          "2.828",
+          "1.707"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q38",
+        "question": "Q38) 3-কে কয়টি মৌলিক উৎপাদকের গুণফল রূপে প্রকাশ করা যায়?",
+        "options": [
+          "2",
+          "অসীম",
+          "0",
+          "1 (সংখ্যাটি নিজে)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "Q39",
+        "question": "Q39) \\(n\\) একটি 1-এর চেয়ে বড় স্বাভাবিক সংখ্যা এবং যদি \\(a = 2^3 \\times 3\\), \\(b = 2 \\times 3 \\times 5\\), \\(c = 3^n \\times 5\\) এবং \\(\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5\\) হয়, তবে \\(n\\)-এর মান কত?",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q40",
+        "question": "Q40) \\((\\sqrt{3} + \\sqrt{2})(\\sqrt{3} - \\sqrt{2})\\)-এর মান—",
+        "options": [
+          "0",
+          "1",
+          "\\(\\sqrt{5}\\)",
+          "5"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q41",
+        "question": "Q41) দুটি সংখ্যার \\(\\text{HCF} = 11\\) এবং \\(\\text{LCM} = 693\\)। একটি সংখ্যা 77 হলে, অপর সংখ্যাটি কত?",
+        "options": [
+          "66",
+          "99",
+          "121",
+          "88"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q42",
+        "question": "Q42) নিচের কোনটি অমূলদ সংখ্যা নয়?",
+        "options": [
+          "\\((2 - \\sqrt{3})^2\\)",
+          "\\((\\sqrt{7} - 3)(\\sqrt{7} + 3)\\)",
+          "\\((\\sqrt{2} + \\sqrt{3})^2\\)",
+          "\\(3\\sqrt{2}\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q43",
+        "question": "Q43) \\(5 - \\sqrt{3}\\) সংখ্যাটি—",
+        "options": [
+          "একটি মূলদ সংখ্যা",
+          "একটি অমূলদ সংখ্যা",
+          "অসংজ্ঞায়িত",
+          "একটি স্বাভাবিক সংখ্যা"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "Q44",
+        "question": "Q44) \\(1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\) এই সমস্ত সংখ্যা দ্বারা বিভাজ্য ক্ষুদ্রতম সংখ্যাটি কত?",
+        "options": [
+          "2520",
+          "5040",
+          "1260",
+          "1000"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": "Q45",
+        "question": "Q45) পাটিগণিতের মৌলিক উপপাদ্য (Fundamental Theorem of Arithmetic) অনুযায়ী প্রতিটি যৌগিক সংখ্যাকে—",
+        "options": [
+          "অনন্যভাবে মৌলিক সংখ্যাগুলির গুণফল রূপে প্রকাশ করা যায় (উৎপাদকগুলির ক্রম বাদ দিয়ে)",
+          "অমূলদ সংখ্যার গুণফল রূপে প্রকাশ করা যায়",
+          "কেবল বিজোড় সংখ্যার গুণফল রূপে লেখা যায়",
+          "কেবল দুটি মৌলিক সংখ্যার যোগফল রূপে প্রকাশ করা যায়"
+        ],
+        "correctAnswer": 0
+      }
+    ]
   }
+]
 ]
 }
