@@ -1,72 +1,67 @@
 {
-  "chapters": [
-    {
-      "id": "chapter-0",
-      "name": "Revision Exercise (পুনৰালোচনা)"
-    },
-    {
-      "id": "chapter-1",
-      "name": "Real Numbers (বাস্তৱ সংখ্যা)"
-    },
-    {
-      "id": "chapter-2",
-      "name": "Polynomials (বহুপদ)"
-    },
-    {
-      "id": "chapter-3",
-      "name": "Pair of Linear Equations in Two Variables (দুটা চলকত ৰৈখিক সমীকৰণৰ যোৰ)"
-    },
-    {
-      "id": "chapter-4",
-      "name": "Quadratic Equations (দ্বিঘাত সমীকৰণ)"
-    },
-    {
-      "id": "chapter-5",
-      "name": "Arithmetic Progressions (সমান্তৰ প্ৰগতি)"
-    },
-    {
-      "id": "chapter-6",
-      "name": "Triangles (ত্ৰিভুজ)"
-    },
-    {
-      "id": "chapter-7",
-      "name": "Coordinate Geometry (স্থানাংক জ্যামিতি)"
-    },
-    {
-      "id": "chapter-8",
-      "name": "Introduction to Trigonometry (ত্ৰিকোণমিতিৰ পৰিচয়)"
-    },
-    {
-      "id": "chapter-9",
-      "name": "Some Applications of Trigonometry (ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ)"
-    },
-    {
-      "id": "chapter-10",
-      "name": "Circles (বৃত্ত)"
-    },
-    {
-      "id": "chapter-11",
-      "name": "Areas Related to Circles (বৃত্ত সম্বন্ধীয় কালি)"
-    },
-    {
-      "id": "chapter-12",
-      "name": "Surface Areas and Volumes (পৃষ্ঠকালি আৰু আয়তন)"
-    },
-    {
-      "id": "chapter-13",
-      "name": "Statistics (পৰিসংখ্যা)"
-    },
-    {
-      "id": "chapter-14",
-      "name": "Probability (সম্ভাৱিতা)"
-    }
-  ],
-  "testCategories": [
-    {
-      "id": "complete",
-      "name": "Complete Mock Test (সম্পূৰ্ণ মক টেষ্ট)"
-    }
-  ],
+  
+"chapters": [
+  {
+    "id": "chapter-0",
+    "name": "Revision Exercise (पुनरावलोकन / পুনৰালোচনা / পুনরালোচনা)"
+  },
+  {
+    "id": "chapter-1",
+    "name": "Real Numbers (वास्तविक संख्याएँ / বাস্তৱ সংখ্যা / বাস্তব সংখ্যা)"
+  },
+  {
+    "id": "chapter-2",
+    "name": "Polynomials (बहुपद / বহুপদ / বহুপদ)"
+  },
+  {
+    "id": "chapter-3",
+    "name": "Pair of Linear Equations in Two Variables (दो चर वाले रैखिक समीकरण युग्म / দুটা চলকত ৰৈখিক সমীকৰণৰ যোৰ / দুটি চলক বিশিষ্ট জোড়া রৈখিক সমীকরণ)"
+  },
+  {
+    "id": "chapter-4",
+    "name": "Quadratic Equations (द्विघात समीकरण / দ্বিঘাত সমীকৰণ / দ্বিঘাত সমীকরণ)"
+  },
+  {
+    "id": "chapter-5",
+    "name": "Arithmetic Progressions (समांतर श्रेढ़ीयाँ / সমান্তৰ প্ৰগতি / সমান্তর প্রগতি)"
+  },
+  {
+    "id": "chapter-6",
+    "name": "Triangles (त्रिभुज / ত্ৰিভুজ / ত্রিভুজ)"
+  },
+  {
+    "id": "chapter-7",
+    "name": "Coordinate Geometry (निर्देशांक ज्यामिति / স্থানাংক জ্যামিতি / স্থানাঙ্ক-জ্যামিতি)"
+  },
+  {
+    "id": "chapter-8",
+    "name": "Introduction to Trigonometry (त्रिकोणमिति का परिचय / ত্ৰিকোণমিতিৰ পৰিচয় / ত্রিকোণমিতির পরিচিতি)"
+  },
+  {
+    "id": "chapter-9",
+    "name": "Some Applications of Trigonometry (त्रिकोणमिति के कुछ अनुप्रयोग / ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ / ত্রিকোণমিতির কয়েকটি প্রয়োগ)"
+  },
+  {
+    "id": "chapter-10",
+    "name": "Circles (वृत्त / বৃত্ত / বৃত্ত)"
+  },
+  {
+    "id": "chapter-11",
+    "name": "Areas Related to Circles (वृत्तों से संबंधित क्षेत्रफल / বৃত্ত সম্বন্ধীয় কালি / বৃত্ত সম্পর্কিত কালি)"
+  },
+  {
+    "id": "chapter-12",
+    "name": "Surface Areas and Volumes (पृष्ठीय क्षेत्रफल और आयतन / পৃষ্ঠকালি আৰু আয়তন / পৃষ্ঠকালি ও আয়তন)"
+  },
+  {
+    "id": "chapter-13",
+    "name": "Statistics (सांख्यिकी / পৰিসংখ্যা / পরিসংখ্যান বিদ্যা)"
+  },
+  {
+    "id": "chapter-14",
+    "name": "Probability (प्रायिकता / সম্ভাৱিতা / সম্ভাব্যতা)"
+  }
+],
   "tests": [
   {
     "id": "BT-X-MATH-EN-CH00-01",
