@@ -419,47 +419,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "If two positive integers a and b are written as a = x³y² and b = xy³, where x and y are prime numbers, then HCF(a, b) is:",
-      "options": ["xy", "xy²", "x³y³", "x²y²"],
+      "question": "If two positive integers \\(a\\) and \\(b\\) are written as \\(a = x^{3}y^{2}\\) and \\(b = xy^{3}\\), where \\(x, y\\) are prime numbers, then \\(\\text{HCF}(a, b)\\) is:",
+      "options": [
+        "\\(xy\\)",
+        "\\(xy^{2}\\)",
+        "\\(x^{3}y^{3}\\)",
+        "\\(x^{2}y^{2}\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "The greatest number which divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
-      "options": ["13", "65", "875", "1750"],
+      "question": "The greatest number which divides \\(70\\) and \\(125\\), leaving remainders \\(5\\) and \\(8\\) respectively, is:",
+      "options": ["\\(13\\)", "\\(65\\)", "\\(875\\)", "\\(1750\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "If the HCF of 65 and 117 is expressible in the form 65m − 117, then the value of m is:",
-      "options": ["4", "2", "1", "3"],
+      "question": "If the \\(\\text{HCF}\\) of \\(65\\) and \\(117\\) is expressible in the form \\(65m - 117\\), then the value of \\(m\\) is:",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(1\\)", "\\(3\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Three bells toll together at intervals of 9, 12 and 15 minutes respectively. If they start tolling together, after how many hours will they next toll together?",
+      "question": "Three bells toll together at intervals of \\(9, 12,\\) and \\(15\\) minutes respectively. If they start tolling together, after how many hours will they next toll together?",
       "options": ["3 hours", "6 hours", "2 hours", "5 hours"],
       "correctAnswer": 0
     },
     {
-      "question": "The exponent of 5 in the prime factorisation of 3750 is:",
-      "options": ["3", "4", "5", "6"],
+      "question": "The exponent of \\(5\\) in the prime factorisation of \\(3750\\) is:",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(5\\)", "\\(6\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If p and q are two co-prime numbers, then LCM(p, q) + HCF(p, q) is equal to:",
-      "options": ["pq", "pq + 1", "p + q", "1"],
+      "question": "If \\(p\\) and \\(q\\) are two co-prime numbers, then \\(\\text{LCM}(p, q) + \\text{HCF}(p, q)\\) is equal to:",
+      "options": [
+        "\\(pq\\)",
+        "\\(pq + 1\\)",
+        "\\(p + q\\)",
+        "\\(1\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "If n is any natural number, then 6ⁿ − 5ⁿ always ends with which of the following digits?",
-      "options": ["1", "3", "5", "0"],
+      "question": "If \\(n\\) is any natural number, then \\(6^{n} - 5^{n}\\) always ends with which of the following digits?",
+      "options": ["\\(1\\)", "\\(3\\)", "\\(5\\)", "\\(0\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Given that LCM(91, 26) = 182, then HCF(91, 26) is:",
-      "options": ["13", "26", "7", "91"],
+      "question": "Given that \\(\\text{LCM}(91, 26) = 182\\), then \\(\\text{HCF}(91, 26)\\) is:",
+      "options": ["\\(13\\)", "\\(26\\)", "\\(7\\)", "\\(91\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "If x is a non-zero rational number and y is an irrational number, then the product xy is:",
+      "question": "If \\(x\\) is a non-zero rational number and \\(y\\) is an irrational number, then the product \\(xy\\) is:",
       "options": [
         "Always an integer",
         "Always a rational number",
@@ -469,12 +479,17 @@
       "correctAnswer": 2
     },
     {
-      "question": "Which of the following is the smallest positive irrational number that, when multiplied by √18, gives a rational number?",
-      "options": ["√2", "2", "√18", "1/√2"],
+      "question": "Which of the following is the smallest positive irrational number that, when multiplied by \\(\\sqrt{18}\\), gives a rational number?",
+      "options": [
+        "\\(\\sqrt{2}\\)",
+        "\\(2\\)",
+        "\\(\\sqrt{18}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "Assertion (A): For any two positive integers a and b, HCF(a, b) × LCM(a, b) = a × b.\nReason (R): The product of any three positive integers is equal to the product of their HCF and LCM.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): For any two positive integers \\(a\\) and \\(b\\), \\(\\text{HCF}(a,b) \\times \\text{LCM}(a,b) = a \\times b\\).\nReason (R): The product of any three positive integers is equal to the product of their HCF and LCM.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -484,7 +499,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Assertion (A): 5 + √3 is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): \\(5 + \\sqrt{3}\\) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -494,7 +509,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The number 3²ⁿ + 9 is always divisible by 6 for any natural number n.\nReason (R): Fundamental Theorem of Arithmetic states that every composite number can be uniquely factorised as a product of primes.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The number \\(3^{2n} + 9\\) is always divisible by \\(6\\) for any natural number \\(n\\).\nReason (R): Fundamental Theorem of Arithmetic states that every composite number can be uniquely factorised as a product of primes.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -504,7 +519,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Match the mathematical numbers/concepts in Column-I with their corresponding correct descriptions in Column-II:\n\nColumn-I:\n(p) √2\n(q) 2.35\n(r) HCF of 12 and 18\n(s) LCM of 12 and 18\n\nColumn-II:\n(i) Rational number\n(ii) Irrational number\n(iii) 36\n(iv) 6\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the mathematical numbers/concepts in Column-I with their corresponding correct descriptions in Column-II:\n\nColumn-I:\n(p) \\(\\sqrt{2}\\)\n(q) \\(2.35\\)\n(r) \\(\\text{HCF of } 12 \\text{ and } 18\\)\n(s) \\(\\text{LCM of } 12 \\text{ and } 18\\)\n\nColumn-II:\n(i) Rational number\n(ii) Irrational number\n(iii) \\(36\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -514,7 +529,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the algebraic relations of two numbers a and b in Column-I with their evaluated results in Column-II (given a = 2³ × 3² and b = 2² × 3³):\n\nColumn-I:\n(p) HCF(a, b)\n(q) LCM(a, b)\n(r) LCM(a, b) / HCF(a, b)\n(s) a × b\n\nColumn-II:\n(i) 216\n(ii) 36\n(iii) 7776\n(iv) 6\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the algebraic relations of two numbers \\(a\\) and \\(b\\) in Column-I with their evaluated results in Column-II (given \\(a = 2^{3} \\times 3^{2}\\) and \\(b = 2^{2} \\times 3^{3}\\)):\n\nColumn-I:\n(p) \\(\\text{HCF}(a, b)\\)\n(q) \\(\\text{LCM}(a, b)\\)\n(r) \\(\\frac{\\text{LCM}(a,b)}{\\text{HCF}(a,b)}\\)\n(s) \\(a \\times b\\)\n\nColumn-II:\n(i) \\(216\\)\n(ii) \\(36\\)\n(iii) \\(7776\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -540,47 +555,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "যদি দুটা ধনাত্মক গোটা সংখ্যা a আৰু b-ক a = x³y² আৰু b = xy³ হিচাপে লিখা হয়, য’ত x, y মৌলিক সংখ্যা, তেন্তে গ.সা.গু.(a, b) হ’ব:",
-      "options": ["xy", "xy²", "x³y³", "x²y²"],
+      "question": "যদি দুটা ধনাত্মক গোটা সংখ্যা \\(a\\) আৰু \\(b\\)-ক \\(a = x^{3}y^{2}\\) আৰু \\(b = xy^{3}\\) হিচাপে লিখা হয়, য’ত \\(x, y\\) মৌলিক সংখ্যা, তেন্তে \\(\\text{গ.সা.গু.}(a, b)\\) হ’ব:",
+      "options": [
+        "\\(xy\\)",
+        "\\(xy^{2}\\)",
+        "\\(x^{3}y^{3}\\)",
+        "\\(x^{2}y^{2}\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "70 আৰু 125-ক ভাগ কৰিলে ক্ৰমে 5 আৰু 8 অৱশিষ্ট থকা আটাইতকৈ ডাঙৰ সংখ্যাটো হ’ল:",
-      "options": ["13", "65", "875", "1750"],
+      "question": "\\(70\\) আৰু \\(125\\)-ক ভাগ কৰিলে ক্ৰমে \\(5\\) আৰু \\(8\\) অৱশিষ্ট থকা আটাইতকৈ ডাঙৰ সংখ্যাটো হ’ল:",
+      "options": ["\\(13\\)", "\\(65\\)", "\\(875\\)", "\\(1750\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "যদি 65 আৰু 117-ৰ গ.সা.গু. 65m − 117 ৰূপত প্ৰকাশ কৰিব পাৰি, তেন্তে m-ৰ মান হ’ব:",
-      "options": ["4", "2", "1", "3"],
+      "question": "যদি \\(65\\) আৰু \\(117\\)-ৰ গ.সা.গু. \\(65m - 117\\) ৰূপত প্ৰকাশ কৰিব পাৰি, তেন্তে \\(m\\)-ৰ মান হ’ব:",
+      "options": ["\\(4\\)", "\\(2\\)", "\\(1\\)", "\\(3\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "তিনিটা ঘণ্টা ক্ৰমে 9, 12 আৰু 15 মিনিটৰ ব্যৱধানত বাজে। যদি সিহঁতে একেলগে বাজিবলৈ আৰম্ভ কৰে, তেন্তে তাৰ পিছত কিমান ঘণ্টাৰ পাছত সিহঁতে পুনৰ একেলগে বাজিব?",
+      "question": "তিনিটা ঘণ্টা ক্ৰমে \\(9, 12,\\) আৰু \\(15\\) মিনিটৰ ব্যৱধানত বাজে। যদি সিহঁতে একেলগে বাজিবলৈ আৰম্ভ কৰে, তেন্তে তাৰ পিছত কিমান ঘণ্টাৰ পাছত সিহঁতে পুনৰ একেলগে বাজিব?",
       "options": ["3 ঘণ্টা", "6 ঘণ্টা", "2 ঘণ্টা", "5 ঘণ্টা"],
       "correctAnswer": 0
     },
     {
-      "question": "3750-ৰ মৌলিক উৎপাদকীকৰণত 5-ৰ সূচক হ’ল:",
-      "options": ["3", "4", "5", "6"],
+      "question": "\\(3750\\)-ৰ মৌলিক উৎপাদকীকৰণত \\(5\\)-ৰ সূচক হ’ল:",
+      "options": ["\\(3\\)", "\\(4\\)", "\\(5\\)", "\\(6\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি p আৰু q দুটা পৰস্পৰ মৌলিক সংখ্যা হয়, তেন্তে ল.সা.গু.(p, q) + গ.সা.গু.(p, q)-ৰ মান হ’ব:",
-      "options": ["pq", "pq + 1", "p + q", "1"],
+      "question": "যদি \\(p\\) আৰু \\(q\\) দুটা পৰস্পৰ মৌলিক সংখ্যা হয়, তেন্তে \\(\\text{ল.সা.গু.}(p, q) + \\text{গ.সা.গু.}(p, q)\\)-ৰ মান হ’ব:",
+      "options": [
+        "\\(pq\\)",
+        "\\(pq + 1\\)",
+        "\\(p + q\\)",
+        "\\(1\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "যিকোনো স্বাভাৱিক সংখ্যা n-ৰ বাবে, 6ⁿ − 5ⁿ-ৰ শেষৰ অংকটো সদায় তলৰ কোনটো হ’ব?",
-      "options": ["1", "3", "5", "0"],
+      "question": "যিকোনো স্বাভাৱিক সংখ্যা \\(n\\)-ৰ বাবে, \\(6^{n} - 5^{n}\\)-ৰ শেষৰ অংকটো সদায় তলৰ কোনটো হ’ব?",
+      "options": ["\\(1\\)", "\\(3\\)", "\\(5\\)", "\\(0\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "দিয়া আছে যে ল.সা.গু.(91, 26) = 182, তেন্তে গ.সা.গু.(91, 26)-ৰ মান হ’ল:",
-      "options": ["13", "26", "7", "91"],
+      "question": "দিয়া আছে যে \\(\\text{ল.সা.গু.}(91, 26) = 182\\), তেন্তে \\(\\text{গ.সা.গু.}(91, 26)\\)-ৰ মান হ’ল:",
+      "options": ["\\(13\\)", "\\(26\\)", "\\(7\\)", "\\(91\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "যদি x এটা অশূন্য পৰিমেয় সংখ্যা আৰু y এটা অপৰিমেয় সংখ্যা হয়, তেন্তে সিহঁতৰ পূৰণফল xy হ’ব:",
+      "question": "যদি \\(x\\) এটা অশূন্য পৰিমেয় সংখ্যা আৰু \\(y\\) এটা অপৰিমেয় সংখ্যা হয়, তেন্তে সিহঁতৰ পূৰণফল \\(xy\\) হ’ব:",
       "options": [
         "সদায় গোটা সংখ্যা",
         "সদায় পৰিমেয় সংখ্যা",
@@ -590,12 +615,17 @@
       "correctAnswer": 2
     },
     {
-      "question": "তলৰ কোনটো আটাইতকৈ সৰু ধনাত্মক অপৰিমেয় সংখ্যা, যাক √18-ৰে পূৰণ কৰিলে লব্ধফলটো পৰিমেয় সংখ্যা হ’ব?",
-      "options": ["√2", "2", "√18", "1/√2"],
+      "question": "তলৰ কোনটো আটাইতকৈ সৰু ধনাত্মক অপৰিমেয় সংখ্যা, যাক \\(\\sqrt{18}\\)-ৰে পূৰণ কৰিলে লব্ধফলটো পৰিমেয় সংখ্যা হ’ব?",
+      "options": [
+        "\\(\\sqrt{2}\\)",
+        "\\(2\\)",
+        "\\(\\sqrt{18}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "উক্তি (A): যিকোনো দুটা ধনাত্মক গোটা সংখ্যা a আৰু b-ৰ বাবে, গ.সা.গু.(a, b) × ল.সা.গু.(a, b) = a × b।\nযুক্তি (R): যিকোনো তিনিটা ধনাত্মক গোটা সংখ্যাৰ পূৰণফল সিহঁতৰ গ.সা.গু. আৰু ল.সা.গু.-ৰ পূৰণফলৰ সমান।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "উক্তি (A): যিকোনো দুটা ধনাত্মক গোটা সংখ্যা \\(a\\) আৰু \\(b\\)-ৰ বাবে, \\(\\text{গ.সা.গু.}(a,b) \\times \\text{ল.সা.গু.}(a,b) = a \\times b\\)।\nযুক্তি (R): যিকোনো তিনিটা ধনাত্মক গোটা সংখ্যাৰ পূৰণফল সিহঁতৰ গ.সা.গু. আৰু ল.সা.গু.-ৰ পূৰণফলৰ সমান।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -605,7 +635,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "উক্তি (A): 5 + √3 এবিধ অপৰিমেয় সংখ্যা।\nযুক্তি (R): এটা পৰিমেয় সংখ্যা আৰু এটা অপৰিমেয় সংখ্যাৰ যোগফল সদায় এবিধ অপৰিমেয় সংখ্যা।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "উক্তি (A): \\(5 + \\sqrt{3}\\) এবিধ অপৰিমেয় সংখ্যা।\nযুক্তি (R): এটা পৰিমেয় সংখ্যা আৰু এটা অপৰিমেয় সংখ্যাৰ যোগফল সদায় এবিধ অপৰিমেয় সংখ্যা।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -615,7 +645,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): যিকোনো স্বাভাৱিক সংখ্যা n-ৰ বাবে 3²ⁿ + 9 সংখ্যাটো সদায় 6-ৰে বিভাজ্য।\nযুক্তি (R): পাটিগণিতৰ মৌলিক উপপাদ্য অনুসৰি প্ৰতিটো যৌগিক সংখ্যাকে মৌলিক সংখ্যাৰ পূৰণফল হিচাপে এককভাৱে উৎপাদকীকৰণ কৰিব পাৰি।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "উক্তি (A): যিকোনো ধনাত্মক স্বাভাৱিক সংখ্যা \\(n\\)-ৰ বাবে \\(3^{2n} + 9\\) সংখ্যাটো সদায় \\(6\\)-ৰে বিভাজ্য।\nযুক্তি (R): পাটিগণিতৰ মৌলিক উপপাদ্য অনুসৰি প্ৰতিটো যৌগিক সংখ্যাকে মৌলিক সংখ্যাৰ পূৰণফল হিচাপে এককভাৱে উৎপাদকীকৰণ কৰিব পাৰি।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -625,7 +655,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "স্তম্ভ-I-ৰ গাণিতিক সংখ্যা/ধাৰণাসমূহৰ সৈতে স্তম্ভ-II-ত থকা উপযুক্ত শুদ্ধ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) √2\n(q) 2.35\n(r) 12 আৰু 18-ৰ গ.সা.গু.\n(s) 12 আৰু 18-ৰ ল.সা.গু.\n\nস্তম্ভ-II:\n(i) পৰিমেয় সংখ্যা\n(ii) অপৰিমেয় সংখ্যা\n(iii) 36\n(iv) 6\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "স্তম্ভ-I-ৰ গাণিতিক সংখ্যা/ধাৰণাসমূহৰ সৈতে স্তম্ভ-II-ত থকা উপযুক্ত শুদ্ধ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(\\sqrt{2}\\)\n(q) \\(2.35\\)\n(r) \\(12\\) আৰু \\(18\\)-ৰ গ.সা.গু.\n(s) \\(12\\) আৰু \\(18\\)-ৰ ল.সা.গু.\n\nস্তম্ভ-II:\n(i) পৰিমেয় সংখ্যা\n(ii) অপৰিমেয় সংখ্যা\n(iii) \\(36\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -635,7 +665,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "a আৰু b দুটা সংখ্যাৰ বীজগণিতীয় সম্পৰ্ক স্তম্ভ-I-ৰ সৈতে স্তম্ভ-II-ত থকা মানসমূহ মিলোৱা (দিয়া আছে a = 2³ × 3² আৰু b = 2² × 3³):\n\nস্তম্ভ-I:\n(p) গ.সা.গু.(a, b)\n(q) ল.সা.গু.(a, b)\n(r) ল.সা.গু.(a, b) / গ.সা.গু.(a, b)\n(s) a × b\n\nস্তম্ভ-II:\n(i) 216\n(ii) 36\n(iii) 7776\n(iv) 6\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "\\(a\\) আৰু \\(b\\) দুটা সংখ্যাৰ বীজগণিতীয় সম্পৰ্ক স্তম্ভ-I-ৰ সৈতে স্তম্ভ-II-ত থকা মানসমূহ মিলোৱা (দিয়া আছে \\(a = 2^{3} \\times 3^{2}\\) আৰু \\(b = 2^{2} \\times 3^{3}\\)):\n\nস্তম্ভ-I:\n(p) \\(\\text{গ.সা.গু.}(a, b)\\)\n(q) \\(\\text{ল.সা.গু.}(a, b)\\)\n(r) \\(\\frac{\\text{ল.সা.গু.}(a,b)}{\\text{গ.সা.গু.}(a,b)}\\)\n(s) \\(a \\times b\\)\n\nস্তম্ভ-II:\n(i) \\(216\\)\n(ii) \\(36\\)\n(iii) \\(7776\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
