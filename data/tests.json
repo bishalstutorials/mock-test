@@ -75,7 +75,7 @@
   "tests": [
   {
     "id": "BT-X-MATH-EN-CH00-01",
-    "title": "Class 10 Mathematics - Revision Exercise - Test 1",
+    "title": "Revision Exercise - Test 1",
     "class": "Class 10",
     "subject": "Mathematics",
     "chapter": "Revision Exercise",
@@ -241,7 +241,7 @@
   },
   {
     "id": "BT-X-MATH-AS-CH00-01",
-    "title": "Class 10 Mathematics - পুনৰালোচনা - Test 1",
+    "title": "পুনৰালোচনা - Test 1",
     "class": "Class 10",
     "subject": "Mathematics",
     "chapter": "পুনৰালোচনা",
