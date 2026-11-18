@@ -72,5 +72,338 @@
       "name": "Subject Test"
     }
   ],
-  "tests": []
+  "tests": [
+  {
+    "id": "BT-X-MATH-EN-CH00-01",
+    "title": "Class 10 Mathematics - Revision Exercise - Test 1",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "chapter": "Revision Exercise",
+    "language": "English",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 20,
+    "totalQuestions": 15,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "If \\(\\sqrt{1 + \\frac{x}{144}} = \\frac{13}{12}\\), then the value of \\(x\\) is:",
+        "options": [
+          "\\(1\\)",
+          "\\(25\\)",
+          "\\(169\\)",
+          "\\(144\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the smallest positive integer by which \\(675\\) must be multiplied so that the product becomes a perfect cube?",
+        "options": [
+          "\\(3\\)",
+          "\\(5\\)",
+          "\\(9\\)",
+          "\\(25\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "If \\(2^{x-1} + 2^{x+1} = 320\\), then the value of \\(x\\) is:",
+        "options": [
+          "\\(5\\)",
+          "\\(6\\)",
+          "\\(7\\)",
+          "\\(8\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "One of the factors of \\((a+b)^3 - (a-b)^3\\) is:",
+        "options": [
+          "\\(2a\\)",
+          "\\(2b\\)",
+          "\\(a+b\\)",
+          "\\(a-b\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(AB = PQ\\), \\(BC = QR\\), and median \\(AM = \\text{median } PN\\). Which of the following congruency criteria proves \\(\\triangle ABC \\cong \\triangle PQR\\)?",
+        "options": [
+          "SSS",
+          "SAS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The area of a square field is \\(5929\\text{ m}^2\\). A path of uniform width runs around the outside of the field. If the outer area including the path is \\(7056\\text{ m}^2\\), what is the width of the path?",
+        "options": [
+          "\\(3.5\\text{ m}\\)",
+          "\\(7\\text{ m}\\)",
+          "\\(4\\text{ m}\\)",
+          "\\(5\\text{ m}\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The value of \\(\\sqrt[3]{1372} \\times \\sqrt[3]{1458}\\) is:",
+        "options": [
+          "\\(126\\)",
+          "\\(116\\)",
+          "\\(108\\)",
+          "\\(132\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\(9^{x+2} = 240 + 9^x\\), then the value of \\((8x)^x\\) is:",
+        "options": [
+          "\\(1\\)",
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(-1\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "If \\(x + \\frac{1}{x} = \\sqrt{5}\\), then the value of \\(x^3 + \\frac{1}{x^3}\\) is:",
+        "options": [
+          "\\(5\\sqrt{5}\\)",
+          "\\(2\\sqrt{5}\\)",
+          "\\(3\\sqrt{5}\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In \\(\\triangle ABC\\), \\(AD \\perp BC\\) such that \\(AD\\) bisects \\(\\angle BAC\\). Then \\(\\triangle ABC\\) is necessarily which type of triangle?",
+        "options": [
+          "Scalene triangle",
+          "Isosceles triangle",
+          "Right-angled isosceles triangle",
+          "Equilateral triangle"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): The value of \\((64)^{-2/3} \\times \\left(\\frac{1}{4}\\right)^{-2}\\) is \\(1\\).\\nReason (R): For any non-zero real number \\(a\\) and integers \\(m, n\\), we have \\((a^m)^n = a^{mn}\\) and \\(a^{-n} = \\frac{1}{a^n}\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The square root of a non-square prime number is an irrational number.\\nReason (R): The square root of any positive integer is always an irrational number.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Assertion (A): If two angles and the included side of one triangle are equal to two angles and the included side of another triangle, the two triangles are congruent by ASA criterion.\\nReason (R): Two triangles are always congruent if any three corresponding parts (sides or angles) are equal.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Match the algebraic expressions in Column-I with their factorised forms in Column-II:\\n(p) \\(x^3 - 8y^3\\)\\n(q) \\(x^3 + 8y^3\\)\\n(r) \\(x^2 - 4y^2\\)\\n(s) \\(x^2 - 4xy + 4y^2\\)\\n(i) \\((x+2y)(x^2 - 2xy + 4y^2)\\)\\n(ii) \\((x-2y)(x^2 + 2xy + 4y^2)\\)\\n(iii) \\((x-2y)^2\\)\\n(iv) \\((x-2y)(x+2y)\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(i), r-(iii), s-(iv)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the mathematical statements in Column-I with their equivalent simplified values in Column-II:\\n(p) \\(\\sqrt[3]{-216}\\)\\n(q) \\(\\left(\\frac{81}{16}\\right)^{-3/4}\\)\\n(r) Hypotenuse relation in an isosceles right triangle with hypotenuse \\(h\\) and equal sides \\(a\\)\\n(s) \\(\\sqrt{2\\sqrt{2\\sqrt{2\\dots}}}\\) up to infinity\\n(i) \\(2\\)\\n(ii) \\(-6\\)\\n(iii) \\(\\frac{8}{27}\\)\\n(iv) \\(h = a\\sqrt{2}\\)",
+        "options": [
+          "p-(ii), q-(iii), r-(iv), s-(i)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(iv), r-(ii), s-(iii)"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-AS-CH00-01",
+    "title": "Class 10 Mathematics - পুনৰালোচনা - Test 1",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "chapter": "পুনৰালোচনা",
+    "language": "Assamese",
+    "testType": "Chapter Test",
+    "testNo": 1,
+    "duration": 20,
+    "totalQuestions": 15,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "যদি \\(\\sqrt{1 + \\frac{x}{144}} = \\frac{13}{12}\\) হয়, তেন্তে \\(x\\)-ৰ মান হ'ব:",
+        "options": [
+          "\\(1\\)",
+          "\\(25\\)",
+          "\\(169\\)",
+          "\\(144\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\(675\\)-ক কোনটো আটাইতকৈ সৰু ধনাত্মক গোটা সংখ্যাৰে পূৰণ কৰিলে লব্ধফলটো এটা পূৰ্ণ ঘনসংখ্যা হ'ব?",
+        "options": [
+          "\\(3\\)",
+          "\\(5\\)",
+          "\\(9\\)",
+          "\\(25\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "যদি \\(2^{x-1} + 2^{x+1} = 320\\) হয়, তেন্তে \\(x\\)-ৰ মান হ'ব:",
+        "options": [
+          "\\(5\\)",
+          "\\(6\\)",
+          "\\(7\\)",
+          "\\(8\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "\\((a+b)^3 - (a-b)^3\\)-ৰ এটা উৎপাদক হ'ল:",
+        "options": [
+          "\\(2a\\)",
+          "\\(2b\\)",
+          "\\(a+b\\)",
+          "\\(a-b\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(AB = PQ\\), \\(BC = QR\\) আৰু মধ্যমা \\(AM = \\text{মধ্যমা } PN\\)। তলৰ কোনটো সৰ্বাঙ্গসমতাৰ চৰ্তই \\(\\triangle ABC \\cong \\triangle PQR\\) প্ৰমাণ কৰে?",
+        "options": [
+          "SSS",
+          "SAS",
+          "ASA",
+          "RHS"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা বৰ্গাকাৰ পথাৰৰ কালি \\(5929\\text{ m}^2\\)। পথাৰখনৰ বাহিৰে চাৰিওফালে এটা সমান প্ৰস্থৰ পথ আছে। যদি পথটো ধৰি মুঠ কালি \\(7056\\text{ m}^2\\) হয়, তেন্তে পথটোৰ প্ৰস্থ কিমান?",
+        "options": [
+          "\\(3.5\\text{ m}\\)",
+          "\\(7\\text{ m}\\)",
+          "\\(4\\text{ m}\\)",
+          "\\(5\\text{ m}\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\(\\sqrt[3]{1372} \\times \\sqrt[3]{1458}\\)-ৰ মান হ'ল:",
+        "options": [
+          "\\(126\\)",
+          "\\(116\\)",
+          "\\(108\\)",
+          "\\(132\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\(9^{x+2} = 240 + 9^x\\) হয়, তেন্তে \\((8x)^x\\)-ৰ মান হ'ব:",
+        "options": [
+          "\\(1\\)",
+          "\\(2\\)",
+          "\\(4\\)",
+          "\\(-1\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "যদি \\(x + \\frac{1}{x} = \\sqrt{5}\\) হয়, তেন্তে \\(x^3 + \\frac{1}{x^3}\\)-ৰ মান হ'ব:",
+        "options": [
+          "\\(5\\sqrt{5}\\)",
+          "\\(2\\sqrt{5}\\)",
+          "\\(3\\sqrt{5}\\)",
+          "\\(0\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\(\\triangle ABC\\)-ত, \\(AD \\perp BC\\) যাতে \\(AD\\)-এ \\(\\angle BAC\\)-ক সমদ্বিখণ্ডিত কৰে। তেন্তে \\(\\triangle ABC\\) নিশ্চিতভাৱে কি প্ৰকাৰৰ ত্ৰিভুজ?",
+        "options": [
+          "বিষমবাহু ত্ৰিভুজ",
+          "সমদ্বিবাহু ত্ৰিভুজ",
+          "সমকোণী সমদ্বিবাহু ত্ৰিভুজ",
+          "সমবাহু ত্ৰিভুজ"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "সত্যতা (A): \\((64)^{-2/3} \\times \\left(\\frac{1}{4}\\right)^{-2}\\)-ৰ মান হ'ল \\(1\\)।\\nকাৰণ (R): যিকোনো অশূন্য বাস্তৱ সংখ্যা \\(a\\) আৰু গোটা সংখ্যা \\(m, n\\)-ৰ বাবে \\((a^m)^n = a^{mn}\\) আৰু \\(a^{-n} = \\frac{1}{a^n}\\)।",
+        "options": [
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, আৰু কাৰণ (R) হ'ল সত্যতা (A)-ৰ সঠিক ব্যাখ্যা।",
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, কিন্তু কাৰণ (R) সত্যতা (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "সত্যতা (A) শুদ্ধ, কিন্তু কাৰণ (R) ভুল।",
+          "সত্যতা (A) ভুল, কিন্তু কাৰণ (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "সত্যতা (A): এটা মৌলিক সংখ্যাৰ বৰ্গমূল এবিধ অপৰিমেয় সংখ্যা।\\nকাৰণ (R): যিকোনো ধনাত্মক গোটা সংখ্যাৰ বৰ্গমূল সদায় অপৰিমেয় সংখ্যা।",
+        "options": [
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, আৰু কাৰণ (R) হ'ল সত্যতা (A)-ৰ সঠিক ব্যাখ্যা।",
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, কিন্তু কাৰণ (R) সত্যতা (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "সত্যতা (A) শুদ্ধ, কিন্তু কাৰণ (R) ভুল।",
+          "সত্যতা (A) ভুল, কিন্তু কাৰণ (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "সত্যতা (A): যদি এটা ত্ৰিভুজৰ দুটা কোণ আৰু সংলগ্ন বাহু আন এটা ত্ৰিভুজৰ দুটা কোণ আৰু সংলগ্ন বাহুৰ সমান হয়, তেন্তে ত্ৰিভুজ দুটা ASA চৰ্ত অনুসৰি সৰ্বাঙ্গসম হয়।\\nকাৰণ (R): দুটা ত্ৰিভুজ সদায় সৰ্বাঙ্গসম হয় যদি সিহঁতৰ যিকোনো তিনিটা অনুৰূপ অংশ (বাহু বা কোণ) সমান হয়।",
+        "options": [
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, আৰু কাৰণ (R) হ'ল সত্যতা (A)-ৰ সঠিক ব্যাখ্যা।",
+          "সত্যতা (A) আৰু কাৰণ (R) দুয়োটাই শুদ্ধ, কিন্তু কাৰণ (R) সত্যতা (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "সত্যতা (A) শুদ্ধ, কিন্তু কাৰণ (R) ভুল।",
+          "সত্যতা (A) ভুল, কিন্তু কাৰণ (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "স্তম্ভ-I-ৰ বীজগণিতীয় ৰাশিৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ উৎপাদকীকৃত ৰূপ মিলোৱা:\\n(p) \\(x^3 - 8y^3\\)\\n(q) \\(x^3 + 8y^3\\)\\n(r) \\(x^2 - 4y^2\\)\\n(s) \\(x^2 - 4xy + 4y^2\\)\\n(i) \\((x+2y)(x^2 - 2xy + 4y^2)\\)\\n(ii) \\((x-2y)(x^2 + 2xy + 4y^2)\\)\\n(iii) \\((x-2y)^2\\)\\n(iv) \\((x-2y)(x+2y)\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(i), r-(iii), s-(iv)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ৰ গাণিতিক উক্তিসমূহৰ সৈতে স্তম্ভ-II-ত থকা সৰলীকৃত মানসমূহ মিলোৱা:\\n(p) \\(\\sqrt[3]{-216}\\)\\n(q) \\(\\left(\\frac{81}{16}\\right)^{-3/4}\\)\\n(r) অতিভুজ \\(h\\) আৰু সমান বাহু \\(a\\) থকা সমদ্বিবাহু সমকোণী ত্ৰিভুজৰ বাহুৰ সম্পৰ্ক\\n(s) অসীমলৈকে \\(\\sqrt{2\\sqrt{2\\sqrt{2\\dots}}}\\)-ৰ মান\\n(i) \\(2\\)\\n(ii) \\(-6\\)\\n(iii) \\(\\frac{8}{27}\\)\\n(iv) \\(h = a\\sqrt{2}\\)",
+        "options": [
+          "p-(ii), q-(iii), r-(iv), s-(i)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(iv), r-(ii), s-(iii)"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
+]
 }
