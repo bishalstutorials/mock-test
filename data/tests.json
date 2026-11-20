@@ -1339,6 +1339,338 @@
       "correctAnswer": 0
     }
   ]
+},
+{
+  "id": "BT-X-MATH-EN-CH04-01",
+  "title": "Quadratic Equations - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Quadratic Equations",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "Which of the following is a quadratic equation?",
+      "options": [
+        "\\((x - 2)^2 + 1 = 2x - 3\\)",
+        "\\(x(x + 1) + 8 = (x + 2)(x - 2)\\)",
+        "\\(x(2x + 3) = 2x^2 + 3x + 1\\)",
+        "\\((x + 2)^3 = x^3 + 6x^2 + 12x + 7\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "The roots of the quadratic equation \\(x^2 - 0.04 = 0\\) are:",
+      "options": [
+        "\\(\\pm 0.4\\)",
+        "\\(\\pm 0.2\\)",
+        "\\(0.02\\)",
+        "\\(0.2\\) only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If \\(\\frac{1}{2}\\) is a root of the equation \\(x^2 + kx - \\frac{5}{4} = 0\\), then the value of \\(k\\) is:",
+      "options": [
+        "\\(1\\)",
+        "\\(-2\\)",
+        "\\(3\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Values of \\(k\\) for which the quadratic equation \\(2x^2 - kx + k = 0\\) has equal roots are:",
+      "options": [
+        "\\(0\\) only",
+        "\\(4\\) only",
+        "\\(8\\) only",
+        "\\(0, 8\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "The quadratic equation \\(2x^2 - \\sqrt{5}x + 1 = 0\\) has:",
+      "options": [
+        "two distinct real roots",
+        "two equal real roots",
+        "no real roots",
+        "more than 2 real roots"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If the equation \\(x^2 - bx + 1 = 0\\) does not possess real roots, then:",
+      "options": [
+        "\\(-3 < b < 3\\)",
+        "\\(-2 < b < 2\\)",
+        "\\(b > 2\\)",
+        "\\(b < -2\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The sum of the roots of the quadratic equation \\(3x^2 - 9x + 5 = 0\\) is:",
+      "options": [
+        "\\(3\\)",
+        "\\(6\\)",
+        "\\(-3\\)",
+        "\\(\\frac{5}{3}\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If one root of the quadratic equation \\(2x^2 + px - 15 = 0\\) is \\(-5\\), then its other root is:",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(3\\)",
+        "\\(-3\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "A natural number, when increased by 12, equals 160 times its reciprocal. The number is:",
+      "options": [
+        "\\(20\\)",
+        "\\(16\\)",
+        "\\(8\\)",
+        "\\(12\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If \\(\\alpha\\) and \\(\\beta\\) are the roots of the equation \\(x^2 - 5x + 6 = 0\\), then the value of \\(\\alpha^{-1} + \\beta^{-1}\\) is:",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{5}{6}\\)",
+        "\\(\\frac{6}{5}\\)",
+        "\\(-\\frac{5}{6}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Assertion (A): The equation \\(x^2 + 3x + 1 = (x - 2)^2\\) is a quadratic equation.\n\nReason (R): Any equation of the form \\(ax^2 + bx + c = 0\\), where \\(a \\neq 0\\), is called a quadratic equation.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Assertion (A): The quadratic equation \\(x^2 - 4x + 4 = 0\\) has real and equal roots.\n\nReason (R): The discriminant of the quadratic equation \\(x^2 - 4x + 4 = 0\\) is zero.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): If the product of the roots of the equation \\(x^2 - 3x + k = 0\\) is 2, then \\(k = 2\\).\n\nReason (R): The product of the roots of a quadratic equation \\(ax^2 + bx + c = 0\\) is \\(\\frac{c}{a}\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the quadratic equations in Column-I with their discriminant values \\((D = b^2 - 4ac)\\) in Column-II:\n\nColumn-I:\n(p) \\(x^2 - 4x + 4 = 0\\)\n(q) \\(2x^2 - 5x + 3 = 0\\)\n(r) \\(x^2 + x + 1 = 0\\)\n(s) \\(2x^2 - 6x + 3 = 0\\)\n\nColumn-II:\n(i) \\(1\\)\n(ii) \\(0\\)\n(iii) \\(12\\)\n(iv) \\(-3\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the nature of roots of quadratic equation \\(ax^2 + bx + c = 0\\) in Column-I with the corresponding discriminant condition in Column-II:\n\nColumn-I:\n(p) Two distinct real roots\n(q) Two equal real roots\n(r) No real roots\n(s) Perfect square integer discriminant \\((D > 0)\\) with rational coefficients\n\nColumn-II:\n(i) \\(b^2 - 4ac = 0\\)\n(ii) \\(b^2 - 4ac > 0\\)\n(iii) Rational roots\n(iv) \\(b^2 - 4ac < 0\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH04-01",
+  "title": "দ্বিঘাত সমীকৰণ - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "দ্বিঘাত সমীকৰণ",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "তলৰ কোনটো এটা দ্বিঘাত সমীকৰণ?",
+      "options": [
+        "\\((x - 2)^2 + 1 = 2x - 3\\)",
+        "\\(x(x + 1) + 8 = (x + 2)(x - 2)\\)",
+        "\\(x(2x + 3) = 2x^2 + 3x + 1\\)",
+        "\\((x + 2)^3 = x^3 + 6x^2 + 12x + 7\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "\\(x^2 - 0.04 = 0\\) দ্বিঘাত সমীকৰণটোৰ মূল দুটা হ'ল:",
+      "options": [
+        "\\(\\pm 0.4\\)",
+        "\\(\\pm 0.2\\)",
+        "\\(0.02\\)",
+        "কেৱল \\(0.2\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি \\(\\frac{1}{2}\\) টো \\(x^2 + kx - \\frac{5}{4} = 0\\) সমীকৰণটোৰ এটা মূল হয়, তেন্তে \\(k\\)-ৰ মান হ'ব:",
+      "options": [
+        "\\(1\\)",
+        "\\(-2\\)",
+        "\\(3\\)",
+        "\\(2\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "\\(k\\)-ৰ যিবোৰ মানৰ বাবে \\(2x^2 - kx + k = 0\\) দ্বিঘাত সমীকৰণটোৰ সমান মূল থাকে, সেইবোৰ হ'ল:",
+      "options": [
+        "কেৱল \\(0\\)",
+        "কেৱল \\(4\\)",
+        "কেৱল \\(8\\)",
+        "\\(0, 8\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "\\(2x^2 - \\sqrt{5}x + 1 = 0\\) দ্বিঘাত সমীকৰণটোৰ:",
+      "options": [
+        "দুটা ভিন্ন বাস্তৱ মূল আছে",
+        "দুটা সমান বাস্তৱ মূল আছে",
+        "কোনো বাস্তৱ মূল নাই",
+        "2 টাতকৈ অধিক বাস্তৱ মূল আছে"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি \\(x^2 - bx + 1 = 0\\) সমীকৰণটোৰ কোনো বাস্তৱ মূল নাথাকে, তেন্তে:",
+      "options": [
+        "\\(-3 < b < 3\\)",
+        "\\(-2 < b < 2\\)",
+        "\\(b > 2\\)",
+        "\\(b < -2\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "\\(3x^2 - 9x + 5 = 0\\) দ্বিঘাত সমীকৰণটোৰ মূল দুটাৰ যোগফল হ'ল:",
+      "options": [
+        "\\(3\\)",
+        "\\(6\\)",
+        "\\(-3\\)",
+        "\\(\\frac{5}{3}\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি \\(2x^2 + px - 15 = 0\\) দ্বিঘাত সমীকৰণটোৰ এটা মূল \\(-5\\) হয়, তেন্তে ইয়াৰ আনটো মূল হ'ব:",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(3\\)",
+        "\\(-3\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "এটা স্বাভাৱিক সংখ্যা 12 বৃদ্ধি কৰিলে ইয়াৰ অন্যোন্যকৰ 160 গুণৰ সমান হয়। সংখ্যাটো হ'ল:",
+      "options": [
+        "\\(20\\)",
+        "\\(16\\)",
+        "\\(8\\)",
+        "\\(12\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি \\(\\alpha\\) আৰু \\(\\beta\\) টো \\(x^2 - 5x + 6 = 0\\) সমীকৰণটোৰ মূল হয়, তেন্তে \\(\\alpha^{-1} + \\beta^{-1}\\)-ৰ মান হ'ব:",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{5}{6}\\)",
+        "\\(\\frac{6}{5}\\)",
+        "\\(-\\frac{5}{6}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "উক্তি (A): \\(x^2 + 3x + 1 = (x - 2)^2\\) সমীকৰণটো এটা দ্বিঘাত সমীকৰণ।\n\nযুক্তি (R): \\(ax^2 + bx + c = 0\\) (য'ত \\(a \\neq 0\\)) ৰূপৰ যিকোনো সমীকৰণকে দ্বিঘাত সমীকৰণ বোলা হয়।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "উক্তি (A): \\(x^2 - 4x + 4 = 0\\) দ্বিঘাত সমীকৰণটোৰ মূল দুটা বাস্তৱ আৰু সমান।\n\nযুক্তি (R): \\(x^2 - 4x + 4 = 0\\) দ্বিঘাত সমীকৰণটোৰ নিশ্চয়ক (Discriminant) টো শূন্য।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): যদি \\(x^2 - 3x + k = 0\\) সমীকৰণটোৰ মূল দুটাৰ পূৰণফল 2 হয়, তেন্তে \\(k = 2\\)।\n\nযুক্তি (R): \\(ax^2 + bx + c = 0\\) দ্বিঘাত সমীকৰণটোৰ মূল দুটাৰ পূৰণফল হ'ল \\(\\frac{c}{a}\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ৰ দ্বিঘাত সমীকৰণসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ নিশ্চয়কৰ মান \\((D = b^2 - 4ac)\\) মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(x^2 - 4x + 4 = 0\\)\n(q) \\(2x^2 - 5x + 3 = 0\\)\n(r) \\(x^2 + x + 1 = 0\\)\n(s) \\(2x^2 - 6x + 3 = 0\\)\n\nস্তম্ভ-II:\n(i) \\(1\\)\n(ii) \\(0\\)\n(iii) \\(12\\)\n(iv) \\(-3\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা \\(ax^2 + bx + c = 0\\) দ্বিঘাত সমীকৰণটোৰ মূলৰ প্ৰকৃতিৰ সৈতে স্তম্ভ-II-ত থকা অনুৰূপ নিশ্চয়কৰ চৰ্ত মিলোৱা:\n\nস্তম্ভ-I:\n(p) দুটা ভিন্ন বাস্তৱ মূল\n(q) দুটা সমান বাস্তৱ মূল\n(r) কোনো বাস্তৱ মূল নাই\n(s) পৰিমেয় সহগ বিশিষ্ট পূৰ্ণবৰ্গ গোটা সংখ্যা নিশ্চয়ক \\((D > 0)\\)\n\nস্তম্ভ-II:\n(i) \\(b^2 - 4ac = 0\\)\n(ii) \\(b^2 - 4ac > 0\\)\n(iii) পৰিমেয় মূল\n(iv) \\(b^2 - 4ac < 0\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
 }
   ]
 }
