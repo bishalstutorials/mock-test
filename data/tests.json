@@ -1671,6 +1671,429 @@
       "correctAnswer": 0
     }
   ]
+},
+{
+  "id": "BT-X-MATH-EN-CH05-01",
+  "title": "Arithmetic Progressions - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Arithmetic Progressions",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "In an Arithmetic Progression, if \\(d = -4\\), \\(n = 7\\), and \\(a_n = 4\\), then the first term \\(a\\) is:",
+      "options": [
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(20\\)",
+        "\\(28\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "The 11th term of the AP: \\(-3, -\\frac{1}{2}, 2, \\dots\\) is:",
+      "options": [
+        "\\(28\\)",
+        "\\(22\\)",
+        "\\(-38\\)",
+        "\\(-46\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The first four terms of an AP, whose first term is \\(-2\\) and common difference is \\(-2\\), are:",
+      "options": [
+        "\\(-2, 0, 2, 4\\)",
+        "\\(-2, 4, -8, 16\\)",
+        "\\(-2, -4, -6, -8\\)",
+        "\\(-2, -4, -8, -16\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If the 3rd and 9th terms of an AP are 4 and \\(-8\\) respectively, which term of this AP is 0?",
+      "options": [
+        "5th term",
+        "6th term",
+        "7th term",
+        "8th term"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which term of the AP: \\(21, 18, 15, \\dots\\) is \\(-81\\)?",
+      "options": [
+        "34th term",
+        "35th term",
+        "36th term",
+        "37th term"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The sum of the first 15 multiples of 8 is:",
+      "options": [
+        "\\(960\\)",
+        "\\(480\\)",
+        "\\(1200\\)",
+        "\\(840\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How many two-digit numbers are divisible by 3?",
+      "options": [
+        "\\(29\\)",
+        "\\(30\\)",
+        "\\(31\\)",
+        "\\(28\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If \\(k+2\\), \\(4k-6\\), and \\(3k-2\\) are three consecutive terms of an AP, then the value of \\(k\\) is:",
+      "options": [
+        "\\(3\\)",
+        "\\(-3\\)",
+        "\\(4\\)",
+        "\\(-4\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If the sum of the first \\(n\\) terms of an AP is given by \\(S_n = 3n^2 + 5n\\), then its 15th term is:",
+      "options": [
+        "\\(82\\)",
+        "\\(92\\)",
+        "\\(102\\)",
+        "\\(90\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Two APs have the same common difference. The difference between their 100th terms is 100. What is the difference between their 1000th terms?",
+      "options": [
+        "\\(10\\)",
+        "\\(100\\)",
+        "\\(1000\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Assertion (A): The sum of the first \\(n\\) positive integers is given by \\(S_n = \\frac{n(n+1)}{2}\\).\n\nReason (R): The sum of the first \\(n\\) terms of an AP is \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): The sequence \\(1, 2, 4, 8, 16, \\dots\\) forms an Arithmetic Progression.\n\nReason (R): In an Arithmetic Progression, the difference between any two consecutive terms remains constant.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Assertion (A): If the \\(n\\)-th term of an AP is \\(a_n = 3 + 4n\\), then its common difference is 4.\n\nReason (R): In an AP with general term \\(a_n = An + B\\), the common difference is equal to the coefficient of \\(n\\), which is \\(A\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the parameters of an Arithmetic Progression in Column-I with their corresponding expressions/values in Column-II:\n\nColumn-I:\n(p) General term \\((a_n)\\) of an AP\n(q) Sum of first \\(n\\) terms \\((S_n)\\) of an AP\n(r) Common difference \\((d)\\) in terms of \\(a_n\\)\n(s) \\(n\\)-th term in terms of sum of terms\n\nColumn-II:\n(i) \\(\\frac{n}{2}[a + l]\\)\n(ii) \\(a + (n-1)d\\)\n(iii) \\(S_n - S_{n-1}\\)\n(iv) \\(a_n - a_{n-1}\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the given APs in Column-I with their common differences \\((d)\\) in Column-II:\n\nColumn-I:\n(p) \\(2, 7, 12, 17, \\dots\\)\n(q) \\(0, -4, -8, -12, \\dots\\)\n(r) \\(\\sqrt{2}, \\sqrt{8}, \\sqrt{18}, \\sqrt{32}, \\dots\\)\n(s) \\(\\frac{1}{3}, \\frac{5}{3}, \\frac{9}{3}, \\frac{13}{3}, \\dots\\)\n\nColumn-II:\n(i) \\(-4\\)\n(ii) \\(5\\)\n(iii) \\(\\frac{4}{3}\\)\n(iv) \\(\\sqrt{2}\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH05-01",
+  "title": "সমান্তৰ প্ৰগতি - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "সমান্তৰ প্ৰগতি",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "এটা সমান্তৰ প্ৰগতিত যদি \\(d = -4\\), \\(n = 7\\), আৰু \\(a_n = 4\\) হয়, তেন্তে প্ৰথম পদ \\(a\\)-ৰ মান হ'ব:",
+      "options": [
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(20\\)",
+        "\\(28\\)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "AP: \\(-3, -\\frac{1}{2}, 2, \\dots\\) ৰ 11 তম পদটো হ'ল:",
+      "options": [
+        "\\(28\\)",
+        "\\(22\\)",
+        "\\(-38\\)",
+        "\\(-46\\frac{1}{2}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "এটা সমান্তৰ প্ৰগতিৰ প্ৰথম পদ \\(-2\\) আৰু সাধাৰণ অন্তৰ \\(-2\\) হ'লে, প্ৰথম চাৰিটা পদ হ'ব:",
+      "options": [
+        "\\(-2, 0, 2, 4\\)",
+        "\\(-2, 4, -8, 16\\)",
+        "\\(-2, -4, -6, -8\\)",
+        "\\(-2, -4, -8, -16\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি এটা সমান্তৰ প্ৰগতিৰ 3 ৰীয় আৰু 9 ম পদ ক্ৰমে 4 আৰু \\(-8\\) হয়, তেন্তে ইয়াৰ কোনটো পদ 0 হ'ব?",
+      "options": [
+        "5 ম পদ",
+        "6 ষ্ঠ পদ",
+        "7 ম পদ",
+        "8 ম পদ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "AP: \\(21, 18, 15, \\dots\\) ৰ কোনটো পদ \\(-81\\)?",
+      "options": [
+        "34 তম পদ",
+        "35 তম পদ",
+        "36 তম পদ",
+        "37 তম পদ"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "8 ৰ প্ৰথম 15 টা গুণিতকৰ যোগফল হ'ল:",
+      "options": [
+        "\\(960\\)",
+        "\\(480\\)",
+        "\\(1200\\)",
+        "\\(840\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "3 ৰে বিভাজ্য দুটা অংক বিশিষ্ট সংখ্যা কিমানটা আছে?",
+      "options": [
+        "\\(29\\)",
+        "\\(30\\)",
+        "\\(31\\)",
+        "\\(28\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি \\(k+2\\), \\(4k-6\\), আৰু \\(3k-2\\) এটা সমান্তৰ প্ৰগতিৰ তিনিটা ক্ৰমিক পদ হয়, তেন্তে \\(k\\)-ৰ মান হ'ব:",
+      "options": [
+        "\\(3\\)",
+        "\\(-3\\)",
+        "\\(4\\)",
+        "\\(-4\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি এটা সমান্তৰ প্ৰগতিৰ প্ৰথম \\(n\\) টা পদৰ যোগফল \\(S_n = 3n^2 + 5n\\) হয়, তেন্তে ইয়াৰ 15 তম পদটো হ'ব:",
+      "options": [
+        "\\(82\\)",
+        "\\(92\\)",
+        "\\(102\\)",
+        "\\(90\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "দুটা সমান্তৰ প্ৰগতিৰ সাধাৰণ অন্তৰ একে। সিহঁতৰ 100 তম পদদ্বয়ৰ পাৰ্থক্য 100। সিহঁতৰ 1000 তম পদদ্বয়ৰ পাৰ্থক্য কিমান হ'ব?",
+      "options": [
+        "\\(10\\)",
+        "\\(100\\)",
+        "\\(1000\\)",
+        "\\(0\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "উক্তি (A): প্ৰথম \\(n\\) টা ধনাত্মক গোটা সংখ্যাৰ যোগফল \\(S_n = \\frac{n(n+1)}{2}\\) সূত্ৰৰে পোৱা যায়।\n\nযুক্তি (R): এটা সমান্তৰ প্ৰগতিৰ প্ৰথম \\(n\\) টা পদৰ যোগফল \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): \\(1, 2, 4, 8, 16, \\dots\\) অনুক্ৰমটোৱে এটা সমান্তৰ প্ৰগতি গঠন কৰে।\n\nযুক্তি (R): এটা সমান্তৰ প্ৰগতিত যিকোনো দুটা ক্ৰমিক পদৰ পাৰ্থক্য সদায় ধ্ৰুৱক হৈ থাকে।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "উক্তি (A): যদি এটা সমান্তৰ প্ৰগতিৰ \\(n\\)-তম পদ \\(a_n = 3 + 4n\\) হয়, তেন্তে ইয়াৰ সাধাৰণ অন্তৰ 4।\n\nযুক্তি (R): সাধাৰণ পদ \\(a_n = An + B\\) থকা সমান্তৰ প্ৰগতিত, সাধাৰণ অন্তৰ \\(n\\)-ৰ সহগ \\(A\\)-ৰ সমান হয়।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা সমান্তৰ প্ৰগতিৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰ/মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) সমান্তৰ প্ৰগতিৰ সাধাৰণ পদ \\((a_n)\\)\n(q) প্ৰথম \\(n\\) টা পদৰ যোগফল \\((S_n)\\)\n(r) \\(a_n\\)-ৰ পদত সাধাৰণ অন্তৰ \\((d)\\)\n(s) পদসমূহৰ যোগফলৰ পদত \\(n\\)-তম পদ\n\nস্তম্ভ-II:\n(i) \\(\\frac{n}{2}[a + l]\\)\n(ii) \\(a + (n-1)d\\)\n(iii) \\(S_n - S_{n-1}\\)\n(iv) \\(a_n - a_{n-1}\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা সমান্তৰ প্ৰগতিসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সাধাৰণ অন্তৰ \\((d)\\) মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(2, 7, 12, 17, \\dots\\)\n(q) \\(0, -4, -8, -12, \\dots\\)\n(r) \\(\\sqrt{2}, \\sqrt{8}, \\sqrt{18}, \\sqrt{32}, \\dots\\)\n(s) \\(\\frac{1}{3}, \\frac{5}{3}, \\frac{9}{3}, \\frac{13}{3}, \\dots\\)\n\nস্তম্ভ-II:\n(i) \\(-4\\)\n(ii) \\(5\\)\n(iii) \\(\\frac{4}{3}\\)\n(iv) \\(\\sqrt{2}\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-EN-CH06-01",
+  "title": "Triangles - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Triangles",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) such that \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), and \\(AE = 4.5\\text{ cm}\\). The length of \\(EC\\) is:",
+      "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If in two triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\), then:",
+      "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "It is given that \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^\\circ\\), \\(\\angle C = 50^\\circ\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), and \\(DF = 7.5\\text{ cm}\\). Then which of the following is true?",
+      "options": ["\\(DE = 12\\text{ cm},\\ \\angle F = 50^\\circ\\)", "\\(DE = 12\\text{ cm},\\ \\angle F = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 30^\\circ\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), and \\(BC = 15\\text{ cm}\\), then \\(PR\\) is equal to:",
+      "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "In a rhombus of side \\(10\\text{ cm}\\), one of the diagonals is of length \\(12\\text{ cm}\\). The length of the second diagonal is:",
+      "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "A vertical pole of length \\(6\\text{ m}\\) casts a shadow \\(4\\text{ m}\\) long on the ground, and at the same time a tower casts a shadow \\(28\\text{ m}\\) long. The height of the tower is:",
+      "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In \\(\\triangle ABC\\), \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). If \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), and \\(BD = 3\\text{ cm}\\), then the length of \\(DC\\) is:",
+      "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If \\(\\triangle ABC \\sim \\triangle DEF\\) such that \\(2AB = DE\\) and \\(BC = 8\\text{ cm}\\), then \\(EF\\) is equal to:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\). If \\(\\frac{AD}{DB} = \\frac{3}{5}\\) and \\(AC = 5.6\\text{ cm}\\), then \\(AE\\) is:",
+      "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "The perimeters of two similar triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\) are \\(36\\text{ cm}\\) and \\(24\\text{ cm}\\) respectively. If \\(PQ = 10\\text{ cm}\\), then \\(AB\\) is:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Assertion (A): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\n\nReason (R): This statement is known as the Converse of Basic Proportionality Theorem (Thales Theorem).\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): All congruent triangles are similar, but all similar triangles need not be congruent.\n\nReason (R): Congruent triangles have the same shape and the same size, whereas similar triangles have the same shape but not necessarily the same size.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\).\n\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Match the similarity criteria for two triangles in Column-I with their corresponding conditions in Column-II:\n\nColumn-I:\n(p) AAA Similarity Criterion\n(q) SSS Similarity Criterion\n(r) SAS Similarity Criterion\n(s) RHS Similarity Criterion for right triangles\n\nColumn-II:\n(i) Corresponding sides of two triangles are in the same ratio\n(ii) Corresponding angles of two triangles are equal\n(iii) One angle is equal and sides including this angle are proportional\n(iv) Hypotenuse and one side of two right triangles are proportional\n\n(A) p-(ii), q-(i), r-(iii), s-(iv)\n(B) p-(i), q-(ii), r-(iv), s-(iii)\n(C) p-(ii), q-(iii), r-(i), s-(iv)\n(D) p-(iv), q-(i), r-(ii), s-(iii)",
+      "options": ["p-(ii), q-(i), r-(iii), s-(iv)", "p-(i), q-(ii), r-(iv), s-(iii)", "p-(ii), q-(iii), r-(i), s-(iv)", "p-(iv), q-(i), r-(ii), s-(iii)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\text{Perimeter}(\\triangle ABC)}{\\text{Perimeter}(\\triangle DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\n(A) p-(ii), q-(iii), r-(iv), s-(i)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iii), q-(iv), r-(i), s-(ii)",
+      "options": ["p-(ii), q-(iii), r-(iv), s-(i)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(iv), r-(i), s-(ii)"],
+      "correctAnswer": 0
+    }
+  ]
 }
   ]
 }
