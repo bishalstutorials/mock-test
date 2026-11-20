@@ -2419,12 +2419,12 @@
   ]
 },
 {
-  "id": "BT-X-MATH-AS-CH08-01",
-  "title": "ত্রিকোণমিতিৰ পৰিচয় - Test 1",
+  "id": "BT-X-MATH-EN-CH08-01",
+  "title": "Introduction to Trigonometry - Test 1",
   "class": "Class 10",
   "subject": "Mathematics",
-  "chapter": "ত্রিকোণমিতিৰ পৰিচয়",
-  "language": "Assamese",
+  "chapter": "Introduction to Trigonometry",
+  "language": "English",
   "testType": "Chapter Test",
   "testNo": 1,
   "duration": 20,
@@ -2433,87 +2433,87 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "যদি sin θ = \\(\\frac{3}{5}\\) হয়, তেন্তে tan θ-ৰ মান হ'ব:",
+      "question": "If sin θ = \\(\\frac{3}{5}\\), then the value of tan θ is:",
       "options": ["\\(\\frac{4}{5}\\)", "\\(\\frac{3}{4}\\)", "\\(\\frac{4}{3}\\)", "\\(\\frac{5}{3}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "\\(\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}\\)-ৰ মান হ'ল:",
+      "question": "The value of \\(\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}\\) is:",
       "options": ["tan 90°", "1", "sin 45°", "0"],
       "correctAnswer": 3
     },
     {
-      "question": "যদি ΔABC-ৰ C কোণটো সমকোণ হয়, তেন্তে cos(A + B)-ৰ মান হ'ব:",
+      "question": "If ΔABC is right-angled at C, then the value of cos(A + B) is:",
       "options": ["0", "1", "\\(\\frac{1}{2}\\)", "\\(\\frac{\\sqrt{3}}{2}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "যদি 4 tan θ = 3 হয়, তেন্তে \\(\\left(\\frac{4\\sin\\theta - \\cos\\theta}{4\\sin\\theta + \\cos\\theta}\\right)\\)-ৰ মান হ'ব:",
+      "question": "If 4 tan θ = 3, then \\(\\left(\\frac{4\\sin\\theta - \\cos\\theta}{4\\sin\\theta + \\cos\\theta}\\right)\\) is equal to:",
       "options": ["\\(\\frac{2}{3}\\)", "\\(\\frac{1}{3}\\)", "\\(\\frac{1}{2}\\)", "\\(\\frac{3}{4}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "(sin 30° + cos 30°) - (sin 60° + cos 60°)-ৰ মান হ'ল:",
+      "question": "The value of (sin 30° + cos 30°) - (sin 60° + cos 60°) is:",
       "options": ["-1", "0", "1", "2"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি sin A + sin² A = 1 হয়, তেন্তে (cos² A + cos⁴ A) ৰাশিটোৰ মান হ'ব:",
+      "question": "If sin A + sin² A = 1, then the value of the expression (cos² A + cos⁴ A) is:",
       "options": ["1", "\\(\\frac{1}{2}\\)", "2", "3"],
       "correctAnswer": 0
     },
     {
-      "question": "যদি a cot θ + b csc θ = p আৰু b cot θ + a csc θ = q হয়, তেন্তে p² - q²-ৰ মান হ'ব:",
+      "question": "If a cot θ + b csc θ = p and b cot θ + a csc θ = q, then p² - q² is equal to:",
       "options": ["a² - b²", "b² - a²", "a² + b²", "b - a"],
       "correctAnswer": 1
     },
     {
-      "question": "দিয়া আছে যে sin α = \\(\\frac{\\sqrt{3}}{2}\\) আৰু cos β = 0, তেন্তে β - α-ৰ মান হ'ব:",
+      "question": "Given that sin α = \\(\\frac{\\sqrt{3}}{2}\\) and cos β = 0, then the value of β - α is:",
       "options": ["0°", "90°", "30°", "45°"],
       "correctAnswer": 2
     },
     {
-      "question": "যদি sec θ + tan θ = x হয়, তেন্তে sec θ-ৰ মান হ'ব:",
+      "question": "If sec θ + tan θ = x, then the value of sec θ is:",
       "options": ["\\(\\frac{x^2 - 1}{x}\\)", "\\(\\frac{x^2 - 1}{2x}\\)", "\\(\\frac{x^2 + 1}{2x}\\)", "\\(\\frac{x^2 + 1}{x}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "(1 + tan θ + sec θ)(1 + cot θ - csc θ)-ৰ মান হ'ল:",
+      "question": "The value of (1 + tan θ + sec θ)(1 + cot θ - csc θ) is:",
       "options": ["0", "1", "2", "-1"],
       "correctAnswer": 2
     },
     {
-      "question": "উক্তি (A): যিকোনো সূক্ষ্মকোণ θ-ৰ বাবে sin² θ + cos² θ = 1।\nযুক্তি (R): সমকোণী ত্ৰিভুজত অতিভুজৰ বৰ্গ বাকী বাহু দুটাৰ বৰ্গৰ যোগফলৰ সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "Assertion (A): For any acute angle θ, sin² θ + cos² θ = 1.\nReason (R): In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
       ],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): sin 60° cos 30° + sin 30° cos 60°-ৰ মান হ'ল 1।\nযুক্তি (R): sin(A + B) = sin A cos B + cos A sin B।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "Assertion (A): The value of sin 60° cos 30° + sin 30° cos 60° is 1.\nReason (R): sin(A + B) = sin A cos B + cos A sin B.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
       ],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): θ-ৰ মান 0°-ৰ পৰা 90°-লৈ বৃদ্ধি পালে tan θ-ৰ মানো বৃদ্ধি পায়।\nযুক্তি (R): θ-ৰ সকলো মানৰ বাবে tan θ = \\(\\frac{\\cos\\theta}{\\sin\\theta}\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "Assertion (A): The value of tan θ increases as θ increases from 0° to 90°.\nReason (R): tan θ = \\(\\frac{\\cos\\theta}{\\sin\\theta}\\) for all values of θ.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
       ],
       "correctAnswer": 2
     },
     {
-      "question": "স্তম্ভ-I-ত থকা ত্ৰিকোণমিতিক অভেদসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin² θ + cos² θ\n(q) 1 + tan² θ\n(r) 1 + cot² θ\n(s) sec² θ - tan² θ\n\nস্তম্ভ-II:\n(i) sec² θ\n(ii) 1\n(iii) 1\n(iv) csc² θ\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the trigonometric identities in Column-I with their equivalent expressions in Column-II:\n\nColumn-I:\n(p) sin² θ + cos² θ\n(q) 1 + tan² θ\n(r) 1 + cot² θ\n(s) sec² θ - tan² θ\n\nColumn-II:\n(i) sec² θ\n(ii) 1\n(iii) 1\n(iv) csc² θ\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -2523,7 +2523,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা নিৰ্দিষ্ট ত্ৰিকোণমিতিক মানসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংখ্যাগত মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin 30°\n(q) cos 45°\n(r) tan 60°\n(s) sec 0°\n\nস্তম্ভ-II:\n(i) \\(\\frac{1}{\\sqrt{2}}\\)\n(ii) \\(\\frac{1}{2}\\)\n(iii) 1\n(iv) \\(\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the specific trigonometric values in Column-I with their numerical values in Column-II:\n\nColumn-I:\n(p) sin 30°\n(q) cos 45°\n(r) tan 60°\n(s) sec 0°\n\nColumn-II:\n(i) \\(\\frac{1}{\\sqrt{2}}\\)\n(ii) \\(\\frac{1}{2}\\)\n(iii) 1\n(iv) \\(\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
