@@ -2098,7 +2098,7 @@
 
 {
   "id": "BT-X-MATH-AS-CH06-01",
-  "title": "ত্ৰিভুজ - Test 1",
+  "name": "ত্ৰিভুজ - Test 1",
   "class": "Class 10",
   "subject": "Mathematics",
   "chapter": "ত্ৰিভুজ",
@@ -2111,107 +2111,107 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যাতে \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), আৰু \\(AE = 4.5\\text{ cm}\\)। \\(EC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "$\\triangle ABC$-ত, $DE \\parallel BC$ যাতে $AD = 3\\text{ cm}$, $DB = 5\\text{ cm}$, আৰু $AE = 4.5\\text{ cm}$। $EC$-ৰ দৈৰ্ঘ্য হ'ব:",
       "options": [
-        "\\(6.5\\text{ cm}\\)",
-        "\\(7.5\\text{ cm}\\)",
-        "\\(8\\text{ cm}\\)",
-        "\\(9\\text{ cm}\\)"
+        "$6.5\\text{ cm}$",
+        "$7.5\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$9\\text{ cm}$"
       ],
       "correctAnswer": 1
     },
     {
-      "question": "যদি দুটা ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\) হয়, তেন্তে:",
+      "question": "যদি দুটা ত্ৰিভুজ $\\triangle ABC$ আৰু $\\triangle PQR$-ৰ $\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}$ হয়, তেন্তে:",
       "options": [
-        "\\(\\triangle PQR \\sim \\triangle CAB\\)",
-        "\\(\\triangle PQR \\sim \\triangle ABC\\)",
-        "\\(\\triangle CBA \\sim \\triangle PQR\\)",
-        "\\(\\triangle BCA \\sim \\triangle PQR\\)"
+        "$\\triangle PQR \\sim \\triangle CAB$",
+        "$\\triangle PQR \\sim \\triangle ABC$",
+        "$\\triangle CBA \\sim \\triangle PQR$",
+        "$\\triangle BCA \\sim \\triangle PQR$"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "দিয়া আছে যে \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), আৰু \\(DF = 7.5\\text{ cm}\\)। তেন্তে তলৰ কোনটো সত্য?",
+      "question": "দিয়া আছে যে $\\triangle ABC \\sim \\triangle DFE$, $\\angle A = 30^{\\circ}$, $\\angle C = 50^{\\circ}$, $AB = 5\\text{ cm}$, $AC = 8\\text{ cm}$, আৰু $DF = 7.5\\text{ cm}$। তেন্তে তলৰ কোনটো সত্য?",
       "options": [
-        "\\(DE = 12\\text{ cm}, \\angle F = 50^{\\circ}\\)",
-        "\\(DE = 12\\text{ cm}, \\angle F = 100^{\\circ}\\)",
-        "\\(EF = 12\\text{ cm}, \\angle D = 100^{\\circ}\\)",
-        "\\(EF = 12\\text{ cm}, \\angle D = 30^{\\circ}\\)"
+        "$DE = 12\\text{ cm}, \\angle F = 50^{\\circ}$",
+        "$DE = 12\\text{ cm}, \\angle F = 100^{\\circ}$",
+        "$EF = 12\\text{ cm}, \\angle D = 100^{\\circ}$",
+        "$EF = 12\\text{ cm}, \\angle D = 30^{\\circ}$"
       ],
       "correctAnswer": 1
     },
     {
-      "question": "যদি \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), আৰু \\(BC = 15\\text{ cm}\\) হয়, তেন্তে \\(PR\\)-ৰ মান হ'ব:",
+      "question": "যদি $\\triangle ABC \\sim \\triangle QRP$, $\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}$, $AB = 18\\text{ cm}$, আৰু $BC = 15\\text{ cm}$ হয়, তেন্তে $PR$-ৰ মান হ'ব:",
       "options": [
-        "\\(10\\text{ cm}\\)",
-        "\\(12\\text{ cm}\\)",
-        "\\(8\\text{ cm}\\)",
-        "\\(9\\text{ cm}\\)"
+        "$10\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$9\\text{ cm}$"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "\\(10\\text{ cm}\\) বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য \\(12\\text{ cm}\\)। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "$10\\text{ cm}$ বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য $12\\text{ cm}$। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
       "options": [
-        "\\(16\\text{ cm}\\)",
-        "\\(8\\text{ cm}\\)",
-        "\\(14\\text{ cm}\\)",
-        "\\(20\\text{ cm}\\)"
+        "$16\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$20\\text{ cm}$"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "\\(6\\text{ m}\\) ওখ এটা উলম্ব খুটায়ে মাটিত \\(4\\text{ m}\\) দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই \\(28\\text{ m}\\) দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "question": "$6\\text{ m}$ ওখ এটা উলম্ব খুটায়ে মাটিত $4\\text{ m}$ দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই $28\\text{ m}$ দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
       "options": [
-        "\\(40\\text{ m}\\)",
-        "\\(36\\text{ m}\\)",
-        "\\(42\\text{ m}\\)",
-        "\\(48\\text{ m}\\)"
+        "$40\\text{ m}$",
+        "$36\\text{ m}$",
+        "$42\\text{ m}$",
+        "$48\\text{ m}$"
       ],
       "correctAnswer": 2
     },
     {
-      "question": "\\(\\triangle ABC\\)-ত, \\(AD\\) হ'ল \\(\\angle A\\)-ৰ সমদ্বিখণ্ডক যি \\(BC\\)-ক \\(D\\) বিন্দুত লগ লাগে। যদি \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), আৰু \\(BD = 3\\text{ cm}\\) হয়, তেন্তে \\(DC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "$\\triangle ABC$-ত, $AD$ হ'ল $\\angle A$-ৰ সমদ্বিখণ্ডক যি $BC$-ক $D$ বিন্দুত লগ লাগে। যদি $AB = 6\\text{ cm}$, $AC = 5\\text{ cm}$, আৰু $BD = 3\\text{ cm}$ হয়, তেন্তে $DC$-ৰ দৈৰ্ঘ্য হ'ব:",
       "options": [
-        "\\(3.5\\text{ cm}\\)",
-        "\\(2.5\\text{ cm}\\)",
-        "\\(4\\text{ cm}\\)",
-        "\\(2\\text{ cm}\\)"
+        "$3.5\\text{ cm}$",
+        "$2.5\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$"
       ],
       "correctAnswer": 1
     },
     {
-      "question": "যদি \\(\\triangle ABC \\sim \\triangle DEF\\) যাতে \\(2AB = DE\\) আৰু \\(BC = 8\\text{ cm}\\) হয়, তেন্তে \\(EF\\)-ৰ মান হ'ব:",
+      "question": "যদি $\\triangle ABC \\sim \\triangle DEF$ যাতে $2AB = DE$ আৰু $BC = 8\\text{ cm}$ হয়, তেন্তে $EF$-ৰ মান হ'ব:",
       "options": [
-        "\\(12\\text{ cm}\\)",
-        "\\(4\\text{ cm}\\)",
-        "\\(16\\text{ cm}\\)",
-        "\\(8\\text{ cm}\\)"
+        "$12\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$8\\text{ cm}$"
       ],
       "correctAnswer": 2
     },
     {
-      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যি \\(AB\\)-ক \\(D\\) আৰু \\(AC\\)-ক \\(E\\) বিন্দুত ছেদ কৰে। যদি \\(\\frac{AD}{DB} = \\frac{3}{5}\\) আৰু \\(AC = 5.6\\text{ cm}\\) হয়, তেন্তে \\(AE\\)-ৰ মান হ'ব:",
+      "question": "$\\triangle ABC$-ত, $DE \\parallel BC$ যি $AB$-ক $D$ আৰু $AC$-ক $E$ বিন্দুত ছেদ কৰে। যদি $\\frac{AD}{DB} = \\frac{3}{5}$ আৰু $AC = 5.6\\text{ cm}$ হয়, তেন্তে $AE$-ৰ মান হ'ব:",
       "options": [
-        "\\(2.1\\text{ cm}\\)",
-        "\\(3.5\\text{ cm}\\)",
-        "\\(2.8\\text{ cm}\\)",
-        "\\(1.8\\text{ cm}\\)"
+        "$2.1\\text{ cm}$",
+        "$3.5\\text{ cm}$",
+        "$2.8\\text{ cm}$",
+        "$1.8\\text{ cm}$"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "দুটা সদৃশ ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ পৰিসীমা ক্ৰমে \\(36\\text{ cm}\\) আৰু \\(24\\text{ cm}\\)। যদি \\(PQ = 10\\text{ cm}\\) হয়, তেন্তে \\(AB\\)-ৰ মান হ'ব:",
+      "question": "দুটা সদৃশ ত্ৰিভুজ $\\triangle ABC$ আৰু $\\triangle PQR$-ৰ পৰিসীমা ক্ৰমে $36\\text{ cm}$ আৰু $24\\text{ cm}$। যদি $PQ = 10\\text{ cm}$ হয়, তেন্তে $AB$-ৰ মান হ'ব:",
       "options": [
-        "\\(12\\text{ cm}\\)",
-        "\\(15\\text{ cm}\\)",
-        "\\(18\\text{ cm}\\)",
-        "\\(20\\text{ cm}\\)"
+        "$12\\text{ cm}$",
+        "$15\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$20\\text{ cm}$"
       ],
       "correctAnswer": 1
     },
     {
-      "question": "উক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।",
+      "question": "উক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2221,7 +2221,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ’বও পাৰে।\\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ’লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।",
+      "question": "উক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ’বও পাৰে।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ’লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2231,7 +2231,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): যদি \\(\\triangle ABC \\sim \\triangle DEF\\) হয়, তেন্তে \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\)।\\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
+      "question": "উক্তি (A): যদি $\\triangle ABC \\sim \\triangle DEF$ হয়, তেন্তে $\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}$।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2241,7 +2241,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ উক্তি মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) AAA সদৃশতা চৰ্ত\\n(q) SSS সদৃশতা চৰ্ত\\n(r) SAS সদৃশতা চৰ্ত\\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\\n\\nস্তম্ভ-II:\\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক",
+      "question": "স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ উক্তি মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক",
       "options": [
         "p-(ii), q-(i), r-(iii), s-(iv)",
         "p-(i), q-(ii), r-(iv), s-(iii)",
@@ -2251,7 +2251,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\\n\\nস্তম্ভ-II:\\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\\n(iii) \\(\\frac{\\text{পৰিসীমা}(\\triangle ABC)}{\\text{পৰিসীমা}(\\triangle DEF)} = \\frac{AB}{DE}\\)\\n(iv) \\(\\frac{\\text{কালি}(\\triangle ABC)}{\\text{কালি}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)",
+      "question": "স্তম্ভ-I-ত থকা $\\triangle ABC$-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য ($DE \\parallel BC$)\n(q) $\\triangle ABC \\sim \\triangle DEF$-ৰ পৰিসীমাৰ অনুপাত\n(r) $\\triangle ABC \\sim \\triangle DEF$-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য ($AD$-এ $\\angle A$-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) $\\frac{AB}{AC} = \\frac{BD}{DC}$\n(ii) $\\frac{AD}{DB} = \\frac{AE}{EC}$\n(iii) $\\frac{\\text{পৰিসীমা}(\\triangle ABC)}{\\text{পৰিসীমা}(\\triangle DEF)} = \\frac{AB}{DE}$\n(iv) $\\frac{\\text{কালি}(\\triangle ABC)}{\\text{কালি}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2$",
       "options": [
         "p-(ii), q-(iii), r-(iv), s-(i)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
