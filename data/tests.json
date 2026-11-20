@@ -1007,6 +1007,338 @@
       "correctAnswer": 0
     }
   ]
+},
+{
+  "id": "BT-X-MATH-EN-CH03-01",
+  "title": "Pair of Linear Equations in Two Variables - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Pair of Linear Equations in Two Variables",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "The pair of equations \\(x + 2y + 5 = 0\\) and \\(-3x - 6y + 1 = 0\\) has:",
+      "options": [
+        "a unique solution",
+        "exactly two solutions",
+        "infinitely many solutions",
+        "no solution"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "If a pair of linear equations is consistent, then the lines representing them will be:",
+      "options": [
+        "parallel",
+        "always coincident",
+        "intersecting or coincident",
+        "always intersecting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "For what value of \\(k\\), do the equations \\(3x - y + 8 = 0\\) and \\(6x - ky = -16\\) represent coincident lines?",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(2\\)",
+        "\\(-2\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If \\(x = a, y = b\\) is the solution of the equations \\(x - y = 2\\) and \\(x + y = 4\\), then the values of \\(a\\) and \\(b\\) are, respectively:",
+      "options": [
+        "\\(35\\) and \\(1\\)",
+        "\\(3\\) and \\(1\\)",
+        "\\(5\\) and \\(3\\)",
+        "\\(-1\\) and \\(-3\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Aruna has only ₹1 and ₹2 coins with her. If the total number of coins that she has is \\(50\\) and the amount of money with her is ₹75, then the number of ₹1 and ₹2 coins are, respectively:",
+      "options": [
+        "\\(35, 15\\)",
+        "\\(15, 35\\)",
+        "\\(25, 25\\)",
+        "\\(30, 20\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "The father's age is six times his son's age. Four years hence, the age of the father will be four times his son's age. The present ages, in years, of the son and the father are, respectively:",
+      "options": [
+        "\\(4\\) and \\(24\\)",
+        "\\(5\\) and \\(30\\)",
+        "\\(6\\) and \\(36\\)",
+        "\\(3\\) and \\(24\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "If the system of equations \\(2x + 3y = 7\\) and \\((a + b)x + (2a - b)y = 21\\) has infinitely many solutions, then the values of \\(a\\) and \\(b\\) are:",
+      "options": [
+        "\\(a = 5, b = 1\\)",
+        "\\(a = 1, b = 5\\)",
+        "\\(a = -5, b = 1\\)",
+        "\\(a = 5, b = -1\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "The area of the triangle formed by the lines \\(y = x\\), \\(x = 6\\), and \\(y = 0\\) is:",
+      "options": [
+        "\\(36\\text{ sq units}\\)",
+        "\\(18\\text{ sq units}\\)",
+        "\\(9\\text{ sq units}\\)",
+        "\\(12\\text{ sq units}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If \\(217x + 131y = 913\\) and \\(131x + 217y = 827\\), then the value of \\(x + y\\) is:",
+      "options": [
+        "\\(5\\)",
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(8\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "A fraction becomes \\(\\frac{4}{5}\\) if \\(1\\) is added to both numerator and denominator. If, however, \\(5\\) is subtracted from both numerator and denominator, the fraction becomes \\(\\frac{1}{2}\\). The fraction is:",
+      "options": [
+        "\\(\\frac{7}{9}\\)",
+        "\\(\\frac{8}{11}\\)",
+        "\\(\\frac{9}{11}\\)",
+        "\\(\\frac{5}{7}\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): The pair of linear equations \\(2x - 3y = 1\\) and \\(4x - 6y = 5\\) is inconsistent.\n\nReason (R): A pair of linear equations \\(a_1 x + b_1 y + c_1 = 0\\) and \\(a_2 x + b_2 y + c_2 = 0\\) is inconsistent if \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): The line \\(x = 3\\) is parallel to the y-axis.\n\nReason (R): Any equation of the form \\(x = a\\) represents a line parallel to the x-axis.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Assertion (A): The pair of equations \\(x + y = 0\\) and \\(x - y = 0\\) has no solution.\n\nReason (R): A pair of linear equations with distinct non-zero slopes intersects at a unique point.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Match the condition for coefficients of pair of linear equations in Column-I with their graphical representation in Column-II:\n\nColumn-I:\n(p) \\(\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}\\)\n(q) \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\)\n(r) \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\)\n(s) \\(a_1 a_2 + b_1 b_2 = 0\\)\n\nColumn-II:\n(i) Coincident lines\n(ii) Intersecting lines\n(iii) Perpendicular lines\n(iv) Parallel lines",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iii), s-(iv)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the system of linear equations in Column-I with the number of solutions they possess in Column-II:\n\nColumn-I:\n(p) \\(x + y = 5\\) and \\(2x + 2y = 10\\)\n(q) \\(x + y = 5\\) and \\(x + y = 7\\)\n(r) \\(x - y = 2\\) and \\(x + y = 4\\)\n(s) \\(2x - y = 3\\) and \\(4x - 2y = 6\\)\n\nColumn-II:\n(i) Unique solution\n(ii) Infinitely many solutions\n(iii) No solution\n(iv) Infinitely many solutions",
+      "options": [
+        "p-(ii), q-(iii), r-(i), s-(iv)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(i), r-(iii), s-(iv)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH03-01",
+  "title": "দুটা চলকত ৰৈখিক সমীকৰণৰ যোৰ - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "দুটা চলকত ৰৈখিক সমীকৰণৰ যোৰ",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "\\(x + 2y + 5 = 0\\) আৰু \\(-3x - 6y + 1 = 0\\) সমীকৰণযোৰৰ:",
+      "options": [
+        "এটা আৰু কেৱল এটাই সমাধান আছে",
+        "সঠিকভাৱে দুটা সমাধান আছে",
+        "অসীম সংখ্যক সমাধান আছে",
+        "কোনো সমাধান নাই"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "যদি এটা ৰৈখিক সমীকৰণৰ যোৰ সংগত হয়, তেন্তে সিহঁতক প্ৰতিনিধিত্ব কৰা ৰেখা দুডাল হ’ব:",
+      "options": [
+        "সমান্তৰাল",
+        "সদায় ইডালে সিডালৰ ওপৰত খাপ খোৱা (সম্পাতী)",
+        "পৰস্পৰকটা বা খাপ খোৱা (সম্পাতী)",
+        "সদায় পৰস্পৰকটা"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "\\(k\\)-ৰ কোন মানৰ বাবে \\(3x - y + 8 = 0\\) আৰু \\(6x - ky = -16\\) সমীকৰণ দুটাই সম্পাতী ৰেখা প্ৰতিনিধিত্ব কৰে?",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(2\\)",
+        "\\(-2\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি \\(x = a, y = b\\) টো \\(x - y = 2\\) আৰু \\(x + y = 4\\) সমীকৰণযোৰৰ সমাধান হয়, তেন্তে \\(a\\) আৰু \\(b\\)-ৰ মান ক্ৰমে:",
+      "options": [
+        "\\(35\\) আৰু \\(1\\)",
+        "\\(3\\) আৰু \\(1\\)",
+        "\\(5\\) আৰু \\(3\\)",
+        "\\(-1\\) আৰু \\(-3\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "অৰুণাৰ ওচৰত কেৱল ₹১ আৰু ₹২ ৰ মুদ্ৰা আছে। যদি তাইৰ ওচৰত থকা মুঠ মুদ্ৰাৰ সংখ্যা ৫০ আৰু মুঠ ধনৰ পৰিমাণ ₹৭৫ হয়, তেন্তে ₹১ আৰু ₹২ ৰ মুদ্ৰাৰ সংখ্যা ক্ৰমে:",
+      "options": [
+        "\\(35, 15\\)",
+        "\\(15, 35\\)",
+        "\\(25, 25\\)",
+        "\\(30, 20\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "দেউতাকৰ বয়স পুতেকৰ বয়সৰ ছয়গুণ। চাৰি বছৰৰ পাছত, দেউতাকৰ বয়স পুতেকৰ বয়সৰ চাৰিগুণ হ’ব। পুতেক আৰু দেউতাকৰ বৰ্তমান বয়স (বছৰত) ক্ৰমে:",
+      "options": [
+        "\\(4\\) আৰু \\(24\\)",
+        "\\(5\\) আৰু \\(30\\)",
+        "\\(6\\) আৰু \\(36\\)",
+        "\\(3\\) আৰু \\(24\\)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি \\(2x + 3y = 7\\) আৰু \\((a + b)x + (2a - b)y = 21\\) সমীকৰণ প্ৰণালীটোৰ অসীম সংখ্যক সমাধান থাকে, তেন্তে \\(a\\) আৰু \\(b\\)-ৰ মান হ’ব:",
+      "options": [
+        "\\(a = 5, b = 1\\)",
+        "\\(a = 1, b = 5\\)",
+        "\\(a = -5, b = 1\\)",
+        "\\(a = 5, b = -1\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "\\(y = x\\), \\(x = 6\\), আৰু \\(y = 0\\) ৰেখা কেইডালে গঠন কৰা ত্ৰিভুজটোৰ কালি হ’ব:",
+      "options": [
+        "\\(36\\text{ বৰ্গ একক}\\)",
+        "\\(18\\text{ বৰ্গ একক}\\)",
+        "\\(9\\text{ বৰ্গ একক}\\)",
+        "\\(12\\text{ বৰ্গ একক}\\)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি \\(217x + 131y = 913\\) আৰু \\(131x + 217y = 827\\) হয়, তেন্তে \\(x + y\\)-ৰ মান হ’ব:",
+      "options": [
+        "\\(5\\)",
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(8\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "এটা ভগ্নাংশৰ লৱ আৰু হৰ দুয়োটাতে \\(1\\) যোগ কৰিলে ভগ্নাংশটো \\(\\frac{4}{5}\\) হয়। কিন্তু যদি লৱ আৰু হৰ দুয়োটাৰে পৰা \\(5\\) বিয়োগ কৰা হয়, তেন্তে ভগ্নাংশটো \\(\\frac{1}{2}\\) হয়। ভগ্নাংশটো হ’ল:",
+      "options": [
+        "\\(\\frac{7}{9}\\)",
+        "\\(\\frac{8}{11}\\)",
+        "\\(\\frac{9}{11}\\)",
+        "\\(\\frac{5}{7}\\)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): \\(2x - 3y = 1\\) আৰু \\(4x - 6y = 5\\) ৰৈখিক সমীকৰণযোৰ অসংগত।\n\nযুক্তি (R): \\(a_1 x + b_1 y + c_1 = 0\\) আৰু \\(a_2 x + b_2 y + c_2 = 0\\) ৰৈখিক সমীকৰণযোৰ অসংগত হয় যদিহে \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\) হয়।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): \\(x = 3\\) ৰেখাডাল y-অক্ষৰ সমান্তৰাল।\n\nযুক্তি (R): \\(x = a\\) ৰূপৰ যিকোনো সমীকৰণে x-অক্ষৰ সমান্তৰাল ৰেখা প্ৰতিনিধিত্ব কৰে।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "উক্তি (A): \\(x + y = 0\\) আৰু \\(x - y = 0\\) সমীকৰণযোৰৰ কোনো সমাধান নাই।\n\nযুক্তি (R): বিভিন্ন অশূন্য নতি (slope) থকা ৰৈখিক সমীকৰণযোৰে এটা নিৰ্দিষ্ট বিন্দুত ইডালে সিডালক কাটে।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা ৰৈখিক সমীকৰণযোৰৰ সহগসমূহৰ চৰ্তৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ লৈখিক প্ৰতিনিধিত্ব মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}\\)\n(q) \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\)\n(r) \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\)\n(s) \\(a_1 a_2 + b_1 b_2 = 0\\)\n\nস্তম্ভ-II:\n(i) সম্পাতী ৰেখা\n(ii) পৰস্পৰকটা ৰেখা\n(iii) লম্ব ৰেখা\n(iv) সমান্তৰাল ৰেখা",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iii), s-(iv)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা ৰৈখিক সমীকৰণ প্ৰণালীবোৰৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সমাধানৰ সংখ্যা মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(x + y = 5\\) আৰু \\(2x + 2y = 10\\)\n(q) \\(x + y = 5\\) আৰু \\(x + y = 7\\)\n(r) \\(x - y = 2\\) আৰু \\(x + y = 4\\)\n(s) \\(2x - y = 3\\) আৰু \\(4x - 2y = 6\\)\n\nস্তম্ভ-II:\n(i) এটা আৰু কেৱল এটাই সমাধান\n(ii) অসীম সংখ্যক সমাধান\n(iii) কোনো সমাধান নাই\n(iv) অসীম সংখ্যক সমাধান",
+      "options": [
+        "p-(ii), q-(iii), r-(i), s-(iv)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(i), r-(iii), s-(iv)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
 }
   ]
 }
