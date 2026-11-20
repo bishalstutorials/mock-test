@@ -2825,188 +2825,340 @@
           "correctAnswer": 0
         }
       ]
-    },
-  {
-  "id": "BT-X-MATH-EN-CH09-01",
-  "title": "Some Applications of Trigonometry - Test 1",
-  "class": "Class 10",
-  "subject": "Mathematics",
-  "chapter": "Some Applications of Trigonometry",
-  "language": "English",
-  "testType": "Chapter Test",
-  "testNo": 1,
-  "duration": 20,
-  "totalQuestions": 15,
-  "marksPerQuestion": 1,
-  "negativeMarks": 0,
-  "questions": [
-    {
-      "question": "A pole \\\\(6\\\\text{ m}\\\\) high casts a shadow \\\\(2\\\\sqrt{3}\\\\text{ m}\\\\) long on the ground, then the sun's elevation is:",
-      "options": ["\\\\(60^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(30^{\\\\circ}\\\\)", "\\\\(90^{\\\\circ}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "If the height of a vertical pole is equal to the length of its shadow on the ground, then the angle of elevation of the sun is:",
-      "options": ["\\\\(30^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(60^{\\\\circ}\\\\)", "\\\\(0^{\\\\circ}\\\\)"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "A ladder \\\\(15\\\\text{ m}\\\\) long leans against a vertical wall making an angle of \\\\(60^{\\\\circ}\\\\) with the wall. The height of the point where the ladder touches the wall is:",
-      "options": ["\\\\(15\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(\\\\frac{15}{2}\\\\text{ m}\\\\)", "\\\\(15\\\\text{ m}\\\\)", "\\\\(\\\\frac{15\\\\sqrt{3}}{2}\\\\text{ m}\\\\)"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "An observer \\\\(1.5\\\\text{ m}\\\\) tall is \\\\(28.5\\\\text{ m}\\\\) away from a tower \\\\(30\\\\text{ m}\\\\) high. The angle of elevation of the top of the tower from the eye of the observer is:",
-      "options": ["\\\\(30^{\\\\circ}\\\\)", "\\\\(60^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(90^{\\\\circ}\\\\)"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "The angle of depression of a car standing on the ground from the top of a \\\\(75\\\\text{ m}\\\\) high tower is \\\\(30^{\\\\circ}\\\\). The distance of the car from the base of the tower is:",
-      "options": ["\\\\(25\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(50\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(75\\\\text{ m}\\\\)", "\\\\(75\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 3
-    },
-    {
-      "question": "If the length of the shadow of a tower is increasing, then the angle of elevation of the sun is:",
-      "options": ["Increasing", "Decreasing", "Remaining unchanged", "First increasing then decreasing"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "From a point on the ground, which is \\\\(30\\\\text{ m}\\\\) away from the foot of a tower, the angle of elevation of the top of the tower is \\\\(30^{\\\\circ}\\\\). The height of the tower is:",
-      "options": ["\\\\(10\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(30\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(10\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "A kite is flying at a height of \\\\(60\\\\text{ m}\\\\) above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is \\\\(60^{\\\\circ}\\\\). Finding the length of the string, assuming that there is no slack in string, gives:",
-      "options": ["\\\\(40\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(30\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(120\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "The shadow of a tower standing on a level ground is found to be \\\\(40\\\\text{ m}\\\\) longer when the Sun's altitude is \\\\(30^{\\\\circ}\\\\) than when it is \\\\(60^{\\\\circ}\\\\). The height of the tower is:",
-      "options": ["\\\\(20\\\\text{ m}\\\\)", "\\\\(40\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(10\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Two poles of heights \\\\(6\\\\text{ m}\\\\) and \\\\(11\\\\text{ m}\\\\) stand vertically on a plane ground. If the distance between their feet is \\\\(12\\\\text{ m}\\\\), the distance between their tops is:",
-      "options": ["\\\\(13\\\\text{ m}\\\\)", "\\\\(12\\\\text{ m}\\\\)", "\\\\(14\\\\text{ m}\\\\)", "\\\\(11\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "Assertion (A): If the length of the shadow of a vertical pole is equal to its height, then the angle of elevation of the sun is \\\\(45^{\\\\circ}\\\\).\\nReason (R): According to trigonometric ratios, \\\\(\\\\tan \\\\theta = \\\\frac{\\\\text{Perpendicular}}{\\\\text{Base}}\\\\), so when Perpendicular = Base, \\\\(\\\\tan \\\\theta = 1 \\\\implies \\\\theta = 45^{\\\\circ}\\\\).\\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\\n(C) Assertion (A) is true, but Reason (R) is false.\\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
-      "correctAnswer": 0
-    },
-    {
-      "question": "Assertion (A): As the observer moves towards the foot of a tower, the angle of elevation of the top of the tower decreases.\\nReason (R): The angle of elevation is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level.\\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\\n(C) Assertion (A) is true, but Reason (R) is false.\\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
-      "correctAnswer": 3
-    },
-    {
-      "question": "Assertion (A): A line drawn from the eye of an observer to the object viewed by the observer is called the line of sight.\\nReason (R): The angle of depression is formed when the object is below the horizontal level of the observer's eye.\\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\\n(C) Assertion (A) is true, but Reason (R) is false.\\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Match the trigonometric relations for height (\\\\(h\\\\)), distance (\\\\(d\\\\)), and angle of elevation (\\\\(\\\\theta\\\\)) in Column-I with their corresponding expressions in Column-II:\\n\\nColumn-I:\\n(p) \\\\(h\\\\) when \\\\(\\\\theta = 45^{\\\\circ}\\\\)\\n(q) \\\\(h\\\\) when \\\\(\\\\theta = 30^{\\\\circ}\\\\)\\n(r) \\\\(h\\\\) when \\\\(\\\\theta = 60^{\\\\circ}\\\\)\\n(s) Length of hypotenuse (line of sight) when \\\\(h\\\\) is given and \\\\(\\\\theta = 30^{\\\\circ}\\\\)\\n\\nColumn-II:\\n(i) \\\\(\\\\frac{d}{\\\\sqrt{3}}\\\\)\\n(ii) \\\\(d\\\\)\\n(iii) \\\\(2h\\\\)\\n(iv) \\\\(d\\\\sqrt{3}\\\\)\\n\\n(A) p-(ii), q-(i), r-(iv), s-(iii)\\n(B) p-(i), q-(ii), r-(iii), s-(iv)\\n(C) p-(ii), q-(iv), r-(i), s-(iii)\\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "Match the key terms of height and distance problems in Column-I with their definitions in Column-II:\\n\\nColumn-I:\\n(p) Line of sight\\n(q) Angle of elevation\\n(r) Angle of depression\\n(s) Horizontal level\\n\\nColumn-II:\\n(i) Angle between line of sight and horizontal line when viewing an object above horizontal level\\n(ii) Line drawn from observer's eye to object being viewed\\n(iii) Parallel line passing through observer's eye\\n(iv) Angle between line of sight and horizontal line when viewing an object below horizontal level\\n\\n(A) p-(ii), q-(i), r-(iv), s-(iii)\\n(B) p-(iii), q-(ii), r-(i), s-(iv)\\n(C) p-(i), q-(ii), r-(iv), s-(iii)\\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(ii), r-(i), s-(iv)", "p-(i), q-(ii), r-(iv), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
-      "correctAnswer": 0
     }
-  ]
-},
 {
-  "id": "BT-X-MATH-AS-CH09-01",
-  "title": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ - Test 1",
-  "class": "Class 10",
-  "subject": "Mathematics",
-  "chapter": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ",
-  "language": "Assamese",
-  "testType": "Chapter Test",
-  "testNo": 1,
-  "duration": 20,
-  "totalQuestions": 15,
-  "marksPerQuestion": 1,
-  "negativeMarks": 0,
-  "questions": [
+  "tests": [
     {
-      "question": "\\\\(6\\\\text{ m}\\\\) ওখ স্তম্ভ এটাৰ মাটিত পৰা ছাঁৰ দৈৰ্ঘ্য \\\\(2\\\\sqrt{3}\\\\text{ m}\\\\) হ’লে, সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
-      "options": ["\\\\(60^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(30^{\\\\circ}\\\\)", "\\\\(90^{\\\\circ}\\\\)"],
-      "correctAnswer": 0
+      "id": "BT-X-MATH-EN-CH09-01",
+      "title": "Some Applications of Trigonometry - Test 1",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "chapter": "Some Applications of Trigonometry",
+      "language": "English",
+      "testType": "Chapter Test",
+      "testNo": 1,
+      "duration": 20,
+      "totalQuestions": 15,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "question": "A pole $6\\text{ m}$ high casts a shadow $2\\sqrt{3}\\text{ m}$ long on the ground, then the sun's elevation is:",
+          "options": [
+            "$60^{\\circ}$",
+            "$45^{\\circ}$",
+            "$30^{\\circ}$",
+            "$90^{\\circ}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "If the height of a vertical pole is equal to the length of its shadow on the ground, then the angle of elevation of the sun is:",
+          "options": [
+            "$30^{\\circ}$",
+            "$45^{\\circ}$",
+            "$60^{\\circ}$",
+            "$0^{\\circ}$"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "A ladder $15\\text{ m}$ long leans against a vertical wall making an angle of $60^{\\circ}$ with the wall. The height of the point where the ladder touches the wall is:",
+          "options": [
+            "$15\\sqrt{3}\\text{ m}$",
+            "$\\frac{15}{2}\\text{ m}$",
+            "$15\\text{ m}$",
+            "$\\frac{15\\sqrt{3}}{2}\\text{ m}$"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "An observer $1.5\\text{ m}$ tall is $28.5\\text{ m}$ away from a tower $30\\text{ m}$ high. The angle of elevation of the top of the tower from the eye of the observer is:",
+          "options": [
+            "$30^{\\circ}$",
+            "$60^{\\circ}$",
+            "$45^{\\circ}$",
+            "$90^{\\circ}$"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "The angle of depression of a car standing on the ground from the top of a $75\\text{ m}$ high tower is $30^{\\circ}$. The distance of the car from the base of the tower is:",
+          "options": [
+            "$25\\sqrt{3}\\text{ m}$",
+            "$50\\sqrt{3}\\text{ m}$",
+            "$75\\text{ m}$",
+            "$75\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "If the length of the shadow of a tower is increasing, then the angle of elevation of the sun is:",
+          "options": [
+            "Increasing",
+            "Decreasing",
+            "Remaining unchanged",
+            "First increasing then decreasing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "From a point on the ground, which is $30\\text{ m}$ away from the foot of a tower, the angle of elevation of the top of the tower is $30^{\\circ}$. The height of the tower is:",
+          "options": [
+            "$10\\sqrt{3}\\text{ m}$",
+            "$30\\sqrt{3}\\text{ m}$",
+            "$10\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "A kite is flying at a height of $60\\text{ m}$ above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is $60^{\\circ}$. Finding the length of the string, assuming that there is no slack in string, gives:",
+          "options": [
+            "$40\\sqrt{3}\\text{ m}$",
+            "$30\\sqrt{3}\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$",
+            "$120\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "The shadow of a tower standing on a level ground is found to be $40\\text{ m}$ longer when the Sun's altitude is $30^{\\circ}$ than when it is $60^{\\circ}$. The height of the tower is:",
+          "options": [
+            "$20\\text{ m}$",
+            "$40\\sqrt{3}\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$",
+            "$10\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Two poles of heights $6\\text{ m}$ and $11\\text{ m}$ stand vertically on a plane ground. If the distance between their feet is $12\\text{ m}$, the distance between their tops is:",
+          "options": [
+            "$13\\text{ m}$",
+            "$12\\text{ m}$",
+            "$14\\text{ m}$",
+            "$11\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Assertion (A): If the length of the shadow of a vertical pole is equal to its height, then the angle of elevation of the sun is $45^{\\circ}$.\nReason (R): According to trigonometric ratios, $\\tan \\theta = \\frac{\\text{Perpendicular}}{\\text{Base}}$, so when Perpendicular $=$ Base, $\\tan \\theta = 1 \\implies \\theta = 45^{\\circ}$.",
+          "options": [
+            "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+            "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+            "Assertion (A) is true, but Reason (R) is false.",
+            "Assertion (A) is false, but Reason (R) is true."
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Assertion (A): As the observer moves towards the foot of a tower, the angle of elevation of the top of the tower decreases.\nReason (R): The angle of elevation is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level.",
+          "options": [
+            "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+            "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+            "Assertion (A) is true, but Reason (R) is false.",
+            "Assertion (A) is false, but Reason (R) is true."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Assertion (A): A line drawn from the eye of an observer to the object viewed by the observer is called the line of sight.\nReason (R): The angle of depression is formed when the object is below the horizontal level of the observer's eye.",
+          "options": [
+            "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+            "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+            "Assertion (A) is true, but Reason (R) is false.",
+            "Assertion (A) is false, but Reason (R) is true."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the trigonometric relations for height ($h$), distance ($d$), and angle of elevation ($\\theta$) in Column-I with their corresponding expressions in Column-II:\n\nColumn-I:\n(p) $h$ when $\\theta = 45^{\\circ}$\n(q) $h$ when $\\theta = 30^{\\circ}$\n(r) $h$ when $\\theta = 60^{\\circ}$\n(s) Length of hypotenuse (line of sight) when $h$ is given and $\\theta = 30^{\\circ}$\n\nColumn-II:\n(i) $\\frac{d}{\\sqrt{3}}$\n(ii) $d$\n(iii) $2h$\n(iv) $d\\sqrt{3}$",
+          "options": [
+            "p-(ii), q-(i), r-(iv), s-(iii)",
+            "p-(i), q-(ii), r-(iii), s-(iv)",
+            "p-(ii), q-(iv), r-(i), s-(iii)",
+            "p-(iv), q-(iii), r-(ii), s-(i)"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Match the key terms of height and distance problems in Column-I with their definitions in Column-II:\n\nColumn-I:\n(p) Line of sight\n(q) Angle of elevation\n(r) Angle of depression\n(s) Horizontal level\n\nColumn-II:\n(i) Angle between line of sight and horizontal line when viewing an object above horizontal level\n(ii) Line drawn from observer's eye to object being viewed\n(iii) Parallel line passing through observer's eye\n(iv) Angle between line of sight and horizontal line when viewing an object below horizontal level",
+          "options": [
+            "p-(ii), q-(i), r-(iv), s-(iii)",
+            "p-(iii), q-(ii), r-(i), s-(iv)",
+            "p-(i), q-(ii), r-(iv), s-(iii)",
+            "p-(iv), q-(iii), r-(ii), s-(i)"
+          ],
+          "correctAnswer": 0
+        }
+      ]
     },
     {
-      "question": "যদি এটা উলম্ব স্তম্ভৰ উচ্চতা মাটিত ইয়াৰ ছাঁৰ দৈৰ্ঘ্যৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
-      "options": ["\\\\(30^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(60^{\\\\circ}\\\\)", "\\\\(0^{\\\\circ}\\\\)"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "\\\\(15\\\\text{ m}\\\\) দীঘল জখলা এডাল এখন উলম্ব দেৱালত হেলনীয়া কৰি ৰখা হৈছে যিয়ে দেৱালখনৰ সৈতে \\\\(60^{\\\\circ}\\\\) কোণ উৎপন্ন কৰে। জখলাডালে দেৱালখনত স্পৰ্শ কৰা বিন্দুটোৰ উচ্চতা হ’ব:",
-      "options": ["\\\\(15\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(\\\\frac{15}{2}\\\\text{ m}\\\\)", "\\\\(15\\\\text{ m}\\\\)", "\\\\(\\\\frac{15\\\\sqrt{3}}{2}\\\\text{ m}\\\\)"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "\\\\(1.5\\\\text{ m}\\\\) ওখ এজন পৰ্যবেক্ষক \\\\(30\\\\text{ m}\\\\) ওখ স্তম্ভ এটাৰ পৰা \\\\(28.5\\\\text{ m}\\\\) আঁতৰত থিয় হৈ আছে। পৰ্যবেক্ষকজনৰ চকুৰ পৰা স্তম্ভটোৰ মূৰৰ উন্নতি কোণ হ’ব:",
-      "options": ["\\\\(30^{\\\\circ}\\\\)", "\\\\(60^{\\\\circ}\\\\)", "\\\\(45^{\\\\circ}\\\\)", "\\\\(90^{\\\\circ}\\\\)"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "\\\\(75\\\\text{ m}\\\\) ওখ স্তম্ভ এটাৰ চূড়াৰ পৰা মাটিত থকা গাড়ী এখনৰ অৱনতি কোণ \\\\(30^{\\\\circ}\\\\)। স্তম্ভটোৰ পাদবিন্দুৰ পৰা গাড়ীখনৰ দূৰত্ব হ’ব:",
-      "options": ["\\\\(25\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(50\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(75\\\\text{ m}\\\\)", "\\\\(75\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 3
-    },
-    {
-      "question": "যদি এটা স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ক্ৰমান্বয়ে বৃদ্ধি পাবলৈ ধৰে, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
-      "options": ["বৃদ্ধি পাব", "হ্ৰাস পাব", "অপৰিৱৰ্তিত থাকিব", "প্ৰথমে বৃদ্ধি পাব আৰু পিছত হ্ৰাস পাব"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "মাটিত থকা এটা বিন্দুৰ পৰা স্তম্ভ এটাৰ পাদবিন্দুৰ দূৰত্ব \\\\(30\\\\text{ m}\\\\) আৰু স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ \\\\(30^{\\\\circ}\\\\)। স্তম্ভটোৰ উচ্চতা হ’ব:",
-      "options": ["\\\\(10\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(30\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(10\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "মাটিৰ পৰা \\\\(60\\\\text{ m}\\\\) উচ্চতাত এখন চিলা উৰি আছে। চিলাখনত লগোৱা সূতাডাল মাটিৰ এটা বিন্দুত অস্থায়ীভাৱে বন্ধা হৈছে। সূতাডালে মাটিৰ সৈতে কৰা আনতি \\\\(60^{\\\\circ}\\\\)। সূতাডালৰ কোনো ভাজ নাই বুলি ধৰি ল’লে সূতাডালৰ দৈৰ্ঘ্য হ’ব:",
-      "options": ["\\\\(40\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(30\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(120\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "সমতল মাটিত থিয় হৈ থকা স্তম্ভ এটাৰ ছাঁৰ দৈৰ্ঘ্য সূৰ্য্যৰ উন্নতি কোণ \\\\(60^{\\\\circ}\\\\) ৰ পৰা \\\\(30^{\\\\circ}\\\\) লৈ সলনি হ’লে \\\\(40\\\\text{ m}\\\\) বৃদ্ধি পায়। স্তম্ভটোৰ উচ্চতা হ’ব:",
-      "options": ["\\\\(20\\\\text{ m}\\\\)", "\\\\(40\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(20\\\\sqrt{3}\\\\text{ m}\\\\)", "\\\\(10\\\\sqrt{3}\\\\text{ m}\\\\)"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "\\\\(6\\\\text{ m}\\\\) আৰু \\\\(11\\\\text{ m}\\\\) উচ্চতাৰ দুটা খুটা সমতল মাটিত উলম্বভাৱে পোতা আছে। যদি সিহঁতৰ পাদবিন্দুৰ মাজৰ দূৰত্ব \\\\(12\\\\text{ m}\\\\) হয়, তেন্তে সিহঁতৰ মূৰ দুটাৰ মাজৰ দূৰত্ব হ’ব:",
-      "options": ["\\\\(13\\\\text{ m}\\\\)", "\\\\(12\\\\text{ m}\\\\)", "\\\\(14\\\\text{ m}\\\\)", "\\\\(11\\\\text{ m}\\\\)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "উক্তি (A): যদি এটা উলম্ব স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ইয়াৰ উচ্চতাৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ \\\\(45^{\\\\circ}\\\\) হ’ব।\\nযুক্তি (R): ত্ৰিকোণমিতিক অনুপাত অনুসৰি \\\\(\\\\tan \\\\theta = \\\\frac{\\\\text{লম্ব}}{\\\\text{ভূমি}}\\\\), গতিকে যেতিয়া লম্ব = ভূমি হয়, \\\\(\\\\tan \\\\theta = 1 \\\\implies \\\\theta = 45^{\\\\circ}\\\\)।\\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "উক্তি (A): এজন পৰ্যবেক্ষক স্তম্ভ এটাৰ পাদবিন্দুৰ ফালে আগুৱাই গ’লে স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ হ্ৰাস পায়।\\nযুক্তি (R): পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ ওপৰত থকা কোনো বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণটোক উন্নতি কোণ বোলা হয়।\\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
-      "correctAnswer": 3
-    },
-    {
-      "question": "উক্তি (A): পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখাডালক দৃষ্টিৰেখা বোলা হয়।\\nযুক্তি (R): লক্ষ্যবস্তুটো পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ তলত থাকিলে অৱনতি কোণৰ সৃষ্টি হয়।\\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "স্তম্ভ-I-ত থকা উচ্চতা (\\\\(h\\\\)), দূৰত্ব (\\\\(d\\\\)), আৰু উন্নতি কোণ (\\\\(\\\\theta\\\\))-ৰ ত্ৰিকোণমিতিক সম্পৰ্কসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মানসমূহ মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) যেতিয়া \\\\(\\\\theta = 45^{\\\\circ}\\\\) হয়, \\\\(h\\\\)-ৰ মান\\n(q) যেতিয়া \\\\(\\\\theta = 30^{\\\\circ}\\\\) হয়, \\\\(h\\\\)-ৰ মান\\n(r) যেতিয়া \\\\(\\\\theta = 60^{\\\\circ}\\\\) হয়, \\\\(h\\\\)-ৰ মান\\n(s) যেতিয়া \\\\(h\\\\) দিয়া থাকে আৰু \\\\(\\\\theta = 30^{\\\\circ}\\\\) হয়, অতিভুজ (দৃষ্টিৰেখা)-ৰ দৈৰ্ঘ্য\\n\\nস্তম্ভ-II:\\n(i) \\\\(\\\\frac{d}{\\\\sqrt{3}}\\\\)\\n(ii) \\\\(d\\\\)\\n(iii) \\\\(2h\\\\)\\n(iv) \\\\(d\\\\sqrt{3}\\\\)\\n\\n(A) p-(ii), q-(i), r-(iv), s-(iii)\\n(B) p-(i), q-(ii), r-(iii), s-(iv)\\n(C) p-(ii), q-(iv), r-(i), s-(iii)\\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "স্তম্ভ-I-ত থকা উচ্চতা আৰু দূৰত্বৰ মুখ্য সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ বিৱৰণসমূহ মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) দৃষ্টিৰেখা\\n(q) উন্নতি কোণ\\n(r) অৱনতি কোণ\\n(s) অনুভূমিক ৰেখা\\n\\nস্তম্ভ-II:\\n(i) অনুভূমিক ৰেখাৰ ওপৰত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ\\n(ii) পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখা\\n(iii) পৰ্যবেক্ষকৰ চকুৰে যোৱা মাটিৰ সমান্তৰাল ৰেখা\\n(iv) অনুভূমিক ৰেখাৰ তলত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ\\n\\n(A) p-(ii), q-(i), r-(iv), s-(iii)\\n(B) p-(iii), q-(ii), r-(i), s-(iv)\\n(C) p-(i), q-(ii), r-(iv), s-(iii)\\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(ii), r-(i), s-(iv)", "p-(i), q-(ii), r-(iv), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
-      "correctAnswer": 0
+      "id": "BT-X-MATH-AS-CH09-01",
+      "title": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ - Test 1",
+      "class": "Class 10",
+      "subject": "Mathematics",
+      "chapter": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ",
+      "language": "Assamese",
+      "testType": "Chapter Test",
+      "testNo": 1,
+      "duration": 20,
+      "totalQuestions": 15,
+      "marksPerQuestion": 1,
+      "negativeMarks": 0,
+      "questions": [
+        {
+          "question": "$6\\text{ m}$ ওখ স্তম্ভ এটাৰ মাটিত পৰা ছাঁৰ দৈৰ্ঘ্য $2\\sqrt{3}\\text{ m}$ হ’লে, সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
+          "options": [
+            "$60^{\\circ}$",
+            "$45^{\\circ}$",
+            "$30^{\\circ}$",
+            "$90^{\\circ}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "যদি এটা উলম্ব স্তম্ভৰ উচ্চতা মাটিত ইয়াৰ ছাঁৰ দৈৰ্ঘ্যৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
+          "options": [
+            "$30^{\\circ}$",
+            "$45^{\\circ}$",
+            "$60^{\\circ}$",
+            "$0^{\\circ}$"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "$15\\text{ m}$ দীঘল জখলা এডাল এখন উলম্ব দেৱালত হেলনীয়া কৰি ৰখা হৈছে যিয়ে দেৱালখনৰ সৈতে $60^{\\circ}$ কোণ উৎপন্ন কৰে। জখলাডালে দেৱালখনত স্পৰ্শ কৰা বিন্দুটোৰ উচ্চতা হ’ব:",
+          "options": [
+            "$15\\sqrt{3}\\text{ m}$",
+            "$\\frac{15}{2}\\text{ m}$",
+            "$15\\text{ m}$",
+            "$\\frac{15\\sqrt{3}}{2}\\text{ m}$"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "$1.5\\text{ m}$ ওখ এজন পৰ্যবেক্ষক $30\\text{ m}$ ওখ স্তম্ভ এটাৰ পৰা $28.5\\text{ m}$ আঁতৰত থিয় হৈ আছে। পৰ্যবেক্ষকজনৰ চকুৰ পৰা স্তম্ভটোৰ মূৰৰ উন্নতি কোণ হ’ব:",
+          "options": [
+            "$30^{\\circ}$",
+            "$60^{\\circ}$",
+            "$45^{\\circ}$",
+            "$90^{\\circ}$"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "$75\\text{ m}$ ওখ স্তম্ভ এটাৰ চূড়াৰ পৰা মাটিত থকা গাড়ী এখনৰ অৱনতি কোণ $30^{\\circ}$। স্তম্ভটোৰ পাদবিন্দুৰ পৰা গাড়ীখনৰ দূৰত্ব হ’ব:",
+          "options": [
+            "$25\\sqrt{3}\\text{ m}$",
+            "$50\\sqrt{3}\\text{ m}$",
+            "$75\\text{ m}$",
+            "$75\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "যদি এটা স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ক্ৰমান্বয়ে বৃদ্ধি পাবলৈ ধৰে, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ’ব:",
+          "options": [
+            "বৃদ্ধি পাব",
+            "হ্ৰাস পাব",
+            "অপৰিৱৰ্তিত থাকিব",
+            "প্ৰথমে বৃদ্ধি পাব আৰু পিছত হ্ৰাস পাব"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "মাটিত থকা এটা বিন্দুৰ পৰা স্তম্ভ এটাৰ পাদবিন্দুৰ দূৰত্ব $30\\text{ m}$ আৰু স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ $30^{\\circ}$। স্তম্ভটোৰ উচ্চতা হ’ব:",
+          "options": [
+            "$10\\sqrt{3}\\text{ m}$",
+            "$30\\sqrt{3}\\text{ m}$",
+            "$10\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "মাটিৰ পৰা $60\\text{ m}$ উচ্চতাত এখন চিলা উৰি আছে। চিলাখনত লগোৱা সূতাডাল মাটিৰ এটা বিন্দুত অস্থায়ীভাৱে বন্ধা হৈছে। সূতাডালে মাটিৰ সৈতে কৰা আনতি $60^{\\circ}$। সূতাডালৰ কোনো ভাজ নাই বুলি ধৰি ল’লে সূতাডালৰ দৈৰ্ঘ্য হ’ব:",
+          "options": [
+            "$40\\sqrt{3}\\text{ m}$",
+            "$30\\sqrt{3}\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$",
+            "$120\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "সমতল মাটিত থিয়া হৈ থকা স্তম্ভ এটাৰ ছাঁৰ দৈৰ্ঘ্য সূৰ্য্যৰ উন্নতি কোণ $60^{\\circ}$ ৰ পৰা $30^{\\circ}$ লৈ সলনি হ’লে $40\\text{ m}$ বৃদ্ধি পায়। স্তম্ভটোৰ উচ্চতা হ’ব:",
+          "options": [
+            "$20\\text{ m}$",
+            "$40\\sqrt{3}\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$",
+            "$10\\sqrt{3}\\text{ m}$"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "$6\\text{ m}$ আৰু $11\\text{ m}$ উচ্চতাৰ দুটা খুটা সমতল মাটিত উলম্বভাৱে পোতা আছে। যদি সিহঁতৰ পাদবিন্দুৰ মাজৰ দূৰত্ব $12\\text{ m}$ হয়, তেন্তে সিহঁতৰ মূৰ দুটাৰ মাজৰ দূৰত্ব হ’ব:",
+          "options": [
+            "$13\\text{ m}$",
+            "$12\\text{ m}$",
+            "$14\\text{ m}$",
+            "$11\\text{ m}$"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "উক্তি (A): যদি এটা উলম্ব স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ইয়াৰ উচ্চতাৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ $45^{\\circ}$ হ’ব।\nযুক্তি (R): ত্ৰিকোণমিতিক অনুপাত অনুসৰি $\\tan \\theta = \\frac{\\text{লম্ব}}{\\text{ভূমি}}$, গতিকে যেতিয়া লম্ব $=$ ভূমি হয়, $\\tan \\theta = 1 \\implies \\theta = 45^{\\circ}$।",
+          "options": [
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+            "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+            "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "উক্তি (A): এজন পৰ্যবেক্ষক স্তম্ভ এটাৰ পাদবিন্দুৰ ফালে আগুৱাই গ’লে স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ হ্ৰাস পায়।\nযুক্তি (R): পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ ওপৰত থকা কোনো বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণটোক উন্নতি কোণ বোলা হয়।",
+          "options": [
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+            "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+            "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "উক্তি (A): পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখাডালক দৃষ্টিৰেখা বোলা হয়।\nযুক্তি (R): লক্ষ্যবস্তুটো পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ তলত থাকিলে অৱনতি কোণৰ সৃষ্টি হয়।",
+          "options": [
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+            "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+            "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+            "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "স্তম্ভ-I-ত থকা উচ্চতা ($h$), দূৰত্ব ($d$), আৰু উন্নতি কোণ ($\\theta$)-ৰ ত্ৰিকোণমিতিক সম্পৰ্কসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) যেতিয়া $\\theta = 45^{\\circ}$ হয়, $h$-ৰ মান\n(q) যেতিয়া $\\theta = 30^{\\circ}$ হয়, $h$-ৰ মান\n(r) যেতিয়া $\\theta = 60^{\\circ}$ হয়, $h$-ৰ মান\n(s) যেতিয়া $h$ দিয়া থাকে আৰু $\\theta = 30^{\\circ}$ হয়, অতিভুজ (দৃষ্টিৰেখা)-ৰ দৈৰ্ঘ্য\n\nস্তম্ভ-II:\n(i) $\\frac{d}{\\sqrt{3}}$\n(ii) $d$\n(iii) $2h$\n(iv) $d\\sqrt{3}$",
+          "options": [
+            "p-(ii), q-(i), r-(iv), s-(iii)",
+            "p-(i), q-(ii), r-(iii), s-(iv)",
+            "p-(ii), q-(iv), r-(i), s-(iii)",
+            "p-(iv), q-(iii), r-(ii), s-(i)"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "স্তম্ভ-I-ত থকা উচ্চতা আৰু দূৰত্বৰ মুখ্য সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) দৃষ্টিৰেখা\n(q) উন্নতি কোণ\n(r) অৱনতি কোণ\n(s) অনুভূমিক ৰেখা\n\nস্তম্ভ-II:\n(i) অনুভূমিক ৰেখাৰ ওপৰত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ\n(ii) পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখা\n(iii) পৰ্যবেক্ষকৰ চকুৰে যোৱা মাটিৰ সমান্তৰাল ৰেখা\n(iv) অনুভূমিক ৰেখাৰ তলত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ",
+          "options": [
+            "p-(ii), q-(i), r-(iv), s-(iii)",
+            "p-(iii), q-(ii), r-(i), s-(iv)",
+            "p-(i), q-(ii), r-(iv), s-(iii)",
+            "p-(iv), q-(iii), r-(ii), s-(i)"
+          ],
+          "correctAnswer": 0
+        }
+      ]
     }
-  ]
-}
   ]
 }
