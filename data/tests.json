@@ -2098,7 +2098,7 @@
 
 {
   "id": "BT-X-MATH-AS-CH06-01",
-  "name": "ত্ৰিভুজ - Test 1",
+  "title": "ত্ৰিভুজ - Test 1",
   "class": "Class 10",
   "subject": "Mathematics",
   "chapter": "ত্ৰিভুজ",
@@ -2251,7 +2251,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা $\\triangle ABC$-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য ($DE \\parallel BC$)\n(q) $\\triangle ABC \\sim \\triangle DEF$-ৰ পৰিসীমাৰ অনুপাত\n(r) $\\triangle ABC \\sim \\triangle DEF$-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য ($AD$-এ $\\angle A$-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) $\\frac{AB}{AC} = \\frac{BD}{DC}$\n(ii) $\\frac{AD}{DB} = \\frac{AE}{EC}$\n(iii) $\\frac{\\text{পৰিসীমা}(\\triangle ABC)}{\\text{পৰিসীমা}(\\triangle DEF)} = \\frac{AB}{DE}$\n(iv) $\\frac{\\text{কালি}(\\triangle ABC)}{\\text{কালি}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2$",
+      "question": "স্তম্ভ-I-ত থকা $\\triangle ABC$-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য ($DE \\parallel BC$)\n(q) $\\triangle ABC \\sim \\triangle DEF$-ৰ পৰিসীমাৰ অনুপাত\n(r) $\\triangle ABC \\sim \\triangle DEF$-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য ($AD$-এ $\\angle A$-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) $\\frac{AB}{AC} = \\frac{BD}{DC}$\n(ii) $\\frac{AD}{DB} = \\frac{AE}{EC}$\n(iii) $\\frac{পৰিসীমা\\text(\\triangle ABC)}{পৰিসীমা\\text(\\triangle DEF)} = \\frac{AB}{DE}$\n(iv) $\\frac{কালি\\text(\\triangle ABC)}{কালি\\text(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2$",
       "options": [
         "p-(ii), q-(iii), r-(iv), s-(i)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
