@@ -2094,6 +2094,793 @@
       "correctAnswer": 0
     }
   ]
+},
+{
+  "id": "BT-X-MATH-AS-CH06-01",
+  "title": "ত্ৰিভুজ - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "ত্ৰিভুজ",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যাতে \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), আৰু \\(AE = 4.5\\text{ cm}\\)। \\(EC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি দুটা ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\) হয়, তেন্তে:",
+      "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "দিয়া আছে যে \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^\\circ\\), \\(\\angle C = 50^\\circ\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), আৰু \\(DF = 7.5\\text{ cm}\\)। তেন্তে তলৰ কোনটো সত্য?",
+      "options": ["\\(DE = 12\\text{ cm},\\ \\angle F = 50^\\circ\\)", "\\(DE = 12\\text{ cm},\\ \\angle F = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 30^\\circ\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), আৰু \\(BC = 15\\text{ cm}\\) হয়, তেন্তে \\(PR\\)-ৰ মান হ'ব:",
+      "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "\\(10\\text{ cm}\\) বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য \\(12\\text{ cm}\\)। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "\\(6\\text{ m}\\) ওখ এটা উলম্ব খুটায়ে মাটিত \\(4\\text{ m}\\) দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই \\(28\\text{ m}\\) দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "\\(\\triangle ABC\\)-ত, \\(AD\\) হ'ল \\(\\angle A\\)-ৰ সমদ্বিখণ্ডক যি \\(BC\\)-ক \\(D\\) বিন্দুত লগ লাগে। যদি \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), আৰু \\(BD = 3\\text{ cm}\\) হয়, তেন্তে \\(DC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি \\(\\triangle ABC \\sim \\triangle DEF\\) যাতে \\(2AB = DE\\) আৰু \\(BC = 8\\text{ cm}\\) হয়, তেন্তে \\(EF\\)-ৰ মান হ'ব:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যি \\(AB\\)-ক \\(D\\) আৰু \\(AC\\)-ক \\(E\\) বিন্দুত ছেদ কৰে। যদি \\(\\frac{AD}{DB} = \\frac{3}{5}\\) আৰু \\(AC = 5.6\\text{ cm}\\) হয়, তেন্তে \\(AE\\)-ৰ মান হ'ব:",
+      "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "দুটা সদৃশ ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ পৰিসীমা ক্ৰমে \\(36\\text{ cm}\\) আৰু \\(24\\text{ cm}\\)। যদি \\(PQ = 10\\text{ cm}\\) হয়, তেন্তে \\(AB\\)-ৰ মান হ'ব:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "উক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\n\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ’বও পাৰে।\n\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ’লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): যদি \\(\\triangle ABC \\sim \\triangle DEF\\) হয়, তেন্তে \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\)।\n\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।\n\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ উক্তি মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক\n\n(A) p-(ii), q-(i), r-(iii), s-(iv)\n(B) p-(i), q-(ii), r-(iv), s-(iii)\n(C) p-(ii), q-(iii), r-(i), s-(iv)\n(D) p-(iv), q-(i), r-(ii), s-(iii)",
+      "options": ["p-(ii), q-(i), r-(iii), s-(iv)", "p-(i), q-(ii), r-(iv), s-(iii)", "p-(ii), q-(iii), r-(i), s-(iv)", "p-(iv), q-(i), r-(ii), s-(iii)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\text{পৰিসীমা}(\\triangle ABC)}{\\text{পৰিসীমা}(\\triangle DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\text{কালি}(\\triangle ABC)}{\\text{কালি}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\n(A) p-(ii), q-(iii), r-(iv), s-(i)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iii), q-(iv), r-(i), s-(ii)",
+      "options": ["p-(ii), q-(iii), r-(iv), s-(i)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(iv), r-(i), s-(ii)"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-EN-CH07-01",
+  "title": "Coordinate Geometry - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Coordinate Geometry",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "The distance of the point P(-6, 8) from the origin is:",
+      "options": ["8", "\\(2\\sqrt{7}\\)", "10", "6"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "The distance between the points A(0, 6) and B(0, -2) is:",
+      "options": ["6", "8", "4", "2"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The perimeter of a triangle with vertices (0, 4), (0, 0), and (3, 0) is:",
+      "options": ["5", "11", "12", "\\(7 + \\sqrt{5}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "The point which divides the line segment joining the points (7, -6) and (3, 4) in the ratio 1 : 2 internally lies in the:",
+      "options": ["I quadrant", "II quadrant", "III quadrant", "IV quadrant"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "The point P on the x-axis which is equidistant from the points A(-1, 0) and B(5, 0) is:",
+      "options": ["(2, 0)", "(0, 2)", "(3, 0)", "(2, 2)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "The coordinates of the point which divides the line segment joining the points (4, -3) and (8, 5) internally in the ratio 3 : 1 are:",
+      "options": ["(7, 3)", "(7, 0)", "(3, 7)", "(6, 3)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If the distance between the points (4, p) and (1, 0) is 5, then the value of p is:",
+      "options": ["4 only", "\\(\\pm 4\\)", "-4 only", "0"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If P\\(\\left(\\frac{a}{3}, 4\\right)\\) is the mid-point of the line segment joining the points Q(-6, 5) and R(-2, 3), then the value of a is:",
+      "options": ["-4", "-12", "12", "-6"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "If the points A(1, 2), B(0, 0), and C(a, b) are collinear, then:",
+      "options": ["a = b", "a = 2b", "2a = b", "a + b = 0"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "The area of a triangle with vertices (a, b+c), (b, c+a), and (c, a+b) is:",
+      "options": ["a + b + c", "\\(a^2 + b^2 + c^2\\)", "abc", "0"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Assertion (A): The point (0, 4) lies on the y-axis.\nReason (R): The x-coordinate of any point on the y-axis is zero.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): The mid-point of the line segment joining (2, 3) and (4, 7) is (3, 5).\nReason (R): The distance between two points (x₁, y₁) and (x₂, y₂) is given by \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Assertion (A): The points A(-2, 0), B(2, 0), and C(0, 2) form an equilateral triangle.\nReason (R): In an equilateral triangle, all three sides are of equal length.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Match the formulas of coordinate geometry in Column-I with their mathematical expressions in Column-II:\n\nColumn-I:\n(p) Distance Formula between (x₁, y₁) and (x₂, y₂)\n(q) Section Formula for internal division in ratio m₁ : m₂\n(r) Mid-point Formula\n(s) Distance of point (x, y) from origin\n\nColumn-II:\n(i) \\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\)\n(ii) \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\n(iii) \\(\\sqrt{x^2 + y^2}\\)\n(iv) \\(\\left(\\frac{m_1 x_2 + m_2 x_1}{m_1 + m_2}, \\frac{m_1 y_2 + m_2 y_1}{m_1 + m_2}\\right)\\)\n\n(A) p-(ii), q-(iv), r-(i), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the given points in Column-I with their respective locations or properties in Column-II:\n\nColumn-I:\n(p) Point (3, 0)\n(q) Point (0, -5)\n(r) Centroid of triangle with vertices (0, 0), (3, 0), and (0, 6)\n(s) Mid-point of (-2, 4) and (2, -4)\n\nColumn-II:\n(i) Lies on negative y-axis\n(ii) Lies on positive x-axis\n(iii) Origin (0, 0)\n(iv) Point (1, 2)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(iii), r-(iv), s-(i)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH07-01",
+  "title": "স্থানাংক জ্যামিতি - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "স্থানাংক জ্যামিতি",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "মূলবিন্দুৰ পৰা P(-6, 8) বিন্দুৰ দূৰত্ব হ'ব:",
+      "options": ["8", "\\(2\\sqrt{7}\\)", "10", "6"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "A(0, 6) আৰু B(0, -2) বিন্দু দুটাৰ মাজৰ দূৰত্ব হ'ব:",
+      "options": ["6", "8", "4", "2"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "(0, 4), (0, 0), আৰু (3, 0) শীৰ্ষবিন্দু থকা ত্ৰিভুজটোৰ পৰিসীমা হ'ব:",
+      "options": ["5", "11", "12", "\\(7 + \\sqrt{5}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(7, -6) আৰু (3, 4) বিন্দু দুটা সংযোগী ৰেখাখণ্ডক অন্তৰ্বিভক্ত কৰা 1 : 2 অনুপাতৰ বিন্দুটো ক'ত অৱস্থিত?",
+      "options": ["I চতুৰ্থাংশত", "II চতুৰ্থাংশত", "III চতুৰ্থাংশত", "IV চতুৰ্থাংশত"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "x-অক্ষত থকা P বিন্দুটো A(-1, 0) আৰু B(5, 0) বিন্দু দুটাৰ পৰা সমদূৰৱৰ্তী হ'লে, বিন্দুটো হ'ব:",
+      "options": ["(2, 0)", "(0, 2)", "(3, 0)", "(2, 2)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "(4, -3) আৰু (8, 5) বিন্দু দুটা সংযোগী ৰেখাখণ্ডক 3 : 1 অনুপাতত অন্তৰ্বিভক্ত কৰা বিন্দুটোৰ স্থানাংক হ'ব:",
+      "options": ["(7, 3)", "(7, 0)", "(3, 7)", "(6, 3)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি (4, p) আৰু (1, 0) বিন্দু দুটাৰ মাজৰ দূৰত্ব 5 হয়, তেন্তে p-ৰ মান হ'ব:",
+      "options": ["কেৱল 4", "\\(\\pm 4\\)", "কেৱল -4", "0"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি Q(-6, 5) আৰু R(-2, 3) বিন্দু দুটা সংযোগী ৰেখাখণ্ডৰ মধ্যবিন্দু P\\(\\left(\\frac{a}{3}, 4\\right)\\) হয়, তেন্তে a-ৰ মান হ'ব:",
+      "options": ["-4", "-12", "12", "-6"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি A(1, 2), B(0, 0), আৰু C(a, b) বিন্দু তিনিটা একৰেখীয় হয়, তেন্তে:",
+      "options": ["a = b", "a = 2b", "2a = b", "a + b = 0"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(a, b+c), (b, c+a), আৰু (c, a+b) শীৰ্ষবিন্দু থকা ত্ৰিভুজটোৰ কালি হ'ব:",
+      "options": ["a + b + c", "\\(a^2 + b^2 + c^2\\)", "abc", "0"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "উক্তি (A): (0, 4) বিন্দুটো y-অক্ষত অৱস্থিত।\nযুক্তি (R): y-অক্ষত থকা যিকোনো বিন্দুৰ x-স্থানাংক শূন্য।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): (2, 3) আৰু (4, 7) সংযোগী ৰেখাখণ্ডৰ মধ্যবিন্দু হ'ল (3, 5)।\nযুক্তি (R): দুটা বিন্দু (x₁, y₁) আৰু (x₂, y₂)-ৰ মাজৰ দূৰত্ব \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\) সূত্ৰৰে পোৱা যায়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "উক্তি (A): A(-2, 0), B(2, 0), আৰু C(0, 2) বিন্দু তিনিটাই এটা সমবাহু ত্ৰিভুজ গঠন কৰে।\nযুক্তি (R): সমবাহু ত্ৰিভুজৰ তিনিওটা বাহুৰ দৈৰ্ঘ্য সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা স্থানাংক জ্যামিতিৰ সূত্ৰসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক ৰূপ মিলোৱা:\n\nস্তম্ভ-I:\n(p) (x₁, y₁) আৰু (x₂, y₂)-ৰ মাজৰ দূৰত্ব সূত্ৰ\n(q) m₁ : m₂ অনুপাতত অন্তৰ্বিভক্ত কৰা বিভাজন সূত্ৰ\n(r) মধ্যবিন্দু সূত্ৰ\n(s) মূলবিন্দুৰ পৰা (x, y) বিন্দুৰ দূৰত্ব\n\nস্তম্ভ-II:\n(i) \\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\)\n(ii) \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\n(iii) \\(\\sqrt{x^2 + y^2}\\)\n(iv) \\(\\left(\\frac{m_1 x_2 + m_2 x_1}{m_1 + m_2}, \\frac{m_1 y_2 + m_2 y_1}{m_1 + m_2}\\right)\\)\n\n(A) p-(ii), q-(iv), r-(i), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা বিন্দুবোৰৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অৱস্থান বা ধৰ্মসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) (3, 0) বিন্দু\n(q) (0, -5) বিন্দু\n(r) (0, 0), (3, 0), আৰু (0, 6) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ ভৰকেন্দ্ৰ\n(s) (-2, 4) আৰু (2, -4)-ৰ মধ্যবিন্দু\n\nস্তম্ভ-II:\n(i) ঋণাত্মক y-অক্ষত অৱস্থিত\n(ii) ধনাত্মক x-অক্ষত অৱস্থিত\n(iii) মূলবিন্দু (0, 0)\n(iv) (1, 2) বিন্দু\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(iii), r-(iv), s-(i)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH08-01",
+  "title": "ত্রিকোণমিতিৰ পৰিচয় - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "ত্রিকোণমিতিৰ পৰিচয়",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "যদি sin θ = \\(\\frac{3}{5}\\) হয়, তেন্তে tan θ-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{4}{5}\\)", "\\(\\frac{3}{4}\\)", "\\(\\frac{4}{3}\\)", "\\(\\frac{5}{3}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "\\(\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}\\)-ৰ মান হ'ল:",
+      "options": ["tan 90°", "1", "sin 45°", "0"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "যদি ΔABC-ৰ C কোণটো সমকোণ হয়, তেন্তে cos(A + B)-ৰ মান হ'ব:",
+      "options": ["0", "1", "\\(\\frac{1}{2}\\)", "\\(\\frac{\\sqrt{3}}{2}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি 4 tan θ = 3 হয়, তেন্তে \\(\\left(\\frac{4\\sin\\theta - \\cos\\theta}{4\\sin\\theta + \\cos\\theta}\\right)\\)-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{2}{3}\\)", "\\(\\frac{1}{3}\\)", "\\(\\frac{1}{2}\\)", "\\(\\frac{3}{4}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(sin 30° + cos 30°) - (sin 60° + cos 60°)-ৰ মান হ'ল:",
+      "options": ["-1", "0", "1", "2"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি sin A + sin² A = 1 হয়, তেন্তে (cos² A + cos⁴ A) ৰাশিটোৰ মান হ'ব:",
+      "options": ["1", "\\(\\frac{1}{2}\\)", "2", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি a cot θ + b csc θ = p আৰু b cot θ + a csc θ = q হয়, তেন্তে p² - q²-ৰ মান হ'ব:",
+      "options": ["a² - b²", "b² - a²", "a² + b²", "b - a"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "দিয়া আছে যে sin α = \\(\\frac{\\sqrt{3}}{2}\\) আৰু cos β = 0, তেন্তে β - α-ৰ মান হ'ব:",
+      "options": ["0°", "90°", "30°", "45°"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি sec θ + tan θ = x হয়, তেন্তে sec θ-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{x^2 - 1}{x}\\)", "\\(\\frac{x^2 - 1}{2x}\\)", "\\(\\frac{x^2 + 1}{2x}\\)", "\\(\\frac{x^2 + 1}{x}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(1 + tan θ + sec θ)(1 + cot θ - csc θ)-ৰ মান হ'ল:",
+      "options": ["0", "1", "2", "-1"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "উক্তি (A): যিকোনো সূক্ষ্মকোণ θ-ৰ বাবে sin² θ + cos² θ = 1।\nযুক্তি (R): সমকোণী ত্ৰিভুজত অতিভুজৰ বৰ্গ বাকী বাহু দুটাৰ বৰ্গৰ যোগফলৰ সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): sin 60° cos 30° + sin 30° cos 60°-ৰ মান হ'ল 1।\nযুক্তি (R): sin(A + B) = sin A cos B + cos A sin B।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): θ-ৰ মান 0°-ৰ পৰা 90°-লৈ বৃদ্ধি পালে tan θ-ৰ মানো বৃদ্ধি পায়।\nযুক্তি (R): θ-ৰ সকলো মানৰ বাবে tan θ = \\(\\frac{\\cos\\theta}{\\sin\\theta}\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা ত্ৰিকোণমিতিক অভেদসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin² θ + cos² θ\n(q) 1 + tan² θ\n(r) 1 + cot² θ\n(s) sec² θ - tan² θ\n\nস্তম্ভ-II:\n(i) sec² θ\n(ii) 1\n(iii) 1\n(iv) csc² θ\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা নিৰ্দিষ্ট ত্ৰিকোণমিতিক মানসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংখ্যাগত মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin 30°\n(q) cos 45°\n(r) tan 60°\n(s) sec 0°\n\nস্তম্ভ-II:\n(i) \\(\\frac{1}{\\sqrt{2}}\\)\n(ii) \\(\\frac{1}{2}\\)\n(iii) 1\n(iv) \\(\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH08-01",
+  "title": "ত্রিকোণমিতিৰ পৰিচয় - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "ত্রিকোণমিতিৰ পৰিচয়",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "যদি sin θ = \\(\\frac{3}{5}\\) হয়, তেন্তে tan θ-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{4}{5}\\)", "\\(\\frac{3}{4}\\)", "\\(\\frac{4}{3}\\)", "\\(\\frac{5}{3}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "\\(\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}\\)-ৰ মান হ'ল:",
+      "options": ["tan 90°", "1", "sin 45°", "0"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "যদি ΔABC-ৰ C কোণটো সমকোণ হয়, তেন্তে cos(A + B)-ৰ মান হ'ব:",
+      "options": ["0", "1", "\\(\\frac{1}{2}\\)", "\\(\\frac{\\sqrt{3}}{2}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি 4 tan θ = 3 হয়, তেন্তে \\(\\left(\\frac{4\\sin\\theta - \\cos\\theta}{4\\sin\\theta + \\cos\\theta}\\right)\\)-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{2}{3}\\)", "\\(\\frac{1}{3}\\)", "\\(\\frac{1}{2}\\)", "\\(\\frac{3}{4}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(sin 30° + cos 30°) - (sin 60° + cos 60°)-ৰ মান হ'ল:",
+      "options": ["-1", "0", "1", "2"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "যদি sin A + sin² A = 1 হয়, তেন্তে (cos² A + cos⁴ A) ৰাশিটোৰ মান হ'ব:",
+      "options": ["1", "\\(\\frac{1}{2}\\)", "2", "3"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি a cot θ + b csc θ = p আৰু b cot θ + a csc θ = q হয়, তেন্তে p² - q²-ৰ মান হ'ব:",
+      "options": ["a² - b²", "b² - a²", "a² + b²", "b - a"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "দিয়া আছে যে sin α = \\(\\frac{\\sqrt{3}}{2}\\) আৰু cos β = 0, তেন্তে β - α-ৰ মান হ'ব:",
+      "options": ["0°", "90°", "30°", "45°"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "যদি sec θ + tan θ = x হয়, তেন্তে sec θ-ৰ মান হ'ব:",
+      "options": ["\\(\\frac{x^2 - 1}{x}\\)", "\\(\\frac{x^2 - 1}{2x}\\)", "\\(\\frac{x^2 + 1}{2x}\\)", "\\(\\frac{x^2 + 1}{x}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "(1 + tan θ + sec θ)(1 + cot θ - csc θ)-ৰ মান হ'ল:",
+      "options": ["0", "1", "2", "-1"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "উক্তি (A): যিকোনো সূক্ষ্মকোণ θ-ৰ বাবে sin² θ + cos² θ = 1।\nযুক্তি (R): সমকোণী ত্ৰিভুজত অতিভুজৰ বৰ্গ বাকী বাহু দুটাৰ বৰ্গৰ যোগফলৰ সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): sin 60° cos 30° + sin 30° cos 60°-ৰ মান হ'ল 1।\nযুক্তি (R): sin(A + B) = sin A cos B + cos A sin B।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): θ-ৰ মান 0°-ৰ পৰা 90°-লৈ বৃদ্ধি পালে tan θ-ৰ মানো বৃদ্ধি পায়।\nযুক্তি (R): θ-ৰ সকলো মানৰ বাবে tan θ = \\(\\frac{\\cos\\theta}{\\sin\\theta}\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা ত্ৰিকোণমিতিক অভেদসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin² θ + cos² θ\n(q) 1 + tan² θ\n(r) 1 + cot² θ\n(s) sec² θ - tan² θ\n\nস্তম্ভ-II:\n(i) sec² θ\n(ii) 1\n(iii) 1\n(iv) csc² θ\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা নিৰ্দিষ্ট ত্ৰিকোণমিতিক মানসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংখ্যাগত মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) sin 30°\n(q) cos 45°\n(r) tan 60°\n(s) sec 0°\n\nস্তম্ভ-II:\n(i) \\(\\frac{1}{\\sqrt{2}}\\)\n(ii) \\(\\frac{1}{2}\\)\n(iii) 1\n(iv) \\(\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-EN-CH09-01",
+  "title": "Some Applications of Trigonometry - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "Some Applications of Trigonometry",
+  "language": "English",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "A pole 6 m high casts a shadow 2\\(\\sqrt{3}\\) m long on the ground, then the sun's elevation is:",
+      "options": ["\\(60^\\circ\\)", "\\(45^\\circ\\)", "\\(30^\\circ\\)", "\\(90^\\circ\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "If the height of a vertical pole is equal to the length of its shadow on the ground, then the angle of elevation of the sun is:",
+      "options": ["\\(30^\\circ\\)", "\\(45^\\circ\\)", "\\(60^\\circ\\)", "\\(0^\\circ\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "A ladder 15 m long leans against a vertical wall making an angle of 60° with the wall. The height of the point where the ladder touches the wall is:",
+      "options": ["\\(15\\sqrt{3}\\text{ m}\\)", "\\(\\frac{15}{2}\\text{ m}\\)", "15 m", "\\(\\frac{15\\sqrt{3}}{2}\\text{ m}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "An observer 1.5 m tall is 28.5 m away from a tower 30 m high. The angle of elevation of the top of the tower from the eye of the observer is:",
+      "options": ["\\(30^\\circ\\)", "\\(60^\\circ\\)", "\\(45^\\circ\\)", "\\(90^\\circ\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "The angle of depression of a car standing on the ground from the top of a 75 m high tower is 30°. The distance of the car from the base of the tower is:",
+      "options": ["\\(25\\sqrt{3}\\text{ m}\\)", "\\(50\\sqrt{3}\\text{ m}\\)", "75 m", "\\(75\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "If the length of the shadow of a tower is increasing, then the angle of elevation of the sun is:",
+      "options": ["Increasing", "Decreasing", "Remaining unchanged", "First increasing then decreasing"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "From a point on the ground, which is 30 m away from the foot of a tower, the angle of elevation of the top of the tower is 30°. The height of the tower is:",
+      "options": ["\\(10\\sqrt{3}\\text{ m}\\)", "\\(30\\sqrt{3}\\text{ m}\\)", "10 m", "\\(20\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Finding the length of the string, assuming that there is no slack in the string, gives:",
+      "options": ["\\(40\\sqrt{3}\\text{ m}\\)", "\\(30\\sqrt{3}\\text{ m}\\)", "\\(20\\sqrt{3}\\text{ m}\\)", "120 m"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "The shadow of a tower standing on a level ground is found to be 40 m longer when the Sun's altitude is 30° than when it is 60°. The height of the tower is:",
+      "options": ["20 m", "\\(40\\sqrt{3}\\text{ m}\\)", "\\(20\\sqrt{3}\\text{ m}\\)", "\\(10\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Two poles of heights 6 m and 11 m stand vertically on a plane ground. If the distance between their feet is 12 m, the distance between their tops is:",
+      "options": ["13 m", "12 m", "14 m", "11 m"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): If the length of the shadow of a vertical pole is equal to its height, then the angle of elevation of the sun is 45°.\nReason (R): According to trigonometric ratios, tan θ = Perpendicular / Base, so when Perpendicular = Base, tan θ = 1 ⇒ θ = 45°.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Assertion (A): As the observer moves towards the foot of a tower, the angle of elevation of the top of the tower decreases.\nReason (R): The angle of elevation is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Assertion (A): A line drawn from the eye of an observer to the object viewed by the observer is called the line of sight.\nReason (R): The angle of depression is formed when the object is below the horizontal level of the observer's eye.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Match the trigonometric relations for height (h), distance (d), and angle of elevation (θ) in Column-I with their corresponding expressions in Column-II:\n\nColumn-I:\n(p) h when θ = 45°\n(q) h when θ = 30°\n(r) h when θ = 60°\n(s) Length of hypotenuse (line of sight) when h is given and θ = 30°\n\nColumn-II:\n(i) \\(\\frac{d}{\\sqrt{3}}\\)\n(ii) d\n(iii) 2h\n(iv) \\(d\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Match the key terms of height and distance problems in Column-I with their definitions in Column-II:\n\nColumn-I:\n(p) Line of sight\n(q) Angle of elevation\n(r) Angle of depression\n(s) Horizontal level\n\nColumn-II:\n(i) Angle between line of sight and horizontal line when viewing an object above horizontal level\n(ii) Line drawn from observer's eye to object being viewed\n(iii) Parallel line passing through observer's eye\n(iv) Angle between line of sight and horizontal line when viewing an object below horizontal level\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "BT-X-MATH-AS-CH09-01",
+  "title": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ - Test 1",
+  "class": "Class 10",
+  "subject": "Mathematics",
+  "chapter": "ত্ৰিকোণমিতিৰ কিছুমান প্ৰয়োগ",
+  "language": "Assamese",
+  "testType": "Chapter Test",
+  "testNo": 1,
+  "duration": 20,
+  "totalQuestions": 15,
+  "marksPerQuestion": 1,
+  "negativeMarks": 0,
+  "questions": [
+    {
+      "question": "6 m ওখ স্তম্ভ এটাৰ মাটিত পৰা ছাঁৰ দৈৰ্ঘ্য 2\\(\\sqrt{3}\\) m হ'লে, সূৰ্য্যৰ উন্নতি কোণ হ'ব:",
+      "options": ["\\(60^\\circ\\)", "\\(45^\\circ\\)", "\\(30^\\circ\\)", "\\(90^\\circ\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "যদি এটা উলম্ব স্তম্ভৰ উচ্চতা মাটিত ইয়াৰ ছাঁৰ দৈৰ্ঘ্যৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ'ব:",
+      "options": ["\\(30^\\circ\\)", "\\(45^\\circ\\)", "\\(60^\\circ\\)", "\\(0^\\circ\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "15 m দীঘল জখলা এডাল এখন উলম্ব দেৱালত হেলনীয়া কৰি ৰখা হৈছে যিয়ে দেৱালখনৰ সৈতে 60° কোণ উৎপন্ন কৰে। জখলাডালে দেৱালখনত স্পৰ্শ কৰা বিন্দুটোৰ উচ্চতা হ'ব:",
+      "options": ["\\(15\\sqrt{3}\\text{ m}\\)", "\\(\\frac{15}{2}\\text{ m}\\)", "15 m", "\\(\\frac{15\\sqrt{3}}{2}\\text{ m}\\)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "1.5 m ওখ এজন পৰ্যবেক্ষক 30 m ওখ স্তম্ভ এটাৰ পৰা 28.5 m আঁতৰত থিয় হৈ আছে। পৰ্যবেক্ষকজনৰ চকুৰ পৰা স্তম্ভটোৰ মূৰৰ উন্নতি কোণ হ'ব:",
+      "options": ["\\(30^\\circ\\)", "\\(60^\\circ\\)", "\\(45^\\circ\\)", "\\(90^\\circ\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "75 m ওখ স্তম্ভ এটাৰ চূড়াৰ পৰা মাটিত থকা গাড়ী এখনৰ অৱনতি কোণ 30°। স্তম্ভটোৰ পাদবিন্দুৰ পৰা গাড়ীখনৰ দূৰত্ব হ'ব:",
+      "options": ["\\(25\\sqrt{3}\\text{ m}\\)", "\\(50\\sqrt{3}\\text{ m}\\)", "75 m", "\\(75\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "যদি এটা স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ক্ৰমান্বয়ে বৃদ্ধি পাবলৈ ধৰে, তেন্তে সূৰ্য্যৰ উন্নতি কোণ হ'ব:",
+      "options": ["বৃদ্ধি পাব", "হ্ৰাস পাব", "অপৰিৱৰ্তিত থাকিব", "প্ৰথমে বৃদ্ধি পাব আৰু পিছত হ্ৰাস পাব"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "মাটিত থকা এটা বিন্দুৰ পৰা স্তম্ভ এটাৰ পাদবিন্দুৰ দূৰত্ব 30 m আৰু স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ 30°। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "options": ["\\(10\\sqrt{3}\\text{ m}\\)", "\\(30\\sqrt{3}\\text{ m}\\)", "10 m", "\\(20\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "মাটিৰ পৰা 60 m উচ্চতাত এখন চিলা উৰি আছে। চিলাখনত লগোৱা সূতাডাল মাটিৰ এটা বিন্দুত অস্থায়ীভাৱে বন্ধা হৈছে। সূতাডালে মাটিৰ সৈতে কৰা আনতি 60°। সূতাডালৰ কোনো ভাজ নাই বুলি ধৰি ল'লে সূতাডালৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(40\\sqrt{3}\\text{ m}\\)", "\\(30\\sqrt{3}\\text{ m}\\)", "\\(20\\sqrt{3}\\text{ m}\\)", "120 m"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "সমতল মাটিত থিয় হৈ থকা স্তম্ভ এটাৰ ছাঁৰ দৈৰ্ঘ্য সূৰ্য্যৰ উন্নতি কোণ 60° ৰ পৰা 30° লৈ সলনি হ'লে 40 m বৃদ্ধি পায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "options": ["20 m", "\\(40\\sqrt{3}\\text{ m}\\)", "\\(20\\sqrt{3}\\text{ m}\\)", "\\(10\\sqrt{3}\\text{ m}\\)"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "6 m আৰু 11 m উচ্চতাৰ দুটা খুটা সমতল মাটিত উলম্বভাৱে পোতা আছে। যদি সিহঁতৰ পাদবিন্দুৰ মাজৰ দূৰত্ব 12 m হয়, তেন্তে সিহঁতৰ মূৰ দুটাৰ মাজৰ দূৰত্ব হ'ব:",
+      "options": ["13 m", "12 m", "14 m", "11 m"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): যদি এটা উলম্ব স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ইয়াৰ উচ্চতাৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ 45° হ'ব।\nযুক্তি (R): ত্ৰিকোণমিতিক অনুপাত অনুসৰি tan θ = লম্ব / ভূমি, গতিকে যেতিয়া লম্ব = ভূমি হয়, tan θ = 1 ⇒ θ = 45°।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "উক্তি (A): এজন পৰ্যবেক্ষক স্তম্ভ এটাৰ পাদবিন্দুৰ ফালে আগুৱাই গ'লে স্তম্ভটোৰ চূড়াৰ উন্নতি কোণ হ্ৰাস পায়।\nযুক্তি (R): পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ ওপৰত থকা কোনো বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণটোক উন্নতি কোণ বোলা হয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "উক্তি (A): পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখাডালক দৃষ্টিৰেখা বোলা হয়।\nযুক্তি (R): লক্ষ্যবস্তুটো পৰ্যবেক্ষকৰ চকুৰ অনুভূমিক ৰেখাৰ তলত থাকিলে অৱনতি কোণৰ সৃষ্টি হয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা উচ্চতা (h), দূৰত্ব (d), আৰু উন্নতি কোণ (θ)-ৰ ত্ৰিকোণমিতিক সম্পৰ্কসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) যেতিয়া θ = 45° হয়, h-ৰ মান\n(q) যেতিয়া θ = 30° হয়, h-ৰ মান\n(r) যেতিয়া θ = 60° হয়, h-ৰ মান\n(s) যেতিয়া h দিয়া থাকে আৰু θ = 30° হয়, অতিভুজ (দৃষ্টিৰেখা)-ৰ দৈৰ্ঘ্য\n\nস্তম্ভ-II:\n(i) \\(\\frac{d}{\\sqrt{3}}\\)\n(ii) d\n(iii) 2h\n(iv) \\(d\\sqrt{3}\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "স্তম্ভ-I-ত থকা উচ্চতা আৰু দূৰত্বৰ মুখ্য সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) দৃষ্টিৰেখা\n(q) উন্নতি কোণ\n(r) অৱনতি কোণ\n(s) অনুভূমিক ৰেখা\n\nস্তম্ভ-II:\n(i) অনুভূমিক ৰেখাৰ ওপৰত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ\n(ii) পৰ্যবেক্ষকৰ চকুৰ পৰা লক্ষ্যবস্তুলৈ টনা ৰেখা\n(iii) পৰ্যবেক্ষকৰ চকুৰে যোৱা মাটিৰ সমান্তৰাল ৰেখা\n(iv) অনুভূমিক ৰেখাৰ তলত থকা বস্তু চালে দৃষ্টিৰেখাই অনুভূমিক ৰেখাৰ সৈতে কৰা কোণ\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(i), q-(ii), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(i), q-(ii), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
+      "correctAnswer": 0
+    }
+  ]
 }
   ]
 }
