@@ -2225,16 +2225,16 @@
       ],
       "correctAnswer": 0
     },
-    {
-      "question": "Q15) স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{P_{ABC}}{P_{DEF}} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{A_{ABC}}{A_{DEF}} = \\left(\\frac{AB}{DE}\\right)^2\\)",
-      "options": [
-        "p-(ii), q-(iii), r-(iv), s-(i)",
-        "p-(i), q-(ii), r-(iii), s-(iv)",
-        "p-(ii), q-(i), r-(iv), s-(iii)",
-        "p-(iii), q-(iv), r-(i), s-(ii)"
-      ],
-      "correctAnswer": 0
-    }
+   {
+  "question": "Q15) স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\operatorname{pr}(ABC)}{\\operatorname{pr}(DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\nইয়াত, \\(\\operatorname{pr}\\) = পৰিসীমা আৰু \\(\\operatorname{ar}\\) = কালি।",
+  "options": [
+    "p-(ii), q-(iii), r-(iv), s-(i)",
+    "p-(i), q-(ii), r-(iii), s-(iv)",
+    "p-(ii), q-(i), r-(iv), s-(iii)",
+    "p-(iii), q-(iv), r-(i), s-(ii)"
+  ],
+  "correctAnswer": 0
+}
   ]
 },
 {
