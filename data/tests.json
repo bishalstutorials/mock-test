@@ -2004,6 +2004,7 @@
     }
   ]
 },
+
 {
   "id": "BT-X-MATH-EN-CH06-01",
   "title": "Triangles - Test 1",
@@ -2019,83 +2020,82 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) such that \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), and \\(AE = 4.5\\text{ cm}\\). The length of \\(EC\\) is:",
+      "question": "Q1) In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) such that \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), and \\(AE = 4.5\\text{ cm}\\). The length of \\(EC\\) is:",
       "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If in two triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\), then:",
+      "question": "Q2) If in two triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\), then:",
       "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "It is given that \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^\\circ\\), \\(\\angle C = 50^\\circ\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), and \\(DF = 7.5\\text{ cm}\\). Then which of the following is true?",
-      "options": ["\\(DE = 12\\text{ cm},\\ \\angle F = 50^\\circ\\)", "\\(DE = 12\\text{ cm},\\ \\angle F = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 100^\\circ\\)", "\\(EF = 12\\text{ cm},\\ \\angle D = 30^\\circ\\)"],
+      "question": "Q3) It is given that \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), and \\(DF = 7.5\\text{ cm}\\). Then which of the following is true?",
+      "options": ["\\(DE = 12\\text{ cm}, \\angle F = 50^{\\circ}\\)", "\\(DE = 12\\text{ cm}, \\angle F = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 30^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), and \\(BC = 15\\text{ cm}\\), then \\(PR\\) is equal to:",
+      "question": "Q4) If \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), and \\(BC = 15\\text{ cm}\\), then \\(PR\\) is equal to:",
       "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "In a rhombus of side \\(10\\text{ cm}\\), one of the diagonals is of length \\(12\\text{ cm}\\). The length of the second diagonal is:",
+      "question": "Q5) In a rhombus of side \\(10\\text{ cm}\\), one of the diagonals is of length \\(12\\text{ cm}\\). The length of the second diagonal is:",
       "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "A vertical pole of length \\(6\\text{ m}\\) casts a shadow \\(4\\text{ m}\\) long on the ground, and at the same time a tower casts a shadow \\(28\\text{ m}\\) long. The height of the tower is:",
+      "question": "Q6) A vertical pole of length \\(6\\text{ m}\\) casts a shadow \\(4\\text{ m}\\) long on the ground, and at the same time a tower casts a shadow \\(28\\text{ m}\\) long. The height of the tower is:",
       "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "In \\(\\triangle ABC\\), \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). If \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), and \\(BD = 3\\text{ cm}\\), then the length of \\(DC\\) is:",
+      "question": "Q7) In \\(\\triangle ABC\\), \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). If \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), and \\(BD = 3\\text{ cm}\\), then the length of \\(DC\\) is:",
       "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If \\(\\triangle ABC \\sim \\triangle DEF\\) such that \\(2AB = DE\\) and \\(BC = 8\\text{ cm}\\), then \\(EF\\) is equal to:",
+      "question": "Q8) If \\(\\triangle ABC \\sim \\triangle DEF\\) such that \\(2AB = DE\\) and \\(BC = 8\\text{ cm}\\), then \\(EF\\) is equal to:",
       "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\). If \\(\\frac{AD}{DB} = \\frac{3}{5}\\) and \\(AC = 5.6\\text{ cm}\\), then \\(AE\\) is:",
+      "question": "Q9) In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\). If \\(\\frac{AD}{DB} = \\frac{3}{5}\\) and \\(AC = 5.6\\text{ cm}\\), then \\(AE\\) is:",
       "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "The perimeters of two similar triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\) are \\(36\\text{ cm}\\) and \\(24\\text{ cm}\\) respectively. If \\(PQ = 10\\text{ cm}\\), then \\(AB\\) is:",
+      "question": "Q10) The perimeters of two similar triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\) are \\(36\\text{ cm}\\) and \\(24\\text{ cm}\\) respectively. If \\(PQ = 10\\text{ cm}\\), then \\(AB\\) is:",
       "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\n\nReason (R): This statement is known as the Converse of Basic Proportionality Theorem (Thales Theorem).\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q11)\nAssertion (A): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\nReason (R): This statement is known as the Converse of Basic Proportionality Theorem (Thales Theorem).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): All congruent triangles are similar, but all similar triangles need not be congruent.\n\nReason (R): Congruent triangles have the same shape and the same size, whereas similar triangles have the same shape but not necessarily the same size.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q12)\nAssertion (A): All congruent triangles are similar, but all similar triangles need not be congruent.\nReason (R): Congruent triangles have the same shape and the same size, whereas similar triangles have the same shape but not necessarily the same size.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\).\n\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q13)\nAssertion (A): If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\).\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "Match the similarity criteria for two triangles in Column-I with their corresponding conditions in Column-II:\n\nColumn-I:\n(p) AAA Similarity Criterion\n(q) SSS Similarity Criterion\n(r) SAS Similarity Criterion\n(s) RHS Similarity Criterion for right triangles\n\nColumn-II:\n(i) Corresponding sides of two triangles are in the same ratio\n(ii) Corresponding angles of two triangles are equal\n(iii) One angle is equal and sides including this angle are proportional\n(iv) Hypotenuse and one side of two right triangles are proportional\n\n(A) p-(ii), q-(i), r-(iii), s-(iv)\n(B) p-(i), q-(ii), r-(iv), s-(iii)\n(C) p-(ii), q-(iii), r-(i), s-(iv)\n(D) p-(iv), q-(i), r-(ii), s-(iii)",
-      "options": ["p-(ii), q-(i), r-(iii), s-(iv)", "p-(i), q-(ii), r-(iv), s-(iii)", "p-(ii), q-(iii), r-(i), s-(iv)", "p-(iv), q-(i), r-(ii), s-(iii)"],
+      "question": "Q14) Match the similarity criteria for two triangles in Column-I with their corresponding conditions in Column-II:\n\nColumn-I:\n(p) AAA Similarity Criterion\n(q) SSS Similarity Criterion\n(r) SAS Similarity Criterion\n(s) RHS Similarity Criterion for right triangles\n\nColumn-II:\n(i) Corresponding sides of two triangles are in the same ratio\n(ii) Corresponding angles of two triangles are equal\n(iii) One angle is equal and sides including this angle are proportional\n(iv) Hypotenuse and one side of two right triangles are proportional\n\n(A) p-(ii), q-(i), r-(iii), s-(iv)\n(B) p-(i), q-(ii), r-(iv), s-(iii)\n(C) p-(ii), q-(iii), r-(i), s-(iv)\n(D) p-(iv), q-(i), r-(ii), s-(iii)",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\text{Perimeter}(\\triangle ABC)}{\\text{Perimeter}(\\triangle DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\n(A) p-(ii), q-(iii), r-(iv), s-(i)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iii), q-(iv), r-(i), s-(ii)",
-      "options": ["p-(ii), q-(iii), r-(iv), s-(i)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(iv), r-(i), s-(ii)"],
+      "question": "Q15) Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\text{Perimeter}(\\triangle ABC)}{\\text{Perimeter}(\\triangle DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\n(A) p-(ii), q-(iii), r-(iv), s-(i)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iii), q-(iv), r-(i), s-(ii)",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-AS-CH06-01",
   "title": "ত্ৰিভুজ - Test 1",
@@ -2111,153 +2111,78 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "$\\triangle ABC$-ত, $DE \\parallel BC$ যাতে $AD = 3\\text{ cm}$, $DB = 5\\text{ cm}$, আৰু $AE = 4.5\\text{ cm}$। $EC$-ৰ দৈৰ্ঘ্য হ'ব:",
-      "options": [
-        "$6.5\\text{ cm}$",
-        "$7.5\\text{ cm}$",
-        "$8\\text{ cm}$",
-        "$9\\text{ cm}$"
-      ],
+      "question": "Q1) \\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যাতে \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), আৰু \\(AE = 4.5\\text{ cm}\\)। \\(EC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি দুটা ত্ৰিভুজ $\\triangle ABC$ আৰু $\\triangle PQR$-ৰ $\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}$ হয়, তেন্তে:",
-      "options": [
-        "$\\triangle PQR \\sim \\triangle CAB$",
-        "$\\triangle PQR \\sim \\triangle ABC$",
-        "$\\triangle CBA \\sim \\triangle PQR$",
-        "$\\triangle BCA \\sim \\triangle PQR$"
-      ],
+      "question": "Q2) যদি দুটা ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\) হয়, তেন্তে:",
+      "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "দিয়া আছে যে $\\triangle ABC \\sim \\triangle DFE$, $\\angle A = 30^{\\circ}$, $\\angle C = 50^{\\circ}$, $AB = 5\\text{ cm}$, $AC = 8\\text{ cm}$, আৰু $DF = 7.5\\text{ cm}$। তেন্তে তলৰ কোনটো সত্য?",
-      "options": [
-        "$DE = 12\\text{ cm}, \\angle F = 50^{\\circ}$",
-        "$DE = 12\\text{ cm}, \\angle F = 100^{\\circ}$",
-        "$EF = 12\\text{ cm}, \\angle D = 100^{\\circ}$",
-        "$EF = 12\\text{ cm}, \\angle D = 30^{\\circ}$"
-      ],
+      "question": "Q3) দিয়া আছে যে \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), আৰু \\(DF = 7.5\\text{ cm}\\)। তেন্তে তলৰ কোনটো সত্য?",
+      "options": ["\\(DE = 12\\text{ cm}, \\angle F = 50^{\\circ}\\)", "\\(DE = 12\\text{ cm}, \\angle F = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 30^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি $\\triangle ABC \\sim \\triangle QRP$, $\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}$, $AB = 18\\text{ cm}$, আৰু $BC = 15\\text{ cm}$ হয়, তেন্তে $PR$-ৰ মান হ'ব:",
-      "options": [
-        "$10\\text{ cm}$",
-        "$12\\text{ cm}$",
-        "$8\\text{ cm}$",
-        "$9\\text{ cm}$"
-      ],
+      "question": "Q4) যদি \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), আৰু \\(BC = 15\\text{ cm}\\) হয়, তেন্তে \\(PR\\)-ৰ মান হ'ব:",
+      "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "$10\\text{ cm}$ বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য $12\\text{ cm}$। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
-      "options": [
-        "$16\\text{ cm}$",
-        "$8\\text{ cm}$",
-        "$14\\text{ cm}$",
-        "$20\\text{ cm}$"
-      ],
+      "question": "Q5) \\(10\\text{ cm}\\) বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য \\(12\\text{ cm}\\)। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "$6\\text{ m}$ ওখ এটা উলম্ব খুটায়ে মাটিত $4\\text{ m}$ দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই $28\\text{ m}$ দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
-      "options": [
-        "$40\\text{ m}$",
-        "$36\\text{ m}$",
-        "$42\\text{ m}$",
-        "$48\\text{ m}$"
-      ],
+      "question": "Q6) \\(6\\text{ m}\\) ওখ এটা উলম্ব খুটায়ে মাটিত \\(4\\text{ m}\\) দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই \\(28\\text{ m}\\) দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "$\\triangle ABC$-ত, $AD$ হ'ল $\\angle A$-ৰ সমদ্বিখণ্ডক যি $BC$-ক $D$ বিন্দুত লগ লাগে। যদি $AB = 6\\text{ cm}$, $AC = 5\\text{ cm}$, আৰু $BD = 3\\text{ cm}$ হয়, তেন্তে $DC$-ৰ দৈৰ্ঘ্য হ'ব:",
-      "options": [
-        "$3.5\\text{ cm}$",
-        "$2.5\\text{ cm}$",
-        "$4\\text{ cm}$",
-        "$2\\text{ cm}$"
-      ],
+      "question": "Q7) \\(\\triangle ABC\\)-ত, \\(AD\\) হ'ল \\(\\angle A\\)-ৰ সমদ্বিখণ্ডক যি \\(BC\\)-ক \\(D\\) বিন্দুত লগ লাগে। যদি \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), আৰু \\(BD = 3\\text{ cm}\\) হয়, তেন্তে \\(DC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি $\\triangle ABC \\sim \\triangle DEF$ যাতে $2AB = DE$ আৰু $BC = 8\\text{ cm}$ হয়, তেন্তে $EF$-ৰ মান হ'ব:",
-      "options": [
-        "$12\\text{ cm}$",
-        "$4\\text{ cm}$",
-        "$16\\text{ cm}$",
-        "$8\\text{ cm}$"
-      ],
+      "question": "Q8) যদি \\(\\triangle ABC \\sim \\triangle DEF\\) যাতে \\(2AB = DE\\) আৰু \\(BC = 8\\text{ cm}\\) হয়, তেন্তে \\(EF\\)-ৰ মান হ'ব:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "$\\triangle ABC$-ত, $DE \\parallel BC$ যি $AB$-ক $D$ আৰু $AC$-ক $E$ বিন্দুত ছেদ কৰে। যদি $\\frac{AD}{DB} = \\frac{3}{5}$ আৰু $AC = 5.6\\text{ cm}$ হয়, তেন্তে $AE$-ৰ মান হ'ব:",
-      "options": [
-        "$2.1\\text{ cm}$",
-        "$3.5\\text{ cm}$",
-        "$2.8\\text{ cm}$",
-        "$1.8\\text{ cm}$"
-      ],
+      "question": "Q9) \\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যি \\(AB\\)-ক \\(D\\) আৰু \\(AC\\)-ক \\(E\\) বিন্দুত ছেদ কৰে। যদি \\(\\frac{AD}{DB} = \\frac{3}{5}\\) আৰু \\(AC = 5.6\\text{ cm}\\) হয়, তেন্তে \\(AE\\)-ৰ মান হ'ব:",
+      "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "দুটা সদৃশ ত্ৰিভুজ $\\triangle ABC$ আৰু $\\triangle PQR$-ৰ পৰিসীমা ক্ৰমে $36\\text{ cm}$ আৰু $24\\text{ cm}$। যদি $PQ = 10\\text{ cm}$ হয়, তেন্তে $AB$-ৰ মান হ'ব:",
-      "options": [
-        "$12\\text{ cm}$",
-        "$15\\text{ cm}$",
-        "$18\\text{ cm}$",
-        "$20\\text{ cm}$"
-      ],
+      "question": "Q10) দুটা সদৃশ ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ পৰিসীমা ক্ৰমে \\(36\\text{ cm}\\) আৰু \\(24\\text{ cm}\\)। যদি \\(PQ = 10\\text{ cm}\\) হয়, তেন্তে \\(AB\\)-ৰ মান হ'ব:",
+      "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "উক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।",
-      "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
-      ],
+      "question": "Q11)\nউক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ’বও পাৰে।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ’লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।",
-      "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
-      ],
+      "question": "Q12)\nউক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ’বও পাৰে।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ’লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): যদি $\\triangle ABC \\sim \\triangle DEF$ হয়, তেন্তে $\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}$।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
-      "options": [
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
-        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
-        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
-        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
-      ],
+      "question": "Q13)\nউক্তি (A): যদি \\(\\triangle ABC \\sim \\triangle DEF\\) হয়, তেন্তে \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\)।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ উক্তি মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক",
-      "options": [
-        "p-(ii), q-(i), r-(iii), s-(iv)",
-        "p-(i), q-(ii), r-(iv), s-(iii)",
-        "p-(ii), q-(iii), r-(i), s-(iv)",
-        "p-(iv), q-(i), r-(ii), s-(iii)"
-      ],
+      "question": "Q14) স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ উক্তি মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক\n\n(A) p-(ii), q-(i), r-(iii), s-(iv)\n(B) p-(i), q-(ii), r-(iv), s-(iii)\n(C) p-(ii), q-(iii), r-(i), s-(iv)\n(D) p-(iv), q-(i), r-(ii), s-(iii)",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা $\\triangle ABC$-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য ($DE \\parallel BC$)\n(q) $\\triangle ABC \\sim \\triangle DEF$-ৰ পৰিসীমাৰ অনুপাত\n(r) $\\triangle ABC \\sim \\triangle DEF$-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য ($AD$-এ $\\angle A$-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) $\\frac{AB}{AC} = \\frac{BD}{DC}$\n(ii) $\\frac{AD}{DB} = \\frac{AE}{EC}$\n(iii) $\\frac{প\\text(\\triangle ABC)}{প\\text(\\triangle DEF)} = \\frac{AB}{DE}$\n(iv) $\\frac{কা\\text(\\triangle ABC)}{কা\\text(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2$",
-      "options": [
-        "p-(ii), q-(iii), r-(iv), s-(i)",
-        "p-(i), q-(ii), r-(iii), s-(iv)",
-        "p-(ii), q-(i), r-(iv), s-(iii)",
-        "p-(iii), q-(iv), r-(i), s-(ii)"
-      ],
+      "question": "Q15) স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\text{পৰিসীমা}(\\triangle ABC)}{\\text{পৰিসীমা}(\\triangle DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\text{কালি}(\\triangle ABC)}{\\text{কালি}(\\triangle DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\n(A) p-(ii), q-(iii), r-(iv), s-(i)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iii), q-(iv), r-(i), s-(ii)",
+      "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     }
   ]
