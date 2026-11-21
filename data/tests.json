@@ -489,7 +489,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Assertion (A): For any two positive integers \\(a\\) and \\(b\\), \\(\\text{HCF}(a,b) \\times \\text{LCM}(a,b) = a \\times b\\).\nReason (R): The product of any three positive integers is equal to the product of their HCF and LCM.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): For any two positive integers \\(a\\) and \\(b\\), \\(\\text{HCF}(a,b) \\times \\text{LCM}(a,b) = a \\times b\\).\nReason (R): The product of any three positive integers is equal to the product of their HCF and LCM.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -499,7 +499,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Assertion (A): \\(5 + \\sqrt{3}\\) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): \\(5 + \\sqrt{3}\\) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -509,7 +509,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The number \\(3^{2n} + 9\\) is always divisible by \\(6\\) for any natural number \\(n\\).\nReason (R): Fundamental Theorem of Arithmetic states that every composite number can be uniquely factorised as a product of primes.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The number \\(3^{2n} + 9\\) is always divisible by \\(6\\) for any natural number \\(n\\).\nReason (R): Fundamental Theorem of Arithmetic states that every composite number can be uniquely factorised as a product of primes.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -519,7 +519,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Match the mathematical numbers/concepts in Column-I with their corresponding correct descriptions in Column-II:\n\nColumn-I:\n(p) \\(\\sqrt{2}\\)\n(q) \\(2.35\\)\n(r) \\(\\text{HCF of } 12 \\text{ and } 18\\)\n(s) \\(\\text{LCM of } 12 \\text{ and } 18\\)\n\nColumn-II:\n(i) Rational number\n(ii) Irrational number\n(iii) \\(36\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the mathematical numbers/concepts in Column-I with their corresponding correct descriptions in Column-II:\n\nColumn-I:\n(p) \\(\\sqrt{2}\\)\n(q) \\(2.35\\)\n(r) \\(\\text{HCF of } 12 \\text{ and } 18\\)\n(s) \\(\\text{LCM of } 12 \\text{ and } 18\\)\n\nColumn-II:\n(i) Rational number\n(ii) Irrational number\n(iii) \\(36\\)\n(iv) \\(6\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -529,7 +529,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the algebraic relations of two numbers \\(a\\) and \\(b\\) in Column-I with their evaluated results in Column-II (given \\(a = 2^{3} \\times 3^{2}\\) and \\(b = 2^{2} \\times 3^{3}\\)):\n\nColumn-I:\n(p) \\(\\text{HCF}(a, b)\\)\n(q) \\(\\text{LCM}(a, b)\\)\n(r) \\(\\frac{\\text{LCM}(a,b)}{\\text{HCF}(a,b)}\\)\n(s) \\(a \\times b\\)\n\nColumn-II:\n(i) \\(216\\)\n(ii) \\(36\\)\n(iii) \\(7776\\)\n(iv) \\(6\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(i), r-(iii), s-(iv)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the algebraic relations of two numbers \\(a\\) and \\(b\\) in Column-I with their evaluated results in Column-II (given \\(a = 2^{3} \\times 3^{2}\\) and \\(b = 2^{2} \\times 3^{3}\\)):\n\nColumn-I:\n(p) \\(\\text{HCF}(a, b)\\)\n(q) \\(\\text{LCM}(a, b)\\)\n(r) \\(\\frac{\\text{LCM}(a,b)}{\\text{HCF}(a,b)}\\)\n(s) \\(a \\times b\\)\n\nColumn-II:\n(i) \\(216\\)\n(ii) \\(36\\)\n(iii) \\(7776\\)\n(iv) \\(6\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -2110,7 +2110,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q15) Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{P_{ABC}}{P_{DEF}} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{A_{ABC}}{A_{DEF}} = \\left(\\frac{AB}{DE}\\right)^2\\)",
+      "question": "Q15) Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{Perimeter_{(ABC)}}{Perimeter_{(DEF)}} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{ar_{(ABC)}}{ar_{(DEF)}} = \\left(\\frac{AB}{DE}\\right)^2\\)",
       "options": [
         "p-(ii), q-(iii), r-(iv), s-(i)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -2302,7 +2302,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Assertion (A): The point (0, 4) lies on the y-axis.\nReason (R): The x-coordinate of any point on the y-axis is zero.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The point (0, 4) lies on the y-axis.\nReason (R): The x-coordinate of any point on the y-axis is zero.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2312,7 +2312,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The mid-point of the line segment joining (2, 3) and (4, 7) is (3, 5).\nReason (R): The distance between two points (x₁, y₁) and (x₂, y₂) is given by \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The mid-point of the line segment joining (2, 3) and (4, 7) is (3, 5).\nReason (R): The distance between two points (x₁, y₁) and (x₂, y₂) is given by \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2322,7 +2322,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): The points A(-2, 0), B(2, 0), and C(0, 2) form an equilateral triangle.\nReason (R): In an equilateral triangle, all three sides are of equal length.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The points A(-2, 0), B(2, 0), and C(0, 2) form an equilateral triangle.\nReason (R): In an equilateral triangle, all three sides are of equal length.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2332,7 +2332,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Match the formulas of coordinate geometry in Column-I with their mathematical expressions in Column-II:\n\nColumn-I:\n(p) Distance Formula between (x₁, y₁) and (x₂, y₂)\n(q) Section Formula for internal division in ratio m₁ : m₂\n(r) Mid-point Formula\n(s) Distance of point (x, y) from origin\n\nColumn-II:\n(i) \\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\)\n(ii) \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\n(iii) \\(\\sqrt{x^2 + y^2}\\)\n(iv) \\(\\left(\\frac{m_1 x_2 + m_2 x_1}{m_1 + m_2}, \\frac{m_1 y_2 + m_2 y_1}{m_1 + m_2}\\right)\\)\n\n(A) p-(ii), q-(iv), r-(i), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the formulas of coordinate geometry in Column-I with their mathematical expressions in Column-II:\n\nColumn-I:\n(p) Distance Formula between (x₁, y₁) and (x₂, y₂)\n(q) Section Formula for internal division in ratio m₁ : m₂\n(r) Mid-point Formula\n(s) Distance of point (x, y) from origin\n\nColumn-II:\n(i) \\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\)\n(ii) \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\n(iii) \\(\\sqrt{x^2 + y^2}\\)\n(iv) \\(\\left(\\frac{m_1 x_2 + m_2 x_1}{m_1 + m_2}, \\frac{m_1 y_2 + m_2 y_1}{m_1 + m_2}\\right)\\)",
       "options": [
         "p-(ii), q-(iv), r-(i), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -2342,7 +2342,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the given points in Column-I with their respective locations or properties in Column-II:\n\nColumn-I:\n(p) Point (3, 0)\n(q) Point (0, -5)\n(r) Centroid of triangle with vertices (0, 0), (3, 0), and (0, 6)\n(s) Mid-point of (-2, 4) and (2, -4)\n\nColumn-II:\n(i) Lies on negative y-axis\n(ii) Lies on positive x-axis\n(iii) Origin (0, 0)\n(iv) Point (1, 2)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the given points in Column-I with their respective locations or properties in Column-II:\n\nColumn-I:\n(p) Point (3, 0)\n(q) Point (0, -5)\n(r) Centroid of triangle with vertices (0, 0), (3, 0), and (0, 6)\n(s) Mid-point of (-2, 4) and (2, -4)\n\nColumn-II:\n(i) Lies on negative y-axis\n(ii) Lies on positive x-axis\n(iii) Origin (0, 0)\n(iv) Point (1, 2)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -3332,88 +3332,113 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:\n(A) \\(2\\text{ units}\\)\n(B) \\(\\pi\\text{ units}\\)\n(C) \\(4\\text{ units}\\)\n(D) \\(7\\text{ units}\\)",
-      "options": ["2 units", "π units", "4 units", "7 units"],
+      "question": "Q1) If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:",
+      "options": ["\\(2\\text{ units}\\)", "\\(\\pi\\text{ units}\\)", "\\(4\\text{ units}\\)", "\\(7\\text{ units}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Area of a sector of a circle of radius \\(R\\) with central angle \\(p\\) (in degrees) is:\n(A) \\(\\frac{p}{180} \\times 2\\pi R\\)\n(B) \\(\\frac{p}{180} \\times \\pi R^2\\)\n(C) \\(\\frac{p}{360} \\times 2\\pi R\\)\n(D) \\(\\frac{p}{720} \\times 2\\pi R^2\\)",
-      "options": ["(p/180) × 2πR", "(p/180) × πR²", "(p/360) × 2πR", "(p/720) × 2πR²"],
+      "question": "Q2) Area of a sector of a circle of radius \\(R\\) with central angle \\(p\\) (in degrees) is:",
+      "options": ["\\(\\frac{p}{180} \\times 2\\pi R\\)", "\\(\\frac{p}{180} \\times \\pi R²\\)", "\\(\\frac{p}{360} \\times 2\\pi R\\)", "\\(\\frac{p}{720} \\times 2\\pi R²\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "If the sum of the areas of two circles with radii \\(R_1\\) and \\(R_2\\) is equal to the area of a circle of radius \\(R\\), then:\n(A) \\(R_1 + R_2 = R\\)\n(B) \\(R_1^2 + R_2^2 = R^2\\)\n(C) \\(R_1 + R_2 < R\\)\n(D) \\(R_1^2 + R_2^2 < R^2\\)",
-      "options": ["R₁ + R₂ = R", "R₁² + R₂² = R²", "R₁ + R₂ < R", "R₁² + R₂² < R²"],
+      "question": "Q3) If the sum of the areas of two circles with radii \\(R₁\\) and \\(R₂\\) is equal to the area of a circle of radius \\(R\\), then:",
+      "options": ["\\(R₁ + R₂ = R\\)", "\\(R₁² + R₂² = R²\\)", "\\(R₁ + R₂ < R\\)", "\\(R₁² + R₂² < R²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If the circumference of a circle and the perimeter of a square are equal, then:\n(A) Area of the circle = Area of the square\n(B) Area of the circle > Area of the square\n(C) Area of the circle < Area of the square\n(D) Nothing definite can be said",
+      "question": "Q4) If the circumference of a circle and the perimeter of a square are equal, then:",
       "options": ["Area of the circle = Area of the square", "Area of the circle > Area of the square", "Area of the circle < Area of the square", "Nothing definite can be said"],
       "correctAnswer": 1
     },
     {
-      "question": "The area of a square that can be inscribed in a circle of radius \\(8\\text{ cm}\\) is:\n(A) \\(256\\text{ cm}^2\\)\n(B) \\(128\\text{ cm}^2\\)\n(C) \\(64\\sqrt{2}\\text{ cm}^2\\)\n(D) \\(64\\text{ cm}^2\\)",
-      "options": ["256 cm²", "128 cm²", "64√2 cm²", "64 cm²"],
+      "question": "Q5) The area of a square that can be inscribed in a circle of radius \\(8\\text{ cm}\\) is:",
+      "options": ["\\(256\\text{ cm}²\\)", "\\(128\\text{ cm}²\\)", "\\(64\\sqrt{2}\\text{ cm}²\\)", "\\(64\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "The length of the minute hand of a clock is \\(14\\text{ cm}\\). The area swept by the minute hand in \\(5\\text{ minutes}\\) is:\n(A) \\(154\\text{ cm}^2\\)\n(B) \\(\\frac{154}{3}\\text{ cm}^2\\)\n(C) \\(\\frac{77}{3}\\text{ cm}^2\\)\n(D) \\(77\\text{ cm}^2\\)",
-      "options": ["154 cm²", "154/3 cm²", "77/3 cm²", "77 cm²"],
+      "question": "Q6) The length of the minute hand of a clock is \\(14\\text{ cm}\\). The area swept by the minute hand in \\(5\\text{ minutes}\\) is:",
+      "options": ["\\(154\\text{ cm}²\\)", "\\(\\frac{154}{3}\\text{ cm}²\\)", "\\(\\frac{77}{3}\\text{ cm}²\\)", "\\(77\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "If the radius of a circle is doubled, then its area becomes:\n(A) 2 times\n(B) 3 times\n(C) 4 times\n(D) 8 times",
-      "options": ["2 times", "3 times", "4 times", "8 times"],
+      "question": "Q7) If the radius of a circle is doubled, then its area becomes:",
+      "options": ["\\(2\\text{ times}\\)", "\\(3\\text{ times}\\)", "\\(4\\text{ times}\\)", "\\(8\\text{ times}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "The area of the largest triangle that can be inscribed in a semi-circle of radius \\(r\\) is:\n(A) \\(r^2\\)\n(B) \\(\\frac{1}{2}r^2\\)\n(C) \\(2r^2\\)\n(D) \\(\\sqrt{2}r^2\\)",
-      "options": ["r²", "½r²", "2r²", "√2r²"],
+      "question": "Q8) The area of the largest triangle that can be inscribed in a semi-circle of radius \\(r\\) is:",
+      "options": ["\\(r²\\)", "\\(\\frac{1}{2}r²\\)", "\\(2r²\\)", "\\(\\sqrt{2}r²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "The ratio of the areas of the incircle and circumcircle of a square is:\n(A) 1 : 2\n(B) 1 : 3\n(C) 1 : 4\n(D) 2 : 3",
+      "question": "Q9) The ratio of the areas of the incircle and circumcircle of a square is:",
       "options": ["1 : 2", "1 : 3", "1 : 4", "2 : 3"],
       "correctAnswer": 0
     },
     {
-      "question": "A car has two wipers which do not overlap. Each wiper has a blade of length \\(25\\text{ cm}\\) sweeping through an angle of \\(115^{\\circ}\\). The total area cleaned at each sweep of the blades is:\n(A) \\(\\frac{158125}{126}\\text{ cm}^2\\)\n(B) \\(\\frac{158125}{252}\\text{ cm}^2\\)\n(C) \\(\\frac{125400}{126}\\text{ cm}^2\\)\n(D) \\(\\frac{158125}{63}\\text{ cm}^2\\)",
-      "options": ["158125/126 cm²", "158125/252 cm²", "125400/126 cm²", "158125/63 cm²"],
+      "question": "Q10) A car has two wipers which do not overlap. Each wiper has a blade of length \\(25\\text{ cm}\\) sweeping through an angle of \\(115^{\\circ}\\). The total area cleaned at each sweep of the blades is:",
+      "options": ["\\(\\frac{158125}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{252}\\text{ cm}²\\)", "\\(\\frac{125400}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{63}\\text{ cm}²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The length of the arc of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\).\nReason (R): The area of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^\\circ} \\times \\pi r^2\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q11)\nAssertion (A): The length of the arc of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\).\nReason (R): The area of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): If the perimeter of a semi-circular protractor is \\(36\\text{ cm}\\), then its diameter is \\(14\\text{ cm}\\).\nReason (R): The perimeter of a semi-circle of radius \\(r\\) is \\(\\pi r + 2r\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q12)\nAssertion (A): If the perimeter of a semi-circular protractor is \\(36\\text{ cm}\\), then its diameter is \\(14\\text{ cm}\\).\nReason (R): The perimeter of a semi-circle of radius \\(r\\) is \\(\\pi r + 2r\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The area of a circular track of outer radius \\(R\\) and inner radius \\(r\\) is \\(\\pi(R^2 - r^2)\\).\nReason (R): The area of a segment of a circle is always equal to the area of its corresponding sector.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Q13)\nAssertion (A): The area of a circular track of outer radius \\(R\\) and inner radius \\(r\\) is \\(\\pi(R² - r²)\\).\nReason (R): The area of a segment of a circle is always equal to the area of its corresponding sector.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "Match the parameters related to a circle of radius \\(r\\) and sector angle \\(\\theta\\) in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Area of sector\n(q) Length of arc\n(r) Circumference of circle\n(s) Area of circle\n\nColumn-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^\\circ} \\times \\pi r^2\\)\n(iii) \\(\\pi r^2\\)\n(iv) \\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\)\n\n(A) p-(ii), q-(iv), r-(i), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(iv), r-(i), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
+      "question": "Q14) Match the parameters related to a circle of radius \\(r\\) and sector angle \\(\\theta\\) in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Area of sector\n(q) Length of arc\n(r) Circumference of circle\n(s) Area of circle\n\nColumn-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
+      "options": [
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "Match the geometric regions in Column-I with their definitions/expressions in Column-II:\n\nColumn-I:\n(p) Major sector\n(q) Minor segment\n(r) Circular ring area\n(s) Semi-circle area\n\nColumn-II:\n(i) Area of sector - Area of corresponding triangle\n(ii) \\(\\frac{1}{2}\\pi r^2\\)\n(iii) Area of circle - Area of minor sector\n(iv) \\(\\pi(R^2 - r^2)\\)\n\n(A) p-(iii), q-(i), r-(iv), s-(ii)\n(B) p-(ii), q-(i), r-(iv), s-(iii)\n(C) p-(iii), q-(iv), r-(i), s-(ii)\n(D) p-(i), q-(iii), r-(ii), s-(iv)",
-      "options": ["p-(iii), q-(i), r-(iv), s-(ii)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(iv), r-(i), s-(ii)", "p-(i), q-(iii), r-(ii), s-(iv)"],
+      "question": "Q15) Match the geometric regions in Column-I with their definitions/expressions in Column-II:\n\nColumn-I:\n(p) Major sector\n(q) Minor segment\n(r) Circular ring area\n(s) Semi-circle area\n\nColumn-II:\n(i) Area of sector - Area of corresponding triangle\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) Area of circle - Area of minor sector\n(iv) \\(\\pi(R² - r²)\\)",
+      "options": [
+        "p-(iii), q-(i), r-(iv), s-(ii)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(iv), r-(i), s-(ii)",
+        "p-(i), q-(iii), r-(ii), s-(iv)"
+      ],
       "correctAnswer": 0
     }
   ]
 },
 {
   "id": "BT-X-MATH-AS-CH11-01",
-  "title": "বৃত্ত সম্বন্ধীয় কালি - Test 1",
+  "title": "বৃত্ত সংক্ৰান্তীয় কালি - Test 1",
   "class": "Class 10",
   "subject": "Mathematics",
-  "chapter": "বৃত্ত সম্বন্ধীয় কালি",
+  "chapter": "বৃত্ত সংক্ৰান্তীয় কালি",
   "language": "Assamese",
   "testType": "Chapter Test",
   "testNo": 1,
@@ -3423,83 +3448,107 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "যদি এটা বৃত্তৰ পৰিসীমা আৰু কালি সংখ্যাগতভাৱে সমান হয়, তেন্তে বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:\n(A) \\(2\\text{ একক}\\)\n(B) \\(\\pi\\text{ একক}\\)\n(C) \\(4\\text{ একক}\\)\n(D) \\(7\\text{ একক}\\)",
-      "options": ["2 একক", "π একক", "4 একক", "7 একক"],
+      "question": "Q1) যদি এটা বৃত্তৰ পৰিসীমা আৰু কালি সংখ্যাগতভাৱে সমান হয়, তেন্তে বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:",
+      "options": ["\\(2\\text{ একক}\\)", "\\(\\pi\\text{ একক}\\)", "\\(4\\text{ একক}\\)", "\\(7\\text{ একক}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "\\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ \\(p\\) (ডিগ্ৰীত) কেন্দ্ৰীয় কোণ থকা এটা বৃত্তকলাৰ কালি হ'ল:\n(A) \\(\\frac{p}{180} \\times 2\\pi R\\)\n(B) \\(\\frac{p}{180} \\times \\pi R^2\\)\n(C) \\(\\frac{p}{360} \\times 2\\pi R\\)\n(D) \\(\\frac{p}{720} \\times 2\\pi R^2\\)",
-      "options": ["(p/180) × 2πR", "(p/180) × πR²", "(p/360) × 2πR", "(p/720) × 2πR²"],
+      "question": "Q2) \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ \\(p\\) (ডিগ্ৰীত) কেন্দ্ৰীয় কোণ থকা এটা বৃত্তকলাৰ কালি হ'ল:",
+      "options": ["\\(\\frac{p}{180} \\times 2\\pi R\\)", "\\(\\frac{p}{180} \\times \\pi R²\\)", "\\(\\frac{p}{360} \\times 2\\pi R\\)", "\\(\\frac{p}{720} \\times 2\\pi R²\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "যদি \\(R_1\\) আৰু \\(R_2\\) ব্যাসাৰ্ধৰ দুটা বৃত্তৰ কালিৰ যোগফল \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ কালিৰ সমান হয়, তেন্তে:\n(A) \\(R_1 + R_2 = R\\)\n(B) \\(R_1^2 + R_2^2 = R^2\\)\n(C) \\(R_1 + R_2 < R\\)\n(D) \\(R_1^2 + R_2^2 < R^2\\)",
-      "options": ["R₁ + R₂ = R", "R₁² + R₂² = R²", "R₁ + R₂ < R", "R₁² + R₂² < R²"],
+      "question": "Q3) যদি \\(R₁\\) আৰু \\(R₂\\) ব্যাসাৰ্ধৰ দুটা বৃত্তৰ কালিৰ যোগফল \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ কালিৰ সমান হয়, তেন্তে:",
+      "options": ["\\(R₁ + R₂ = R\\)", "\\(R₁² + R₂² = R²\\)", "\\(R₁ + R₂ < R\\)", "\\(R₁² + R₂² < R²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি এটা বৃত্তৰ পৰিধি আৰু এটা বৰ্গক্ষেত্ৰৰ পৰিসীমা সমান হয়, তেন্তে:\n(A) বৃত্তৰ কালি = বৰ্গক্ষেত্ৰৰ কালি\n(B) বৃত্তৰ কালি > বৰ্গক্ষেত্ৰৰ কালি\n(C) বৃত্তৰ কালি < বৰ্গক্ষেত্ৰৰ কালি\n(D) নিশ্চিতভাৱে একো ক'ব নোৱাৰি",
+      "question": "Q4) যদি এটা বৃত্তৰ পৰিধি আৰু এটা বৰ্গক্ষেত্ৰৰ পৰিসীমা সমান হয়, তেন্তে:",
       "options": ["বৃত্তৰ কালি = বৰ্গক্ষেত্ৰৰ কালি", "বৃত্তৰ কালি > বৰ্গক্ষেত্ৰৰ কালি", "বৃত্তৰ কালি < বৰ্গক্ষেত্ৰৰ কালি", "নিশ্চিতভাৱে একো ক'ব নোৱাৰি"],
       "correctAnswer": 1
     },
     {
-      "question": "\\(8\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা বৰ্গক্ষেত্ৰ এটাৰ কালি হ'ব:\n(A) \\(256\\text{ cm}^2\\)\n(B) \\(128\\text{ cm}^2\\)\n(C) \\(64\\sqrt{2}\\text{ cm}^2\\)\n(D) \\(64\\text{ cm}^2\\)",
-      "options": ["256 cm²", "128 cm²", "64√2 cm²", "64 cm²"],
+      "question": "Q5) \\(8\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা বৰ্গক্ষেত্ৰ এটাৰ কালি হ'ব:",
+      "options": ["\\(256\\text{ cm}²\\)", "\\(128\\text{ cm}²\\)", "\\(64\\sqrt{2}\\text{ cm}²\\)", "\\(64\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "ঘড়ী এটাৰ মিনিটৰ কাঁটাডালৰ দৈৰ্ঘ্য \\(14\\text{ cm}\\)। \\(5\\text{ মিনিট}\\)ত মিনিটৰ কাঁটাডালে আৱৰি লোৱা স্থানৰ কালি হ'ব:\n(A) \\(154\\text{ cm}^2\\)\n(B) \\(\\frac{154}{3}\\text{ cm}^2\\)\n(C) \\(\\frac{77}{3}\\text{ cm}^2\\)\n(D) \\(77\\text{ cm}^2\\)",
-      "options": ["154 cm²", "154/3 cm²", "77/3 cm²", "77 cm²"],
+      "question": "Q6) ঘড়ী এটাৰ মিনিটৰ কাঁটাডালৰ দৈৰ্ঘ্য \\(14\\text{ cm}\\)। \\(5\\text{ মিনিট}\\)ত মিনিটৰ কাঁটাডালে আৱৰি লোৱা স্থানৰ কালি হ'ব:",
+      "options": ["\\(154\\text{ cm}²\\)", "\\(\\frac{154}{3}\\text{ cm}²\\)", "\\(\\frac{77}{3}\\text{ cm}²\\)", "\\(77\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "যদি এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰা হয়, তেন্তে ইয়াৰ কালি হ'ব:\n(A) 2 গুণ\n(B) 3 গুণ\n(C) 4 গুণ\n(D) 8 গুণ",
-      "options": ["2 গুণ", "3 গুণ", "4 গুণ", "8 গুণ"],
+      "question": "Q7) যদি এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰা হয়, তেন্তে ইয়াৰ কালি হ'ব:",
+      "options": ["\\(2\\text{ গুণ}\\)", "\\(3\\text{ গুণ}\\)", "\\(4\\text{ গুণ}\\)", "\\(8\\text{ গুণ}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "\\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা আটাইতকৈ ডাঙৰ ত্ৰিভুজটোৰ কালি হ'ব:\n(A) \\(r^2\\)\n(B) \\(\\frac{1}{2}r^2\\)\n(C) \\(2r^2\\)\n(D) \\(\\sqrt{2}r^2\\)",
-      "options": ["r²", "½r²", "2r²", "√2r²"],
+      "question": "Q8) \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা আটাইতকৈ ডাঙৰ ত্ৰিভুজটোৰ কালি হ'ব:",
+      "options": ["\\(r²\\)", "\\(\\frac{1}{2}r²\\)", "\\(2r²\\)", "\\(\\sqrt{2}r²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "এটা বৰ্গক্ষেত্ৰৰ অন্তৰ্বৃত্ত আৰু পৰিবৃত্তৰ কালিৰ অনুপাত হ'ব:\n(A) 1 : 2\n(B) 1 : 3\n(C) 1 : 4\n(D) 2 : 3",
+      "question": "Q9) এটা বৰ্গক্ষেত্ৰৰ অন্তৰ্বৃত্ত আৰু পৰিবৃত্তৰ কালিৰ অনুপাত হ'ব:",
       "options": ["1 : 2", "1 : 3", "1 : 4", "2 : 3"],
       "correctAnswer": 0
     },
     {
-      "question": "এখন গাড়ীৰ দুখন ৱাইপাৰ আছে যিবোৰ ইডালে সিডালক অগ্ৰাক্ৰমণ (overlap) নকৰে। প্ৰতিখন ৱাইপাৰৰ ফলকৰ দৈৰ্ঘ্য \\(25\\text{ cm}\\) আৰু সিহঁতে \\(115^{\\circ}\\) কোণত ঘূৰে। ফলক দুখনে প্ৰতিটো পাকত পৰিষ্কাৰ কৰা মোট কালি হ'ব:\n(A) \\(\\frac{158125}{126}\\text{ cm}^2\\)\n(B) \\(\\frac{158125}{252}\\text{ cm}^2\\)\n(C) \\(\\frac{125400}{126}\\text{ cm}^2\\)\n(D) \\(\\frac{158125}{63}\\text{ cm}^2\\)",
-      "options": ["158125/126 cm²", "158125/252 cm²", "125400/126 cm²", "158125/63 cm²"],
+      "question": "Q10) এখন গাড়ীৰ দুখন ৱাইপাৰ আছে যিবোৰ ইডালে সিডালক অগ্ৰাক্ৰমণ (overlap) নকৰে। প্ৰতিখন ৱাইপাৰৰ ফলকৰ দৈৰ্ঘ্য \\(25\\text{ cm}\\) আৰু সিহঁতে \\(115^{\\circ}\\) কোণত ঘূৰে। ফলক দুখনে প্ৰতিটো পাকত পৰিষ্কাৰ কৰা মুঠ কালি হ'ব:",
+      "options": ["\\(\\frac{158125}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{252}\\text{ cm}²\\)", "\\(\\frac{125400}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{63}\\text{ cm}²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ বৃত্তচাপৰ দৈৰ্ঘ্য হ'ল \\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\)।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ কালি হ'ল \\(\\frac{\\theta}{360^\\circ} \\times \\pi r^2\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "Q11)\nউক্তি (A): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ বৃত্তচাপৰ দৈৰ্ঘ্য হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ কালি হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "উক্তি (A): যদি এটা অৰ্ধবৃত্তাকাৰ চাঁদাৰ পৰিসীমা \\(36\\text{ cm}\\) হয়, তেন্তে ইয়াৰ ব্যাস \\(14\\text{ cm}\\) হ'ব।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাৰ পৰিসীমা \\(\\pi r + 2r\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "Q12)\nউক্তি (A): যদি এটা অৰ্ধবৃত্তাকাৰ চাঁদাৰ পৰিসীমা \\(36\\text{ cm}\\) হয়, তেন্তে ইয়াৰ ব্যাস \\(14\\text{ cm}\\) হ'ব।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাৰ পৰিসীমা \\(\\pi r + 2r\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): বহিঃব্যাসাৰ্ধ \\(R\\) আৰু অন্তঃব্যাসাৰ্ধ \\(r\\) থকা এটা বৃত্তাকাৰ পথৰ কালি \\(\\pi(R^2 - r^2)\\)।\nযুক্তি (R): বৃত্ত এটাৰ বৃত্তখণ্ডৰ কালি সদায় ইয়াৰ অনুৰূপ বৃত্তকলাৰ কালিৰ সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "Q13)\nউক্তি (A): বহিঃব্যাসাৰ্ধ \\(R\\) আৰু অন্তঃব্যাসাৰ্ধ \\(r\\) থকা এটা বৃত্তাকাৰ পথৰ কালি \\(\\pi(R² - r²)\\)।\nযুক্তি (R): বৃত্ত এটাৰ বৃত্তখণ্ডৰ কালি সদায় ইয়াৰ অনুৰূপ বৃত্তকলাৰ কালিৰ সমান।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "স্তম্ভ-I-ত থকা \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্তৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তকলাৰ কালি\n(q) বৃত্তচাপৰ দৈৰ্ঘ্য\n(r) বৃত্তৰ পৰিধি\n(s) বৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^\\circ} \\times \\pi r^2\\)\n(iii) \\(\\pi r^2\\)\n(iv) \\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\)\n\n(A) p-(ii), q-(iv), r-(i), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(i), r-(iv), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(iv), r-(i), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
+      "question": "Q14) স্তম্ভ-I-ত থকা \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্তৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তকলাৰ কালি\n(q) বৃত্তচাপৰ দৈৰ্ঘ্য\n(r) বৃত্তৰ পৰিধি\n(s) বৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
+      "options": [
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা জ্যামিতিক অঞ্চলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংজ্ঞা/ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মুখ্য বৃত্তকলা\n(q) গৌণ বৃত্তখণ্ড\n(r) বৃত্তাকাৰ বলয়ৰ কালি\n(s) অৰ্ধবৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) বৃত্তকলাৰ কালি - অনুৰূপ ত্ৰিভুজৰ কালি\n(ii) \\(\\frac{1}{2}\\pi r^2\\)\n(iii) বৃত্তৰ কালি - গৌণ বৃত্তকলাৰ কালি\n(iv) \\(\\pi(R^2 - r^2)\\)\n\n(A) p-(iii), q-(i), r-(iv), s-(ii)\n(B) p-(ii), q-(i), r-(iv), s-(iii)\n(C) p-(iii), q-(iv), r-(i), s-(ii)\n(D) p-(i), q-(iii), r-(ii), s-(iv)",
-      "options": ["p-(iii), q-(i), r-(iv), s-(ii)", "p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(iv), r-(i), s-(ii)", "p-(i), q-(iii), r-(ii), s-(iv)"],
+      "question": "Q15) স্তম্ভ-I-ত থকা জ্যামিতিক অঞ্চলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংজ্ঞা/ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মুখ্য বৃত্তকলা\n(q) গৌণ বৃত্তখণ্ড\n(r) বৃত্তাকাৰ বলয়ৰ কালি\n(s) অৰ্ধবৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) বৃত্তকলাৰ কালি - অনুৰূপ ত্ৰিভুজৰ কালি\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) বৃত্তৰ কালি - গৌণ বৃত্তকলাৰ কালি\n(iv) \\(\\pi(R² - r²)\\)",
+      "options": [
+        "p-(iii), q-(i), r-(iv), s-(ii)",
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(iv), r-(i), s-(ii)",
+        "p-(i), q-(iii), r-(ii), s-(iv)"
+      ],
       "correctAnswer": 0
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-EN-CH12-01",
   "title": "Surface Areas and Volumes - Test 1",
@@ -3515,85 +3564,160 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Two cubes each of volume \\(64\\text{ cm}^3\\) are joined end to end. The surface area of the resulting cuboid is:\n(A) \\(128\\text{ cm}^2\\)\n(B) \\(160\\text{ cm}^2\\)\n(C) \\(144\\text{ cm}^2\\)\n(D) \\(192\\text{ cm}^2\\)",
-      "options": ["128 cm²", "160 cm²", "144 cm²", "192 cm²"],
+      "question": "Two cubes each of volume \\(64\\text{ cm}³\\) are joined end to end. The surface area of the resulting cuboid is:",
+      "options": [
+        "\\(128\\text{ cm}²\\)",
+        "\\(160\\text{ cm}²\\)",
+        "\\(144\\text{ cm}²\\)",
+        "\\(192\\text{ cm}²\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "A solid sphere of radius \\(r\\) is melted and recast into the shape of a solid cone of height \\(r\\). The radius of the base of the cone is:\n(A) \\(2r\\)\n(B) \\(r\\)\n(C) \\(3r\\)\n(D) \\(4r\\)",
-      "options": ["2r", "r", "3r", "4r"],
+      "question": "A solid sphere of radius \\(r\\) is melted and recast into the shape of a solid cone of height \\(r\\). The radius of the base of the cone is:",
+      "options": [
+        "\\(2r\\)",
+        "\\(r\\)",
+        "\\(3r\\)",
+        "\\(4r\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "If the radius of the base of a right circular cylinder is halved, keeping the height same, the ratio of the volume of the reduced cylinder to that of the original cylinder is:\n(A) 1 : 2\n(B) 1 : 4\n(C) 1 : 8\n(D) 4 : 1",
-      "options": ["1 : 2", "1 : 4", "1 : 8", "4 : 1"],
+      "question": "If the radius of the base of a right circular cylinder is halved, keeping the height same, the ratio of the volume of the reduced cylinder to that of the original cylinder is:",
+      "options": [
+        "\\(1 : 2\\)",
+        "\\(1 : 4\\)",
+        "\\(1 : 8\\)",
+        "\\(4 : 1\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "The total surface area of a solid hemisphere of radius \\(7\\text{ cm}\\) is:\n(A) \\(441\\pi\\text{ cm}^2\\)\n(B) \\(294\\pi\\text{ cm}^2\\)\n(C) \\(147\\pi\\text{ cm}^2\\)\n(D) \\(98\\pi\\text{ cm}^2\\)",
-      "options": ["441π cm²", "294π cm²", "147π cm²", "98π cm²"],
+      "question": "The total surface area of a solid hemisphere of radius \\(7\\text{ cm}\\) is:",
+      "options": [
+        "\\(441\\pi\\text{ cm}²\\)",
+        "\\(294\\pi\\text{ cm}²\\)",
+        "\\(147\\pi\\text{ cm}²\\)",
+        "\\(98\\pi\\text{ cm}²\\)"
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "A metallic spherical shell of internal and external radii \\(3\\text{ cm}\\) and \\(5\\text{ cm}\\) respectively is melted and recast into a solid cylinder of height \\(10\\frac{2}{3}\\text{ cm}\\). The radius of the base of the cylinder is:\n(A) \\(3.5\\text{ cm}\\)\n(B) \\(7\\text{ cm}\\)\n(C) \\(2.8\\text{ cm}\\)\n(D) \\(2\\text{ cm}\\)",
-      "options": ["3.5 cm", "7 cm", "2.8 cm", "2 cm"],
+      "question": "A metallic spherical shell of internal and external radii \\(3\\text{ cm}\\) and \\(5\\text{ cm}\\) respectively is melted and recast into a solid cylinder of height \\(10\\frac{2}{3}\\text{ cm}\\). The radius of the base of the cylinder is:",
+      "options": [
+        "\\(3.5\\text{ cm}\\)",
+        "\\(7\\text{ cm}\\)",
+        "\\(2.8\\text{ cm}\\)",
+        "\\(2\\text{ cm}\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "If two solid hemispheres of same base radius \\(r\\) are joined together along their bases, then curved surface area of this new solid is:\n(A) \\(4\\pi r^2\\)\n(B) \\(6\\pi r^2\\)\n(C) \\(3\\pi r^2\\)\n(D) \\(8\\pi r^2\\)",
-      "options": ["4πr²", "6πr²", "3πr²", "8πr²"],
+      "question": "If two solid hemispheres of same base radius \\(r\\) are joined together along their bases, then curved surface area of this new solid is:",
+      "options": [
+        "\\(4\\pi r²\\)",
+        "\\(6\\pi r²\\)",
+        "\\(3\\pi r²\\)",
+        "\\(8\\pi r²\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "The volumes of two spheres are in the ratio \\(64 : 27\\). The ratio of their surface areas is:\n(A) 3 : 4\n(B) 4 : 3\n(C) 9 : 16\n(D) 16 : 9",
-      "options": ["3 : 4", "4 : 3", "9 : 16", "16 : 9"],
+      "question": "The volumes of two spheres are in the ratio \\(64 : 27\\). The ratio of their surface areas is:",
+      "options": [
+        "\\(3 : 4\\)",
+        "\\(4 : 3\\)",
+        "\\(9 : 16\\)",
+        "\\(16 : 9\\)"
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "A funnel is the combination of which of the following geometric shapes?\n(A) A cone and a cylinder\n(B) A frustum of a cone and a cylinder\n(C) A hemisphere and a cylinder\n(D) A sphere and a cylinder",
-      "options": ["A cone and a cylinder", "A frustum of a cone and a cylinder", "A hemisphere and a cylinder", "A sphere and a cylinder"],
+      "question": "A funnel is the combination of which of the following geometric shapes?",
+      "options": [
+        "A cone and a cylinder",
+        "A frustum of a cone and a cylinder",
+        "A hemisphere and a cylinder",
+        "A sphere and a cylinder"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "If the curved surface area of a solid cone is \\(1320\\text{ cm}^2\\) and its base radius is \\(21\\text{ cm}\\), then its slant height is: (Use \\(\\pi = \\frac{22}{7}\\))\n(A) \\(20\\text{ cm}\\)\n(B) \\(15\\text{ cm}\\)\n(C) \\(25\\text{ cm}\\)\n(D) \\(30\\text{ cm}\\)",
-      "options": ["20 cm", "15 cm", "25 cm", "30 cm"],
+      "question": "If the curved surface area of a solid cone is \\(1320\\text{ cm}²\\) and its base radius is \\(21\\text{ cm}\\), then its slant height is: (Use \\(\\pi = \\frac{22}{7}\\))",
+      "options": [
+        "\\(20\\text{ cm}\\)",
+        "\\(15\\text{ cm}\\)",
+        "\\(25\\text{ cm}\\)",
+        "\\(30\\text{ cm}\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "The capacity of a cylindrical tank is \\(6160\\text{ m}^3\\). If the radius of its base is \\(14\\text{ m}\\), then its depth is:\n(A) \\(8\\text{ m}\\)\n(B) \\(10\\text{ m}\\)\n(C) \\(12\\text{ m}\\)\n(D) \\(15\\text{ m}\\)",
-      "options": ["8 m", "10 m", "12 m", "15 m"],
+      "question": "The capacity of a cylindrical tank is \\(6160\\text{ m}³\\). If the radius of its base is \\(14\\text{ m}\\), then its depth is:",
+      "options": [
+        "\\(8\\text{ m}\\)",
+        "\\(10\\text{ m}\\)",
+        "\\(12\\text{ m}\\)",
+        "\\(15\\text{ m}\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): If the slant height of a cone is \\(13\\text{ cm}\\) and its base radius is \\(5\\text{ cm}\\), then its height is \\(12\\text{ cm}\\).\nReason (R): In a right circular cone of height \\(h\\), radius \\(r\\), and slant height \\(l\\), the relation between them is \\(l^2 = h^2 + r^2\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Assertion (A): If the slant height of a cone is \\(13\\text{ cm}\\) and its base radius is \\(5\\text{ cm}\\), then its height is \\(12\\text{ cm}\\).\\nReason (R): In a right circular cone of height \\(h\\), radius \\(r\\), and slant height \\(l\\), the relation between them is \\(l² = h² + r²\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): When a solid object is melted and recast into another solid shape, its total volume remains unchanged.\nReason (R): The total surface area of the newly formed object is always equal to the sum of surface areas of original objects.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Assertion (A): When a solid object is melted and recast into another solid shape, its total volume remains unchanged.\\nReason (R): The total surface area of the newly formed object is always equal to the sum of surface areas of original objects.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "Assertion (A): The total surface area of a solid hemisphere of radius \\(r\\) is \\(2\\pi r^2\\).\nReason (R): The curved surface area of a hemisphere of radius \\(r\\) is \\(2\\pi r^2\\) and the base area is \\(\\pi r^2\\).\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
-      "options": ["Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).", "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).", "Assertion (A) is true, but Reason (R) is false.", "Assertion (A) is false, but Reason (R) is true."],
+      "question": "Assertion (A): The total surface area of a solid hemisphere of radius \\(r\\) is \\(2\\pi r²\\).\\nReason (R): The curved surface area of a hemisphere of radius \\(r\\) is \\(2\\pi r²\\) and the base area is \\(\\pi r²\\).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "Match the solid shapes in Column-I with their corresponding volume formulas in Column-II:\n\nColumn-I:\n(p) Cylinder of radius \\(r\\) and height \\(h\\)\n(q) Cone of radius \\(r\\) and height \\(h\\)\n(r) Sphere of radius \\(r\\)\n(s) Hemisphere of radius \\(r\\)\n\nColumn-II:\n(i) \\(\\frac{1}{3}\\pi r^2 h\\)\n(ii) \\(\\pi r^2 h\\)\n(iii) \\(\\frac{2}{3}\\pi r^3\\)\n(iv) \\(\\frac{4}{3}\\pi r^3\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
+      "question": "Match the solid shapes in Column-I with their corresponding volume formulas in Column-II:\\n\\nColumn-I:\\n(p) Cylinder of radius \\(r\\) and height \\(h\\)\\n(q) Cone of radius \\(r\\) and height \\(h\\)\\n(r) Sphere of radius \\(r\\)\\n(s) Hemisphere of radius \\(r\\)\\n\\nColumn-II:\\n(i) \\(\\frac{1}{3}\\pi r²h\\)\\n(ii) \\(\\pi r²h\\)\\n(iii) \\(\\frac{2}{3}\\pi r³\\)\\n(iv) \\(\\frac{4}{3}\\pi r³\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "Match the surface area concepts in Column-I with their corresponding algebraic expressions in Column-II:\n\nColumn-I:\n(p) Curved Surface Area of Cone\n(q) Total Surface Area of Cylinder\n(r) Curved Surface Area of Hemisphere\n(s) Total Surface Area of Cube of side \\(a\\)\n\nColumn-II:\n(i) \\(2\\pi r(r + h)\\)\n(ii) \\(\\pi r l\\)\n(iii) \\(6a^2\\)\n(iv) \\(2\\pi r^2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(ii), r-(i), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(i), q-(iv), r-(ii), s-(iii)"],
+      "question": "Match the surface area concepts in Column-I with their corresponding algebraic expressions in Column-II:\\n\\nColumn-I:\\n(p) Curved Surface Area of Cone\\n(q) Total Surface Area of Cylinder\\n(r) Curved Surface Area of Hemisphere\\n(s) Total Surface Area of Cube of side \\(a\\)\\n\\nColumn-II:\\n(i) \\(2\\pi r(r + h)\\)\\n(ii) \\(\\pi r l\\)\\n(iii) \\(6a²\\)\\n(iv) \\(2\\pi r²\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
       "correctAnswer": 0
     }
   ]
 },
 {
   "id": "BT-X-MATH-AS-CH12-01",
-  "title": "পৃষ্ঠকালি আৰু আয়তন - Test 1",
+  "title": "Surface Areas and Volumes - Test 1",
   "class": "Class 10",
   "subject": "Mathematics",
   "chapter": "পৃষ্ঠকালি আৰু আয়তন",
@@ -3606,83 +3730,157 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "প্ৰত্যেকৰে আয়তন \\(64\\text{ cm}^3\\) থকা দুটা ঘনক মূৰে মূৰে যোৰ লগোৱা হ'ল। ইয়াৰ ফলত সৃষ্টি হোৱা আয়তঘনটোৰ পৃষ্ঠকালি হ'ব:\n(A) \\(128\\text{ cm}^2\\)\n(B) \\(160\\text{ cm}^2\\)\n(C) \\(144\\text{ cm}^2\\)\n(D) \\(192\\text{ cm}^2\\)",
-      "options": ["128 cm²", "160 cm²", "144 cm²", "192 cm²"],
+      "question": "প্ৰত্যেকৰে আয়তন \\(64\\text{ cm}³\\) থকা দুটা ঘনক মূৰে মূৰে যোৰ লগোৱা হ'ল। ইয়াৰ ফলত সৃষ্টি হোৱা আয়তঘনটোৰ পৃষ্ঠকালি হ'ব:",
+      "options": [
+        "\\(128\\text{ cm}²\\)",
+        "\\(160\\text{ cm}²\\)",
+        "\\(144\\text{ cm}²\\)",
+        "\\(192\\text{ cm}²\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "\\(r\\) ব্যাসাৰ্ধৰ এটা গোটা গোলক গলাই \\(r\\) উচ্চতাৰ এটা গোটা শংকুৰ আকৃতিলৈ ৰূপান্তৰ কৰা হ'ল। শংকুটোৰ ভূমিৰ ব্যাসাৰ্ধ হ'ব:\n(A) \\(2r\\)\n(B) \\(r\\)\n(C) \\(3r\\)\n(D) \\(4r\\)",
-      "options": ["2r", "r", "3r", "4r"],
+      "question": "\\(r\\) ব্যাসাৰ্ধৰ এটা গোটা গোলক গলাই \\(r\\) উচ্চতাৰ এটা গোটা শংকুৰ আকৃতিলৈ ৰূপান্তৰ কৰা হ'ল। শংকুটোৰ ভূমিৰ ব্যাসাৰ্ধ হ'ব:",
+      "options": [
+        "\\(2r\\)",
+        "\\(r\\)",
+        "\\(3r\\)",
+        "\\(4r\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "যদি এটা লম্ব বৃত্তাকাৰ বেলনৰ উচ্চতা একে ৰাখি ভূমিৰ ব্যাসাৰ্ধ আধা কৰা হয়, তেন্তে হ্ৰাস পোৱা বেলনটোৰ আয়তন আৰু মূল বেলনটোৰ আয়তনৰ অনুপাত হ'ব:\n(A) 1 : 2\n(B) 1 : 4\n(C) 1 : 8\n(D) 4 : 1",
-      "options": ["1 : 2", "1 : 4", "1 : 8", "4 : 1"],
+      "question": "যদি এটা লম্ব বৃত্তাকাৰ বেলনৰ উচ্চতা একে ৰাখি ভূমিৰ ব্যাসাৰ্ধ আধা কৰা হয়, তেন্তে হ্ৰাস পোৱা বেলনটোৰ আয়তন আৰু মূল বেলনটোৰ আয়তনৰ অনুপাত হ'ব:",
+      "options": [
+        "\\(1 : 2\\)",
+        "\\(1 : 4\\)",
+        "\\(1 : 8\\)",
+        "\\(4 : 1\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "\\(7\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট এটা গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি হ'ব:\n(A) \\(441\\pi\\text{ cm}^2\\)\n(B) \\(294\\pi\\text{ cm}^2\\)\n(C) \\(147\\pi\\text{ cm}^2\\)\n(D) \\(98\\pi\\text{ cm}^2\\)",
-      "options": ["441π cm²", "294π cm²", "147π cm²", "98π cm²"],
+      "question": "\\(7\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট এটা গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি হ'ব:",
+      "options": [
+        "\\(441\\pi\\text{ cm}²\\)",
+        "\\(294\\pi\\text{ cm}²\\)",
+        "\\(147\\pi\\text{ cm}²\\)",
+        "\\(98\\pi\\text{ cm}²\\)"
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "ক্ৰমে \\(3\\text{ cm}\\) আৰু \\(5\\text{ cm}\\) অন্তঃ আৰু বহিঃ ব্যাসাৰ্ধৰ এটা ধাতুৰ ফাঁপা গোলক গলাই \\(10\\frac{2}{3}\\text{ cm}\\) উচ্চতাৰ এটা গোটা বেলন প্ৰস্তুত কৰা হ'ল। বেলনটোৰ ভূমিৰ ব্যাসাৰ্ধ হ'ব:\n(A) \\(3.5\\text{ cm}\\)\n(B) \\(7\\text{ cm}\\)\n(C) \\(2.8\\text{ cm}\\)\n(D) \\(2\\text{ cm}\\)",
-      "options": ["3.5 cm", "7 cm", "2.8 cm", "2 cm"],
+      "question": "ক্ৰমে \\(3\\text{ cm}\\) আৰু \\(5\\text{ cm}\\) অন্তঃ আৰু বহিঃ ব্যাসাৰ্ধৰ এটা ধাতুৰ ফাঁপা গোলক গলাই \\(10\\frac{2}{3}\\text{ cm}\\) উচ্চতাৰ এটা গোটা বেলন প্ৰস্তুত কৰা হ'ল। বেলনটোৰ ভূমিৰ ব্যাসাৰ্ধ হ'ব:",
+      "options": [
+        "\\(3.5\\text{ cm}\\)",
+        "\\(7\\text{ cm}\\)",
+        "\\(2.8\\text{ cm}\\)",
+        "\\(2\\text{ cm}\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "যদি একে ভূমি ব্যাসাৰ্ধ \\(r\\) থকা দুটা গোটা অৰ্ধগোলক সিহঁতৰ ভূমিৰ দিশত যোৰ লগোৱা হয়, তেন্তে এই নতুন গোটা বস্তুটোৰ বক্ৰ পৃষ্ঠকালি হ'ব:\n(A) \\(4\\pi r^2\\)\n(B) \\(6\\pi r^2\\)\n(C) \\(3\\pi r^2\\)\n(D) \\(8\\pi r^2\\)",
-      "options": ["4πr²", "6πr²", "3πr²", "8πr²"],
+      "question": "যদি একে ভূমি ব্যাসাৰ্ধ \\(r\\) থকা দুটা গোটা অৰ্ধগোলক সিহঁতৰ ভূমিৰ দিশত যোৰ লগোৱা হয়, তেন্তে এই নতুন গোটা বস্তুটোৰ বক্ৰ পৃষ্ঠকালি হ'ব:",
+      "options": [
+        "\\(4\\pi r²\\)",
+        "\\(6\\pi r²\\)",
+        "\\(3\\pi r²\\)",
+        "\\(8\\pi r²\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "দুটা গোলকৰ আয়তনৰ অনুপাত \\(64 : 27\\)। সিহঁতৰ পৃষ্ঠকালিৰ অনুপাত হ'ব:\n(A) 3 : 4\n(B) 4 : 3\n(C) 9 : 16\n(D) 16 : 9",
-      "options": ["3 : 4", "4 : 3", "9 : 16", "16 : 9"],
+      "question": "দুটা গোলকৰ আয়তনৰ অনুপাত \\(64 : 27\\)। সিহঁতৰ পৃষ্ঠকালিৰ অনুপাত হ'ব:",
+      "options": [
+        "\\(3 : 4\\)",
+        "\\(4 : 3\\)",
+        "\\(9 : 16\\)",
+        "\\(16 : 9\\)"
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "এটা ফানেল (funnel) তলৰ কোনবোৰ জ্যামিতিক আকৃতিৰ সংযোজন?\n(A) এটা শংকু আৰু এটা বেলন\n(B) এটা শংকুৰ ছেদক (frustum) আৰু এটা বেলন\n(C) এটা অৰ্ধগোলক আৰু এটা বেলন\n(D) এটা গোলক আৰু এটা বেলন",
-      "options": ["এটা শংকু আৰু এটা বেলন", "এটা শংকুৰ ছেদক (frustum) আৰু এটা বেলন", "এটা অৰ্ধগোলক আৰু এটা বেলন", "এটা গোলক আৰু এটা বেলন"],
+      "question": "এটা ফানেল (funnel) তলৰ কোনবোৰ জ্যামিতিক আকৃতিৰ সংযোজন?",
+      "options": [
+        "এটা শংকু আৰু এটা বেলন",
+        "এটা শংকুৰ ছেদক (frustum) আৰু এটা বেলন",
+        "এটা অৰ্ধগোলক আৰু এটা বেলন",
+        "এটা গোলক আৰু এটা বেলন"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "যদি এটা গোটা শংকুৰ বক্ৰ পৃষ্ঠকালি \\(1320\\text{ cm}^2\\) আৰু ইয়াৰ ভূমিৰ ব্যাসাৰ্ধ \\(21\\text{ cm}\\) হয়, তেন্তে ইয়াৰ হেলনীয়া উচ্চতা হ'ব: (\\(\\pi = \\frac{22}{7}\\) ব্যৱহাৰ কৰা)\n(A) \\(20\\text{ cm}\\)\n(B) \\(15\\text{ cm}\\)\n(C) \\(25\\text{ cm}\\)\n(D) \\(30\\text{ cm}\\)",
-      "options": ["20 cm", "15 cm", "25 cm", "30 cm"],
+      "question": "যদি এটা গোটা শংকুৰ বক্ৰ পৃষ্ঠকালি \\(1320\\text{ cm}²\\) আৰু ইয়াৰ ভূমিৰ ব্যাসাৰ্ধ \\(21\\text{ cm}\\) হয়, তেন্তে ইয়াৰ হেলনীয়া উচ্চতা হ'ব: (\\(\\pi = \\frac{22}{7}\\) ব্যৱহাৰ কৰা)",
+      "options": [
+        "\\(20\\text{ cm}\\)",
+        "\\(15\\text{ cm}\\)",
+        "\\(25\\text{ cm}\\)",
+        "\\(30\\text{ cm}\\)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "এটা বেলনাকাৰ টেংকৰ ধাৰণক্ষমতা \\(6160\\text{ m}^3\\)। যদি ইয়াৰ ভূমিৰ ব্যাসাৰ্ধ \\(14\\text{ m}\\) হয়, তেন্তে ইয়াৰ গভীৰতা হ'ব:\n(A) \\(8\\text{ m}\\)\n(B) \\(10\\text{ m}\\)\n(C) \\(12\\text{ m}\\)\n(D) \\(15\\text{ m}\\)",
-      "options": ["8 m", "10 m", "12 m", "15 m"],
+      "question": "এটা বেলনাকাৰ টেংকৰ ধাৰণক্ষমতা \\(6160\\text{ m}³\\)। যদি ইয়াৰ ভূমিৰ ব্যাসাৰ্ধ \\(14\\text{ m}\\) হয়, তেন্তে ইয়াৰ গভীৰতা হ'ব:",
+      "options": [
+        "\\(8\\text{ m}\\)",
+        "\\(10\\text{ m}\\)",
+        "\\(12\\text{ m}\\)",
+        "\\(15\\text{ m}\\)"
+      ],
       "correctAnswer": 1
     },
     {
-      "question": "উক্তি (A): যদি এটা শংকুৰ হেলনীয়া উচ্চতা \\(13\\text{ cm}\\) আৰু ভূমিৰ ব্যাসাৰ্ধ \\(5\\text{ cm}\\) হয়, তেন্তে ইয়াৰ উচ্চতা \\(12\\text{ cm}\\) হ'ব।\nযুক্তি (R): \\(h\\) উচ্চতা, \\(r\\) ব্যাসাৰ্ধ, আৰু \\(l\\) হেলনীয়া উচ্চতা থকা লম্ব বৃত্তাকাৰ শংকু এটাৰ সিহঁতৰ মাজৰ সম্পৰ্কটো হ'ল \\(l^2 = h^2 + r^2\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "উক্তি (A): যদি এটা শংকুৰ হেলনীয়া উচ্চতা \\(13\\text{ cm}\\) আৰু ভূমিৰ ব্যাসাৰ্ধ \\(5\\text{ cm}\\) হয়, তেন্তে ইয়াৰ উচ্চতা \\(12\\text{ cm}\\) হ'ব।\\nযুক্তি (R): \\(h\\) উচ্চতা, \\(r\\) ব্যাসাৰ্ধ, আৰু \\(l\\) হেলনীয়া উচ্চতা থকা লম্ব বৃত্তাকাৰ শংকু এটাৰ সিহঁতৰ মাজৰ সম্পৰ্কটো হ'ল \\(l² = h² + r²\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): যেতিয়া এটা গোটা বস্তু গলাই আন এটা গোটা আকৃতি দিয়া হয়, ইয়াৰ মোট আয়তন অপৰিৱৰ্তিত থাকে।\nযুক্তি (R): নতুনকৈ গঠিত বস্তুটোৰ মুঠ পৃষ্ঠকালি সদায় মূল বস্তুবোৰৰ পৃষ্ঠকালিৰ যোগফলৰ সমান হয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "উক্তি (A): যেতিয়া এটা গোটা বস্তু গলাই আন এটা গোটা আকৃতি দিয়া হয়, ইয়াৰ মোট আয়তন অপৰিৱৰ্তিত থাকে।\\nযুক্তি (R): নতুনকৈ গঠিত বস্তুটোৰ মুঠ পৃষ্ঠকালি সদায় মূল বস্তুবোৰৰ পৃষ্ঠকালিৰ যোগফলৰ সমান হয়।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 2
     },
     {
-      "question": "উক্তি (A): \\(r\\) ব্যাসাৰ্ধৰ এটা গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি \\(2\\pi r^2\\)।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ এটা অৰ্ধগোলকৰ বক্ৰ পৃষ্ঠকালি \\(2\\pi r^2\\) আৰু ভূমিৰ কালি \\(\\pi r^2\\)।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
-      "options": ["উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।", "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।", "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।", "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"],
+      "question": "উক্তি (A): \\(r\\) ব্যাসাৰ্ধৰ এটা গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি \\(2\\pi r²\\)।\\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ এটা অৰ্ধগোলকৰ বক্ৰ পৃষ্ঠকালি \\(2\\pi r²\\) আৰু ভূমিৰ কালি \\(\\pi r²\\)।",
+      "options": [
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+        "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+        "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+        "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+      ],
       "correctAnswer": 3
     },
     {
-      "question": "স্তম্ভ-I-ত থকা গোটা আকৃতিসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ আয়তনৰ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\(r\\) ব্যাসাৰ্ধ আৰু \\(h\\) উচ্চতাৰ বেলন\n(q) \\(r\\) ব্যাসাৰ্ধ আৰু \\(h\\) উচ্চতাৰ শংকু\n(r) \\(r\\) ব্যাসাৰ্ধৰ গোলক\n(s) \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধগোলক\n\nস্তম্ভ-II:\n(i) \\(\\frac{1}{3}\\pi r^2 h\\)\n(ii) \\(\\pi r^2 h\\)\n(iii) \\(\\frac{2}{3}\\pi r^3\\)\n(iv) \\(\\frac{4}{3}\\pi r^3\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(i), q-(ii), r-(iii), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(iv), q-(iii), r-(ii), s-(i)"],
+      "question": "স্তম্ভ-I-ত থকা গোটা আকৃতিসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ আয়তনৰ সূত্ৰসমূহ মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) \\(r\\) ব্যাসাৰ্ধ আৰু \\(h\\) উচ্চতাৰ বেলন\\n(q) \\(r\\) ব্যাসাৰ্ধ আৰু \\(h\\) উচ্চতাৰ শংকু\\n(r) \\(r\\) ব্যাসাৰ্ধৰ গোলক\\n(s) \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধগোলক\\n\\nস্তম্ভ-II:\\n(i) \\(\\frac{1}{3}\\pi r²h\\)\\n(ii) \\(\\pi r²h\\)\\n(iii) \\(\\frac{2}{3}\\pi r³\\)\\n(iv) \\(\\frac{4}{3}\\pi r³\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(i), q-(ii), r-(iii), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(iv), q-(iii), r-(ii), s-(i)"
+      ],
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা পৃষ্ঠকালিৰ সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ বীজগণিতীয় ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) শংকুৰ বক্ৰ পৃষ্ঠকালি\n(q) বেলনৰ মুঠ পৃষ্ঠকালি\n(r) অৰ্ধগোলকৰ বক্ৰ পৃষ্ঠকালি\n(s) \\(a\\) বাহু বিশিষ্ট ঘনকৰ মুঠ পৃষ্ঠকালি\n\nস্তম্ভ-II:\n(i) \\(2\\pi r(r + h)\\)\n(ii) \\(\\pi r l\\)\n(iii) \\(6a^2\\)\n(iv) \\(2\\pi r^2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
-      "options": ["p-(ii), q-(i), r-(iv), s-(iii)", "p-(iii), q-(ii), r-(i), s-(iv)", "p-(ii), q-(iv), r-(i), s-(iii)", "p-(i), q-(iv), r-(ii), s-(iii)"],
+      "question": "স্তম্ভ-I-ত থকা পৃষ্ঠকালিৰ সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ বীজগণিতীয় ৰাশিসমূহ মিলোৱা:\\n\\nস্তম্ভ-I:\\n(p) শংকুৰ বক্ৰ পৃষ্ঠকালি\\n(q) বেলনৰ মুঠ পৃষ্ঠকালি\\n(r) অৰ্ধগোলকৰ বক্ৰ পৃষ্ঠকালি\\n(s) \\(a\\) বাহু বিশিষ্ট ঘনকৰ মুঠ পৃষ্ঠকালি\\n\\nস্তম্ভ-II:\\n(i) \\(2\\pi r(r + h)\\)\\n(ii) \\(\\pi r l\\)\\n(iii) \\(6a²\\)\\n(iv) \\(2\\pi r²\\)",
+      "options": [
+        "p-(ii), q-(i), r-(iv), s-(iii)",
+        "p-(iii), q-(ii), r-(i), s-(iv)",
+        "p-(ii), q-(iv), r-(i), s-(iii)",
+        "p-(i), q-(iv), r-(ii), s-(iii)"
+      ],
       "correctAnswer": 0
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-EN-CH13-01",
   "title": "Statistics - Test 1",
@@ -3798,7 +3996,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): The median of the observations 11, 12, 14, 18, \\\\(x+2\\\\), \\\\(x+4\\\\), 30, 32, 35, 41 arranged in ascending order is 24. Then the value of \\\\(x\\\\) is 21.\nReason (R): Median is the middlemost value of the given data when arranged in numerical order.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The median of the observations 11, 12, 14, 18, \\\\(x+2\\\\), \\\\(x+4\\\\), 30, 32, 35, 41 arranged in ascending order is 24. Then the value of \\\\(x\\\\) is 21.\nReason (R): Median is the middlemost value of the given data when arranged in numerical order.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3808,7 +4006,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): If the mode of a distribution is 8 and mean is 8, then its median is also 8.\nReason (R): Empirical relationship between the three measures of central tendency is: \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\).\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): If the mode of a distribution is 8 and mean is 8, then its median is also 8.\nReason (R): Empirical relationship between the three measures of central tendency is: \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3818,7 +4016,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The mean of \\\\(x, x+2, x+4, x+6, x+8\\\\) is \\\\(x+4\\\\).\nReason (R): The mode of a data set is always one of the numbers given in the data set.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The mean of \\\\(x, x+2, x+4, x+6, x+8\\\\) is \\\\(x+4\\\\).\nReason (R): The mode of a data set is always one of the numbers given in the data set.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3828,7 +4026,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Match the statistical measures in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Direct Method for Mean (\\\\(\\\\bar{x}\\\\))\n(q) Assumed Mean Method for Mean (\\\\(\\\\bar{x}\\\\))\n(r) Step-Deviation Method for Mean (\\\\(\\\\bar{x}\\\\))\n(s) Mode of grouped data\n\nColumn-II:\n(i) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i d_i}{\\\\sum f_i}\\\\right)\\\\)\n(ii) \\\\(\\\\frac{\\\\sum f_i x_i}{\\\\sum f_i}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\\\right) \\\\times h\\\\)\n(iv) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i u_i}{\\\\sum f_i}\\\\right) \\\\times h\\\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the statistical measures in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Direct Method for Mean (\\\\(\\\\bar{x}\\\\))\n(q) Assumed Mean Method for Mean (\\\\(\\\\bar{x}\\\\))\n(r) Step-Deviation Method for Mean (\\\\(\\\\bar{x}\\\\))\n(s) Mode of grouped data\n\nColumn-II:\n(i) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i d_i}{\\\\sum f_i}\\\\right)\\\\)\n(ii) \\\\(\\\\frac{\\\\sum f_i x_i}{\\\\sum f_i}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\\\right) \\\\times h\\\\)\n(iv) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i u_i}{\\\\sum f_i}\\\\right) \\\\times h\\\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -3838,7 +4036,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the statistical terms in Column-I with their mathematical definitions/properties in Column-II:\n\nColumn-I:\n(p) Class mark (\\\\(x_i\\\\))\n(q) Cumulative frequency\n(r) Empirical relationship\n(s) Median of grouped data\n\nColumn-II:\n(i) Running total of frequencies up to a class\n(ii) \\\\(\\\\frac{\\\\text{Upper class limit} + \\\\text{Lower class limit}}{2}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{\\\\frac{N}{2} - cf}{f}\\\\right) \\\\times h\\\\)\n(iv) \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the statistical terms in Column-I with their mathematical definitions/properties in Column-II:\n\nColumn-I:\n(p) Class mark (\\\\(x_i\\\\))\n(q) Cumulative frequency\n(r) Empirical relationship\n(s) Median of grouped data\n\nColumn-II:\n(i) Running total of frequencies up to a class\n(ii) \\\\(\\\\frac{\\\\text{Upper class limit} + \\\\text{Lower class limit}}{2}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{\\\\frac{N}{2} - cf}{f}\\\\right) \\\\times h\\\\)\n(iv) \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -4132,7 +4330,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Assertion (A): The probability of getting a number greater than 6 in a single throw of a die is 0.\nReason (R): An event whose occurrence is impossible has a probability of 0 and is called an impossible event.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The probability of getting a number greater than 6 in a single throw of a die is 0.\nReason (R): An event whose occurrence is impossible has a probability of 0 and is called an impossible event.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4142,7 +4340,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The probability of getting a total of 13 when two ordinary dice are thrown together is 0.\nReason (R): The maximum possible sum of numbers appearing on two dice is 12.\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): The probability of getting a total of 13 when two ordinary dice are thrown together is 0.\nReason (R): The maximum possible sum of numbers appearing on two dice is 12.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4152,7 +4350,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): If \\\\(P(E) = 0.05\\\\), then \\\\(P(\\\\text{not } E) = 0.95\\\\).\nReason (R): For any event \\\\(E\\\\), \\\\(P(E) + P(\\\\text{not } E) = 0\\\\).\n\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "Assertion (A): If \\\\(P(E) = 0.05\\\\), then \\\\(P(\\\\text{not } E) = 0.95\\\\).\nReason (R): For any event \\\\(E\\\\), \\\\(P(E) + P(\\\\text{not } E) = 0\\\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4162,7 +4360,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Match the events in Column-I with their probability values in Column-II:\n\nColumn-I:\n(p) Probability of a sure event\n(q) Probability of an impossible event\n(r) Probability of getting a head in a single coin toss\n(s) Probability of drawing an Ace from a deck of 52 cards\n\nColumn-II:\n(i) \\\\(0\\\\)\n(ii) \\\\(1\\\\)\n(iii) \\\\(\\\\frac{1}{13}\\\\)\n(iv) \\\\(\\\\frac{1}{2}\\\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the events in Column-I with their probability values in Column-II:\n\nColumn-I:\n(p) Probability of a sure event\n(q) Probability of an impossible event\n(r) Probability of getting a head in a single coin toss\n(s) Probability of drawing an Ace from a deck of 52 cards\n\nColumn-II:\n(i) \\\\(0\\\\)\n(ii) \\\\(1\\\\)\n(iii) \\\\(\\\\frac{1}{13}\\\\)\n(iv) \\\\(\\\\frac{1}{2}\\\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -4172,7 +4370,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the random experiments in Column-I with the total number of possible outcomes in Column-II:\n\nColumn-I:\n(p) Tossing 2 fair coins simultaneously\n(q) Throwing a single 6-faced die\n(r) Tossing 3 fair coins simultaneously\n(s) Throwing 2 6-faced dice simultaneously\n\nColumn-II:\n(i) 6\n(ii) 4\n(iii) 36\n(iv) 8\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the random experiments in Column-I with the total number of possible outcomes in Column-II:\n\nColumn-I:\n(p) Tossing 2 fair coins simultaneously\n(q) Throwing a single 6-faced die\n(r) Tossing 3 fair coins simultaneously\n(s) Throwing 2 6-faced dice simultaneously\n\nColumn-II:\n(i) 6\n(ii) 4\n(iii) 36\n(iv) 8",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
