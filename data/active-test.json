@@ -1,3 +1,7 @@
 {
-  "activeTestId":"all"
+  "activeTestId": [
+    "BT-X-MATH-AS-CH01-01",
+    "BT-X-MATH-AS-CH02-01",
+    "BT-X-MATH-AS-CH03-01"
+  ]
 }
