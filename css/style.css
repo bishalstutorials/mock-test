@@ -945,3 +945,159 @@ mjx-container[display="true"] {
         flex: none;
     }
 }
+
+/* ============================================
+   TEST INSTRUCTION SCREEN
+============================================ */
+
+.instruction-screen {
+    width: 100%;
+    max-width: 850px;
+    margin: 10px auto 35px;
+}
+
+.instruction-card {
+    padding: 35px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(25, 52, 99, 0.07);
+}
+
+.instruction-card h2 {
+    margin-top: 18px;
+    color: var(--primary);
+    font-size: 30px;
+}
+
+.instruction-description {
+    margin: 12px 0 25px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.instruction-summary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.instruction-detail {
+    min-width: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f5f8ff;
+    border: 1px solid var(--border);
+    border-radius: 11px;
+}
+
+.instruction-detail span {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.instruction-detail strong {
+    color: var(--primary);
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.instruction-rules {
+    margin-bottom: 25px;
+    padding: 22px;
+    background: #fafbfe;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.instruction-rules h3 {
+    margin-bottom: 15px;
+    color: var(--primary);
+    font-size: 17px;
+}
+
+.instruction-rules ul {
+    padding-left: 21px;
+    color: var(--muted);
+}
+
+.instruction-rules li {
+    margin-bottom: 11px;
+    padding-left: 4px;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.instruction-rules li:last-child {
+    margin-bottom: 0;
+}
+
+.instruction-card .primary-button {
+    max-width: none;
+    min-height: 50px;
+    font-size: 16px;
+}
+
+.instruction-card .primary-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.instruction-notice {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* INSTRUCTION SCREEN - MOBILE */
+
+@media (max-width: 720px) {
+
+    .instruction-screen {
+        margin-top: 5px;
+    }
+
+    .instruction-card {
+        padding: 25px 18px;
+        border-radius: 16px;
+    }
+
+    .instruction-card h2 {
+        font-size: 25px;
+    }
+
+    .instruction-summary {
+        gap: 9px;
+    }
+
+    .instruction-detail {
+        padding: 12px;
+    }
+
+    .instruction-detail strong {
+        font-size: 14px;
+    }
+
+    .instruction-rules {
+        padding: 17px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .instruction-summary {
+        grid-template-columns: 1fr;
+    }
+}
