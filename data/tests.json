@@ -2020,57 +2020,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) such that \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), and \\(AE = 4.5\\text{ cm}\\). The length of \\(EC\\) is:",
+      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) such that \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), and \\(AE = 4.5\\text{ cm}\\). The length of \\(EC\\) is:",
       "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q2) If in two triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\), then:",
+      "question": "If in two triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\), \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\), then:",
       "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q3) It is given that \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), and \\(DF = 7.5\\text{ cm}\\). Then which of the following is true?",
+      "question": "It is given that \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), and \\(DF = 7.5\\text{ cm}\\). Then which of the following is true?",
       "options": ["\\(DE = 12\\text{ cm}, \\angle F = 50^{\\circ}\\)", "\\(DE = 12\\text{ cm}, \\angle F = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 30^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q4) If \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), and \\(BC = 15\\text{ cm}\\), then \\(PR\\) is equal to:",
+      "question": "If \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), and \\(BC = 15\\text{ cm}\\), then \\(PR\\) is equal to:",
       "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q5) In a rhombus of side \\(10\\text{ cm}\\), one of the diagonals is of length \\(12\\text{ cm}\\). The length of the second diagonal is:",
+      "question": "In a rhombus of side \\(10\\text{ cm}\\), one of the diagonals is of length \\(12\\text{ cm}\\). The length of the second diagonal is:",
       "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q6) A vertical pole of length \\(6\\text{ m}\\) casts a shadow \\(4\\text{ m}\\) long on the ground, and at the same time a tower casts a shadow \\(28\\text{ m}\\) long. The height of the tower is:",
+      "question": "A vertical pole of length \\(6\\text{ m}\\) casts a shadow \\(4\\text{ m}\\) long on the ground, and at the same time a tower casts a shadow \\(28\\text{ m}\\) long. The height of the tower is:",
       "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q7) In \\(\\triangle ABC\\), \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). If \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), and \\(BD = 3\\text{ cm}\\), then the length of \\(DC\\) is:",
+      "question": "In \\(\\triangle ABC\\), \\(AD\\) is the bisector of \\(\\angle A\\) meeting \\(BC\\) at \\(D\\). If \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), and \\(BD = 3\\text{ cm}\\), then the length of \\(DC\\) is:",
       "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q8) If \\(\\triangle ABC \\sim \\triangle DEF\\) such that \\(2AB = DE\\) and \\(BC = 8\\text{ cm}\\), then \\(EF\\) is equal to:",
+      "question": "If \\(\\triangle ABC \\sim \\triangle DEF\\) such that \\(2AB = DE\\) and \\(BC = 8\\text{ cm}\\), then \\(EF\\) is equal to:",
       "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q9) In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\). If \\(\\frac{AD}{DB} = \\frac{3}{5}\\) and \\(AC = 5.6\\text{ cm}\\), then \\(AE\\) is:",
+      "question": "In \\(\\triangle ABC\\), \\(DE \\parallel BC\\) intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\). If \\(\\frac{AD}{DB} = \\frac{3}{5}\\) and \\(AC = 5.6\\text{ cm}\\), then \\(AE\\) is:",
       "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q10) The perimeters of two similar triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\) are \\(36\\text{ cm}\\) and \\(24\\text{ cm}\\) respectively. If \\(PQ = 10\\text{ cm}\\), then \\(AB\\) is:",
+      "question": "The perimeters of two similar triangles \\(\\triangle ABC\\) and \\(\\triangle PQR\\) are \\(36\\text{ cm}\\) and \\(24\\text{ cm}\\) respectively. If \\(PQ = 10\\text{ cm}\\), then \\(AB\\) is:",
       "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q11)\nAssertion (A): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\nReason (R): This statement is known as the Converse of Basic Proportionality Theorem (Thales Theorem).",
+      "question": "\nAssertion (A): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\nReason (R): This statement is known as the Converse of Basic Proportionality Theorem (Thales Theorem).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2080,7 +2080,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q12)\nAssertion (A): All congruent triangles are similar, but all similar triangles need not be congruent.\nReason (R): Congruent triangles have the same shape and the same size, whereas similar triangles have the same shape but not necessarily the same size.",
+      "question": "\nAssertion (A): All congruent triangles are similar, but all similar triangles need not be congruent.\nReason (R): Congruent triangles have the same shape and the same size, whereas similar triangles have the same shape but not necessarily the same size.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2090,7 +2090,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q13)\nAssertion (A): If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\).\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+      "question": "\nAssertion (A): If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\).\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -2100,7 +2100,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Q14) Match the similarity criteria for two triangles in Column-I with their corresponding conditions in Column-II:\n\nColumn-I:\n(p) AAA Similarity Criterion\n(q) SSS Similarity Criterion\n(r) SAS Similarity Criterion\n(s) RHS Similarity Criterion for right triangles\n\nColumn-II:\n(i) Corresponding sides of two triangles are in the same ratio\n(ii) Corresponding angles of two triangles are equal\n(iii) One angle is equal and sides including this angle are proportional\n(iv) Hypotenuse and one side of two right triangles are proportional",
+      "question": "Match the similarity criteria for two triangles in Column-I with their corresponding conditions in Column-II:\n\nColumn-I:\n(p) AAA Similarity Criterion\n(q) SSS Similarity Criterion\n(r) SAS Similarity Criterion\n(s) RHS Similarity Criterion for right triangles\n\nColumn-II:\n(i) Corresponding sides of two triangles are in the same ratio\n(ii) Corresponding angles of two triangles are equal\n(iii) One angle is equal and sides including this angle are proportional\n(iv) Hypotenuse and one side of two right triangles are proportional",
       "options": [
         "p-(ii), q-(i), r-(iii), s-(iv)",
         "p-(i), q-(ii), r-(iv), s-(iii)",
@@ -2110,7 +2110,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q15) Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{Perimeter_{(ABC)}}{Perimeter_{(DEF)}} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{ar_{(ABC)}}{ar_{(DEF)}} = \\left(\\frac{AB}{DE}\\right)^2\\)",
+      "question": "Match the given properties of \\(\\triangle ABC\\) in Column-I with their mathematical relations in Column-II:\n\nColumn-I:\n(p) Basic Proportionality Theorem (\\(DE \\parallel BC\\))\n(q) Ratio of perimeters of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(r) Ratio of areas of \\(\\triangle ABC \\sim \\triangle DEF\\)\n(s) Angle Bisector Theorem (\\(AD\\) bisects \\(\\angle A\\))\n\nColumn-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{Perimeter_{(ABC)}}{Perimeter_{(DEF)}} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{ar_{(ABC)}}{ar_{(DEF)}} = \\left(\\frac{AB}{DE}\\right)^2\\)",
       "options": [
         "p-(ii), q-(iii), r-(iv), s-(i)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -2136,57 +2136,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) \\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যাতে \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), আৰু \\(AE = 4.5\\text{ cm}\\)। \\(EC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যাতে \\(AD = 3\\text{ cm}\\), \\(DB = 5\\text{ cm}\\), আৰু \\(AE = 4.5\\text{ cm}\\)। \\(EC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
       "options": ["\\(6.5\\text{ cm}\\)", "\\(7.5\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q2) যদি দুটা ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\) হয়, তেন্তে:",
+      "question": "যদি দুটা ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ \\(\\frac{AB}{QR} = \\frac{BC}{PR} = \\frac{CA}{PQ}\\) হয়, তেন্তে:",
       "options": ["\\(\\triangle PQR \\sim \\triangle CAB\\)", "\\(\\triangle PQR \\sim \\triangle ABC\\)", "\\(\\triangle CBA \\sim \\triangle PQR\\)", "\\(\\triangle BCA \\sim \\triangle PQR\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q3) দিয়া আছে যে \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), আৰু \\(DF = 7.5\\text{ cm}\\)। তেন্তে তলৰ কোনটো সত্য?",
+      "question": "দিয়া আছে যে \\(\\triangle ABC \\sim \\triangle DFE\\), \\(\\angle A = 30^{\\circ}\\), \\(\\angle C = 50^{\\circ}\\), \\(AB = 5\\text{ cm}\\), \\(AC = 8\\text{ cm}\\), আৰু \\(DF = 7.5\\text{ cm}\\)। তেন্তে তলৰ কোনটো সত্য?",
       "options": ["\\(DE = 12\\text{ cm}, \\angle F = 50^{\\circ}\\)", "\\(DE = 12\\text{ cm}, \\angle F = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 100^{\\circ}\\)", "\\(EF = 12\\text{ cm}, \\angle D = 30^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q4) যদি \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), আৰু \\(BC = 15\\text{ cm}\\) হয়, তেন্তে \\(PR\\)-ৰ মান হ'ব:",
+      "question": "যদি \\(\\triangle ABC \\sim \\triangle QRP\\), \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle QRP)} = \\frac{9}{4}\\), \\(AB = 18\\text{ cm}\\), আৰু \\(BC = 15\\text{ cm}\\) হয়, তেন্তে \\(PR\\)-ৰ মান হ'ব:",
       "options": ["\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(9\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q5) \\(10\\text{ cm}\\) বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য \\(12\\text{ cm}\\)। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "\\(10\\text{ cm}\\) বাহু বিশিষ্ট এটা ৰম্বাছৰ এটা কৰ্ণৰ দৈৰ্ঘ্য \\(12\\text{ cm}\\)। দ্বিতীয়টো কৰ্ণৰ দৈৰ্ঘ্য হ'ব:",
       "options": ["\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)", "\\(14\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q6) \\(6\\text{ m}\\) ওখ এটা উলম্ব খুটায়ে মাটিত \\(4\\text{ m}\\) দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই \\(28\\text{ m}\\) দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
+      "question": "\\(6\\text{ m}\\) ওখ এটা উলম্ব খুটায়ে মাটিত \\(4\\text{ m}\\) দীঘল ছাঁ পেলায়, আৰু একে সময়তে এটা স্তম্ভই \\(28\\text{ m}\\) দীঘল ছাঁ পেলায়। স্তম্ভটোৰ উচ্চতা হ'ব:",
       "options": ["\\(40\\text{ m}\\)", "\\(36\\text{ m}\\)", "\\(42\\text{ m}\\)", "\\(48\\text{ m}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q7) \\(\\triangle ABC\\)-ত, \\(AD\\) হ'ল \\(\\angle A\\)-ৰ সমদ্বিখণ্ডক যি \\(BC\\)-ক \\(D\\) বিন্দুত লগ লাগে। যদি \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), আৰু \\(BD = 3\\text{ cm}\\) হয়, তেন্তে \\(DC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "\\(\\triangle ABC\\)-ত, \\(AD\\) হ'ল \\(\\angle A\\)-ৰ সমদ্বিখণ্ডক যি \\(BC\\)-ক \\(D\\) বিন্দুত লগ লাগে। যদি \\(AB = 6\\text{ cm}\\), \\(AC = 5\\text{ cm}\\), আৰু \\(BD = 3\\text{ cm}\\) হয়, তেন্তে \\(DC\\)-ৰ দৈৰ্ঘ্য হ'ব:",
       "options": ["\\(3.5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(2\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q8) যদি \\(\\triangle ABC \\sim \\triangle DEF\\) যাতে \\(2AB = DE\\) আৰু \\(BC = 8\\text{ cm}\\) হয়, তেন্তে \\(EF\\)-ৰ মান হ'ব:",
+      "question": "যদি \\(\\triangle ABC \\sim \\triangle DEF\\) যাতে \\(2AB = DE\\) আৰু \\(BC = 8\\text{ cm}\\) হয়, তেন্তে \\(EF\\)-ৰ মান হ'ব:",
       "options": ["\\(12\\text{ cm}\\)", "\\(4\\text{ cm}\\)", "\\(16\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q9) \\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যি \\(AB\\)-ক \\(D\\) আৰু \\(AC\\)-ক \\(E\\) বিন্দুত ছেদ কৰে। যদি \\(\\frac{AD}{DB} = \\frac{3}{5}\\) আৰু \\(AC = 5.6\\text{ cm}\\) হয়, তেন্তে \\(AE\\)-ৰ মান হ'ব:",
+      "question": "\\(\\triangle ABC\\)-ত, \\(DE \\parallel BC\\) যি \\(AB\\)-ক \\(D\\) আৰু \\(AC\\)-ক \\(E\\) বিন্দুত ছেদ কৰে। যদি \\(\\frac{AD}{DB} = \\frac{3}{5}\\) আৰু \\(AC = 5.6\\text{ cm}\\) হয়, তেন্তে \\(AE\\)-ৰ মান হ'ব:",
       "options": ["\\(2.1\\text{ cm}\\)", "\\(3.5\\text{ cm}\\)", "\\(2.8\\text{ cm}\\)", "\\(1.8\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q10) দুটা সদৃশ ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ পৰিসীমা ক্ৰমে \\(36\\text{ cm}\\) আৰু \\(24\\text{ cm}\\)। যদি \\(PQ = 10\\text{ cm}\\) হয়, তেন্তে \\(AB\\)-ৰ মান হ'ব:",
+      "question": "দুটা সদৃশ ত্ৰিভুজ \\(\\triangle ABC\\) আৰু \\(\\triangle PQR\\)-ৰ পৰিসীমা ক্ৰমে \\(36\\text{ cm}\\) আৰু \\(24\\text{ cm}\\)। যদি \\(PQ = 10\\text{ cm}\\) হয়, তেন্তে \\(AB\\)-ৰ মান হ'ব:",
       "options": ["\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(18\\text{ cm}\\)", "\\(20\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q11)\nউক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।",
+      "question": "\nউক্তি (A): যদি এডাল ৰেখাই কোনো ত্ৰিভুজৰ যিকোনো দুটা বাহুক একে অনুপাতত বিভক্ত কৰে, তেন্তে ৰেখাডাল তৃতীয় বাহুৰ সমান্তৰাল হয়।\nযুক্তি (R): এই উক্তিটোক মৌলিক সমানুপাতিকতা উপপাদ্যৰ বিপৰীত উপপাদ্য (থেলেছৰ উপপাদ্যৰ বিপৰীত) বুলি জনা যায়।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2196,7 +2196,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q12)\nউক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ'বও পাৰে।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ'লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।",
+      "question": "\nউক্তি (A): সকলো সৰ্বাঙ্গসম ত্ৰিভুজেই সদৃশ, কিন্তু সকলো সদৃশ ত্ৰিভুজ সৰ্বাঙ্গসম নহ'বও পাৰে।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ আকৃতি আৰু আকাৰ একে, কিন্তু সদৃশ ত্ৰিভুজৰ আকৃতি একে হ'লেও আকাৰ একে হোৱাটো বাধ্যতামূলক নহয়।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2206,7 +2206,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q13)\nউক্তি (A): যদি \\(\\triangle ABC \\sim \\triangle DEF\\) হয়, তেন্তে \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\)।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
+      "question": "\nউক্তি (A): যদি \\(\\triangle ABC \\sim \\triangle DEF\\) হয়, তেন্তে \\(\\frac{\\text{ar}(\\triangle ABC)}{\\text{ar}(\\triangle DEF)} = \\frac{AB}{DE}\\)।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -2216,7 +2216,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Q14) স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ চৰ্তসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক",
+      "question": "স্তম্ভ-I-ত থকা দুটা ত্ৰিভুজৰ সদৃশতাৰ চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ চৰ্তসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) AAA সদৃশতা চৰ্ত\n(q) SSS সদৃশতা চৰ্ত\n(r) SAS সদৃশতা চৰ্ত\n(s) সমকোণী ত্ৰিভুজৰ বাবে RHS সদৃশতা চৰ্ত\n\nস্তম্ভ-II:\n(i) দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ একে অনুপাতত থাকে\n(ii) দুটা ত্ৰিভুজৰ অনুৰূপ কোণবোৰ সমান\n(iii) এটা কোণ সমান আৰু কোণটো ধৰি ৰখা বাহুবোৰ সমানুপাতিক\n(iv) দুটা সমকোণী ত্ৰিভুজৰ অতিভুজ আৰু এটা বাহু সমানুপাতিক",
       "options": [
         "p-(ii), q-(i), r-(iii), s-(iv)",
         "p-(i), q-(ii), r-(iv), s-(iii)",
@@ -2226,7 +2226,7 @@
       "correctAnswer": 0
     },
    {
-  "question": "Q15) স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\operatorname{pr}(ABC)}{\\operatorname{pr}(DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\nইয়াত, \\(\\operatorname{pr}\\) = পৰিসীমা আৰু \\(\\operatorname{ar}\\) = কালি।",
+  "question": "স্তম্ভ-I-ত থকা \\(\\triangle ABC\\)-ৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মৌলিক সমানুপাতিকতা উপপাদ্য (\\(DE \\parallel BC\\))\n(q) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ পৰিসীমাৰ অনুপাত\n(r) \\(\\triangle ABC \\sim \\triangle DEF\\)-ৰ কালিৰ অনুপাত\n(s) কোণ সমদ্বিখণ্ডক উপপাদ্য (\\(AD\\)-এ \\(\\angle A\\)-ক সমদ্বিখণ্ডিত কৰে)\n\nস্তম্ভ-II:\n(i) \\(\\frac{AB}{AC} = \\frac{BD}{DC}\\)\n(ii) \\(\\frac{AD}{DB} = \\frac{AE}{EC}\\)\n(iii) \\(\\frac{\\operatorname{pr}(ABC)}{\\operatorname{pr}(DEF)} = \\frac{AB}{DE}\\)\n(iv) \\(\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(DEF)} = \\left(\\frac{AB}{DE}\\right)^2\\)\n\nইয়াত, \\(\\operatorname{pr}\\) = পৰিসীমা আৰু \\(\\operatorname{ar}\\) = কালি।",
   "options": [
     "p-(ii), q-(iii), r-(iv), s-(i)",
     "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -3082,7 +3082,7 @@
           "correctAnswer": 0
         },
  {
-  "question": "Q11)\nউক্তি (A): যদি এটা উলম্ব স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ইয়াৰ উচ্চতাৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ \\(45^{\\circ}\\) হ’ব।\nযুক্তি (R): ত্ৰিকোণমিতিক অনুপাত অনুসৰি \\(\\tan \\theta = \\frac{\\text{লম্ব}}{\\text{ভূমি}}\\), গতিকে যেতিয়া লম্ব = ভূমি হয়, \\(\\tan \\theta = 1 \\implies \\theta = 45^{\\circ}\\)।",
+  "question": "\nউক্তি (A): যদি এটা উলম্ব স্তম্ভৰ ছাঁৰ দৈৰ্ঘ্য ইয়াৰ উচ্চতাৰ সমান হয়, তেন্তে সূৰ্য্যৰ উন্নতি কোণ \\(45^{\\circ}\\) হ’ব।\nযুক্তি (R): ত্ৰিকোণমিতিক অনুপাত অনুসৰি \\(\\tan \\theta = \\frac{\\text{লম্ব}}{\\text{ভূমি}}\\), গতিকে যেতিয়া লম্ব = ভূমি হয়, \\(\\tan \\theta = 1 \\implies \\theta = 45^{\\circ}\\)।",
   "options": [
     "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
     "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -3149,77 +3149,77 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) If radii of two concentric circles are \\(4\\text{ cm}\\) and \\(5\\text{ cm}\\), then the length of each chord of one circle which is tangent to the other circle is:",
+      "question": "If radii of two concentric circles are \\(4\\text{ cm}\\) and \\(5\\text{ cm}\\), then the length of each chord of one circle which is tangent to the other circle is:",
       "options": ["\\(3\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(9\\text{ cm}\\)", "\\(1\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q2) If angle between two radii of a circle is \\(130^{\\circ}\\), then the angle between the tangents at the ends of the radii is:",
+      "question": "If angle between two radii of a circle is \\(130^{\\circ}\\), then the angle between the tangents at the ends of the radii is:",
       "options": ["\\(90^{\\circ}\\)", "\\(50^{\\circ}\\)", "\\(70^{\\circ}\\)", "\\(40^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q3) At one end \\(A\\) of a diameter \\(AB\\) of a circle of radius \\(5\\text{ cm}\\), tangent \\(XAY\\) is drawn to the circle. The length of the chord \\(CD\\) parallel to \\(XY\\) and at a distance \\(8\\text{ cm}\\) from \\(A\\) is:",
+      "question": "At one end \\(A\\) of a diameter \\(AB\\) of a circle of radius \\(5\\text{ cm}\\), tangent \\(XAY\\) is drawn to the circle. The length of the chord \\(CD\\) parallel to \\(XY\\) and at a distance \\(8\\text{ cm}\\) from \\(A\\) is:",
       "options": ["\\(4\\text{ cm}\\)", "\\(5\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "Q4) If \\(PA\\) and \\(PB\\) from a point \\(P\\) to a circle with centre \\(O\\) are inclined to each other at angle of \\(80^{\\circ}\\), then \\(\\angle POA\\) is equal to:",
+      "question": "If \\(PA\\) and \\(PB\\) from a point \\(P\\) to a circle with centre \\(O\\) are inclined to each other at angle of \\(80^{\\circ}\\), then \\(\\angle POA\\) is equal to:",
       "options": ["\\(50^{\\circ}\\)", "\\(60^{\\circ}\\)", "\\(70^{\\circ}\\)", "\\(80^{\\circ}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q5) If a quadrilateral \\(ABCD\\) is drawn to circumscribe a circle, then \\(AB + CD\\) is equal to:",
+      "question": "If a quadrilateral \\(ABCD\\) is drawn to circumscribe a circle, then \\(AB + CD\\) is equal to:",
       "options": ["\\(AC + BD\\)", "\\(AD + BC\\)", "\\(\\frac{1}{2}(AD + BC)\\)", "\\(2(AD + BC)\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q6) The distance between two parallel tangents to a circle of radius \\(5\\text{ cm}\\) is:",
+      "question": "The distance between two parallel tangents to a circle of radius \\(5\\text{ cm}\\) is:",
       "options": ["\\(5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q7) From a point \\(Q\\), the length of the tangent to a circle is \\(24\\text{ cm}\\) and the distance of \\(Q\\) from the centre is \\(25\\text{ cm}\\). The radius of the circle is:",
+      "question": "From a point \\(Q\\), the length of the tangent to a circle is \\(24\\text{ cm}\\) and the distance of \\(Q\\) from the centre is \\(25\\text{ cm}\\). The radius of the circle is:",
       "options": ["\\(7\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(24.5\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q8) If two tangents inclined at an angle of \\(60^{\\circ}\\) are drawn to a circle of radius \\(3\\text{ cm}\\), then length of each tangent is equal to:",
+      "question": "If two tangents inclined at an angle of \\(60^{\\circ}\\) are drawn to a circle of radius \\(3\\text{ cm}\\), then length of each tangent is equal to:",
       "options": ["\\(\\frac{3}{2}\\sqrt{3}\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(3\\sqrt{3}\\text{ cm}\\)", "\\(3\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q9) A parallelogram circumscribing a circle is always a:",
+      "question": "A parallelogram circumscribing a circle is always a:",
       "options": ["Rectangle", "Square", "Rhombus", "Trapezium"],
       "correctAnswer": 2
     },
     {
-      "question": "Q10) The length of the tangent drawn from an external point \\(P\\) to a circle:",
+      "question": "The length of the tangent drawn from an external point \\(P\\) to a circle:",
       "options": ["is always greater than the radius of the circle", "is always less than the radius of the circle", "may or may not be greater than the radius of the circle", "is always equal to the radius of the circle"],
       "correctAnswer": 2
     },
     {
-      "question": "Q11)\nAssertion (A): The tangent at any point of a circle is perpendicular to the radius through the point of contact.\nReason (R): The line joining the centre to the point of contact is the shortest distance from the centre to the tangent line.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "\nAssertion (A): The tangent at any point of a circle is perpendicular to the radius through the point of contact.\nReason (R): The line joining the centre to the point of contact is the shortest distance from the centre to the tangent line.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Q12)\nAssertion (A): If the lengths of two tangents drawn from an external point to a circle are \\(8\\text{ cm}\\) each, then the distance between the external point and the centre of the circle must be \\(8\\text{ cm}\\).\nReason (R): The lengths of tangents drawn from an external point to a circle are equal.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "\nAssertion (A): If the lengths of two tangents drawn from an external point to a circle are \\(8\\text{ cm}\\) each, then the distance between the external point and the centre of the circle must be \\(8\\text{ cm}\\).\nReason (R): The lengths of tangents drawn from an external point to a circle are equal.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "Q13)\nAssertion (A): A line touching a circle at only one point is called a secant.\nReason (R): A line intersecting a circle at two distinct points is called a secant.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+      "question": "\nAssertion (A): A line touching a circle at only one point is called a secant.\nReason (R): A line intersecting a circle at two distinct points is called a secant.\n(A) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "Q14) Match the geometric terms related to circles in Column-I with their corresponding descriptions in Column-II:\n\nColumn-I:\n(p) Tangent to a circle\n(q) Secant to a circle\n(r) Point of contact\n(s) Concentric circles\n\nColumn-II:\n(i) Line intersecting a circle in two distinct points\n(ii) Line that intersects the circle at only one point\n(iii) Circles having the same centre\n(iv) Common point of the tangent and the circle\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "Match the geometric terms related to circles in Column-I with their corresponding descriptions in Column-II:\n\nColumn-I:\n(p) Tangent to a circle\n(q) Secant to a circle\n(r) Point of contact\n(s) Concentric circles\n\nColumn-II:\n(i) Line intersecting a circle in two distinct points\n(ii) Line that intersects the circle at only one point\n(iii) Circles having the same centre\n(iv) Common point of the tangent and the circle\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Q15) Match the circle properties in Column-I with their corresponding values/relations in Column-II:\n\nColumn-I:\n(p) Angle between tangent and radius at the point of contact\n(q) Number of tangents drawn from a point inside the circle\n(r) Maximum number of parallel tangents to a circle at a time\n(s) Maximum number of tangents from an external point to a circle\n\nColumn-II:\n(i) \\(0\\)\n(ii) \\(90^{\\circ}\\)\n(iii) \\(2\\)\n(iv) \\(2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "Match the circle properties in Column-I with their corresponding values/relations in Column-II:\n\nColumn-I:\n(p) Angle between tangent and radius at the point of contact\n(q) Number of tangents drawn from a point inside the circle\n(r) Maximum number of parallel tangents to a circle at a time\n(s) Maximum number of tangents from an external point to a circle\n\nColumn-II:\n(i) \\(0\\)\n(ii) \\(90^{\\circ}\\)\n(iii) \\(2\\)\n(iv) \\(2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     }
@@ -3240,77 +3240,77 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) যদি দুটা এককেন্দ্ৰিক বৃত্তৰ ব্যাসাৰ্ধ ক্ৰমে \\(4\\text{ cm}\\) আৰু \\(5\\text{ cm}\\) হয়, তেন্তে এটা বৃত্তৰ জ্যাৰ দৈৰ্ঘ্য যিটো আনটো বৃত্তৰ স্পৰ্শক, হ'ব:",
+      "question": "যদি দুটা এককেন্দ্ৰিক বৃত্তৰ ব্যাসাৰ্ধ ক্ৰমে \\(4\\text{ cm}\\) আৰু \\(5\\text{ cm}\\) হয়, তেন্তে এটা বৃত্তৰ জ্যাৰ দৈৰ্ঘ্য যিটো আনটো বৃত্তৰ স্পৰ্শক, হ'ব:",
       "options": ["\\(3\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(9\\text{ cm}\\)", "\\(1\\text{ cm}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q2) যদি এটা বৃত্তৰ দুডাল ব্যাসাৰ্ধৰ মাজৰ কোণ \\(130^{\\circ}\\) হয়, তেন্তে ব্যাসাৰ্ধ দুডালৰ মূৰত টনা স্পৰ্শক দুডালৰ মাজৰ কোণ হ'ব:",
+      "question": "যদি এটা বৃত্তৰ দুডাল ব্যাসাৰ্ধৰ মাজৰ কোণ \\(130^{\\circ}\\) হয়, তেন্তে ব্যাসাৰ্ধ দুডালৰ মূৰত টনা স্পৰ্শক দুডালৰ মাজৰ কোণ হ'ব:",
       "options": ["\\(90^{\\circ}\\)", "\\(50^{\\circ}\\)", "\\(70^{\\circ}\\)", "\\(40^{\\circ}\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q3) \\(5\\text{ cm}\\) ব্যাসাৰ্ধৰ এটা বৃত্তৰ \\(AB\\) ব্যাসৰ এটা মূৰ \\(A\\)-ত \\(XAY\\) স্পৰ্শক টনা হ'ল। \\(XY\\)-ৰ সমান্তৰালভাৱে \\(A\\)-ৰ পৰা \\(8\\text{ cm}\\) দূৰত্বত থকা \\(CD\\) জ্যাডালৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "\\(5\\text{ cm}\\) ব্যাসাৰ্ধৰ এটা বৃত্তৰ \\(AB\\) ব্যাসৰ এটা মূৰ \\(A\\)-ত \\(XAY\\) স্পৰ্শক টনা হ'ল। \\(XY\\)-ৰ সমান্তৰালভাৱে \\(A\\)-ৰ পৰা \\(8\\text{ cm}\\) দূৰত্বত থকা \\(CD\\) জ্যাডালৰ দৈৰ্ঘ্য হ'ব:",
       "options": ["\\(4\\text{ cm}\\)", "\\(5\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(8\\text{ cm}\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "Q4) যদি \\(O\\) কেন্দ্রযুক্ত বৃত্তলৈ বহিঃবিন্দু \\(P\\)-ৰ পৰা টনা \\(PA\\) আৰু \\(PB\\) স্পৰ্শক দুডালে পৰস্পৰ \\(80^{\\circ}\\) কোণ উৎপন্ন কৰে, তেন্তে \\(\\angle POA\\)-ৰ মান হ'ব:",
+      "question": "যদি \\(O\\) কেন্দ্রযুক্ত বৃত্তলৈ বহিঃবিন্দু \\(P\\)-ৰ পৰা টনা \\(PA\\) আৰু \\(PB\\) স্পৰ্শক দুডালে পৰস্পৰ \\(80^{\\circ}\\) কোণ উৎপন্ন কৰে, তেন্তে \\(\\angle POA\\)-ৰ মান হ'ব:",
       "options": ["\\(50^{\\circ}\\)", "\\(60^{\\circ}\\)", "\\(70^{\\circ}\\)", "\\(80^{\\circ}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q5) যদি এটা চতুৰ্ভুজ \\(ABCD\\)-এ এটা বৃত্তক পৰিবেষ্টিত কৰে, তেন্তে \\(AB + CD\\)-ৰ মান তলৰ কোনটাৰ সমান হ'ব?",
+      "question": "যদি এটা চতুৰ্ভুজ \\(ABCD\\)-এ এটা বৃত্তক পৰিবেষ্টিত কৰে, তেন্তে \\(AB + CD\\)-ৰ মান তলৰ কোনটাৰ সমান হ'ব?",
       "options": ["\\(AC + BD\\)", "\\(AD + BC\\)", "\\(\\frac{1}{2}(AD + BC)\\)", "\\(2(AD + BC)\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q6) \\(5\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাৰ দুডাল সমান্তৰাল স্পৰ্শকৰ মাজৰ দূৰত্ব হ'ব:",
+      "question": "\\(5\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাৰ দুডাল সমান্তৰাল স্পৰ্শকৰ মাজৰ দূৰত্ব হ'ব:",
       "options": ["\\(5\\text{ cm}\\)", "\\(2.5\\text{ cm}\\)", "\\(10\\text{ cm}\\)", "\\(12\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q7) এটা বিন্দু \\(Q\\)-ৰ পৰা বৃত্তলৈ টনা স্পৰ্শকৰ দৈৰ্ঘ্য \\(24\\text{ cm}\\) আৰু কেন্দ্ৰৰ পৰা \\(Q\\)-ৰ দূৰত্ব \\(25\\text{ cm}\\)। বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:",
+      "question": "এটা বিন্দু \\(Q\\)-ৰ পৰা বৃত্তলৈ টনা স্পৰ্শকৰ দৈৰ্ঘ্য \\(24\\text{ cm}\\) আৰু কেন্দ্ৰৰ পৰা \\(Q\\)-ৰ দূৰত্ব \\(25\\text{ cm}\\)। বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:",
       "options": ["\\(7\\text{ cm}\\)", "\\(12\\text{ cm}\\)", "\\(15\\text{ cm}\\)", "\\(24.5\\text{ cm}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q8) যদি \\(3\\text{ cm}\\) ব্যাসাৰ্ধৰ বৃত্ত এটালৈ পৰস্পৰ \\(60^{\\circ}\\) কোণত হালি থকা দুডাল স্পৰ্শক টনা হয়, তেন্তে প্ৰত্যেকডাল স্পৰ্শকৰ দৈৰ্ঘ্য হ'ব:",
+      "question": "যদি \\(3\\text{ cm}\\) ব্যাসাৰ্ধৰ বৃত্ত এটালৈ পৰস্পৰ \\(60^{\\circ}\\) কোণত হালি থকা দুডাল স্পৰ্শক টনা হয়, তেন্তে প্ৰত্যেকডাল স্পৰ্শকৰ দৈৰ্ঘ্য হ'ব:",
       "options": ["\\(\\frac{3}{2}\\sqrt{3}\\text{ cm}\\)", "\\(6\\text{ cm}\\)", "\\(3\\sqrt{3}\\text{ cm}\\)", "\\(3\\text{ cm}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q9) এটা বৃত্তক পৰিবেষ্টিত কৰি ৰখা সামান্তৰিক এটা সদায় এটা:",
+      "question": "এটা বৃত্তক পৰিবেষ্টিত কৰি ৰখা সামান্তৰিক এটা সদায় এটা:",
       "options": ["আয়তক্ষেত্র", "বৰ্গক্ষেত্র", "ৰম্বাছ", "ট্রাপিজিয়াম"],
       "correctAnswer": 2
     },
     {
-      "question": "Q10) বৃত্ত এটাৰ বহিঃবিন্দু \\(P\\)-ৰ পৰা টনা স্পৰ্শকৰ দৈৰ্ঘ্য:",
+      "question": "বৃত্ত এটাৰ বহিঃবিন্দু \\(P\\)-ৰ পৰা টনা স্পৰ্শকৰ দৈৰ্ঘ্য:",
       "options": ["সদায় বৃত্তটোৰ ব্যাসাৰ্ধতকৈ ডাঙৰ", "সদায় বৃত্তটোৰ ব্যাসাৰ্ধতকৈ সৰু", "ব্যাসাৰ্ধতকৈ ডাঙৰ হ’বও পাৰে বা নহ’বও পাৰে", "সদায় বৃত্তটোৰ ব্যাসাৰ্ধৰ সমান"],
       "correctAnswer": 2
     },
     {
-      "question": "Q11)\nউক্তি (A): বৃত্তৰ যিকোনো বিন্দুত টনা স্পৰ্শকডাল স্পৰ্শবিন্দুগামী ব্যাসাৰ্ধৰ লম্ব।\nযুক্তি (R): কেন্দ্ৰৰ পৰা স্পৰ্শবিন্দুলৈ টনা ৰেখাডাল কেন্দ্ৰৰ পৰা স্পৰ্শক ৰেখালৈ আটাইতকৈ চুটি দূৰত্ব।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "\nউক্তি (A): বৃত্তৰ যিকোনো বিন্দুত টনা স্পৰ্শকডাল স্পৰ্শবিন্দুগামী ব্যাসাৰ্ধৰ লম্ব।\nযুক্তি (R): কেন্দ্ৰৰ পৰা স্পৰ্শবিন্দুলৈ টনা ৰেখাডাল কেন্দ্ৰৰ পৰা স্পৰ্শক ৰেখালৈ আটাইতকৈ চুটি দূৰত্ব।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Q12)\nউক্তি (A): যদি বৃত্ত এটাৰ বহিঃবিন্দুৰ পৰা টনা স্পৰ্শক দুডালৰ দৈৰ্ঘ্য ক্ৰমে \\(8\\text{ cm}\\) হয়, তেন্তে বহিঃবিন্দুটো আৰু বৃত্তৰ কেন্দ্ৰৰ মাজৰ দূৰত্ব নিশ্চিতভাৱে \\(8\\text{ cm}\\) হ’ব।\nযুক্তি (R): বৃত্তৰ বহিঃবিন্দুৰ পৰা বৃত্তলৈ টনা স্পৰ্শকবোৰৰ দৈৰ্ঘ্য সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "\nউক্তি (A): যদি বৃত্ত এটাৰ বহিঃবিন্দুৰ পৰা টনা স্পৰ্শক দুডালৰ দৈৰ্ঘ্য ক্ৰমে \\(8\\text{ cm}\\) হয়, তেন্তে বহিঃবিন্দুটো আৰু বৃত্তৰ কেন্দ্ৰৰ মাজৰ দূৰত্ব নিশ্চিতভাৱে \\(8\\text{ cm}\\) হ’ব।\nযুক্তি (R): বৃত্তৰ বহিঃবিন্দুৰ পৰা বৃত্তলৈ টনা স্পৰ্শকবোৰৰ দৈৰ্ঘ্য সমান।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "Q13)\nউক্তি (A): বৃত্ত এটাক কেৱল এটা বিন্দুত স্পৰ্শ কৰা ৰেখাডালক ছেদক বোলা হয়।\nযুক্তি (R): বৃত্ত এটাক দুটা ভিন্ন বিন্দুত ছেদ কৰা ৰেখাডালক ছেদক বোলা হয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
+      "question": "\nউক্তি (A): বৃত্ত এটাক কেৱল এটা বিন্দুত স্পৰ্শ কৰা ৰেখাডালক ছেদক বোলা হয়।\nযুক্তি (R): বৃত্ত এটাক দুটা ভিন্ন বিন্দুত ছেদ কৰা ৰেখাডালক ছেদক বোলা হয়।\n(A) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।\n(B) উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।\n(C) উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।\n(D) উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 3
     },
     {
-      "question": "Q14) স্তম্ভ-I-ত থকা বৃত্ত সংক্ৰান্তীয় জ্যামিতিক সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তৰ স্পৰ্শক\n(q) বৃত্তৰ ছেদক\n(r) স্পৰ্শবিন্দু\n(s) এককেন্দ্ৰিক বৃত্তসমূহ\n\nস্তম্ভ-II:\n(i) বৃত্ত এটাক দুটা ভিন্ন বিন্দুত ছেদ কৰা ৰেখা\n(ii) বৃত্ত এটাক কেৱল এটা বিন্দুত ছেদ কৰা ৰেখা\n(iii) একেটা কেন্দ্ৰ থকা বৃত্তসমূহ\n(iv) স্পৰ্শক আৰু বৃত্তৰ সাধাৰণ বিন্দু\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
+      "question": "স্তম্ভ-I-ত থকা বৃত্ত সংক্ৰান্তীয় জ্যামিতিক সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ বিৱৰণসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তৰ স্পৰ্শক\n(q) বৃত্তৰ ছেদক\n(r) স্পৰ্শবিন্দু\n(s) এককেন্দ্ৰিক বৃত্তসমূহ\n\nস্তম্ভ-II:\n(i) বৃত্ত এটাক দুটা ভিন্ন বিন্দুত ছেদ কৰা ৰেখা\n(ii) বৃত্ত এটাক কেৱল এটা বিন্দুত ছেদ কৰা ৰেখা\n(iii) একেটা কেন্দ্ৰ থকা বৃত্তসমূহ\n(iv) স্পৰ্শক আৰু বৃত্তৰ সাধাৰণ বিন্দু\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(i), q-(ii), r-(iii), s-(iv)\n(C) p-(ii), q-(iv), r-(i), s-(iii)\n(D) p-(iv), q-(iii), r-(ii), s-(i)",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     },
     {
-      "question": "Q15) স্তম্ভ-I-ত থকা বৃত্তৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মান/সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) স্পৰ্শবিন্দুত স্পৰ্শক আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ\n(q) বৃত্তৰ ভিতৰৰ বিন্দুৰ পৰা টানিব পৰা স্পৰ্শকৰ সংখ্যা\n(r) বৃত্ত এটাৰ একোবাৰত টানিব পৰা সমান্তৰাল স্পৰ্শকৰ সৰ্বোচ্চ সংখ্যা\n(s) বৃত্তৰ বহিঃবিন্দুৰ পৰা টানিব পৰা স্পৰ্শকৰ সৰ্বোচ্চ সংখ্যা\n\nস্তম্ভ-II:\n(i) \\(0\\)\n(ii) \\(90^{\\circ}\\)\n(iii) \\(2\\)\n(iv) \\(2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
+      "question": "স্তম্ভ-I-ত থকা বৃত্তৰ ধৰ্মসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মান/সম্পৰ্কসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) স্পৰ্শবিন্দুত স্পৰ্শক আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ\n(q) বৃত্তৰ ভিতৰৰ বিন্দুৰ পৰা টানিব পৰা স্পৰ্শকৰ সংখ্যা\n(r) বৃত্ত এটাৰ একোবাৰত টানিব পৰা সমান্তৰাল স্পৰ্শকৰ সৰ্বোচ্চ সংখ্যা\n(s) বৃত্তৰ বহিঃবিন্দুৰ পৰা টানিব পৰা স্পৰ্শকৰ সৰ্বোচ্চ সংখ্যা\n\nস্তম্ভ-II:\n(i) \\(0\\)\n(ii) \\(90^{\\circ}\\)\n(iii) \\(2\\)\n(iv) \\(2\\)\n\n(A) p-(ii), q-(i), r-(iv), s-(iii)\n(B) p-(iii), q-(ii), r-(i), s-(iv)\n(C) p-(ii), q-(iii), r-(iv), s-(i)\n(D) p-(i), q-(iv), r-(ii), s-(iii)",
       "options": ["A", "B", "C", "D"],
       "correctAnswer": 0
     }
@@ -3332,57 +3332,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:",
+      "question": "If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:",
       "options": ["\\(2\\text{ units}\\)", "\\(\\pi\\text{ units}\\)", "\\(4\\text{ units}\\)", "\\(7\\text{ units}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q2) Area of a sector of a circle of radius \\(R\\) with central angle \\(p\\) (in degrees) is:",
+      "question": "Area of a sector of a circle of radius \\(R\\) with central angle \\(p\\) (in degrees) is:",
       "options": ["\\(\\frac{p}{180} \\times 2\\pi R\\)", "\\(\\frac{p}{180} \\times \\pi R²\\)", "\\(\\frac{p}{360} \\times 2\\pi R\\)", "\\(\\frac{p}{720} \\times 2\\pi R²\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "Q3) If the sum of the areas of two circles with radii \\(R₁\\) and \\(R₂\\) is equal to the area of a circle of radius \\(R\\), then:",
+      "question": "If the sum of the areas of two circles with radii \\(R₁\\) and \\(R₂\\) is equal to the area of a circle of radius \\(R\\), then:",
       "options": ["\\(R₁ + R₂ = R\\)", "\\(R₁² + R₂² = R²\\)", "\\(R₁ + R₂ < R\\)", "\\(R₁² + R₂² < R²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q4) If the circumference of a circle and the perimeter of a square are equal, then:",
+      "question": "If the circumference of a circle and the perimeter of a square are equal, then:",
       "options": ["Area of the circle = Area of the square", "Area of the circle > Area of the square", "Area of the circle < Area of the square", "Nothing definite can be said"],
       "correctAnswer": 1
     },
     {
-      "question": "Q5) The area of a square that can be inscribed in a circle of radius \\(8\\text{ cm}\\) is:",
+      "question": "The area of a square that can be inscribed in a circle of radius \\(8\\text{ cm}\\) is:",
       "options": ["\\(256\\text{ cm}²\\)", "\\(128\\text{ cm}²\\)", "\\(64\\sqrt{2}\\text{ cm}²\\)", "\\(64\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q6) The length of the minute hand of a clock is \\(14\\text{ cm}\\). The area swept by the minute hand in \\(5\\text{ minutes}\\) is:",
+      "question": "The length of the minute hand of a clock is \\(14\\text{ cm}\\). The area swept by the minute hand in \\(5\\text{ minutes}\\) is:",
       "options": ["\\(154\\text{ cm}²\\)", "\\(\\frac{154}{3}\\text{ cm}²\\)", "\\(\\frac{77}{3}\\text{ cm}²\\)", "\\(77\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q7) If the radius of a circle is doubled, then its area becomes:",
+      "question": "If the radius of a circle is doubled, then its area becomes:",
       "options": ["\\(2\\text{ times}\\)", "\\(3\\text{ times}\\)", "\\(4\\text{ times}\\)", "\\(8\\text{ times}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q8) The area of the largest triangle that can be inscribed in a semi-circle of radius \\(r\\) is:",
+      "question": "The area of the largest triangle that can be inscribed in a semi-circle of radius \\(r\\) is:",
       "options": ["\\(r²\\)", "\\(\\frac{1}{2}r²\\)", "\\(2r²\\)", "\\(\\sqrt{2}r²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q9) The ratio of the areas of the incircle and circumcircle of a square is:",
+      "question": "The ratio of the areas of the incircle and circumcircle of a square is:",
       "options": ["1 : 2", "1 : 3", "1 : 4", "2 : 3"],
       "correctAnswer": 0
     },
     {
-      "question": "Q10) A car has two wipers which do not overlap. Each wiper has a blade of length \\(25\\text{ cm}\\) sweeping through an angle of \\(115^{\\circ}\\). The total area cleaned at each sweep of the blades is:",
+      "question": "A car has two wipers which do not overlap. Each wiper has a blade of length \\(25\\text{ cm}\\) sweeping through an angle of \\(115^{\\circ}\\). The total area cleaned at each sweep of the blades is:",
       "options": ["\\(\\frac{158125}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{252}\\text{ cm}²\\)", "\\(\\frac{125400}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{63}\\text{ cm}²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q11)\nAssertion (A): The length of the arc of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\).\nReason (R): The area of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\).",
+      "question": "\nAssertion (A): The length of the arc of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\).\nReason (R): The area of a sector of a circle of radius \\(r\\) with central angle \\(\\theta\\) is \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3392,7 +3392,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Q12)\nAssertion (A): If the perimeter of a semi-circular protractor is \\(36\\text{ cm}\\), then its diameter is \\(14\\text{ cm}\\).\nReason (R): The perimeter of a semi-circle of radius \\(r\\) is \\(\\pi r + 2r\\).",
+      "question": "\nAssertion (A): If the perimeter of a semi-circular protractor is \\(36\\text{ cm}\\), then its diameter is \\(14\\text{ cm}\\).\nReason (R): The perimeter of a semi-circle of radius \\(r\\) is \\(\\pi r + 2r\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3402,7 +3402,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q13)\nAssertion (A): The area of a circular track of outer radius \\(R\\) and inner radius \\(r\\) is \\(\\pi(R² - r²)\\).\nReason (R): The area of a segment of a circle is always equal to the area of its corresponding sector.",
+      "question": "\nAssertion (A): The area of a circular track of outer radius \\(R\\) and inner radius \\(r\\) is \\(\\pi(R² - r²)\\).\nReason (R): The area of a segment of a circle is always equal to the area of its corresponding sector.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -3412,7 +3412,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Q14) Match the parameters related to a circle of radius \\(r\\) and sector angle \\(\\theta\\) in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Area of sector\n(q) Length of arc\n(r) Circumference of circle\n(s) Area of circle\n\nColumn-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
+      "question": "Match the parameters related to a circle of radius \\(r\\) and sector angle \\(\\theta\\) in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Area of sector\n(q) Length of arc\n(r) Circumference of circle\n(s) Area of circle\n\nColumn-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
       "options": [
         "p-(ii), q-(iv), r-(i), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -3422,7 +3422,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q15) Match the geometric regions in Column-I with their definitions/expressions in Column-II:\n\nColumn-I:\n(p) Major sector\n(q) Minor segment\n(r) Circular ring area\n(s) Semi-circle area\n\nColumn-II:\n(i) Area of sector - Area of corresponding triangle\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) Area of circle - Area of minor sector\n(iv) \\(\\pi(R² - r²)\\)",
+      "question": "Match the geometric regions in Column-I with their definitions/expressions in Column-II:\n\nColumn-I:\n(p) Major sector\n(q) Minor segment\n(r) Circular ring area\n(s) Semi-circle area\n\nColumn-II:\n(i) Area of sector - Area of corresponding triangle\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) Area of circle - Area of minor sector\n(iv) \\(\\pi(R² - r²)\\)",
       "options": [
         "p-(iii), q-(i), r-(iv), s-(ii)",
         "p-(ii), q-(i), r-(iv), s-(iii)",
@@ -3448,57 +3448,57 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "Q1) যদি এটা বৃত্তৰ পৰিসীমা আৰু কালি সংখ্যাগতভাৱে সমান হয়, তেন্তে বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:",
+      "question": "যদি এটা বৃত্তৰ পৰিসীমা আৰু কালি সংখ্যাগতভাৱে সমান হয়, তেন্তে বৃত্তটোৰ ব্যাসাৰ্ধ হ'ব:",
       "options": ["\\(2\\text{ একক}\\)", "\\(\\pi\\text{ একক}\\)", "\\(4\\text{ একক}\\)", "\\(7\\text{ একক}\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q2) \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ \\(p\\) (ডিগ্ৰীত) কেন্দ্ৰীয় কোণ থকা এটা বৃত্তকলাৰ কালি হ'ল:",
+      "question": "\\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ \\(p\\) (ডিগ্ৰীত) কেন্দ্ৰীয় কোণ থকা এটা বৃত্তকলাৰ কালি হ'ল:",
       "options": ["\\(\\frac{p}{180} \\times 2\\pi R\\)", "\\(\\frac{p}{180} \\times \\pi R²\\)", "\\(\\frac{p}{360} \\times 2\\pi R\\)", "\\(\\frac{p}{720} \\times 2\\pi R²\\)"],
       "correctAnswer": 3
     },
     {
-      "question": "Q3) যদি \\(R₁\\) আৰু \\(R₂\\) ব্যাসাৰ্ধৰ দুটা বৃত্তৰ কালিৰ যোগফল \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ কালিৰ সমান হয়, তেন্তে:",
+      "question": "যদি \\(R₁\\) আৰু \\(R₂\\) ব্যাসাৰ্ধৰ দুটা বৃত্তৰ কালিৰ যোগফল \\(R\\) ব্যাসাৰ্ধৰ বৃত্ত এটাৰ কালিৰ সমান হয়, তেন্তে:",
       "options": ["\\(R₁ + R₂ = R\\)", "\\(R₁² + R₂² = R²\\)", "\\(R₁ + R₂ < R\\)", "\\(R₁² + R₂² < R²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q4) যদি এটা বৃত্তৰ পৰিধি আৰু এটা বৰ্গক্ষেত্ৰৰ পৰিসীমা সমান হয়, তেন্তে:",
+      "question": "যদি এটা বৃত্তৰ পৰিধি আৰু এটা বৰ্গক্ষেত্ৰৰ পৰিসীমা সমান হয়, তেন্তে:",
       "options": ["বৃত্তৰ কালি = বৰ্গক্ষেত্ৰৰ কালি", "বৃত্তৰ কালি > বৰ্গক্ষেত্ৰৰ কালি", "বৃত্তৰ কালি < বৰ্গক্ষেত্ৰৰ কালি", "নিশ্চিতভাৱে একো ক'ব নোৱাৰি"],
       "correctAnswer": 1
     },
     {
-      "question": "Q5) \\(8\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা বৰ্গক্ষেত্ৰ এটাৰ কালি হ'ব:",
+      "question": "\\(8\\text{ cm}\\) ব্যাসাৰ্ধ বিশিষ্ট বৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা বৰ্গক্ষেত্ৰ এটাৰ কালি হ'ব:",
       "options": ["\\(256\\text{ cm}²\\)", "\\(128\\text{ cm}²\\)", "\\(64\\sqrt{2}\\text{ cm}²\\)", "\\(64\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q6) ঘড়ী এটাৰ মিনিটৰ কাঁটাডালৰ দৈৰ্ঘ্য \\(14\\text{ cm}\\)। \\(5\\text{ মিনিট}\\)ত মিনিটৰ কাঁটাডালে আৱৰি লোৱা স্থানৰ কালি হ'ব:",
+      "question": "ঘড়ী এটাৰ মিনিটৰ কাঁটাডালৰ দৈৰ্ঘ্য \\(14\\text{ cm}\\)। \\(5\\text{ মিনিট}\\)ত মিনিটৰ কাঁটাডালে আৱৰি লোৱা স্থানৰ কালি হ'ব:",
       "options": ["\\(154\\text{ cm}²\\)", "\\(\\frac{154}{3}\\text{ cm}²\\)", "\\(\\frac{77}{3}\\text{ cm}²\\)", "\\(77\\text{ cm}²\\)"],
       "correctAnswer": 1
     },
     {
-      "question": "Q7) যদি এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰা হয়, তেন্তে ইয়াৰ কালি হ'ব:",
+      "question": "যদি এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰা হয়, তেন্তে ইয়াৰ কালি হ'ব:",
       "options": ["\\(2\\text{ গুণ}\\)", "\\(3\\text{ গুণ}\\)", "\\(4\\text{ গুণ}\\)", "\\(8\\text{ গুণ}\\)"],
       "correctAnswer": 2
     },
     {
-      "question": "Q8) \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা আটাইতকৈ ডাঙৰ ত্ৰিভুজটোৰ কালি হ'ব:",
+      "question": "\\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাত অন্তৰ্লিখিত কৰিব পৰা আটাইতকৈ ডাঙৰ ত্ৰিভুজটোৰ কালি হ'ব:",
       "options": ["\\(r²\\)", "\\(\\frac{1}{2}r²\\)", "\\(2r²\\)", "\\(\\sqrt{2}r²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q9) এটা বৰ্গক্ষেত্ৰৰ অন্তৰ্বৃত্ত আৰু পৰিবৃত্তৰ কালিৰ অনুপাত হ'ব:",
+      "question": "এটা বৰ্গক্ষেত্ৰৰ অন্তৰ্বৃত্ত আৰু পৰিবৃত্তৰ কালিৰ অনুপাত হ'ব:",
       "options": ["1 : 2", "1 : 3", "1 : 4", "2 : 3"],
       "correctAnswer": 0
     },
     {
-      "question": "Q10) এখন গাড়ীৰ দুখন ৱাইপাৰ আছে যিবোৰ ইডালে সিডালক অগ্ৰাক্ৰমণ (overlap) নকৰে। প্ৰতিখন ৱাইপাৰৰ ফলকৰ দৈৰ্ঘ্য \\(25\\text{ cm}\\) আৰু সিহঁতে \\(115^{\\circ}\\) কোণত ঘূৰে। ফলক দুখনে প্ৰতিটো পাকত পৰিষ্কাৰ কৰা মুঠ কালি হ'ব:",
+      "question": "এখন গাড়ীৰ দুখন ৱাইপাৰ আছে যিবোৰ ইডালে সিডালক অগ্ৰাক্ৰমণ (overlap) নকৰে। প্ৰতিখন ৱাইপাৰৰ ফলকৰ দৈৰ্ঘ্য \\(25\\text{ cm}\\) আৰু সিহঁতে \\(115^{\\circ}\\) কোণত ঘূৰে। ফলক দুখনে প্ৰতিটো পাকত পৰিষ্কাৰ কৰা মুঠ কালি হ'ব:",
       "options": ["\\(\\frac{158125}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{252}\\text{ cm}²\\)", "\\(\\frac{125400}{126}\\text{ cm}²\\)", "\\(\\frac{158125}{63}\\text{ cm}²\\)"],
       "correctAnswer": 0
     },
     {
-      "question": "Q11)\nউক্তি (A): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ বৃত্তচাপৰ দৈৰ্ঘ্য হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ কালি হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)।",
+      "question": "\nউক্তি (A): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ বৃত্তচাপৰ দৈৰ্ঘ্য হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ কালি হ'ল \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -3508,7 +3508,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Q12)\nউক্তি (A): যদি এটা অৰ্ধবৃত্তাকাৰ চাঁদাৰ পৰিসীমা \\(36\\text{ cm}\\) হয়, তেন্তে ইয়াৰ ব্যাস \\(14\\text{ cm}\\) হ'ব।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাৰ পৰিসীমা \\(\\pi r + 2r\\)।",
+      "question": "\nউক্তি (A): যদি এটা অৰ্ধবৃত্তাকাৰ চাঁদাৰ পৰিসীমা \\(36\\text{ cm}\\) হয়, তেন্তে ইয়াৰ ব্যাস \\(14\\text{ cm}\\) হ'ব।\nযুক্তি (R): \\(r\\) ব্যাসাৰ্ধৰ অৰ্ধবৃত্ত এটাৰ পৰিসীমা \\(\\pi r + 2r\\)।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -3518,7 +3518,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q13)\nউক্তি (A): বহিঃব্যাসাৰ্ধ \\(R\\) আৰু অন্তঃব্যাসাৰ্ধ \\(r\\) থকা এটা বৃত্তাকাৰ পথৰ কালি \\(\\pi(R² - r²)\\)।\nযুক্তি (R): বৃত্ত এটাৰ বৃত্তখণ্ডৰ কালি সদায় ইয়াৰ অনুৰূপ বৃত্তকলাৰ কালিৰ সমান।",
+      "question": "\nউক্তি (A): বহিঃব্যাসাৰ্ধ \\(R\\) আৰু অন্তঃব্যাসাৰ্ধ \\(r\\) থকা এটা বৃত্তাকাৰ পথৰ কালি \\(\\pi(R² - r²)\\)।\nযুক্তি (R): বৃত্ত এটাৰ বৃত্তখণ্ডৰ কালি সদায় ইয়াৰ অনুৰূপ বৃত্তকলাৰ কালিৰ সমান।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -3528,7 +3528,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Q14) স্তম্ভ-I-ত থকা \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্তৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তকলাৰ কালি\n(q) বৃত্তচাপৰ দৈৰ্ঘ্য\n(r) বৃত্তৰ পৰিধি\n(s) বৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
+      "question": "স্তম্ভ-I-ত থকা \\(r\\) ব্যাসাৰ্ধ আৰু \\(\\theta\\) কেন্দ্ৰীয় কোণ থকা বৃত্তৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) বৃত্তকলাৰ কালি\n(q) বৃত্তচাপৰ দৈৰ্ঘ্য\n(r) বৃত্তৰ পৰিধি\n(s) বৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) \\(2\\pi r\\)\n(ii) \\(\\frac{\\theta}{360^{\\circ}} \\times \\pi r²\\)\n(iii) \\(\\pi r²\\)\n(iv) \\(\\frac{\\theta}{360^{\\circ}} \\times 2\\pi r\\)",
       "options": [
         "p-(ii), q-(iv), r-(i), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -3538,7 +3538,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Q15) স্তম্ভ-I-ত থকা জ্যামিতিক অঞ্চলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংজ্ঞা/ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মুখ্য বৃত্তকলা\n(q) গৌণ বৃত্তখণ্ড\n(r) বৃত্তাকাৰ বলয়ৰ কালি\n(s) অৰ্ধবৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) বৃত্তকলাৰ কালি - অনুৰূপ ত্ৰিভুজৰ কালি\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) বৃত্তৰ কালি - গৌণ বৃত্তকলাৰ কালি\n(iv) \\(\\pi(R² - r²)\\)",
+      "question": "স্তম্ভ-I-ত থকা জ্যামিতিক অঞ্চলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংজ্ঞা/ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মুখ্য বৃত্তকলা\n(q) গৌণ বৃত্তখণ্ড\n(r) বৃত্তাকাৰ বলয়ৰ কালি\n(s) অৰ্ধবৃত্তৰ কালি\n\nস্তম্ভ-II:\n(i) বৃত্তকলাৰ কালি - অনুৰূপ ত্ৰিভুজৰ কালি\n(ii) \\(\\frac{1}{2}\\pi r²\\)\n(iii) বৃত্তৰ কালি - গৌণ বৃত্তকলাৰ কালি\n(iv) \\(\\pi(R² - r²)\\)",
       "options": [
         "p-(iii), q-(i), r-(iv), s-(ii)",
         "p-(ii), q-(i), r-(iv), s-(iii)",
