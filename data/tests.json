@@ -3479,7 +3479,7 @@
     },
     {
       "question": "যদি এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰা হয়, তেন্তে ইয়াৰ কালি হ'ব:",
-      "options": ["\\(2\\text{ গুণ}\\)", "\\(3\\text{ গুণ}\\)", "\\(4\\text{ গুণ}\\)", "\\(8\\text{ গুণ}\\)"],
+      "options": ["2গুণ", "3গুণ", "4 গুণ", "8 গুণ"],
       "correctAnswer": 2
     },
     {
@@ -3896,12 +3896,12 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "If the mean of the observations \\\\(x, x+3, x+5, x+7,\\\\) and \\\\(x+10\\\\) is 9, then the mean of the last three observations is:",
+      "question": "If the mean of the observations \\(x, x+3, x+5, x+7,\\) and \\(x+10\\) is 9, then the mean of the last three observations is:",
       "options": [
-        "\\\\(10\\\\frac{1}{3}\\\\)",
-        "\\\\(11\\\\frac{1}{3}\\\\)",
-        "\\\\(11\\\\)",
-        "\\\\(10\\\\)"
+        "\\(10\\frac{1}{3}\\)",
+        "\\(11\\frac{1}{3}\\)",
+        "\\(11\\)",
+        "\\(10\\)"
       ],
       "correctAnswer": 1
     },
@@ -3956,7 +3956,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "If the mean of first \\\\(n\\\\) natural numbers is \\\\(\\\\frac{5n}{9}\\\\), then the value of \\\\(n\\\\) is:",
+      "question": "If the mean of first \\(n\\) natural numbers is \\(\\frac{5n}{9}\\), then the value of \\(n\\) is:",
       "options": [
         "9",
         "10",
@@ -3996,7 +3996,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Assertion (A): The median of the observations 11, 12, 14, 18, \\\\(x+2\\\\), \\\\(x+4\\\\), 30, 32, 35, 41 arranged in ascending order is 24. Then the value of \\\\(x\\\\) is 21.\nReason (R): Median is the middlemost value of the given data when arranged in numerical order.",
+      "question": "Assertion (A): The median of the observations 11, 12, 14, 18, \\(x+2\\), \\(x+4\\), 30, 32, 35, 41 arranged in ascending order is 24. Then the value of \\(x\\) is 21.\nReason (R): Median is the middlemost value of the given data when arranged in numerical order.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4006,7 +4006,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): If the mode of a distribution is 8 and mean is 8, then its median is also 8.\nReason (R): Empirical relationship between the three measures of central tendency is: \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\).",
+      "question": "Assertion (A): If the mode of a distribution is 8 and mean is 8, then its median is also 8.\nReason (R): Empirical relationship between the three measures of central tendency is: \\(\\text{Mode} = 3\\text{ Median} - 2\\text{ Mean}\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4016,7 +4016,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): The mean of \\\\(x, x+2, x+4, x+6, x+8\\\\) is \\\\(x+4\\\\).\nReason (R): The mode of a data set is always one of the numbers given in the data set.",
+      "question": "Assertion (A): The mean of \\(x, x+2, x+4, x+6, x+8\\) is \\(x+4\\).\nReason (R): The mode of a data set is always one of the numbers given in the data set.",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4026,7 +4026,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "Match the statistical measures in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Direct Method for Mean (\\\\(\\\\bar{x}\\\\))\n(q) Assumed Mean Method for Mean (\\\\(\\\\bar{x}\\\\))\n(r) Step-Deviation Method for Mean (\\\\(\\\\bar{x}\\\\))\n(s) Mode of grouped data\n\nColumn-II:\n(i) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i d_i}{\\\\sum f_i}\\\\right)\\\\)\n(ii) \\\\(\\\\frac{\\\\sum f_i x_i}{\\\\sum f_i}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\\\right) \\\\times h\\\\)\n(iv) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i u_i}{\\\\sum f_i}\\\\right) \\\\times h\\\\)",
+      "question": "Match the statistical measures in Column-I with their corresponding formulas in Column-II:\n\nColumn-I:\n(p) Direct Method for Mean (\\(\\bar{x}\\))\n(q) Assumed Mean Method for Mean (\\(\\bar{x}\\))\n(r) Step-Deviation Method for Mean (\\(\\bar{x}\\))\n(s) Mode of grouped data\n\nColumn-II:\n(i) \\(a + \\left(\\frac{\\sum f_i d_i}{\\sum f_i}\\right)\\)\n(ii) \\(\\frac{\\sum f_i x_i}{\\sum f_i}\\)\n(iii) \\(l + \\left(\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right) \\times h\\)\n(iv) \\(a + \\left(\\frac{\\sum f_i u_i}{\\sum f_i}\\right) \\times h\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -4036,7 +4036,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Match the statistical terms in Column-I with their mathematical definitions/properties in Column-II:\n\nColumn-I:\n(p) Class mark (\\\\(x_i\\\\))\n(q) Cumulative frequency\n(r) Empirical relationship\n(s) Median of grouped data\n\nColumn-II:\n(i) Running total of frequencies up to a class\n(ii) \\\\(\\\\frac{\\\\text{Upper class limit} + \\\\text{Lower class limit}}{2}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{\\\\frac{N}{2} - cf}{f}\\\\right) \\\\times h\\\\)\n(iv) \\\\(\\\\text{Mode} = 3\\\\text{ Median} - 2\\\\text{ Mean}\\\\)",
+      "question": "Match the statistical terms in Column-I with their mathematical definitions/properties in Column-II:\n\nColumn-I:\n(p) Class mark (\\(x_i\\))\n(q) Cumulative frequency\n(r) Empirical relationship\n(s) Median of grouped data\n\nColumn-II:\n(i) Running total of frequencies up to a class\n(ii) \\(\\frac{\\text{Upper class limit} + \\text{Lower class limit}}{2}\\)\n(iii) \\(l + \\left(\\frac{\\frac{N}{2} - cf}{f}\\right) \\times h\\)\n(iv) \\(\\text{Mode} = 3\\text{ Median} - 2\\text{ Mean}\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -4047,7 +4047,6 @@
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-AS-CH13-01",
   "title": "পৰিসংখ্যা - Test 1",
@@ -4063,12 +4062,12 @@
   "negativeMarks": 0,
   "questions": [
     {
-      "question": "যদি \\\\(x, x+3, x+5, x+7,\\\\) আৰু \\\\(x+10\\\\) পৰ্যবেক্ষণসমূহৰ মাধ্য 9 হয়, তেন্তে শেষৰ তিনিটা পৰ্যবেক্ষণৰ মাধ্য হ'ব:",
+      "question": "যদি \\(x, x+3, x+5, x+7,\\) আৰু \\(x+10\\) পৰ্যবেক্ষণসমূহৰ মাধ্য 9 হয়, তেন্তে শেষৰ তিনিটা পৰ্যবেক্ষণৰ মাধ্য হ'ব:",
       "options": [
-        "\\\\(10\\\\frac{1}{3}\\\\)",
-        "\\\\(11\\\\frac{1}{3}\\\\)",
-        "\\\\(11\\\\)",
-        "\\\\(10\\\\)"
+        "\\(10\\frac{1}{3}\\)",
+        "\\(11\\frac{1}{3}\\)",
+        "\\(11\\)",
+        "\\(10\\)"
       ],
       "correctAnswer": 1
     },
@@ -4123,7 +4122,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "যদি প্ৰথম \\\\(n\\\\) টা স্বাভাৱিক সংখ্যাৰ মাধ্য \\\\(\\\\frac{5n}{9}\\\\) হয়, তেন্তে \\\\(n\\\\)-ৰ মান হ'ব:",
+      "question": "যদি প্ৰথম \\(n\\) টা স্বাভাৱিক সংখ্যাৰ মাধ্য \\(\\frac{5n}{9}\\) হয়, তেন্তে \\(n\\)-ৰ মান হ'ব:",
       "options": [
         "9",
         "10",
@@ -4163,7 +4162,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "উক্তি (A): উৰ্ধ্বক্ৰমত সজোৱা 11, 12, 14, 18, \\\\(x+2\\\\), \\\\(x+4\\\\), 30, 32, 35, 41 পৰ্যবেক্ষণসমূহৰ মধ্যমা 24। তেন্তে \\\\(x\\\\)-ৰ মান হ'ব 21।\nযুক্তি (R): সংখ্যাগত ক্ৰমত সজালে পোৱা দিয়া তথ্যৰ একেবাৰে মাজৰ মানটোৱেই হ'ল মধ্যমা।",
+      "question": "উক্তি (A): উৰ্ধ্বক্ৰমত সজোৱা 11, 12, 14, 18, \\(x+2\\), \\(x+4\\), 30, 32, 35, 41 পৰ্যবেক্ষণসমূহৰ মধ্যমা 24। তেন্তে \\(x\\)-ৰ মান হ'ব 21।\nযুক্তি (R): সংখ্যাগত ক্ৰমত সজালে পোৱা দিয়া তথ্যৰ একেবাৰে মাজৰ মানটোৱেই হ'ল মধ্যমা।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -4183,7 +4182,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): \\\\(x, x+2, x+4, x+6, x+8\\\\)-ৰ মাধ্য হ'ল \\\\(x+4\\\\)।\nযুক্তি (R): তথ্যৰ বহুলক সদায় দিয়া তথ্যৰ ভিতৰৰে এটা সংখ্যা হয়।",
+      "question": "উক্তি (A): \\(x, x+2, x+4, x+6, x+8\\)-ৰ মাধ্য হ'ল \\(x+4\\)।\nযুক্তি (R): তথ্যৰ বহুলক সদায় দিয়া তথ্যৰ ভিতৰৰে এটা সংখ্যা হয়।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -4193,7 +4192,7 @@
       "correctAnswer": 1
     },
     {
-      "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক মাপসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মাধ্য নিৰ্ণয়ৰ প্ৰত্যক্ষ পদ্ধতি (\\\\(\\\\bar{x}\\\\))\n(q) মাধ্য নিৰ্ণয়ৰ আনুমানিক মাধ্য পদ্ধতি (\\\\(\\\\bar{x}\\\\))\n(r) মাধ্য নিৰ্ণয়ৰ ক্ৰম বিচ্যুতি পদ্ধতি (\\\\(\\\\bar{x}\\\\))\n(s) শ্ৰেণীকৃত তথ্যৰ বহুলক\n\nস্তম্ভ-II:\n(i) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i d_i}{\\\\sum f_i}\\\\right)\\\\)\n(ii) \\\\(\\\\frac{\\\\sum f_i x_i}{\\\\sum f_i}\\\\)\n(iii) \\\\(l + \\\\left(\\\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\\\right) \\\\times h\\\\)\n(iv) \\\\(a + \\\\left(\\\\frac{\\\\sum f_i u_i}{\\\\sum f_i}\\\\right) \\\\times h\\\\)",
+      "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক মাপসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ সূত্ৰসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মাধ্য নিৰ্ণয়ৰ প্ৰত্যক্ষ পদ্ধতি (\\(\\bar{x}\\))\n(q) মাধ্য নিৰ্ণয়ৰ আনুমানিক মাধ্য পদ্ধতি (\\(\\bar{x}\\))\n(r) মাধ্য নিৰ্ণয়ৰ ক্ৰম বিচ্যুতি পদ্ধতি (\\(\\bar{x}\\))\n(s) শ্ৰেণীকৃত তথ্যৰ বহুলক\n\nস্তম্ভ-II:\n(i) \\(a + \\left(\\frac{\\sum f_i d_i}{\\sum f_i}\\right)\\)\n(ii) \\(\\frac{\\sum f_i x_i}{\\sum f_i}\\)\n(iii) \\(l + \\left(\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right) \\times h\\)\n(iv) \\(a + \\left(\\frac{\\sum f_i u_i}{\\sum f_i}\\right) \\times h\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -4203,7 +4202,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সূত্ৰ/ধৰ্মসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) শ্ৰেণী চিহ্ন (\\\\(x_i\\\\))\n(q) ক্ৰমযোজিত বাৰংবাৰতা\n(r) এম্পিৰিকেল সম্পৰ্ক\n(s) শ্ৰেণীকৃত তথ্যৰ মধ্যমা\n\nস্তম্ভ-II:\n(i) এটা শ্ৰেণীলৈকে থকা বাৰংবাৰতাবোৰৰ ক্ৰমিক যোগফল\n(ii) \\\\frac{উচ্চ শ্ৰেণী সীমা + নিম্ন শ্ৰেণী সীমা}{2}\n(iii) \\\\(l + \\\\left(\\\\frac{\\\\frac{N}{2} - cf}{f}\\\\right) \\\\times h\\\\)\n(iv) বহুলক = 3 মধ্যমা - 2 মাধ্য",
+      "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক সংজ্ঞাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ গাণিতিক সূত্ৰ/ধৰ্মসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) শ্ৰেণী চিহ্ন (\\(x_i\\))\n(q) ক্ৰমযোজিত বাৰংবাৰতা\n(r) এম্পিৰিকেল সম্পৰ্ক\n(s) শ্ৰেণীকৃত তথ্যৰ মধ্যমা\n\nস্তম্ভ-II:\n(i) এটা শ্ৰেণীলৈকে থকা বাৰংবাৰতাবোৰৰ ক্ৰমিক যোগফল\n(ii) \\(\\frac{\\text{উচ্চ শ্ৰেণী সীমা} + \\text{নিম্ন শ্ৰেণী সীমা}}{2}\\)\n(iii) \\(l + \\left(\\frac{\\frac{N}{2} - cf}{f}\\right) \\times h\\)\n(iv) বহুলক = 3 মধ্যমা - 2 মাধ্য",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(iii), q-(ii), r-(i), s-(iv)",
@@ -4214,7 +4213,6 @@
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-EN-CH14-01",
   "title": "Probability - Test 1",
@@ -4232,100 +4230,100 @@
     {
       "question": "Which of the following cannot be the probability of an event?",
       "options": [
-        "\\\\(\\\\frac{2}{3}\\\\)",
-        "\\\\(-1.5\\\\)",
-        "\\\\(15\\\\%\\\\)",
-        "\\\\(0.7\\\\)"
+        "\\(\\frac{2}{3}\\)",
+        "\\(-1.5\\)",
+        "\\(15\\%\\)",
+        "\\(0.7\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "An event is very unlikely to happen. Its probability is closest to:",
       "options": [
-        "\\\\(0.0001\\\\)",
-        "\\\\(0.001\\\\)",
-        "\\\\(0.01\\\\)",
-        "\\\\(0.1\\\\)"
+        "\\(0.0001\\)",
+        "\\(0.001\\)",
+        "\\(0.01\\)",
+        "\\(0.1\\)"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "If the probability of an event \\\\(E\\\\) is \\\\(P(E)\\\\), then the probability of its complementary event \\\\(\\\\bar{E}\\\\) satisfies:",
+      "question": "If the probability of an event \\(E\\) is \\(P(E)\\), then the probability of its complementary event \\(\\bar{E}\\) satisfies:",
       "options": [
-        "\\\\(P(E) + P(\\\\bar{E}) = 0\\\\)",
-        "\\\\(P(E) + P(\\\\bar{E}) = 1\\\\)",
-        "\\\\(P(E) - P(\\\\bar{E}) = 1\\\\)",
-        "\\\\(P(E) \\\\times P(\\\\bar{E}) = 1\\\\)"
+        "\\(P(E) + P(\\bar{E}) = 0\\)",
+        "\\(P(E) + P(\\bar{E}) = 1\\)",
+        "\\(P(E) - P(\\bar{E}) = 1\\)",
+        "\\(P(E) \\times P(\\bar{E}) = 1\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "A card is selected at random from a well-shuffled deck of 52 playing cards. The probability of getting a face card is:",
       "options": [
-        "\\\\(\\\\frac{3}{13}\\\\)",
-        "\\\\(\\\\frac{4}{13}\\\\)",
-        "\\\\(\\\\frac{1}{13}\\\\)",
-        "\\\\(\\\\frac{1}{26}\\\\)"
+        "\\(\\frac{3}{13}\\)",
+        "\\(\\frac{4}{13}\\)",
+        "\\(\\frac{1}{13}\\)",
+        "\\(\\frac{1}{26}\\)"
       ],
       "correctAnswer": 0
     },
     {
       "question": "Someone promises to give a prize to a person who picks a prime number from 1 to 100. The probability of winning the prize is:",
       "options": [
-        "\\\\(\\\\frac{1}{4}\\\\)",
-        "\\\\(\\\\frac{13}{50}\\\\)",
-        "\\\\(\\\\frac{27}{100}\\\\)",
-        "\\\\(\\\\frac{6}{25}\\\\)"
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{13}{50}\\)",
+        "\\(\\frac{27}{100}\\)",
+        "\\(\\frac{6}{25}\\)"
       ],
       "correctAnswer": 0
     },
     {
       "question": "Two dice are thrown simultaneously. The probability of getting a doublet is:",
       "options": [
-        "\\\\(\\\\frac{1}{36}\\\\)",
-        "\\\\(\\\\frac{1}{3}\\\\)",
-        "\\\\(\\\\frac{1}{6}\\\\)",
-        "\\\\(\\\\frac{5}{12}\\\\)"
+        "\\(\\frac{1}{36}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{5}{12}\\)"
       ],
       "correctAnswer": 2
     },
     {
       "question": "A bag contains 3 red balls, 5 white balls, and 7 black balls. A ball is drawn at random from the bag. The probability that the ball drawn is neither red nor black is:",
       "options": [
-        "\\\\(\\\\frac{1}{3}\\\\)",
-        "\\\\(\\\\frac{1}{5}\\\\)",
-        "\\\\(\\\\frac{7}{15}\\\\)",
-        "\\\\(\\\\frac{8}{15}\\\\)"
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{5}\\)",
+        "\\(\\frac{7}{15}\\)",
+        "\\(\\frac{8}{15}\\)"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "If a number \\\\(x\\\\) is chosen at random from the numbers \\\\(-3, -2, -1, 0, 1, 2, 3\\\\), then the probability that \\\\(\\\\vert x \\\\vert < 2\\\\) is:",
+      "question": "If a number \\(x\\) is chosen at random from the numbers \\(-3, -2, -1, 0, 1, 2, 3\\), then the probability that \\(\\vert x \\vert < 2\\) is:",
       "options": [
-        "\\\\(\\\\frac{5}{7}\\\\)",
-        "\\\\(\\\\frac{3}{7}\\\\)",
-        "\\\\(\\\\frac{2}{7}\\\\)",
-        "\\\\(\\\\frac{1}{7}\\\\)"
+        "\\(\\frac{5}{7}\\)",
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{2}{7}\\)",
+        "\\(\\frac{1}{7}\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "A leap year chosen at random has 53 Sundays. The probability of this event is:",
       "options": [
-        "\\\\(\\\\frac{1}{7}\\\\)",
-        "\\\\(\\\\frac{2}{7}\\\\)",
-        "\\\\(\\\\frac{3}{7}\\\\)",
-        "\\\\(\\\\frac{53}{366}\\\\)"
+        "\\(\\frac{1}{7}\\)",
+        "\\(\\frac{2}{7}\\)",
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{53}{366}\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "A game consists of tossing a one-rupee coin 3 times and noting its outcome each time. Hanif wins if all the tosses give the same result i.e., three heads or three tails, and loses otherwise. The probability that Hanif will lose the game is:",
       "options": [
-        "\\\\(\\\\frac{1}{4}\\\\)",
-        "\\\\(\\\\frac{1}{2}\\\\)",
-        "\\\\(\\\\frac{3}{4}\\\\)",
-        "\\\\(\\\\frac{3}{8}\\\\)"
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(\\frac{3}{8}\\)"
       ],
       "correctAnswer": 2
     },
@@ -4350,7 +4348,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Assertion (A): If \\\\(P(E) = 0.05\\\\), then \\\\(P(\\\\text{not } E) = 0.95\\\\).\nReason (R): For any event \\\\(E\\\\), \\\\(P(E) + P(\\\\text{not } E) = 0\\\\).",
+      "question": "Assertion (A): If \\(P(E) = 0.05\\), then \\(P(\\text{not } E) = 0.95\\).\nReason (R): For any event \\(E\\), \\(P(E) + P(\\text{not } E) = 0\\).",
       "options": [
         "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
         "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
@@ -4360,7 +4358,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Match the events in Column-I with their probability values in Column-II:\n\nColumn-I:\n(p) Probability of a sure event\n(q) Probability of an impossible event\n(r) Probability of getting a head in a single coin toss\n(s) Probability of drawing an Ace from a deck of 52 cards\n\nColumn-II:\n(i) \\\\(0\\\\)\n(ii) \\\\(1\\\\)\n(iii) \\\\(\\\\frac{1}{13}\\\\)\n(iv) \\\\(\\\\frac{1}{2}\\\\)",
+      "question": "Match the events in Column-I with their probability values in Column-II:\n\nColumn-I:\n(p) Probability of a sure event\n(q) Probability of an impossible event\n(r) Probability of getting a head in a single coin toss\n(s) Probability of drawing an Ace from a deck of 52 cards\n\nColumn-II:\n(i) \\(0\\)\n(ii) \\(1\\)\n(iii) \\(\\frac{1}{13}\\)\n(iv) \\(\\frac{1}{2}\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -4381,7 +4379,6 @@
     }
   ]
 },
-
 {
   "id": "BT-X-MATH-AS-CH14-01",
   "title": "সম্ভাৱিতা - Test 1",
@@ -4399,100 +4396,100 @@
     {
       "question": "তলৰ কোনটো এটা ঘটনাৰ সম্ভাৱিতা হ'ব নোৱাৰে?",
       "options": [
-        "\\\\(\\\\frac{2}{3}\\\\)",
-        "\\\\(-1.5\\\\)",
-        "\\\\(15\\\\%\\\\)",
-        "\\\\(0.7\\\\)"
+        "\\(\\frac{2}{3}\\)",
+        "\\(-1.5\\)",
+        "\\(15\\%\\)",
+        "\\(0.7\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "এটা ঘটনা ঘটাৰ সম্ভাৱনা অতি কম। ইয়াৰ সম্ভাৱিতা তলৰ কোনটাৰ আটাইতকৈ ওচৰত?",
       "options": [
-        "\\\\(0.0001\\\\)",
-        "\\\\(0.001\\\\)",
-        "\\\\(0.01\\\\)",
-        "\\\\(0.1\\\\)"
+        "\\(0.0001\\)",
+        "\\(0.001\\)",
+        "\\(0.01\\)",
+        "\\(0.1\\)"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "যদি \\\\(E\\\\) ঘটনা এটাৰ সম্ভাৱিতা \\\\(P(E)\\\\) হয়, তেন্তে ইয়াৰ পূৰক ঘটনা \\\\(\\\\bar{E}\\\\)-ৰ সম্ভাৱিতাৰ শুদ্ধ সম্পৰ্কটো হ'ল:",
+      "question": "যদি \\(E\\) ঘটনা এটাৰ সম্ভাৱিতা \\(P(E)\\) হয়, তেন্তে ইয়াৰ পূৰক ঘটনা \\(\\bar{E}\\)-ৰ সম্ভাৱিতাৰ শুদ্ধ সম্পৰ্কটো হ'ল:",
       "options": [
-        "\\\\(P(E) + P(\\\\bar{E}) = 0\\\\)",
-        "\\\\(P(E) + P(\\\\bar{E}) = 1\\\\)",
-        "\\\\(P(E) - P(\\\\bar{E}) = 1\\\\)",
-        "\\\\(P(E) \\\\times P(\\\\bar{E}) = 1\\\\)"
+        "\\(P(E) + P(\\bar{E}) = 0\\)",
+        "\\(P(E) + P(\\bar{E}) = 1\\)",
+        "\\(P(E) - P(\\bar{E}) = 1\\)",
+        "\\(P(E) \\times P(\\bar{E}) = 1\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "ভালদৰে মিহলোৱা 52 পাত খেলপতীয়া কাৰ্ডৰ থুপ এটাৰ পৰা যাদৃচ্ছিকভাৱে এটা কাৰ্ড বাছি লোৱা হ'ল। কাৰ্ডখন এটা মুখ কাৰ্ড (face card) হোৱাৰ সম্ভাৱিতা হ'ল:",
       "options": [
-        "\\\\(\\\\frac{3}{13}\\\\)",
-        "\\\\(\\\\frac{4}{13}\\\\)",
-        "\\\\(\\\\frac{1}{13}\\\\)",
-        "\\\\(\\\\frac{1}{26}\\\\)"
+        "\\(\\frac{3}{13}\\)",
+        "\\(\\frac{4}{13}\\)",
+        "\\(\\frac{1}{13}\\)",
+        "\\(\\frac{1}{26}\\)"
       ],
       "correctAnswer": 0
     },
     {
       "question": "1 ৰ পৰা 100 ৰ ভিতৰত এটা মৌলিক সংখ্যা বাছি লোৱা ব্যক্তিক পুৰস্কাৰ দিয়াৰ প্ৰতিশ্ৰুতি দিয়া হ'ল। পুৰস্কাৰ পোৱাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{1}{4}\\\\)",
-        "\\\\(\\\\frac{13}{50}\\\\)",
-        "\\\\(\\\\frac{27}{100}\\\\)",
-        "\\\\(\\\\frac{6}{25}\\\\)"
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{13}{50}\\)",
+        "\\(\\frac{27}{100}\\)",
+        "\\(\\frac{6}{25}\\)"
       ],
       "correctAnswer": 0
     },
     {
       "question": "দুটা পাশা একেলগে মৰা হ'ল। যোৰা সংখ্যা (doublet) পোৱাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{1}{36}\\\\)",
-        "\\\\(\\\\frac{1}{3}\\\\)",
-        "\\\\(\\\\frac{1}{6}\\\\)",
-        "\\\\(\\\\frac{5}{12}\\\\)"
+        "\\(\\frac{1}{36}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{5}{12}\\)"
       ],
       "correctAnswer": 2
     },
     {
       "question": "এটা মোনাত 3 টা ৰঙা বল, 5 টা বগা বল, আৰু 7 টা ক'লা বল আছে। মোনাটোৰ পৰা যাদৃচ্ছিকভাৱে এটা বল তুলি লোৱা হ'ল। বলটো ৰঙাও নহয় আৰু ক'লাও নহয় হোৱাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{1}{3}\\\\)",
-        "\\\\(\\\\frac{1}{5}\\\\)",
-        "\\\\(\\\\frac{7}{15}\\\\)",
-        "\\\\(\\\\frac{8}{15}\\\\)"
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{1}{5}\\)",
+        "\\(\\frac{7}{15}\\)",
+        "\\(\\frac{8}{15}\\)"
       ],
       "correctAnswer": 0
     },
     {
-      "question": "যদি \\\\(-3, -2, -1, 0, 1, 2, 3\\\\) সংখ্যাবোৰৰ পৰা যাদৃচ্ছিকভাৱে এটা সংখ্যা \\\\(x\\\\) বাছি লোৱা হয়, তেন্তে \\\\(\\\\vert x \\\\vert < 2\\\\) হোৱাৰ সম্ভাৱিতা হ'ব:",
+      "question": "যদি \\(-3, -2, -1, 0, 1, 2, 3\\) সংখ্যাবোৰৰ পৰা যাদৃচ্ছিকভাৱে এটা সংখ্যা \\(x\\) বাছি লোৱা হয়, তেন্তে \\(\\vert x \\vert < 2\\) হোৱাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{5}{7}\\\\)",
-        "\\\\(\\\\frac{3}{7}\\\\)",
-        "\\\\(\\\\frac{2}{7}\\\\)",
-        "\\\\(\\\\frac{1}{7}\\\\)"
+        "\\(\\frac{5}{7}\\)",
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{2}{7}\\)",
+        "\\(\\frac{1}{7}\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "যাদৃচ্ছিকভাৱে বাছি লোৱা এটা অধিবৰ্ষত (leap year) 53 টা দেওবাৰ থকাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{1}{7}\\\\)",
-        "\\\\(\\\\frac{2}{7}\\\\)",
-        "\\\\(\\\\frac{3}{7}\\\\)",
-        "\\\\(\\\\frac{53}{366}\\\\)"
+        "\\(\\frac{1}{7}\\)",
+        "\\(\\frac{2}{7}\\)",
+        "\\(\\frac{3}{7}\\)",
+        "\\(\\frac{53}{366}\\)"
       ],
       "correctAnswer": 1
     },
     {
       "question": "এটা খেলত এটা এক টকীয়া মুদ্ৰা 3 বাৰ টছ কৰা হয় আৰু প্ৰতিবাৰেই ফলাফল লিখি ৰখা হয়। যদি সকলো টছতে একে ফলাফল পোৱা যায় (অৰ্থাৎ তিনিটা হেড বা তিনিটা টেইল), তেন্তে হানিফে খেলখনত জিতে, অন্যথা হাৰে। হানিফে খেলখনত হাৰাৰ সম্ভাৱিতা হ'ব:",
       "options": [
-        "\\\\(\\\\frac{1}{4}\\\\)",
-        "\\\\(\\\\frac{1}{2}\\\\)",
-        "\\\\(\\\\frac{3}{4}\\\\)",
-        "\\\\(\\\\frac{3}{8}\\\\)"
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(\\frac{3}{8}\\)"
       ],
       "correctAnswer": 2
     },
@@ -4517,7 +4514,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "উক্তি (A): যদি \\\\(P(E) = 0.05\\\\) হয়, তেন্তে \\\\(P(E\\\\) নহয়) = 0.95।\nযুক্তি (R): যিকোনো ঘটনা \\\\(E\\\\)-ৰ বাবে, \\\\(P(E) + P(E\\\\) নহয়) = 0।",
+      "question": "উক্তি (A): যদি \\(P(E) = 0.05\\) হয়, তেন্তে \\(P(\\text{not } E) = 0.95\\)।\nযুক্তি (R): যিকোনো ঘটনা \\(E\\)-ৰ বাবে, \\(P(E) + P(\\text{not } E) = 0\\)।",
       "options": [
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
         "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
@@ -4527,7 +4524,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "স্তম্ভ-I-ত থকা ঘটনাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সম্ভাৱিতাৰ মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) নিশ্চিত ঘটনাৰ সম্ভাৱিতা\n(q) অসম্ভৱ ঘটনাৰ সম্ভাৱিতা\n(r) মুদ্ৰা এবাৰ টছ কৰিলে হেড পোৱাৰ সম্ভাৱিতা\n(s) 52 পাত কাৰ্ডৰ পৰা এটা এক্কা (Ace) পোৱাৰ সম্ভাৱিতা\n\nস্তম্ভ-II:\n(i) \\\\(0\\\\)\n(ii) \\\\(1\\\\)\n(iii) \\\\(\\\\frac{1}{13}\\\\)\n(iv) \\\\(\\\\frac{1}{2}\\\\)",
+      "question": "স্তম্ভ-I-ত থকা ঘটনাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সম্ভাৱিতাৰ মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) নিশ্চিত ঘটনাৰ সম্ভাৱিতা\n(q) অসম্ভৱ ঘটনাৰ সম্ভাৱিতা\n(r) মুদ্ৰা এবাৰ টছ কৰিলে হেড পোৱাৰ সম্ভাৱিতা\n(s) 52 পাত কাৰ্ডৰ পৰা এটা এক্কা (Ace) পোৱাৰ সম্ভাৱিতা\n\nস্তম্ভ-II:\n(i) \\(0\\)\n(ii) \\(1\\)\n(iii) \\(\\frac{1}{13}\\)\n(iv) \\(\\frac{1}{2}\\)",
       "options": [
         "p-(ii), q-(i), r-(iv), s-(iii)",
         "p-(i), q-(ii), r-(iii), s-(iv)",
@@ -4548,6 +4545,5 @@
     }
   ]
 }
-
   ]
 }
