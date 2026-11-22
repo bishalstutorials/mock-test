@@ -12,7 +12,13 @@ const nextButton = document.getElementById("next-button");
 const submitButton = document.getElementById("submit-button");
 const timerElement = document.getElementById("timer");
 
-// QUESTION PALETTE ELEMENTS
+// INSTRUCTION SCREEN
+const instructionScreen = document.getElementById("instruction-screen");
+const instructionSummary = document.getElementById("instruction-summary");
+const startTestButton = document.getElementById("start-test-button");
+const testInterface = document.getElementById("test-interface");
+
+// QUESTION PALETTE
 const paletteGrid = document.getElementById("palette-grid");
 const answeredCount = document.getElementById("answered-count");
 const unansweredCount = document.getElementById("unanswered-count");
@@ -27,6 +33,11 @@ let visitedQuestions = [];
 let timeRemaining = 0;
 let timerInterval = null;
 let isSubmitting = false;
+let testStarted = false;
+
+let startTime = null;
+let endTime = null;
+let attemptNumber = 0;
 
 if (testYear) {
     testYear.textContent = new Date().getFullYear();
@@ -128,6 +139,118 @@ async function renderMath(elements) {
 
 
 // ============================================
+// FORMAT TIME
+// ============================================
+
+function formatDuration(seconds) {
+
+    const totalSeconds = Math.max(0, Math.floor(seconds));
+
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const remainingSeconds = totalSeconds % 60;
+
+    if (hours > 0) {
+        return `${hours}h ${minutes}m ${remainingSeconds}s`;
+    }
+
+    if (minutes > 0) {
+        return `${minutes}m ${remainingSeconds}s`;
+    }
+
+    return `${remainingSeconds}s`;
+}
+
+
+// ============================================
+// INSTRUCTION SCREEN
+// ============================================
+
+function showTestInstructions() {
+
+    if (!currentTest || !instructionSummary) return;
+
+    const duration =
+        Number(currentTest.duration ?? currentTest.durationMinutes);
+
+    const totalQuestions = currentTest.questions.length;
+
+    const marksPerQuestion =
+        currentTest.marksPerQuestion ?? 1;
+
+    const negativeMarks =
+        currentTest.negativeMarks ?? 0;
+
+    const totalMarks =
+        totalQuestions * Number(marksPerQuestion);
+
+    instructionSummary.innerHTML = `
+        <div class="instruction-detail">
+            <span>Test Name</span>
+            <strong>${escapeHTML(currentTest.title)}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Class</span>
+            <strong>${escapeHTML(currentTest.class || "Not specified")}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Subject</span>
+            <strong>${escapeHTML(currentTest.subject || "Not specified")}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Total Questions</span>
+            <strong>${totalQuestions}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Duration</span>
+            <strong>${duration} Minutes</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Total Marks</span>
+            <strong>${totalMarks}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Marks Per Question</span>
+            <strong>${marksPerQuestion}</strong>
+        </div>
+
+        <div class="instruction-detail">
+            <span>Negative Marks</span>
+            <strong>${negativeMarks}</strong>
+        </div>
+    `;
+
+    if (startTestButton) {
+        startTestButton.disabled = false;
+        startTestButton.textContent = "Start Now →";
+    }
+}
+
+
+function escapeHTML(value) {
+
+    return String(value ?? "").replace(/[&<>"']/g, function(character) {
+
+        const entities = {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#039;"
+        };
+
+        return entities[character];
+    });
+}
+
+
+// ============================================
 // QUESTION PALETTE
 // ============================================
 
@@ -152,9 +275,7 @@ function createQuestionPalette() {
 
         button.addEventListener("click", async function() {
 
-            if (timeRemaining <= 0) {
-                testMessage.textContent =
-                    "Time is up! Please submit your test.";
+            if (timeRemaining <= 0 || isSubmitting) {
                 return;
             }
 
@@ -325,7 +446,13 @@ async function loadTest() {
 
         });
 
-        // Unlimited attempts: no previous-attempt blocking.
+        const duration =
+            Number(currentTest.duration ?? currentTest.durationMinutes);
+
+        if (!Number.isFinite(duration) || duration <= 0) {
+            throw new Error("Invalid test duration.");
+        }
+
         selectedAnswers = Array(
             currentTest.questions.length
         ).fill(null);
@@ -339,7 +466,102 @@ async function loadTest() {
         testDetails.textContent =
             `${currentTest.class} | ${currentTest.subject} | Test Type: ${currentTest.testType || "Not specified"}`;
 
+        // Show instructions instead of starting the test.
+        showTestInstructions();
+
+        if (instructionScreen) {
+            instructionScreen.hidden = false;
+        }
+
+        if (testInterface) {
+            testInterface.hidden = true;
+        }
+
+    } catch (error) {
+
+        console.error("Test loading error:", error);
+
+        if (testTitle) {
+            testTitle.textContent = "Unable to load the test.";
+        }
+
+        if (instructionSummary) {
+            instructionSummary.innerHTML = `
+                <p class="test-message">
+                    Unable to load the test questions.
+                    Check the data file and browser Console.
+                </p>
+            `;
+        }
+
+        if (startTestButton) {
+            startTestButton.disabled = true;
+            startTestButton.textContent = "Test Unavailable";
+        }
+    }
+}
+
+
+// ============================================
+// START TEST
+// ============================================
+
+async function startTest() {
+
+    if (!currentTest || testStarted || isSubmitting) return;
+
+    try {
+
+        const duration =
+            Number(currentTest.duration ?? currentTest.durationMinutes);
+
+        if (!Number.isFinite(duration) || duration <= 0) {
+            throw new Error("Invalid test duration.");
+        }
+
+        // Count the attempt when the student starts.
+        const attemptKey = "attempt_count_" + currentTest.id;
+
+        const previousAttempts = Number.parseInt(
+            localStorage.getItem(attemptKey) || "0",
+            10
+        );
+
+        attemptNumber =
+            (Number.isFinite(previousAttempts) && previousAttempts >= 0
+                ? previousAttempts
+                : 0) + 1;
+
+        localStorage.setItem(
+            attemptKey,
+            String(attemptNumber)
+        );
+
+        // Record the actual start time.
+        startTime = new Date();
+
+        testStarted = true;
+
+        currentQuestionIndex = 0;
+
+        selectedAnswers = Array(
+            currentTest.questions.length
+        ).fill(null);
+
+        visitedQuestions = Array(
+            currentTest.questions.length
+        ).fill(false);
+
         visitedQuestions[0] = true;
+
+        // Switch from instructions to test interface.
+        if (instructionScreen) {
+            instructionScreen.hidden = true;
+        }
+
+        if (testInterface) {
+            testInterface.hidden = false;
+        }
 
         createQuestionPalette();
 
@@ -349,19 +571,24 @@ async function loadTest() {
 
         startTimer();
 
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
     } catch (error) {
 
-        console.error("Test loading error:", error);
+        console.error("Could not start test:", error);
 
-        questionText.textContent = "Unable to load the test.";
-
-        optionsContainer.innerHTML = "";
-
-        questionProgress.textContent = "Unavailable";
-
-        testMessage.textContent =
-            "Unable to load the questions. Check the data file and browser Console.";
+        if (testMessage) {
+            testMessage.textContent =
+                "Unable to start the test. Please reload the page.";
+        }
     }
+}
+
+if (startTestButton) {
+    startTestButton.addEventListener("click", startTest);
 }
 
 
@@ -371,7 +598,7 @@ async function loadTest() {
 
 async function renderQuestion() {
 
-    if (!currentTest) return;
+    if (!currentTest || !testStarted) return;
 
     const question =
         currentTest.questions[currentQuestionIndex];
@@ -471,7 +698,7 @@ function updateNavigation() {
     if (!currentTest) return;
 
     previousButton.disabled =
-        currentQuestionIndex === 0;
+        currentQuestionIndex === 0 || timeRemaining <= 0;
 
     nextButton.style.display =
         currentQuestionIndex === currentTest.questions.length - 1
@@ -485,8 +712,10 @@ function updateNavigation() {
 previousButton.addEventListener("click", async function() {
 
     if (
+        testStarted &&
         currentQuestionIndex > 0 &&
-        timeRemaining > 0
+        timeRemaining > 0 &&
+        !isSubmitting
     ) {
 
         currentQuestionIndex--;
@@ -501,9 +730,11 @@ previousButton.addEventListener("click", async function() {
 nextButton.addEventListener("click", async function() {
 
     if (
+        testStarted &&
         currentTest &&
         currentQuestionIndex < currentTest.questions.length - 1 &&
-        timeRemaining > 0
+        timeRemaining > 0 &&
+        !isSubmitting
     ) {
 
         currentQuestionIndex++;
@@ -542,7 +773,8 @@ function startTimer() {
 
     console.log("Selected test:", currentTest.id);
     console.log("Duration:", duration);
-    console.log("Time remaining:", timeRemaining);
+    console.log("Attempt number:", attemptNumber);
+    console.log("Start time:", startTime);
 
     clearInterval(timerInterval);
 
@@ -563,16 +795,9 @@ function startTimer() {
             updateTimerDisplay();
 
             testMessage.textContent =
-                "Time is up! Please submit your test.";
+                "Time is up! Your test is being submitted.";
 
-            nextButton.disabled = true;
-            previousButton.disabled = true;
-
-            if (paletteGrid) {
-                paletteGrid.querySelectorAll("button").forEach(button => {
-                    button.disabled = true;
-                });
-            }
+            submitTest(true);
         }
 
     }, 1000);
@@ -583,17 +808,29 @@ function startTimer() {
 // SUBMIT TEST
 // ============================================
 
-function submitTest() {
+function submitTest(autoSubmit = false) {
 
-    if (!currentTest || isSubmitting) return;
+    if (!currentTest || !testStarted || isSubmitting) return;
+
+    if (!autoSubmit) {
+
+        const confirmed = confirm(
+            "Are you sure you want to submit your test?"
+        );
+
+        if (!confirmed) return;
+    }
 
     isSubmitting = true;
 
     clearInterval(timerInterval);
 
+    endTime = new Date();
+
     let correct = 0;
     let wrong = 0;
     let unattempted = 0;
+    let answeredQuestions = 0;
 
     const marksPerQuestion =
         currentTest.marksPerQuestion ?? 1;
@@ -607,15 +844,15 @@ function submitTest() {
 
             unattempted++;
 
-        } else if (
-            selectedAnswers[index] === question.correctAnswer
-        ) {
-
-            correct++;
-
         } else {
 
-            wrong++;
+            answeredQuestions++;
+
+            if (selectedAnswers[index] === question.correctAnswer) {
+                correct++;
+            } else {
+                wrong++;
+            }
         }
     });
 
@@ -623,41 +860,39 @@ function submitTest() {
         (correct * marksPerQuestion) -
         (wrong * negativeMarks);
 
-    // Count this completed submission for this particular test.
-    const attemptKey = "attempt_count_" + currentTest.id;
-
-    const previousAttempts = Number.parseInt(
-        localStorage.getItem(attemptKey) || "0",
-        10
+    const timeTakenSeconds = Math.max(
+        0,
+        Math.floor((endTime.getTime() - startTime.getTime()) / 1000)
     );
-
-    const attemptNumber =
-        (Number.isFinite(previousAttempts) && previousAttempts >= 0
-            ? previousAttempts
-            : 0) + 1;
 
     const result = {
         testId: currentTest.id,
         testTitle: currentTest.title,
         className: currentTest.class,
         subject: currentTest.subject,
+
         totalQuestions: currentTest.questions.length,
+        answeredQuestions,
         correct,
         wrong,
         unattempted,
+
         score,
         marksPerQuestion,
         negativeMarks,
-        attemptNumber,
-        questions: currentTest.questions,
-        selectedAnswers
-    };
 
-    // Save the new attempt count.
-    localStorage.setItem(
-        attemptKey,
-        String(attemptNumber)
-    );
+        attemptNumber,
+
+        startTime: startTime.toISOString(),
+        endTime: endTime.toISOString(),
+        timeTakenSeconds,
+        timeTaken: formatDuration(timeTakenSeconds),
+
+        autoSubmitted: autoSubmit,
+
+        questions: currentTest.questions,
+        selectedAnswers: [...selectedAnswers]
+    };
 
     sessionStorage.setItem(
         "mockTestResult",
@@ -674,15 +909,9 @@ function submitTest() {
 
 submitButton.addEventListener("click", function() {
 
-    if (isSubmitting) return;
+    if (isSubmitting || !testStarted) return;
 
-    const confirmed = confirm(
-        "Are you sure you want to submit your test?"
-    );
-
-    if (confirmed) {
-        submitTest();
-    }
+    submitTest(false);
 });
 
 
