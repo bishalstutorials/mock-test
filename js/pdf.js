@@ -22,14 +22,11 @@ function downloadResultPDF(result) {
         })[char]);
     }
 
-    // Convert ordinary fractions into stacked mathematical fractions.
-    // Existing LaTeX expressions are preserved.
     function convertFractions(text) {
         const mathPattern =
             /(\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|\$[^$]*?\$)/g;
 
         return text.split(mathPattern).map(part => {
-
             if (
                 part.startsWith("\\(") ||
                 part.startsWith("\\[") ||
@@ -41,21 +38,18 @@ function downloadResultPDF(result) {
 
             return part.replace(
                 /(?<![\w.])([A-Za-z][A-Za-z0-9₀-₉]*|\d+)\s*\/\s*([A-Za-z][A-Za-z0-9₀-₉]*|\d+)(?![\w.])/g,
-                (match, numerator, denominator) => {
-                    return `\\(\\frac{${numerator}}{${denominator}}\\)`;
-                }
+                (match, numerator, denominator) =>
+                    `\\(\\frac{${numerator}}{${denominator}}\\)`
             );
         }).join("");
     }
 
-    // Format Markdown and preserve mathematical expressions.
     function renderRichText(value) {
         let text = String(value ?? "").replace(/\r\n?/g, "\n");
 
         text = convertFractions(text);
 
         return text.split("\n").map(line => {
-
             line = line.replace(/^\s{0,3}#{1,6}\s*/, "");
 
             let safeLine = escapeHTML(line);
@@ -65,12 +59,78 @@ function downloadResultPDF(result) {
                 .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
             return safeLine;
-
         }).join("<br>");
     }
 
+    function formatDateTime(value) {
+        if (!value) {
+            return "Not available";
+        }
+
+        const date = new Date(value);
+
+        if (Number.isNaN(date.getTime())) {
+            return "Not available";
+        }
+
+        return date.toLocaleString("en-IN", {
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
+        });
+    }
+
+    function getAttemptSuffix(number) {
+        if (number % 100 >= 11 && number % 100 <= 13) {
+            return "th";
+        }
+
+        switch (number % 10) {
+            case 1: return "st";
+            case 2: return "nd";
+            case 3: return "rd";
+            default: return "th";
+        }
+    }
+
+    const attemptNumber =
+        Number.isInteger(result.attemptNumber) &&
+        result.attemptNumber > 0
+            ? result.attemptNumber
+            : 1;
+
+    const attemptLabel =
+        `${attemptNumber}${getAttemptSuffix(attemptNumber)} Attempt`;
+
+    const totalQuestions =
+        Number(result.totalQuestions) || result.questions.length;
+
+    const marksPerQuestion =
+        Number(result.marksPerQuestion) || 0;
+
+    const totalMarks =
+        totalQuestions * marksPerQuestion;
+
+    const score = Number(result.score) || 0;
+    const correct = Number(result.correct) || 0;
+    const wrong = Number(result.wrong) || 0;
+    const unattempted = Number(result.unattempted) || 0;
+
+    const answeredQuestions =
+        Number.isFinite(Number(result.answeredQuestions))
+            ? Number(result.answeredQuestions)
+            : Math.max(0, totalQuestions - unattempted);
+
+    const startTime = formatDateTime(result.startTime);
+    const endTime = formatDateTime(result.endTime);
+    const timeTaken = result.timeTaken || "Not available";
+
     function getAnswer(index) {
-        const answer = result.selectedAnswers[index];
+        const answer = result.selectedAnswers?.[index];
 
         if (answer === null || answer === undefined) {
             return "Unattempted";
@@ -85,7 +145,6 @@ function downloadResultPDF(result) {
             ". " + (question.options?.[question.correctAnswer] ?? "");
     }
 
-    // Use question.question, matching the actual JSON structure.
     const questionHTML = result.questions.map((question, index) => `
         <div class="question">
             <div class="question-text">
@@ -103,31 +162,6 @@ function downloadResultPDF(result) {
             </p>
         </div>
     `).join("");
-
-    const totalMarks =
-        result.totalQuestions * result.marksPerQuestion;
-
-    const attemptNumber =
-        Number.isInteger(result.attemptNumber) &&
-        result.attemptNumber > 0
-            ? result.attemptNumber
-            : 1;
-
-    function getAttemptSuffix(number) {
-        if (number % 100 >= 11 && number % 100 <= 13) {
-            return "th";
-        }
-
-        switch (number % 10) {
-            case 1: return "st";
-            case 2: return "nd";
-            case 3: return "rd";
-            default: return "th";
-        }
-    }
-
-    const attemptLabel =
-        `${attemptNumber}${getAttemptSuffix(attemptNumber)} Attempt`;
 
     const html = `
     <!DOCTYPE html>
@@ -209,6 +243,25 @@ function downloadResultPDF(result) {
             .summary {
                 line-height: 2;
                 margin-bottom: 30px;
+                padding: 15px 18px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+            }
+
+            .summary-row {
+                display: flex;
+                justify-content: space-between;
+                gap: 15px;
+                padding: 3px 0;
+                border-bottom: 1px solid #eee;
+            }
+
+            .summary-row:last-child {
+                border-bottom: none;
+            }
+
+            .summary-label {
+                font-weight: bold;
             }
 
             .attempt-number {
@@ -291,6 +344,11 @@ function downloadResultPDF(result) {
                     padding: 0;
                 }
 
+                .summary {
+                    break-inside: avoid;
+                    page-break-inside: avoid;
+                }
+
                 .question {
                     break-inside: avoid;
                     page-break-inside: avoid;
@@ -299,9 +357,6 @@ function downloadResultPDF(result) {
         </style>
 
         <script>
-            // IMPORTANT:
-            // These delimiters require double escaping because
-            // this script is inside an outer JavaScript template literal.
             window.MathJax = {
                 tex: {
                     inlineMath: [
@@ -353,38 +408,67 @@ function downloadResultPDF(result) {
             <h2>MOCK TEST RESULT</h2>
 
             <div class="summary">
-                <div>
-                    <strong>Test:</strong>
-                    ${escapeHTML(result.testTitle)}
+
+                <div class="summary-row">
+                    <span class="summary-label">Test:</span>
+                    <span>${escapeHTML(result.testTitle)}</span>
                 </div>
 
-                <div>
-                    <strong>Class:</strong>
-                    ${escapeHTML(result.className)}
+                <div class="summary-row">
+                    <span class="summary-label">Class:</span>
+                    <span>${escapeHTML(result.className)}</span>
                 </div>
 
-                <div>
-                    <strong>Subject:</strong>
-                    ${escapeHTML(result.subject)}
+                <div class="summary-row">
+                    <span class="summary-label">Subject:</span>
+                    <span>${escapeHTML(result.subject)}</span>
                 </div>
 
-                <div class="attempt-number">
-                    <strong>Attempt Number:</strong>
-                    ${escapeHTML(attemptLabel)}
+                <div class="summary-row attempt-number">
+                    <span>Attempt Number:</span>
+                    <span>${escapeHTML(attemptLabel)}</span>
                 </div>
 
-                <div>
-                    <strong>Score:</strong>
-                    ${escapeHTML(result.score)} / ${escapeHTML(totalMarks)}
+                <div class="summary-row">
+                    <span class="summary-label">Start Time:</span>
+                    <span>${escapeHTML(startTime)}</span>
                 </div>
 
-                <div>
-                    <strong>Correct:</strong> ${escapeHTML(result.correct)}
-                    &nbsp; | &nbsp;
-                    <strong>Wrong:</strong> ${escapeHTML(result.wrong)}
-                    &nbsp; | &nbsp;
-                    <strong>Unattempted:</strong> ${escapeHTML(result.unattempted)}
+                <div class="summary-row">
+                    <span class="summary-label">End Time:</span>
+                    <span>${escapeHTML(endTime)}</span>
                 </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Time Taken:</span>
+                    <span>${escapeHTML(timeTaken)}</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Marks:</span>
+                    <span>${escapeHTML(score)} / ${escapeHTML(totalMarks)}</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Correct Answers:</span>
+                    <span>${escapeHTML(correct)} / ${escapeHTML(totalQuestions)}</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Wrong Answers:</span>
+                    <span>${escapeHTML(wrong)} / ${escapeHTML(totalQuestions)}</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Answered Questions:</span>
+                    <span>${escapeHTML(answeredQuestions)} / ${escapeHTML(totalQuestions)}</span>
+                </div>
+
+                <div class="summary-row">
+                    <span class="summary-label">Unattempted Questions:</span>
+                    <span>${escapeHTML(unattempted)}</span>
+                </div>
+
             </div>
 
             <div class="section-title">ANSWER REVIEW</div>
@@ -402,7 +486,6 @@ function downloadResultPDF(result) {
                 try {
                     await document.fonts.ready;
 
-                    // Wait until MathJax has loaded.
                     const start = Date.now();
 
                     while (
@@ -419,15 +502,12 @@ function downloadResultPDF(result) {
                         );
                     }
 
-                    // Wait for MathJax initialization.
                     await MathJax.startup.promise;
 
-                    // Render all mathematical expressions.
                     await MathJax.typesetPromise([
                         document.querySelector(".page")
                     ]);
 
-                    // Wait for fonts and rendering to finish.
                     await document.fonts.ready;
 
                     await new Promise(resolve =>
