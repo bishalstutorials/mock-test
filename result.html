@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
 <header class="site-header">
     <div class="brand">
         <img src="assets/logo.png"
@@ -23,48 +23,83 @@
     </div>
 </header>
 
+<main class="test-page">
+    <section class="question-card">
 
-    <main class="test-page">
-        <section class="question-card">
-            <h2>Test Result</h2>
-            <p id="result-title"></p>
+        <h2>Test Result</h2>
+        <p id="result-title"></p>
 
-            <div class="test-info">
-                <div>
-                    <span class="info-label">SCORE</span>
-                    <strong id="result-score">—</strong>
-                </div>
-                <div>
-                    <span class="info-label">CORRECT</span>
-                    <strong id="result-correct">—</strong>
-                </div>
+        <div class="test-info">
+
+            <div>
+                <span class="info-label">START TIME</span>
+                <strong id="result-start-time">—</strong>
             </div>
 
-            <p id="result-summary"></p>
-
-            <div class="result-actions">
-                <button id="download-pdf-button"
-                        class="primary-button"
-                        type="button">
-                    Download Result PDF
-                </button>
-
-                <button class="secondary-button"
-                        type="button"
-                        onclick="window.location.href='index.html'">
-                    Back to Home
-                </button>
+            <div>
+                <span class="info-label">END TIME</span>
+                <strong id="result-end-time">—</strong>
             </div>
-        </section>
-    </main>
 
-    <footer class="site-footer">
-        <p>© <span id="result-year"></span> Bishal's Tutorials</p>
-        <p>LEARN &amp; SUCCEED</p>
-    </footer>
+            <div>
+                <span class="info-label">ATTEMPT NUMBER</span>
+                <strong id="result-attempt">—</strong>
+            </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="js/pdf.js"></script>
-    <script src="js/result.js"></script>
+            <div>
+                <span class="info-label">TIME TAKEN</span>
+                <strong id="result-time-taken">—</strong>
+            </div>
+
+            <div>
+                <span class="info-label">MARKS</span>
+                <strong id="result-score">—</strong>
+            </div>
+
+            <div>
+                <span class="info-label">CORRECT ANSWERS</span>
+                <strong id="result-correct">—</strong>
+            </div>
+
+            <div>
+                <span class="info-label">WRONG ANSWERS</span>
+                <strong id="result-wrong">—</strong>
+            </div>
+
+            <div>
+                <span class="info-label">ANSWERED QUESTIONS</span>
+                <strong id="result-answered">—</strong>
+            </div>
+
+        </div>
+
+        <p id="result-summary"></p>
+
+        <div class="result-actions">
+            <button id="download-pdf-button"
+                    class="primary-button"
+                    type="button">
+                Download Result PDF
+            </button>
+
+            <button class="secondary-button"
+                    type="button"
+                    onclick="window.location.href='index.html'">
+                Back to Home
+            </button>
+        </div>
+
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© <span id="result-year"></span> Bishal's Tutorials</p>
+    <p>LEARN &amp; SUCCEED</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/pdf.js"></script>
+<script src="js/result.js"></script>
+
 </body>
 </html>
