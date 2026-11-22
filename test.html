@@ -50,164 +50,220 @@
         <div class="test-heading">
             <a class="back-link" href="index.html">← Back to Home</a>
 
-            <h2 id="test-title">Real Numbers - Test 01</h2>
+            <h2 id="test-title">Loading Test...</h2>
 
-            <p id="test-details">Class 10 | Mathematics</p>
+            <p id="test-details">Loading test details...</p>
         </div>
 
-        <!-- TEST INFORMATION -->
-        <section class="test-info">
+        <!-- TEST INSTRUCTIONS SCREEN -->
+        <section id="instruction-screen" class="instruction-screen">
 
-            <div>
-                <span class="info-label">QUESTION</span>
-                <strong id="question-progress">1 of 2</strong>
-            </div>
+            <div class="instruction-card">
 
-            <div>
-                <span class="info-label">TIME LEFT</span>
-                <strong id="timer">30:00</strong>
-            </div>
+                <span class="eyebrow">BEFORE YOU BEGIN</span>
 
-        </section>
+                <h2>Test Instructions</h2>
 
-        <!-- MOBILE PALETTE TOGGLE -->
-        <button
-            type="button"
-            id="palette-toggle"
-            class="palette-toggle"
-            aria-expanded="false"
-            aria-controls="question-palette">
-            ☰ Question Palette
-        </button>
+                <p class="instruction-description">
+                    Read the test details and instructions carefully
+                    before starting your mock test.
+                </p>
 
-        <!-- MAIN TEST WORKSPACE -->
-        <div class="test-workspace">
-
-            <!-- QUESTION AREA -->
-            <section class="question-card">
-
-                <div class="question-number" id="question-number">
-                    Question 1
-                </div>
-
-                <h3 id="question-text" aria-live="polite">
-                    Your question will appear here.
-                </h3>
-
-                <div id="options-container" class="options-container">
+                <div id="instruction-summary" class="instruction-summary">
                     <p class="loading-message">
-                        Questions will appear here when the test is connected.
+                        Loading test information...
                     </p>
                 </div>
 
-                <p id="test-message" class="test-message" role="status"></p>
+                <div class="instruction-rules">
 
-                <div class="test-navigation">
+                    <h3>Important Instructions</h3>
 
-                    <button
-                        id="previous-button"
-                        class="secondary-button"
-                        type="button"
-                        disabled>
-                        ← Previous
-                    </button>
-
-                    <button
-                        id="next-button"
-                        class="primary-button"
-                        type="button">
-                        Next →
-                    </button>
+                    <ul>
+                        <li>The timer will start only after you click Start Now.</li>
+                        <li>Answer each question by selecting one option.</li>
+                        <li>Use the question palette to navigate between questions.</li>
+                        <li>You can change your selected answers before submission.</li>
+                        <li>Unanswered questions will not receive marks.</li>
+                        <li>The test will be submitted automatically when the time is over.</li>
+                        <li>Check your answers before submitting the test.</li>
+                    </ul>
 
                 </div>
 
                 <button
-                    id="submit-button"
-                    class="submit-button"
-                    type="button">
-                    Submit Test
+                    type="button"
+                    id="start-test-button"
+                    class="primary-button"
+                    disabled>
+                    Loading Test...
                 </button>
+
+                <p class="instruction-notice">
+                    Your test attempt will be counted when you click Start Now.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ACTUAL TEST INTERFACE -->
+        <div id="test-interface" hidden>
+
+            <!-- TEST INFORMATION -->
+            <section class="test-info">
+
+                <div>
+                    <span class="info-label">QUESTION</span>
+                    <strong id="question-progress">1 of 2</strong>
+                </div>
+
+                <div>
+                    <span class="info-label">TIME LEFT</span>
+                    <strong id="timer">30:00</strong>
+                </div>
 
             </section>
 
-            <!-- QUESTION PROGRESSION PANEL -->
-            <aside
-                class="question-palette"
-                id="question-palette"
-                aria-label="Question progression panel">
+            <!-- MOBILE PALETTE TOGGLE -->
+            <button
+                type="button"
+                id="palette-toggle"
+                class="palette-toggle"
+                aria-expanded="false"
+                aria-controls="question-palette">
+                ☰ Question Palette
+            </button>
 
-                <div class="palette-heading">
-                    <h3>Question Palette</h3>
-                    <p>Navigate between questions</p>
-                </div>
+            <!-- MAIN TEST WORKSPACE -->
+            <div class="test-workspace">
 
-                <!-- LIVE QUESTION COUNTS -->
-                <div class="palette-stats">
+                <!-- QUESTION AREA -->
+                <section class="question-card">
 
-                    <div class="palette-stat answered-stat">
-                        <strong id="answered-count">0</strong>
-                        <span>Answered</span>
+                    <div class="question-number" id="question-number">
+                        Question 1
                     </div>
 
-                    <div class="palette-stat skipped-stat">
-                        <strong id="unanswered-count">0</strong>
-                        <span>Visited</span>
+                    <h3 id="question-text" aria-live="polite">
+                        Your question will appear here.
+                    </h3>
+
+                    <div id="options-container" class="options-container">
+                        <p class="loading-message">
+                            Questions will appear here when the test is connected.
+                        </p>
                     </div>
 
-                    <div class="palette-stat not-visited-stat">
-                        <strong id="not-visited-count">0</strong>
-                        <span>Not visited</span>
+                    <p id="test-message" class="test-message" role="status"></p>
+
+                    <div class="test-navigation">
+
+                        <button
+                            id="previous-button"
+                            class="secondary-button"
+                            type="button"
+                            disabled>
+                            ← Previous
+                        </button>
+
+                        <button
+                            id="next-button"
+                            class="primary-button"
+                            type="button">
+                            Next →
+                        </button>
+
                     </div>
 
-                </div>
+                    <button
+                        id="submit-button"
+                        class="submit-button"
+                        type="button">
+                        Submit Test
+                    </button>
 
-                <div class="palette-divider"></div>
+                </section>
 
-                <p class="palette-instruction">
-                    Click a number to open that question.
-                </p>
+                <!-- QUESTION PROGRESSION PANEL -->
+                <aside
+                    class="question-palette"
+                    id="question-palette"
+                    aria-label="Question progression panel">
 
-                <!-- QUESTION NUMBERS ARE GENERATED BY JAVASCRIPT -->
-                <div
-                    id="palette-grid"
-                    class="palette-grid"
-                    aria-label="Question numbers">
-                </div>
-
-                <div class="palette-divider"></div>
-
-                <!-- COLOUR LEGEND -->
-                <div class="palette-legend">
-
-                    <div class="legend-item">
-                        <span class="legend-color legend-answered"></span>
-                        <span>Answered</span>
+                    <div class="palette-heading">
+                        <h3>Question Palette</h3>
+                        <p>Navigate between questions</p>
                     </div>
 
-                    <div class="legend-item">
-                        <span class="legend-color legend-unanswered"></span>
-                        <span>Visited, unanswered</span>
+                    <!-- LIVE QUESTION COUNTS -->
+                    <div class="palette-stats">
+
+                        <div class="palette-stat answered-stat">
+                            <strong id="answered-count">0</strong>
+                            <span>Answered</span>
+                        </div>
+
+                        <div class="palette-stat skipped-stat">
+                            <strong id="unanswered-count">0</strong>
+                            <span>Visited</span>
+                        </div>
+
+                        <div class="palette-stat not-visited-stat">
+                            <strong id="not-visited-count">0</strong>
+                            <span>Not visited</span>
+                        </div>
+
                     </div>
 
-                    <div class="legend-item">
-                        <span class="legend-color legend-not-visited"></span>
-                        <span>Not visited</span>
+                    <div class="palette-divider"></div>
+
+                    <p class="palette-instruction">
+                        Click a number to open that question.
+                    </p>
+
+                    <div
+                        id="palette-grid"
+                        class="palette-grid"
+                        aria-label="Question numbers">
                     </div>
 
-                    <div class="legend-item">
-                        <span class="legend-color legend-current"></span>
-                        <span>Current question</span>
+                    <div class="palette-divider"></div>
+
+                    <!-- COLOUR LEGEND -->
+                    <div class="palette-legend">
+
+                        <div class="legend-item">
+                            <span class="legend-color legend-answered"></span>
+                            <span>Answered</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-color legend-unanswered"></span>
+                            <span>Visited, unanswered</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-color legend-not-visited"></span>
+                            <span>Not visited</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-color legend-current"></span>
+                            <span>Current question</span>
+                        </div>
+
                     </div>
 
-                </div>
+                </aside>
 
-            </aside>
+            </div>
+
+            <p class="test-note">
+                Check your answers before submitting the test.
+            </p>
 
         </div>
-
-        <p class="test-note">
-            Check your answers before submitting the test.
-        </p>
 
     </main>
 
