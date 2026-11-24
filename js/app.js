@@ -27,26 +27,44 @@ function normalizeText(value) {
     return String(value || "").trim().toLowerCase();
 }
 
-// Format test type for display
-function formatTestType(value) {
+// Identify the category of a test
+function getTestTypeCategory(value) {
     const normalized = normalizeText(value);
 
-    const testTypeLabels = {
-        "chapter": "Chapter Test",
-        "chapter test": "Chapter Test",
-        "subject": "Subject Test",
-        "subject test": "Subject Test",
-        "complete": "Complete All Subject Test",
-        "complete test": "Complete All Subject Test",
-        "complete all subject test": "Complete All Subject Test",
-        "mock test": "Mock Test"
-    };
-
-    if (!normalized) {
-        return "Not specified";
+    if (
+        normalized === "chapter" ||
+        normalized === "chapter test"
+    ) {
+        return "chapter";
     }
 
-    return testTypeLabels[normalized] || String(value).trim();
+    if (
+        normalized === "subject" ||
+        normalized === "subject test" ||
+        normalized === "complete" ||
+        normalized === "complete test" ||
+        normalized === "complete all subject test" ||
+        normalized === "complete subject test"
+    ) {
+        return "subject";
+    }
+
+    return normalized;
+}
+
+// Format test type for display
+function formatTestType(value) {
+    const category = getTestTypeCategory(value);
+
+    if (category === "chapter") {
+        return "Chapter Test";
+    }
+
+    if (category === "subject") {
+        return "Subject Test";
+    }
+
+    return value ? String(value).trim() : "Not specified";
 }
 
 // Open the mock-test catalogue
@@ -193,11 +211,14 @@ function populateFilters() {
         allTests.map(test => test.language)
     );
 
-    populateDropdown(
-        testTypeFilter,
-        "All Test Types",
-        allTests.map(test => test.testType)
-    );
+    // Keep only the three fixed Test Type options
+    if (testTypeFilter) {
+        testTypeFilter.innerHTML = `
+            <option value="all">All Test Types</option>
+            <option value="chapter">Chapter Test</option>
+            <option value="subject">Subject Test</option>
+        `;
+    }
 
     updateChapterFilter();
 }
@@ -328,8 +349,8 @@ function renderTests() {
 
         const matchesTestType =
             selectedTestType === "all" ||
-            normalizeText(test.testType) ===
-            normalizeText(selectedTestType);
+            getTestTypeCategory(test.testType) ===
+            selectedTestType;
 
         return (
             matchesClass &&
