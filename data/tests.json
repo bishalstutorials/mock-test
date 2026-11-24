@@ -5645,7 +5645,7 @@
   },
   {
     "id": "BT-X-MATH-AS-COMP-02",
-    "title": "Complete Mock Test - Test 2",
+    "title": "সম্পূৰ্ণ মক টেষ্ট - Test 2",
     "class": "Class 10",
     "subject": "Mathematics",
     "language": "Assamese",
@@ -6111,7 +6111,7 @@
   },
 {
     "id": "BT-X-MATH-EN-COMP-03",
-    "name": "Complete Mock Test - Test 3",
+    "title": "Complete Mock Test - Test 3",
     "class": "Class 10",
     "subject": "Mathematics",
     "language": "English",
@@ -6577,7 +6577,7 @@
   },
   {
     "id": "BT-X-MATH-AS-COMP-03",
-    "name": "Complete Mock Test - Test 3",
+    "title": "Complete Mock Test - Test 3",
     "class": "Class 10",
     "subject": "Mathematics",
     "language": "Assamese",
