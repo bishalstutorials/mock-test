@@ -5176,6 +5176,1870 @@
       "correctAnswer": 0
     }
   ]
-}
+},
+{
+    "id": "BT-X-MATH-EN-COMP-02",
+    "title": "Complete Mock Test - Test 2",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "English",
+    "chapter": "Complete Mock Test (All Chapters)",
+    "testType": "Complete All Subject Test",
+    "testNo": 2,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "If \\\\(3^{x-1} + 3^{x+1} = 90\\\\), then the value of \\\\(x\\\\) is:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "If \\\\(p + q = 7\\\\) and \\\\(pq = 10\\\\), then the value of \\\\(p^3 + q^3\\\\) is:",
+        "options": [
+          "\\\\(123\\\\)",
+          "\\\\(119\\\\)",
+          "\\\\(147\\\\)",
+          "\\\\(133\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "For any positive integer \\\\(n\\\\), the expression \\\\(n^3 - n\\\\) is always divisible by:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(12\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "If \\\\(\\text{LCM}(96, 404) = 9696\\\\), then \\\\(\\text{HCF}(96, 404)\\\\) is equal to:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(12\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\\\((x - 2)\\\\) is a factor of \\\\(x^3 - 4x^2 + ax + 6\\\\), then the remainder when \\\\(x^2 - ax + 6\\\\) is divided by \\\\((x + 1)\\\\) is:",
+        "options": [
+          "\\\\(5\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(7\\\\)",
+          "\\\\(8\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "If the graph of a cubic polynomial \\\\(y = p(x)\\\\) intersects the x-axis at three distinct points \\\\((-4, 0)\\\\), \\\\((1, 0)\\\\), and \\\\((5, 0)\\\\), then the sum of its zeroes is:",
+        "options": [
+          "\\\\(0\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(-2\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "The sum of the digits of a two-digit number is \\\\(11\\\\). When the digits are interchanged, the new number is \\\\(27\\\\) less than the original number. The original number is:",
+        "options": [
+          "\\\\(47\\\\)",
+          "\\\\(65\\\\)",
+          "\\\\(74\\\\)",
+          "\\\\(83\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "For what value of \\\\(k\\\\) do the equations \\\\(kx + 3y = k - 3\\\\) and \\\\(12x + ky = k\\\\) have no solution?",
+        "options": [
+          "\\\\(6\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(-3\\\\)",
+          "\\\\(-6\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "One root of the quadratic equation \\\\(2x^2 - (5 + k)x + 16 = 0\\\\) is double the other. If \\\\(k > 0\\\\), then the value of \\\\(k\\\\) is:",
+        "options": [
+          "\\\\(7\\\\)",
+          "\\\\(5\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(9\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A boat covers \\\\(24\\text{ km}\\\\) upstream and \\\\(28\\text{ km}\\\\) downstream in \\\\(6\\text{ hours}\\\\), while it covers \\\\(30\\text{ km}\\\\) upstream and \\\\(21\\text{ km}\\\\) downstream in \\\\(6.5\\text{ hours}\\\\). The speed of the stream (in km/h) is:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In an Arithmetic Progression, the sum of the first \\\\(n\\\\) terms is given by \\\\(S_n = \\frac{3n^2}{2} + \\frac{5n}{2}\\\\). Its \\\\(25\\\\)-th term is:",
+        "options": [
+          "\\\\(70\\\\)",
+          "\\\\(73\\\\)",
+          "\\\\(76\\\\)",
+          "\\\\(79\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "If the \\\\(m\\\\)-th term of an AP is \\\\(\\frac{1}{n}\\\\) and the \\\\(n\\\\)-th term is \\\\(\\frac{1}{m}\\\\), then the sum of its first \\\\(mn\\\\) terms is:",
+        "options": [
+          "\\\\(\\frac{mn - 1}{2}\\\\)",
+          "\\\\(mn + 1\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(\\frac{mn + 1}{2}\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "In a trapezium \\\\(ABCD\\\\) with \\\\(AB \\parallel DC\\\\), diagonals \\\\(AC\\\\) and \\\\(BD\\\\) intersect at \\\\(O\\\\). If \\\\(\\frac{AO}{OC} = \\frac{3}{5}\\\\) and \\\\(BD = 24\\text{ cm}\\\\), then the length of \\\\(OD\\\\) is:",
+        "options": [
+          "\\\\(15\\text{ cm}\\\\)",
+          "\\\\(9\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)",
+          "\\\\(16\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A girl of height \\\\(90\\text{ cm}\\\\) walks away from the base of a lamp-post at a speed of \\\\(1.2\\text{ m/s}\\\\). If the lamp is \\\\(3.6\\text{ m}\\\\) above the ground, the length of her shadow after \\\\(4\\text{ seconds}\\\\) is:",
+        "options": [
+          "\\\\(1.2\\text{ m}\\\\)",
+          "\\\\(1.6\\text{ m}\\\\)",
+          "\\\\(2.0\\text{ m}\\\\)",
+          "\\\\(2.4\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "The line segment joining \\\\(A(-3, 10)\\\\) and \\\\(B(6, -8)\\\\) is divided by the point \\\\((-1, 6)\\\\) internally in the ratio:",
+        "options": [
+          "\\\\(1 : 2\\\\)",
+          "\\\\(3 : 5\\\\)",
+          "\\\\(2 : 7\\\\)",
+          "\\\\(7 : 2\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "If the centroid of the triangle with vertices \\\\((x, y)\\\\), \\\\((2, 3)\\\\), and \\\\((-2, 5)\\\\) is \\\\((1, 4)\\\\), then the value of \\\\((x + y)\\\\) is:",
+        "options": [
+          "\\\\(5\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(7\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "If \\\\(\\tan \\theta + \\cot \\theta = 2\\\\), then the value of \\\\(\\tan^7 \\theta + \\cot^7 \\theta\\\\) is:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(4\\\\)",
+          "\\\\(128\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\\\(\\sin A = \\frac{1}{\\sqrt{5}}\\\\) and \\\\(\\sin B = \\frac{1}{\\sqrt{10}}\\\\), where \\\\(A\\\\) and \\\\(B\\\\) are acute angles, then the value of \\\\((\\tan A + \\cot B)\\\\) is:",
+        "options": [
+          "\\\\(3\\\\)",
+          "\\\\(\\frac{7}{2}\\\\)",
+          "\\\\(\\frac{5}{2}\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "From the top of a cliff \\\\(120\\text{ m}\\\\) high, the angles of depression of the top and bottom of a vertical tower are \\\\(30^\\circ\\\\) and \\\\(60^\\circ\\\\) respectively. The height of the tower is:",
+        "options": [
+          "\\\\(60\\text{ m}\\\\)",
+          "\\\\(40\\text{ m}\\\\)",
+          "\\\\(80\\text{ m}\\\\)",
+          "\\\\(90\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "The angle of elevation of a cloud from a point \\\\(60\\text{ m}\\\\) above a lake is \\\\(30^\\circ\\\\), and the angle of depression of the reflection of the cloud in the lake is \\\\(60^\\circ\\\\). The height of the cloud above the lake is:",
+        "options": [
+          "\\\\(90\\text{ m}\\\\)",
+          "\\\\(100\\text{ m}\\\\)",
+          "\\\\(180\\text{ m}\\\\)",
+          "\\\\(120\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Two concentric circles have radii \\\\(13\\text{ cm}\\\\) and \\\\(5\\text{ cm}\\\\). The length of a chord of the larger circle that touches the smaller circle is:",
+        "options": [
+          "\\\\(24\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)",
+          "\\\\(18\\text{ cm}\\\\)",
+          "\\\\(26\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A circle touches all four sides of a quadrilateral \\\\(ABCD\\\\). If \\\\(AB = 6\\text{ cm}\\\\), \\\\(BC = 7\\text{ cm}\\\\), and \\\\(CD = 4\\text{ cm}\\\\), then the length of \\\\(AD\\\\) is:",
+        "options": [
+          "\\\\(5\\text{ cm}\\\\)",
+          "\\\\(3\\text{ cm}\\\\)",
+          "\\\\(4\\text{ cm}\\\\)",
+          "\\\\(6\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "A horse is tied to a peg at one corner of a square field of side \\\\(14\\text{ m}\\\\) by a rope \\\\(7\\text{ m}\\\\) long. The area of the part of the field in which the horse can graze is: (Use \\\\(\\pi = \\frac{22}{7}\\\\))",
+        "options": [
+          "\\\\(77\\text{ m}^2\\\\)",
+          "\\\\(154\\text{ m}^2\\\\)",
+          "\\\\(38.5\\text{ m}^2\\\\)",
+          "\\\\(49\\text{ m}^2\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "The area of a minor segment of a circle of radius \\\\(14\\text{ cm}\\\\) with a central angle of \\\\(60^\\circ\\\\) is approximately: (Use \\\\(\\pi = \\frac{22}{7}\\\\) and \\\\(\\sqrt{3} \\approx 1.732\\\\))",
+        "options": [
+          "\\\\(102.67\\text{ cm}^2\\\\)",
+          "\\\\(84.87\\text{ cm}^2\\\\)",
+          "\\\\(22.40\\text{ cm}^2\\\\)",
+          "\\\\(17.80\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "A solid cylinder of base radius \\\\(4\\text{ cm}\\\\) and height \\\\(8\\text{ cm}\\\\) is melted and recast into identical solid spheres of radius \\\\(2\\text{ cm}\\\\). The number of spheres formed is:",
+        "options": [
+          "\\\\(12\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(16\\\\)",
+          "\\\\(6\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A wooden toy is made by scooping out a hemisphere from each end of a solid cylinder of height \\\\(10\\text{ cm}\\\\) and base radius \\\\(3.5\\text{ cm}\\\\). The total surface area of the toy is: (Use \\\\(\\pi = \\frac{22}{7}\\\\))",
+        "options": [
+          "\\\\(220\\text{ cm}^2\\\\)",
+          "\\\\(374\\text{ cm}^2\\\\)",
+          "\\\\(154\\text{ cm}^2\\\\)",
+          "\\\\(297\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "The mean of \\\\(10\\\\) observations is \\\\(15\\\\). If each observation is multiplied by \\\\(3\\\\) and then \\\\(4\\\\) is added to each, the new mean is:",
+        "options": [
+          "\\\\(45\\\\)",
+          "\\\\(37\\\\)",
+          "\\\\(49\\\\)",
+          "\\\\(52\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "In a grouped frequency distribution, if lower limit of median class is \\\\(20\\\\), class width is \\\\(10\\\\), total frequency \\\\(N = 60\\\\), cumulative frequency preceding median class is \\\\(22\\\\), and frequency of median class is \\\\(19\\\\), then the median is approximately:",
+        "options": [
+          "\\\\(20.42\\\\)",
+          "\\\\(28.42\\\\)",
+          "\\\\(22.84\\\\)",
+          "\\\\(24.21\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "A box contains cards numbered from \\\\(11\\\\) to \\\\(30\\\\). One card is drawn at random. The probability that the number on the card is a multiple of both \\\\(2\\\\) and \\\\(3\\\\) is:",
+        "options": [
+          "\\\\(\\frac{1}{5}\\\\)",
+          "\\\\(\\frac{3}{10}\\\\)",
+          "\\\\(\\frac{1}{4}\\\\)",
+          "\\\\(\\frac{3}{20}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Two different coins are tossed simultaneously. The probability of getting at most one tail is:\n\n---\n\n### Part B: Assertion and Reasoning Questions",
+        "options": [
+          "\\\\(\\frac{1}{4}\\\\)",
+          "\\\\(\\frac{3}{4}\\\\)",
+          "\\\\(\\frac{1}{2}\\\\)",
+          "\\\\(1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): For any positive real number \\\\(a\\\\) and rational numbers \\\\(m\\\\) and \\\\(n\\\\), \\\\((a^m)^n = a^{mn}\\\\).\nReason (R): When raising a power to another power, the exponents are added.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Assertion (A): Every composite number can be expressed as a product of primes, and this factorization is unique apart from the order of the prime factors.\nReason (R): This statement is known as the Fundamental Theorem of Arithmetic.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): If a quadratic polynomial has only one real zero, its graph touches the x-axis at exactly one point.\nReason (R): A quadratic polynomial with a single real zero has a non-zero discriminant.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Assertion (A): If two linear equations in two variables are inconsistent, their graphs are two parallel lines.\nReason (R): Inconsistent linear equations have a unique common solution.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Assertion (A): The quadratic equation \\\\(3x^2 - 2x + 5 = 0\\\\) has two distinct real roots.\nReason (R): For \\\\(3x^2 - 2x + 5 = 0\\\\), the discriminant \\\\(b^2 - 4ac = (-2)^2 - 4(3)(5) = -56 < 0\\\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Assertion (A): In a sequence, if \\\\(a_n - a_{n-1}\\\\) is the same for all \\\\(n > 1\\\\), then the sequence is an Arithmetic Progression.\nReason (R): By definition, an AP is a list of numbers in which each term after the first is obtained by adding a fixed number to the preceding term.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): Two triangles are always similar if their corresponding sides are equal.\nReason (R): Congruent triangles always have equal corresponding sides and equal corresponding angles.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): The point \\\\((5, 0)\\\\) lies on the x-axis.\nReason (R): A point lies on the x-axis if and only if its x-coordinate is zero.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Assertion (A): For any acute angle \\\\(\\theta\\\\), \\\\(\\sin \\theta\\\\) can never be greater than \\\\(1\\\\).\nReason (R): In a right-angled triangle, the hypotenuse is the longest side, so the ratio of perpendicular to hypotenuse is always less than or equal to \\\\(1\\\\).\n\n---\n\n### Part C: Match the Column Questions",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the height and distance parameters in Column-I with their corresponding values/ratios in Column-II:\n\nColumn-I:\n(p) Angle of elevation when pole height equals shadow length\n(q) Angle of depression when horizontal distance is \\\\(\\sqrt{3}\\\\) times height\n(r) Ratio of height to shadow when angle of elevation is \\\\(60^\\circ\\\\)\n(s) Ratio of shadow to height when angle of elevation is \\\\(60^\\circ\\\\)\n\nColumn-II:\n(i) \\\\(30^\\circ\\\\)\n(ii) \\\\(45^\\circ\\\\)\n(iii) \\\\(\\frac{1}{\\sqrt{3}}\\\\)\n(iv) \\\\(\\sqrt{3}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the circle properties and results in Column-I with their values in Column-II:\n\nColumn-I:\n(p) Angle between two radii when tangents at their ends make \\\\(70^\\circ\\\\)\n(q) Angle between tangent and radius at point of contact\n(r) Sum of angle between tangents and angle between corresponding radii\n(s) Number of tangents drawn from a point lying on the circle\n\nColumn-II:\n(i) \\\\(110^\\circ\\\\)\n(ii) \\\\(90^\\circ\\\\)\n(iii) \\\\(180^\\circ\\\\)\n(iv) \\\\(1\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Match the circular region formulas in Column-I with their expressions in Column-II:\n\nColumn-I:\n(p) Area of a quadrant of a circle of radius \\\\(r\\\\)\n(q) Circumference of a circle of diameter \\\\(d\\\\)\n(r) Area of a minor segment\n(s) Length of arc of a sector of angle \\\\(\\theta\\\\) and radius \\\\(r\\\\)\n\nColumn-II:\n(i) \\\\(\\pi d\\\\)\n(ii) \\\\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\\\)\n(iii) \\\\(\\frac{1}{4}\\pi r^2\\\\)\n(iv) Area of minor sector \\\\(-\\\\) Area of corresponding triangle",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Match the three-dimensional mensuration formulas in Column-I with Column-II:\n\nColumn-I:\n(p) Total surface area of a solid hemisphere of radius \\\\(r\\\\)\n(q) Curved surface area of a cylinder of radius \\\\(r\\\\) and height \\\\(h\\\\)\n(r) Volume of a cone of radius \\\\(r\\\\) and height \\\\(h\\\\)\n(s) Volume of a sphere of radius \\\\(r\\\\)\n\nColumn-II:\n(i) \\\\(\\frac{1}{3}\\pi r^2 h\\\\)\n(ii) \\\\(\\frac{4}{3}\\pi r^3\\\\)\n(iii) \\\\(2\\pi r h\\\\)\n(iv) \\\\(3\\pi r^2\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(i), s-(ii)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Match the statistical concepts in Column-I with their formulas/definitions in Column-II:\n\nColumn-I:\n(p) Mean of first \\\\(n\\\\) natural numbers\n(q) Empirical expression for Mode\n(r) Half of gap between consecutive discontinuous class intervals\n(s) Class mark of a class interval\n\nColumn-II:\n(i) \\\\(3\\text{ Median} - 2\\text{ Mean}\\\\)\n(ii) \\\\(\\frac{n+1}{2}\\\\)\n(iii) \\\\(\\frac{\\text{Upper limit} + \\text{Lower limit}}{2}\\\\)\n(iv) Boundary adjustment factor for continuous classes",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the probability events in Column-I with their numerical probabilities in Column-II:\n\nColumn-I:\n(p) Getting an even number in a single roll of a fair die\n(q) Getting a sum of \\\\(12\\\\) when rolling two fair dice\n(r) Drawing a non-face card from a deck of \\\\(52\\\\) playing cards\n(s) Occurrence of a sure event\n\nColumn-II:\n(i) \\\\(\\frac{1}{2}\\\\)\n(ii) \\\\(\\frac{1}{36}\\\\)\n(iii) \\\\(\\frac{10}{13}\\\\)\n(iv) \\\\(1\\\\)\n\n\n---\n\n---",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-AS-COMP-02",
+    "title": "Complete Mock Test - Test 2",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Assamese",
+    "chapter": "সম্পূৰ্ণ মক টেষ্ট (সকলো অধ্যায়)",
+    "testType": "Complete All Subject Test",
+    "testNo": 2,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "যদি \\\\(3^{x-1} + 3^{x+1} = 90\\\\) হয়, তেন্তে \\\\(x\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "যদি \\\\(p + q = 7\\\\) আৰু \\\\(pq = 10\\\\) হয়, তেন্তে \\\\(p^3 + q^3\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(123\\\\)",
+          "\\\\(119\\\\)",
+          "\\\\(147\\\\)",
+          "\\\\(133\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "যিকোনো ধনাত্মক গোটা সংখ্যা \\\\(n\\\\)-ৰ বাবে, \\\\(n^3 - n\\\\) ৰাশিটো সদায় তলৰ কোনটো সংখ্যাৰে বিভাজ্য?",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(12\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "যদি \\\\(\\text{ল.সা.গু.}(96, 404) = 9696\\\\) হয়, তেন্তে \\\\(\\text{গ.সা.গু.}(96, 404)\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(12\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\((x - 2)\\\\) টো \\\\(x^3 - 4x^2 + ax + 6\\\\)-ৰ এটা উৎপাদক হয়, তেন্তে \\\\(x^2 - ax + 6\\\\)-ক \\\\((x + 1)\\\\) ৰে ভাগ কৰিলে ভাগশেষ হ’ব:",
+        "options": [
+          "\\\\(5\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(7\\\\)",
+          "\\\\(8\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "যদি এটা ত্ৰিঘাত বহুপদ \\\\(y = p(x)\\\\)-ৰ লেখই x-অক্ষক \\\\((-4, 0)\\\\), \\\\((1, 0)\\\\), আৰু \\\\((5, 0)\\\\) বিন্দু তিনিটাত ছেদ কৰে, তেন্তে ইয়াৰ শূন্যবোৰৰ যোগফল হ’ব:",
+        "options": [
+          "\\\\(0\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(-2\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "দুটা অংক বিশিষ্ট সংখ্যা এটাৰ অংক দুটাৰ যোগফল \\\\(11\\\\)। অংক দুটা স্থান সলনি কৰিলে পোৱা নতুন সংখ্যাটো মূল সংখ্যাটোতকৈ \\\\(27\\\\) কম। মূল সংখ্যাটো হ’ল:",
+        "options": [
+          "\\\\(47\\\\)",
+          "\\\\(65\\\\)",
+          "\\\\(74\\\\)",
+          "\\\\(83\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "\\\\(k\\\\)-ৰ কোনটো মানৰ বাবে \\\\(kx + 3y = k - 3\\\\) আৰু \\\\(12x + ky = k\\\\) সমীকৰণযোৰৰ কোনো সমাধান নাথাকে?",
+        "options": [
+          "\\\\(6\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(-3\\\\)",
+          "\\\\(-6\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "\\\\(2x^2 - (5 + k)x + 16 = 0\\\\) দ্বিঘাত সমীকৰণটোৰ এটা মূল আনটোৰ দুগুণ। যদি \\\\(k > 0\\\\) হয়, তেন্তে \\\\(k\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(7\\\\)",
+          "\\\\(5\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(9\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এখন নাৱে সোঁতৰ বিপৰীতে \\\\(24\\text{ km}\\\\) আৰু সোঁতৰ অনুকূলে \\\\(28\\text{ km}\\\\) যাবলৈ \\\\(6\\text{ ঘণ্টা}\\\\) লয়, আনহাতে সোঁতৰ বিপৰীতে \\\\(30\\text{ km}\\\\) আৰু সোঁতৰ অনুকূলে \\\\(21\\text{ km}\\\\) যাবলৈ \\\\(6.5\\text{ ঘণ্টা}\\\\) লয়। সোঁতৰ বেগ (km/h ত) হ’ব:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(4\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "এটা সমান্তৰ প্ৰগতিত প্ৰথম \\\\(n\\\\) টা পদৰ যোগফল \\\\(S_n = \\frac{3n^2}{2} + \\frac{5n}{2}\\\\) সূত্ৰৰে দিয়া হয়। ইয়াৰ \\\\(25\\\\)-তম পদটো হ’ব:",
+        "options": [
+          "\\\\(70\\\\)",
+          "\\\\(73\\\\)",
+          "\\\\(76\\\\)",
+          "\\\\(79\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "যদি এটা সমান্তৰ প্ৰগতিৰ \\\\(m\\\\)-তম পদ \\\\(\\frac{1}{n}\\\\) আৰু \\\\(n\\\\)-তম পদ \\\\(\\frac{1}{m}\\\\) হয়, তেন্তে ইয়াৰ প্ৰথম \\\\(mn\\\\) টা পদৰ যোগফল হ’ব:",
+        "options": [
+          "\\\\(\\frac{mn - 1}{2}\\\\)",
+          "\\\\(mn + 1\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(\\frac{mn + 1}{2}\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "\\\\(AB \\parallel DC\\\\) বিশিষ্ট এটা ট্ৰাপিজিয়াম \\\\(ABCD\\\\)-ৰ কৰ্ণ \\\\(AC\\\\) আৰু \\\\(BD\\\\)-য়ে পৰস্পৰক \\\\(O\\\\) বিন্দুত ছেদ কৰে। যদি \\\\(\\frac{AO}{OC} = \\frac{3}{5}\\\\) আৰু \\\\(BD = 24\\text{ cm}\\\\) হয়, তেন্তে \\\\(OD\\\\)-ৰ দৈৰ্ঘ্য হ’ব:",
+        "options": [
+          "\\\\(15\\text{ cm}\\\\)",
+          "\\\\(9\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)",
+          "\\\\(16\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(90\\text{ cm}\\\\) ওখ ছোৱালী এজনীয়ে এটা লেম্প-পোষ্টৰ পাদবিন্দুৰ পৰা \\\\(1.2\\text{ m/s}\\\\) বেগত আঁতৰি গৈ আছে। যদি লেম্পটো মাটিৰ পৰা \\\\(3.6\\text{ m}\\\\) উচ্চতাত থাকে, তেন্তে \\\\(4\\text{ ছেকেণ্ড}\\\\) পাছত তাইৰ ছাঁটোৰ দৈৰ্ঘ্য হ’ব:",
+        "options": [
+          "\\\\(1.2\\text{ m}\\\\)",
+          "\\\\(1.6\\text{ m}\\\\)",
+          "\\\\(2.0\\text{ m}\\\\)",
+          "\\\\(2.4\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\\\(A(-3, 10)\\\\) আৰু \\\\(B(6, -8)\\\\) বিন্দু সংযোগী ৰেখাখণ্ডক \\\\((-1, 6)\\\\) বিন্দুটোৱে অন্তৰ্বিভক্ত কৰা অনুপাতটো হ’ল:",
+        "options": [
+          "\\\\(1 : 2\\\\)",
+          "\\\\(3 : 5\\\\)",
+          "\\\\(2 : 7\\\\)",
+          "\\\\(7 : 2\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "যদি \\\\((x, y)\\\\), \\\\((2, 3)\\\\), আৰু \\\\((-2, 5)\\\\) শীৰ্ষবিন্দু থকা ত্ৰিভুজটোৰ ভৰকেন্দ্ৰ \\\\((1, 4)\\\\) হয়, তেন্তে \\\\((x + y)\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(5\\\\)",
+          "\\\\(6\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(7\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "যদি \\\\(\\tan \\theta + \\cot \\theta = 2\\\\) হয়, তেন্তে \\\\(\\tan^7 \\theta + \\cot^7 \\theta\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(4\\\\)",
+          "\\\\(128\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(\\sin A = \\frac{1}{\\sqrt{5}}\\\\) আৰু \\\\(\\sin B = \\frac{1}{\\sqrt{10}}\\\\) হয়, য’ত \\\\(A\\\\) আৰু \\\\(B\\\\) সূক্ষ্মকোণ, তেন্তে \\\\((\\tan A + \\cot B)\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(3\\\\)",
+          "\\\\(\\frac{7}{2}\\\\)",
+          "\\\\(\\frac{5}{2}\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\\\(120\\text{ m}\\\\) ওখ পাহাৰৰ টিং এটাৰ পৰা এটা উলম্ব স্তম্ভৰ মূৰ আৰু পাদবিন্দুৰ অৱনতি কোণ ক্ৰমে \\\\(30^\\circ\\\\) আৰু \\\\(60^\\circ\\\\)। স্তম্ভটোৰ উচ্চতা হ’ব:",
+        "options": [
+          "\\\\(60\\text{ m}\\\\)",
+          "\\\\(40\\text{ m}\\\\)",
+          "\\\\(80\\text{ m}\\\\)",
+          "\\\\(90\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "হ্ৰদ এটাৰ ওপৰত \\\\(60\\text{ m}\\\\) উচ্চতাত থকা এটা বিন্দুৰ পৰা ডাৱৰ এটুকুৰাৰ উন্নতি কোণ \\\\(30^\\circ\\\\) আৰু হ্ৰদত ডাৱৰটুকুৰাৰ প্ৰতিবিম্বৰ অৱনতি কোণ \\\\(60^\\circ\\\\)। হ্ৰদৰ পৰা ডাৱৰটুকুৰাৰ উচ্চতা হ’ব:",
+        "options": [
+          "\\\\(90\\text{ m}\\\\)",
+          "\\\\(100\\text{ m}\\\\)",
+          "\\\\(180\\text{ m}\\\\)",
+          "\\\\(120\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "দুটা এককেন্দ্ৰিক বৃত্তৰ ব্যাসাৰ্ধ ক্ৰমে \\\\(13\\text{ cm}\\\\) আৰু \\\\(5\\text{ cm}\\\\)। ডাঙৰ বৃত্তটোৰ সৰু বৃত্তটোক স্পৰ্শ কৰি যোৱা জ্যাডালৰ দৈৰ্ঘ্য হ’ব:",
+        "options": [
+          "\\\\(24\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)",
+          "\\\\(18\\text{ cm}\\\\)",
+          "\\\\(26\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা বৃত্তই \\\\(ABCD\\\\) চতুৰ্ভুজৰ চাৰিওটা বাহুকে স্পৰ্শ কৰে। যদি \\\\(AB = 6\\text{ cm}\\\\), \\\\(BC = 7\\text{ cm}\\\\), আৰু \\\\(CD = 4\\text{ cm}\\\\) হয়, তেন্তে \\\\(AD\\\\)-ৰ দৈৰ্ঘ্য হ’ব:",
+        "options": [
+          "\\\\(5\\text{ cm}\\\\)",
+          "\\\\(3\\text{ cm}\\\\)",
+          "\\\\(4\\text{ cm}\\\\)",
+          "\\\\(6\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\\\(14\\text{ m}\\\\) বাহু বিশিষ্ট বৰ্গাকাৰ পথাৰ এখনৰ এটা চুকত পোতা খুঁটি এটাত \\\\(7\\text{ m}\\\\) দীঘল ৰছী এডালেৰে ঘোঁৰা এটা বান্ধি থোৱা হৈছে। ঘোঁৰাটোৱে চৰিব পৰা পথাৰৰ অংশটোৰ কালি হ’ব: (\\\\(\\pi = \\frac{22}{7}\\\\) ব্যৱহাৰ কৰা)",
+        "options": [
+          "\\\\(77\\text{ m}^2\\\\)",
+          "\\\\(154\\text{ m}^2\\\\)",
+          "\\\\(38.5\\text{ m}^2\\\\)",
+          "\\\\(49\\text{ m}^2\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "\\\\(14\\text{ cm}\\\\) ব্যাসাৰ্ধ আৰু \\\\(60^\\circ\\\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ গৌণ বৃত্তখণ্ডৰ কালি প্ৰায়: (\\\\(\\pi = \\frac{22}{7}\\\\) আৰু \\\\(\\sqrt{3} \\approx 1.732\\\\) ব্যৱহাৰ কৰা)",
+        "options": [
+          "\\\\(102.67\\text{ cm}^2\\\\)",
+          "\\\\(84.87\\text{ cm}^2\\\\)",
+          "\\\\(22.40\\text{ cm}^2\\\\)",
+          "\\\\(17.80\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "\\\\(4\\text{ cm}\\\\) ভূমি ব্যাসাৰ্ধ আৰু \\\\(8\\text{ cm}\\\\) উচ্চতাৰ এটা গোটা বেলন গলাই \\\\(2\\text{ cm}\\\\) ব্যাসাৰ্ধৰ একে আকাৰৰ গোটা গোলক তৈয়াৰ কৰা হ’ল। সৃষ্টি হোৱা গোলকৰ সংখ্যা হ’ব:",
+        "options": [
+          "\\\\(12\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(16\\\\)",
+          "\\\\(6\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(10\\text{ cm}\\\\) উচ্চতা আৰু \\\\(3.5\\text{ cm}\\\\) ভূমি ব্যাসাৰ্ধৰ গোটা বেলন এটাৰ দুয়োমূৰে অৰ্ধগোলক কাটি উলিয়াই কাঠৰ পুতলা এটা তৈয়াৰ কৰা হ’ল। পুতলাটোৰ মুঠ পৃষ্ঠকালি হ’ব: (\\\\(\\pi = \\frac{22}{7}\\\\) ব্যৱহাৰ কৰা)",
+        "options": [
+          "\\\\(220\\text{ cm}^2\\\\)",
+          "\\\\(374\\text{ cm}^2\\\\)",
+          "\\\\(154\\text{ cm}^2\\\\)",
+          "\\\\(297\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\\\(10\\\\) টা পৰ্যবেক্ষণৰ মাধ্য \\\\(15\\\\)। যদি প্ৰতিটো পৰ্যবেক্ষণক \\\\(3\\\\) ৰে পূৰণ কৰি প্ৰতিটোতে \\\\(4\\\\) যোগ কৰা হয়, তেন্তে নতুন মাধ্যটো হ’ব:",
+        "options": [
+          "\\\\(45\\\\)",
+          "\\\\(37\\\\)",
+          "\\\\(49\\\\)",
+          "\\\\(52\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "এটা শ্ৰেণীকৃত বাৰংবাৰতা বিভাজনত, যদি মধ্যমা শ্ৰেণীৰ নিম্ন সীমা \\\\(20\\\\), শ্ৰেণী ব্যৱধান \\\\(10\\\\), মুঠ বাৰংবাৰতা \\\\(N = 60\\\\), মধ্যমা শ্ৰেণীৰ আগৰ ক্ৰমযোজিত বাৰংবাৰতা \\\\(22\\\\), আৰু মধ্যমা শ্ৰেণীৰ বাৰংবাৰতা \\\\(19\\\\) হয়, তেন্তে মধ্যমা প্ৰায়:",
+        "options": [
+          "\\\\(20.42\\\\)",
+          "\\\\(28.42\\\\)",
+          "\\\\(22.84\\\\)",
+          "\\\\(24.21\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "এটা বাকচত \\\\(11\\\\) ৰ পৰা \\\\(30\\\\) লৈ নম্বৰ লিখা কাৰ্ড আছে। যাদৃচ্ছিকভাৱে এখন কাৰ্ড টানি লোৱা হ’ল। কাৰ্ডখনৰ নম্বৰটো \\\\(2\\\\) আৰু \\\\(3\\\\) দুয়োটাৰে গুণিতক হোৱাৰ সংভাবিতা হ’ব:",
+        "options": [
+          "\\\\(\\frac{1}{5}\\\\)",
+          "\\\\(\\frac{3}{10}\\\\)",
+          "\\\\(\\frac{1}{4}\\\\)",
+          "\\\\(\\frac{3}{20}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "দুটা বেলেগ মুদ্ৰা একেলগে টছ কৰা হ’ল। সৰ্বাধিক এটা টেল পোৱাৰ সংভাবিতা হ’ব:\n\n---\n\n### খণ্ড খ: উক্তি আৰু যুক্তি প্ৰশ্ন",
+        "options": [
+          "\\\\(\\frac{1}{4}\\\\)",
+          "\\\\(\\frac{3}{4}\\\\)",
+          "\\\\(\\frac{1}{2}\\\\)",
+          "\\\\(1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "উক্তি (A): যিকোনো ধনাত্মক বাস্তৱ সংখ্যা \\\\(a\\\\) আৰু পৰিমেয় সংখ্যা \\\\(m\\\\) আৰু \\\\(n\\\\)-ৰ বাবে, \\\\((a^m)^n = a^{mn}\\\\)।\nযুক্তি (R): ঘাত এটাক আন এটা ঘাতলৈ নিলে ঘাতবোৰ যোগ কৰা হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "উক্তি (A): প্ৰতিটো যৌগিক সংখ্যাকে মৌলিক সংখ্যাৰ পূৰণফল হিচাপে প্ৰকাশ কৰিব পাৰি, আৰু মৌলিক উৎপাদকবোৰৰ ক্ৰমৰ বাহিৰে এই উৎপাদক বিশ্লেষণ অদ্বিতীয়।\nযুক্তি (R): এই উক্তিটোক পাটীগণিতৰ মৌলিক উপপাদ্য (Fundamental Theorem of Arithmetic) বোলা হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "উক্তি (A): যদি এটা দ্বিঘাত বহুপদৰ কেৱল এটা বাস্তৱ শূন্য থাকে, তেন্তে ইয়াৰ লেখই x-অক্ষক সঠিকভাৱে এটা বিন্দুত স্পৰ্শ কৰে।\nযুক্তি (R): কেৱল এটা বাস্তৱ শূন্য থকা দ্বিঘাত বহুপদ এটাৰ নিশ্চয়ক অশূন্য হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "উক্তি (A): যদি দুটা চলকত ৰৈখিক সমীকৰণযোৰ অসংগত হয়, তেন্তে সিহঁতৰ লেখ দুডাল সমান্তৰাল ৰেখা হয়।\nযুক্তি (R): অসংগত ৰৈখিক সমীকৰণৰ এটা আৰু কেৱল এটাই সাধাৰণ সমাধান থাকে।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "উক্তি (A): \\\\(3x^2 - 2x + 5 = 0\\\\) দ্বিঘাত সমীকৰণটোৰ দুটা ভিন্ন বাস্তৱ মূল আছে।\nযুক্তি (R): \\\\(3x^2 - 2x + 5 = 0\\\\)-ৰ বাবে নিশ্চয়ক \\\\(b^2 - 4ac = (-2)^2 - 4(3)(5) = -56 < 0\\\\)।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "উক্তি (A): এটা অনুক্ৰমত, যদি \\\\(n > 1\\\\) সকলো মানৰ বাবে \\\\(a_n - a_{n-1}\\\\) সমান হয়, তেন্তে অনুক্ৰমটো এটা সমান্তৰ প্ৰগতি।\nযুক্তি (R): সংজ্ঞামতে, সমান্তৰ প্ৰগতি হ'ল এনে এক সংখ্যাৰ তালিকা য'ত প্ৰথম পদটোৰ পাছৰ প্ৰতিটো পদ আগৰ পদটোৰ সৈতে এটা নিৰ্দিষ্ট সংখ্যা যোগ কৰি পোৱা যায়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): যদি দুটা ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ সমান হয়, তেন্তে সিহঁত সদায় সদৃশ।\nযুক্তি (R): সৰ্বাঙ্গসম ত্ৰিভুজৰ অনুৰূপ বাহুবোৰ সদায় সমান আৰু অনুৰূপ কোণবোৰো সমান।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "উক্তি (A): \\\\((5, 0)\\\\) বিন্দুটো x-অক্ষত অৱস্থিত।\nযুক্তি (R): এটা বিন্দু x-অক্ষত অৱস্থিত হ'ব যদিহে ইয়াৰ x-স্থানাংক শূন্য হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "উক্তি (A): যিকোনো সূক্ষ্মকোণ \\\\(\\theta\\\\)-ৰ বাবে, \\\\(\\sin \\theta\\\\) কেতিয়াও \\\\(1\\\\) তকৈ ডাঙৰ হ’ব নোৱাৰে।\nযুক্তি (R): সমকোণী ত্ৰিভুজত অতিভুজ আটাইতকৈ দীঘল বাহু, গতিকে লম্ব আৰু অতিভুজৰ অনুপাত সদায় \\\\(1\\\\) তকৈ সৰু বা সমান হয়।\n\n---\n\n### খণ্ড গ: স্তম্ভ মিলোৱা প্ৰশ্ন",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা উচ্চতা আৰু দূৰত্বৰ প্ৰাচলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ মান/অনুপাতসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) যেতিয়া স্তম্ভৰ উচ্চতা ছাঁৰ দৈৰ্ঘ্যৰ সমান হয়, তেতিয়া উন্নতি কোণ\n(q) যেতিয়া অনুভূমিক দূৰত্ব উচ্চতাৰ \\\\(\\sqrt{3}\\\\) গুণ হয়, তেতিয়া অৱনতি কোণ\n(r) উন্নতি কোণ \\\\(60^\\circ\\\\) হ’লে উচ্চতা আৰু ছাঁৰ অনুপাত\n(s) উন্নতি কোণ \\\\(60^\\circ\\\\) হ’লে ছাঁ আৰু উচ্চতাৰ অনুপাত\n\nস্তম্ভ-II:\n(i) \\\\(30^\\circ\\\\)\n(ii) \\\\(45^\\circ\\\\)\n(iii) \\\\(\\frac{1}{\\sqrt{3}}\\\\)\n(iv) \\\\(\\sqrt{3}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা বৃত্তৰ ধৰ্ম আৰু ফলাফলসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ মানসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) মূৰত টনা স্পৰ্শক দুডালে \\\\(70^\\circ\\\\) কোণ কৰিলে দুডাল ব্যাসাৰ্ধৰ মাজৰ কোণ\n(q) স্পৰ্শবিন্দুত স্পৰ্শক আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ\n(r) স্পৰ্শক দুডালৰ মাজৰ কোণ আৰু অনুৰূপ ব্যাসাৰ্ধ দুডালৰ মাজৰ কোণৰ যোগফল\n(s) বৃত্তৰ ওপৰত থকা এটা বিন্দুৰ পৰা টানিব পৰা স্পৰ্শকৰ সংখ্যা\n\nস্তম্ভ-II:\n(i) \\\\(110^\\circ\\\\)\n(ii) \\\\(90^\\circ\\\\)\n(iii) \\\\(180^\\circ\\\\)\n(iv) \\\\(1\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা বৃত্তাকাৰ অঞ্চলৰ সূত্ৰসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ ৰাশিসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\\\(r\\\\) ব্যাসাৰ্ধৰ বৃত্তৰ চতুৰ্থাংশৰ (quadrant) কালি\n(q) \\\\(d\\\\) ব্যাসৰ বৃত্তৰ পৰিধি\n(r) গৌণ বৃত্তখণ্ডৰ কালি\n(s) \\\\(\\theta\\\\) কোণ আৰু \\\\(r\\\\) ব্যাসাৰ্ধৰ বৃত্তকলাৰ বৃত্তচাপৰ দৈৰ্ঘ্য\n\nস্তম্ভ-II:\n(i) \\\\(\\pi d\\\\)\n(ii) \\\\(\\frac{\\theta}{360^\\circ} \\times 2\\pi r\\\\)\n(iii) \\\\(\\frac{1}{4}\\pi r^2\\\\)\n(iv) গৌণ বৃত্তকলাৰ কালি \\\\(-\\\\) অনুৰূপ ত্ৰিভুজৰ কালি",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা ত্ৰিমাত্ৰিক ঘনমিতিৰ সূত্ৰসমূহৰ সৈতে স্তম্ভ-II মিলোৱা:\n\nস্তম্ভ-I:\n(p) \\\\(r\\\\) ব্যাসাৰ্ধৰ গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি\n(q) \\\\(r\\\\) ব্যাসাৰ্ধ আৰু \\\\(h\\\\) উচ্চতাৰ বেলনৰ বক্ৰ পৃষ্ঠকালি\n(r) \\\\(r\\\\) ব্যাসাৰ্ধ আৰু \\\\(h\\\\) উচ্চতাৰ শংকুৰ আয়তন\n(s) \\\\(r\\\\) ব্যাসাৰ্ধৰ গোলকৰ আয়তন\n\nস্তম্ভ-II:\n(i) \\\\(\\frac{1}{3}\\pi r^2 h\\\\)\n(ii) \\\\(\\frac{4}{3}\\pi r^3\\\\)\n(iii) \\\\(2\\pi r h\\\\)\n(iv) \\\\(3\\pi r^2\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(i), s-(ii)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক ধাৰণাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সূত্ৰ/সংজ্ঞাসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) প্ৰথম \\\\(n\\\\) টা স্বাভাৱিক সংখ্যাৰ মাধ্য\n(q) বহুলকৰ এম্পিৰিকেল ৰাশি\n(r) অবিচ্ছিন্ন শ্ৰেণী অন্তৰালৰ ক্ৰমিক ব্যৱধানৰ আধা\n(s) শ্ৰেণী অন্তৰালৰ শ্ৰেণী চিহ্ন\n\nস্তম্ভ-II:\n(i) \\\\(3\\text{ মধ্যমা} - 2\\text{ মাধ্য}\\\\)\n(ii) \\\\(\\frac{n+1}{2}\\\\)\n(iii) উচ্চ সীমা আৰু নিম্ন সীমাৰ যোগফলৰ আধা\n(iv) অবিচ্ছিন্ন শ্ৰেণীলৈ নিয়াৰ সীমা সমন্বয় কাৰক",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা সংভাবিতাৰ ঘটনাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংখ্যাগত সংভাবিতাসমূহ মিলোৱা:\n\nস্তম্ভ-I:\n(p) এটা সাধাৰণ পাশা এবাৰ মাৰিলে যুগ্ম সংখ্যা পোৱা\n(q) দুটা সাধাৰণ পাশা একেলগে মাৰিলে যোগফল \\\\(12\\\\) পোৱা\n(r) \\\\(52\\\\) পাত কাৰ্ডৰ থুপৰ পৰা মুখ কাৰ্ড নোহোৱা কাৰ্ড টনা\n(s) নিশ্চিত ঘটনা সংঘটিত হোৱা\n\nস্তম্ভ-II:\n(i) \\\\(\\frac{1}{2}\\\\)\n(ii) \\\\(\\frac{1}{36}\\\\)\n(iii) \\\\(\\frac{10}{13}\\\\)\n(iv) \\\\(1\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+{
+    "id": "BT-X-MATH-EN-COMP-03",
+    "name": "Complete Mock Test - Test 3",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "English",
+    "chapter": "Complete Mock Test (All Chapters)",
+    "testType": "Complete All Subject Test",
+    "testNo": 3,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "If the HCF of \\\\(408\\\\) and \\\\(1032\\\\) is expressible in the form \\\\(1032m - 408 \\times 5\\\\), then the value of \\\\(m\\\\) is:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(1\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "If \\\\(a = 2^2 \\times 3^3 \\times 5^4\\\\) and \\\\(b = 2^3 \\times 3^2 \\times 5 \\times 7\\\\), then the ratio of \\\\(\\text{LCM}(a, b)\\\\) to \\\\(\\text{HCF}(a, b)\\\\) is:",
+        "options": [
+          "\\\\(700 : 1\\\\)",
+          "\\\\(5250 : 1\\\\)",
+          "\\\\(350 : 1\\\\)",
+          "\\\\(1050 : 1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "If \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) are the zeroes of the quadratic polynomial \\\\(p(x) = x^2 - 6x + k\\\\) such that \\\\(3\\alpha + 2\\beta = 20\\\\), then the value of \\\\(k\\\\) is:",
+        "options": [
+          "\\\\(-16\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(-8\\\\)",
+          "\\\\(16\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The number of polynomials having zeroes as \\\\(-2\\\\) and \\\\(5\\\\) is:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "More than \\\\(3\\\\)"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "The value of \\\\(k\\\\) for which the system of equations \\\\(2x + 3y = 7\\\\) and \\\\((k-1)x + (k+2)y = 3k\\\\) has infinitely many solutions is:",
+        "options": [
+          "\\\\(7\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(5\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A straight line passes through the points \\\\((0, 4)\\\\) and \\\\((6, 0)\\\\). The area of the triangle formed by this line with the coordinate axes is:",
+        "options": [
+          "\\\\(24\\text{ sq units}\\\\)",
+          "\\\\(12\\text{ sq units}\\\\)",
+          "\\\\(6\\text{ sq units}\\\\)",
+          "\\\\(18\\text{ sq units}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "If the equation \\\\(x^2 - (2 + k)x + (k + 5) = 0\\\\) has equal real roots, then the positive value of \\\\(k\\\\) is:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(-4\\\\)",
+          "\\\\(6\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The perimeter of a rectangular field is \\\\(82\\text{ m}\\\\) and its area is \\\\(400\\text{ m}^2\\\\). The breadth of the field is:",
+        "options": [
+          "\\\\(25\\text{ m}\\\\)",
+          "\\\\(20\\text{ m}\\\\)",
+          "\\\\(16\\text{ m}\\\\)",
+          "\\\\(18\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "If the sum of the first \\\\(n\\\\) terms of an AP is \\\\(S_n = 5n^2 - 3n\\\\), then its \\\\(10\\\\)-th term is:",
+        "options": [
+          "\\\\(92\\\\)",
+          "\\\\(87\\\\)",
+          "\\\\(95\\\\)",
+          "\\\\(100\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\\\(a, b, c, d, e\\\\) are in AP, then the value of \\\\(a - 4b + 6c - 4d + e\\\\) is:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(0\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(-1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In \\\\(\\triangle ABC\\\\), \\\\(D\\\\) and \\\\(E\\\\) are points on \\\\(AB\\\\) and \\\\(AC\\\\) respectively such that \\\\(DE \\parallel BC\\\\). If \\\\(\\frac{AD}{DB} = \\frac{4}{5}\\\\) and \\\\(EC = 2.5\\text{ cm}\\\\), then \\\\(AE\\\\) is equal to:",
+        "options": [
+          "\\\\(2.0\\text{ cm}\\\\)",
+          "\\\\(3.0\\text{ cm}\\\\)",
+          "\\\\(1.8\\text{ cm}\\\\)",
+          "\\\\(2.5\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(ABCD\\\\) is a trapezium with \\\\(AB \\parallel DC\\\\) and its diagonals intersect at \\\\(O\\\\). If \\\\(AO = 3x - 1\\\\), \\\\(OC = 5x - 3\\\\), \\\\(BO = 2x + 1\\\\), and \\\\(OD = 6x - 5\\\\), then the value of \\\\(x\\\\) is:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The ratio in which the y-axis divides the line segment joining the points \\\\(A(-4, 2)\\\\) and \\\\(B(8, 3)\\\\) is:",
+        "options": [
+          "\\\\(1 : 2\\\\)",
+          "\\\\(2 : 1\\\\)",
+          "\\\\(1 : 3\\\\)",
+          "\\\\(3 : 1\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If the vertices of a triangle are \\\\(A(0, 0)\\\\), \\\\(B(4, 0)\\\\), and \\\\(C(0, 3)\\\\), then its perimeter is:",
+        "options": [
+          "\\\\(12\\text{ units}\\\\)",
+          "\\\\(7\\text{ units}\\\\)",
+          "\\\\(14\\text{ units}\\\\)",
+          "\\\\(5\\text{ units}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\\\(5 \\tan \\theta = 4\\\\), then the value of \\\\(\\frac{5 \\sin \\theta - 3 \\cos \\theta}{5 \\sin \\theta + 2 \\cos \\theta}\\\\) is:",
+        "options": [
+          "\\\\(\\frac{1}{6}\\\\)",
+          "\\\\(\\frac{1}{3}\\\\)",
+          "\\\\(\\frac{2}{5}\\\\)",
+          "\\\\(\\frac{4}{5}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If \\\\(\\sin \\theta + \\cos \\theta = \\sqrt{2}\\\\), then the value of \\\\(\\tan \\theta + \\cot \\theta\\\\) is:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(\\sqrt{3}\\\\)",
+          "\\\\(\\frac{1}{\\sqrt{3}}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "The angle of elevation of the top of a building from the foot of a tower is \\\\(30^\\circ\\\\) and the angle of elevation of the top of the tower from the foot of the building is \\\\(60^\\circ\\\\). If the tower is \\\\(50\\text{ m}\\\\) high, the height of the building is:",
+        "options": [
+          "\\\\(16.67\\text{ m}\\\\)",
+          "\\\\(25.00\\text{ m}\\\\)",
+          "\\\\(33.33\\text{ m}\\\\)",
+          "\\\\(15.50\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Two vertical poles of equal heights stand on either side of a \\\\(100\\text{ m}\\\\) wide road. From a point between them on the road, the angles of elevation of their tops are \\\\(60^\\circ\\\\) and \\\\(30^\\circ\\\\). The height of each pole is:",
+        "options": [
+          "\\\\(25\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(50\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(20\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(40\\sqrt{3}\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "From an external point \\\\(T\\\\), two tangents \\\\(TP\\\\) and \\\\(TQ\\\\) are drawn to a circle with centre \\\\(O\\\\). Then \\\\(\\angle PTQ\\\\) is equal to:",
+        "options": [
+          "\\\\(2 \\angle OPQ\\\\)",
+          "\\\\(\\angle OPQ\\\\)",
+          "\\\\(\\frac{1}{2} \\angle OPQ\\\\)",
+          "\\\\(90^\\circ - \\angle OPQ\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A quadrilateral \\\\(ABCD\\\\) is drawn to circumscribe a circle. If \\\\(AB = 8\\text{ cm}\\\\), \\\\(BC = 7\\text{ cm}\\\\), and \\\\(CD = 6\\text{ cm}\\\\), then the length of \\\\(DA\\\\) is:",
+        "options": [
+          "\\\\(7\\text{ cm}\\\\)",
+          "\\\\(5\\text{ cm}\\\\)",
+          "\\\\(9\\text{ cm}\\\\)",
+          "\\\\(6\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The area of a sector of a circle of radius \\\\(21\\text{ cm}\\\\) with central angle \\\\(120^\\circ\\\\) is: (Use \\\\(\\pi = \\frac{22}{7}\\\\))",
+        "options": [
+          "\\\\(462\\text{ cm}^2\\\\)",
+          "\\\\(154\\text{ cm}^2\\\\)",
+          "\\\\(308\\text{ cm}^2\\\\)",
+          "\\\\(616\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If the area of a circle inscribed in an equilateral triangle is \\\\(48\\pi\\text{ cm}^2\\\\), then the perimeter of the triangle is:",
+        "options": [
+          "\\\\(72\\text{ cm}\\\\)",
+          "\\\\(48\\sqrt{3}\\text{ cm}\\\\)",
+          "\\\\(72\\sqrt{3}\\text{ cm}\\\\)",
+          "\\\\(36\\sqrt{3}\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A solid metallic cone of height \\\\(24\\text{ cm}\\\\) and radius of base \\\\(6\\text{ cm}\\\\) is melted and recast into a sphere. The radius of the sphere is:",
+        "options": [
+          "\\\\(6\\text{ cm}\\\\)",
+          "\\\\(4\\text{ cm}\\\\)",
+          "\\\\(8\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The total surface area of a solid hemisphere is \\\\(108\\pi\\text{ cm}^2\\\\). Its volume is:",
+        "options": [
+          "\\\\(144\\pi\\text{ cm}^3\\\\)",
+          "\\\\(288\\pi\\text{ cm}^3\\\\)",
+          "\\\\(72\\pi\\text{ cm}^3\\\\)",
+          "\\\\(216\\pi\\text{ cm}^3\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If the mean of \\\\(6, 7, x, 8, y, 14\\\\) is \\\\(9\\\\), then \\\\(x + y\\\\) is equal to:",
+        "options": [
+          "\\\\(19\\\\)",
+          "\\\\(21\\\\)",
+          "\\\\(17\\\\)",
+          "\\\\(23\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "For a given frequency distribution, if the upper limit of the modal class is \\\\(40\\\\), lower limit is \\\\(30\\\\), frequency of modal class is \\\\(18\\\\), frequency of preceding class is \\\\(12\\\\), and frequency of succeeding class is \\\\(10\\\\), then the mode is:",
+        "options": [
+          "\\\\(34.29\\\\)",
+          "\\\\(33.33\\\\)",
+          "\\\\(35.45\\\\)",
+          "\\\\(36.00\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "A letter of the English alphabet is chosen at random. The probability that it is a letter of the word 'MATHEMATICS' is:",
+        "options": [
+          "\\\\(\\frac{4}{13}\\\\)",
+          "\\\\(\\frac{11}{26}\\\\)",
+          "\\\\(\\frac{8}{26}\\\\)",
+          "\\\\(\\frac{7}{26}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Three unbiased coins are tossed together. The probability of getting at least two heads is:",
+        "options": [
+          "\\\\(\\frac{1}{2}\\\\)",
+          "\\\\(\\frac{3}{8}\\\\)",
+          "\\\\(\\frac{5}{8}\\\\)",
+          "\\\\(\\frac{1}{4}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The roots of the quadratic equation \\\\(3x^2 - 2\\sqrt{6}x + 2 = 0\\\\) are:",
+        "options": [
+          "\\\\(\\sqrt{\\frac{2}{3}}, \\sqrt{\\frac{2}{3}}\\\\)",
+          "\\\\(\\sqrt{\\frac{3}{2}}, \\sqrt{\\frac{3}{2}}\\\\)",
+          "\\\\(\\frac{\\sqrt{2}}{3}, \\frac{\\sqrt{2}}{3}\\\\)",
+          "\\\\(\\sqrt{6}, \\sqrt{6}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "If the distance between the points \\\\(A(x, 2)\\\\) and \\\\(B(3, 4)\\\\) is \\\\(2\\sqrt{2}\\\\), then the values of \\\\(x\\\\) are:\n---\n### Part B: Assertion and Reasoning Questions",
+        "options": [
+          "\\\\(1\\\\) or \\\\(5\\\\)",
+          "\\\\(-1\\\\) or \\\\(5\\\\)",
+          "\\\\(1\\\\) or \\\\(-5\\\\)",
+          "\\\\(-1\\\\) or \\\\(-5\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The number \\\\(7 \\times 11 \\times 13 + 13\\\\) is a composite number.\nReason (R): Every composite number can be factored as a product of prime numbers.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): If the product of zeroes of the polynomial \\\\(ax^2 - 6x - 6\\\\) is \\\\(4\\\\), then the value of \\\\(a\\\\) is \\\\(-\\frac{3}{2}\\\\).\nReason (R): Product of zeroes of a quadratic polynomial \\\\(ax^2 + bx + c\\\\) is given by \\\\(\\frac{c}{a}\\\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The lines represented by \\\\(2x + 3y - 9 = 0\\\\) and \\\\(4x + 6y - 18 = 0\\\\) are coincident lines.\nReason (R): If \\\\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\\\), then the pair of linear equations has infinitely many solutions.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The sum of the first \\\\(n\\\\) terms of an AP with first term \\\\(a\\\\) and last term \\\\(l\\\\) is \\\\(S_n = \\frac{n}{2}(a + l)\\\\).\nReason (R): The \\\\(n\\\\)-th term of an AP is given by \\\\(a_n = a + (n - 1)d\\\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Assertion (A): If \\\\(\\triangle ABC \\sim \\triangle PQR\\\\) such that \\\\(\\text{ar}(\\triangle ABC) = 4 \\text{ar}(\\triangle PQR)\\\\) and \\\\(AB = 12\\text{ cm}\\\\), then \\\\(PQ = 6\\text{ cm}\\\\).\nReason (R): The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The point \\\\((3, 0)\\\\) lies on the x-axis.\nReason (R): The y-coordinate of any point lying on the x-axis is always zero.",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The value of \\\\(\\sin \\theta \\cdot \\csc \\theta = 1\\\\) for all values of \\\\(\\theta\\\\) where defined.\nReason (R): \\\\(\\csc \\theta\\\\) is the reciprocal of \\\\(\\sin \\theta\\\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The surface area of a sphere of radius \\\\(7\\text{ cm}\\\\) is \\\\(616\\text{ cm}^2\\\\) (Use \\\\(\\pi = \\frac{22}{7}\\\\)).\nReason (R): Surface area of a sphere of radius \\\\(r\\\\) is given by \\\\(4\\pi r^2\\\\).",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Assertion (A): The probability of drawing a red face card from a well-shuffled deck of \\\\(52\\\\) cards is \\\\(\\frac{3}{26}\\\\).\nReason (R): There are \\\\(6\\\\) red face cards in a standard deck of \\\\(52\\\\) playing cards.\n---\n### Part C: Match the Column Questions",
+        "options": [
+          "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+          "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+          "Assertion (A) is true, but Reason (R) is false.",
+          "Assertion (A) is false, but Reason (R) is true."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the expressions in Column-I with their corresponding mathematical properties/values in Column-II:\nColumn-I:\n(p) Product of roots of \\\\(2x^2 - 8x + 6 = 0\\\\)\n(q) Sum of roots of \\\\(2x^2 - 8x + 6 = 0\\\\)\n(r) Discriminant of \\\\(2x^2 - 8x + 6 = 0\\\\)\n(s) HCF of \\\\(12\\\\) and \\\\(18\\\\)\nColumn-II:\n(i) \\\\(4\\\\)\n(ii) \\\\(3\\\\)\n(iii) \\\\(16\\\\)\n(iv) \\\\(6\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iii), s-(iv)",
+          "p-(i), q-(ii), r-(iv), s-(iii)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the geometric conditions in Column-I with their outcomes in Column-II:\nColumn-I:\n(p) Mid-point formula for \\\\((x_1, y_1)\\\\) and \\\\((x_2, y_2)\\\\)\n(q) Distance of \\\\((x, y)\\\\) from origin\n(r) Area of triangle with collinear vertices\n(s) Section formula (internal division in ratio \\\\(m : n\\\\))\nColumn-II:\n(i) \\\\(\\sqrt{x^2 + y^2}\\\\)\n(ii) \\\\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\\\)\n(iii) \\\\(\\left(\\frac{m x_2 + n x_1}{m + n}, \\frac{m y_2 + n y_1}{m + n}\\right)\\\\)\n(iv) \\\\(0\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the trigonometric values in Column-I with Column-II:\nColumn-I:\n(p) \\\\(\\sin 45^\\circ\\\\)\n(q) \\\\(\\cos 30^\\circ\\\\)\n(r) \\\\(\\tan 60^\\circ\\\\)\n(s) \\\\(\\cot 45^\\circ\\\\)\nColumn-II:\n(i) \\\\(\\frac{\\sqrt{3}}{2}\\\\)\n(ii) \\\\(\\frac{1}{\\sqrt{2}}\\\\)\n(iii) \\\\(1\\\\)\n(iv) \\\\(\\sqrt{3}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the solid mensuration formulas in Column-I with their algebraic formulas in Column-II:\nColumn-I:\n(p) Total surface area of a cuboid of dimensions \\\\(l, b, h\\\\)\n(q) Curved surface area of a cone of radius \\\\(r\\\\) and slant height \\\\(l\\\\)\n(r) Volume of a cylinder of radius \\\\(r\\\\) and height \\\\(h\\\\)\n(s) Surface area of a sphere of radius \\\\(r\\\\)\nColumn-II:\n(i) \\\\(\\pi r l\\\\)\n(ii) \\\\(2(lb + bh + hl)\\\\)\n(iii) \\\\(4\\pi r^2\\\\)\n(iv) \\\\(\\pi r^2 h\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(i), q-(iv), r-(ii), s-(iii)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the statistical measures in Column-I with their definitions/formulas in Column-II:\nColumn-I:\n(p) Class mark (\\\\(x_i\\\\))\n(q) Assumed mean method deviation (\\\\(d_i\\\\))\n(r) Step deviation method term (\\\\(u_i\\\\))\n(s) Empirical formula for central tendency\nColumn-II:\n(i) \\\\(x_i - a\\\\)\n(ii) \\\\(\\frac{\\text{Upper Limit} + \\text{Lower Limit}}{2}\\\\)\n(iii) \\\\(\\text{Mode} = 3\\text{ Median} - 2\\text{ Mean}\\\\)\n(iv) \\\\(\\frac{x_i - a}{h}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Match the probability events in Column-I with their numerical values in Column-II:\nColumn-I:\n(p) Probability of getting a prime number in a single throw of a die\n(q) Probability of getting no heads in two coin tosses\n(r) Probability of an impossible event\n(s) Probability of drawing a King from a deck of 52 cards\nColumn-II:\n(i) \\\\(\\frac{1}{4}\\\\)\n(ii) \\\\(\\frac{1}{2}\\\\)\n(iii) \\\\(\\frac{1}{13}\\\\)\n(iv) \\\\(0\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "BT-X-MATH-AS-COMP-03",
+    "name": "Complete Mock Test - Test 3",
+    "class": "Class 10",
+    "subject": "Mathematics",
+    "language": "Assamese",
+    "chapter": "সম্পূৰ্ণ মক টেষ্ট (সকলো অধ্যায়)",
+    "testType": "Complete All Subject Test",
+    "testNo": 3,
+    "duration": 60,
+    "totalQuestions": 45,
+    "marksPerQuestion": 1,
+    "negativeMarks": 0,
+    "questions": [
+      {
+        "question": "যদি \\\\(408\\\\) আৰু \\\\(1032\\\\)-ৰ গ.সা.গু. টোক \\\\(1032m - 408 \\times 5\\\\) ৰূপত প্ৰকাশ কৰিব পাৰি, তেন্তে \\\\(m\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(1\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "যদি \\\\(a = 2^2 \\times 3^3 \\times 5^4\\\\) আৰু \\\\(b = 2^3 \\times 3^2 \\times 5 \\times 7\\\\) হয়, তেন্তে ল.সা.গু. \\\\((a, b)\\\\) আৰু গ.সা.গু. \\\\((a, b)\\\\)-ৰ অনুপাত হ’ব:",
+        "options": [
+          "\\\\(700 : 1\\\\)",
+          "\\\\(5250 : 1\\\\)",
+          "\\\\(350 : 1\\\\)",
+          "\\\\(1050 : 1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "যদি \\\\(\\alpha\\\\) আৰু \\\\(\\beta\\\\) বহুপদ \\\\(p(x) = x^2 - 6x + k\\\\)-ৰ শূন্য হয় যাতে \\\\(3\\alpha + 2\\beta = 20\\\\) হয়, তেন্তে \\\\(k\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(-16\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(-8\\\\)",
+          "\\\\(16\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(-2\\\\) আৰু \\\\(5\\\\) শূন্য থকা বহুপদৰ সংখ্যা হ’ল:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(3\\\\) তকৈ অধিক"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "\\\\(k\\\\)-ৰ কোনটো মানৰ বাবে \\\\(2x + 3y = 7\\\\) আৰু \\\\((k-1)x + (k+2)y = 3k\\\\) সমীকৰণ প্ৰণালীটোৰ অসীম সংখ্যক সমাধান থাকিব?",
+        "options": [
+          "\\\\(7\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(5\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এডাল সৰল ৰেখা \\\\((0, 4)\\\\) আৰু \\\\((6, 0)\\\\) বিন্দুৰ মাজেৰে যায়। স্থানাংক অক্ষ দুটাৰ সৈতে এই ৰেখাডালে গঠন কৰা ত্ৰিভুজটোৰ কালি হ’ব:",
+        "options": [
+          "\\(24\\)  বৰ্গ একক",
+          "\\(12\\)  বৰ্গ একক",
+          "\\(6\\)  বৰ্গ একক",
+          "\\(18\\)  বৰ্গ একক"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "যদি \\\\(x^2 - (2 + k)x + (k + 5) = 0\\\\) সমীকৰণটোৰ সমান বাস্তৱ মূল থাকে, তেন্তে \\\\(k\\\\)-ৰ ধনাত্মক মানটো হ’ব:",
+        "options": [
+          "\\\\(4\\\\)",
+          "\\\\(8\\\\)",
+          "\\\\(-4\\\\)",
+          "\\\\(6\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা আয়তাকাৰ পথাৰৰ পৰিসীমা \\\\(82\\text{ m}\\\\) আৰু ইয়াৰ কালি \\\\(400\\text{ m}^2\\\\)। পথাৰখনৰ প্ৰস্থ হ’ব:",
+        "options": [
+          "\\\\(25\\text{ m}\\\\)",
+          "\\\\(20\\text{ m}\\\\)",
+          "\\\\(16\\text{ m}\\\\)",
+          "\\\\(18\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "যদি এটা সমান্তৰ প্ৰগতিৰ প্ৰথম \\\\(n\\\\) টা পদৰ যোগফল \\\\(S_n = 5n^2 - 3n\\\\) হয়, তেন্তে ইয়াৰ \\\\(10\\\\)-তম পদটো হ’ব:",
+        "options": [
+          "\\\\(92\\\\)",
+          "\\\\(87\\\\)",
+          "\\\\(95\\\\)",
+          "\\\\(100\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(a, b, c, d, e\\\\) সমান্তৰ প্ৰগতিত থাকে, তেন্তে \\\\(a - 4b + 6c - 4d + e\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(0\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(-1\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "\\\\(\\triangle ABC\\\\)-ত, \\\\(D\\\\) আৰু \\\\(E\\\\) ক্ৰমে \\\\(AB\\\\) আৰু \\\\(AC\\\\) বাহুত থকা দুটা বিন্দু যাতে \\\\(DE \\parallel BC\\\\)। যদি \\\\(\\frac{AD}{DB} = \\frac{4}{5}\\\\) আৰু \\\\(EC = 2.5\\text{ cm}\\\\) হয়, তেন্তে \\\\(AE\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(2.0\\text{ cm}\\\\)",
+          "\\\\(3.0\\text{ cm}\\\\)",
+          "\\\\(1.8\\text{ cm}\\\\)",
+          "\\\\(2.5\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(AB \\parallel DC\\\\) বিশিষ্ট এটা ট্ৰাপিজিয়াম \\\\(ABCD\\\\)-ৰ কৰ্ণ দুডালে পৰস্পৰক \\\\(O\\\\) বিন্দুত ছেদ কৰে। যদি \\\\(AO = 3x - 1\\\\), \\\\(OC = 5x - 3\\\\), \\\\(BO = 2x + 1\\\\), আৰু \\\\(OD = 6x - 5\\\\) হয়, তেন্তে \\\\(x\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(2\\\\)",
+          "\\\\(3\\\\)",
+          "\\\\(1\\\\)",
+          "\\\\(4\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(A(-4, 2)\\\\) আৰু \\\\(B(8, 3)\\\\) বিন্দু সংযোগী ৰেখাখণ্ডক y-অক্ষে ভাগ কৰা অনুপাতটো হ’ল:",
+        "options": [
+          "\\\\(1 : 2\\\\)",
+          "\\\\(2 : 1\\\\)",
+          "\\\\(1 : 3\\\\)",
+          "\\\\(3 : 1\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি এটা ত্ৰিভুজৰ শীৰ্ষবিন্দুসমূহ \\\\(A(0, 0)\\\\), \\\\(B(4, 0)\\\\), আৰু \\\\(C(0, 3)\\\\) হয়, তেন্তে ইয়াৰ পৰিসীমা হ’ব:",
+        "options": [
+          "\\(12\\)  একক",
+          "\\(7\\)  একক",
+          "\\(14\\)  একক",
+          "\\(5\\)  একক"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(5 \\tan \\theta = 4\\\\) হয়, তেন্তে \\\\(\\frac{5 \\sin \\theta - 3 \\cos \\theta}{5 \\sin \\theta + 2 \\cos \\theta}\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(\\frac{1}{6}\\\\)",
+          "\\\\(\\frac{1}{3}\\\\)",
+          "\\\\(\\frac{2}{5}\\\\)",
+          "\\\\(\\frac{4}{5}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(\\sin \\theta + \\cos \\theta = \\sqrt{2}\\\\) হয়, তেন্তে \\\\(\\tan \\theta + \\cot \\theta\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(1\\\\)",
+          "\\\\(2\\\\)",
+          "\\\\(\\sqrt{3}\\\\)",
+          "\\\\(\\frac{1}{\\sqrt{3}}\\\\)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "স্তম্ভ এটাৰ পাদবিন্দুৰ পৰা এটা অট্টালিকাৰ মূৰৰ উন্নতি কোণ \\\\(30^\\circ\\\\) আৰু অট্টালিকাটোৰ পাদবিন্দুৰ পৰা স্তম্ভটোৰ মূৰৰ উন্নতি কোণ \\\\(60^\\circ\\\\)। যদি স্তম্ভটো \\\\(50\\text{ m}\\\\) ওখ হয়, তেন্তে অট্টালিকাটোৰ উচ্চতা হ’ব:",
+        "options": [
+          "\\\\(16.67\\text{ m}\\\\)",
+          "\\\\(25.00\\text{ m}\\\\)",
+          "\\\\(33.33\\text{ m}\\\\)",
+          "\\\\(15.50\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(100\\text{ m}\\\\) বহল ৰাস্তা এটাৰ দুয়োফালে একে উচ্চতাৰ দুটা উলম্ব খুটা থিয় হৈ আছে। ৰাস্তাটোৰ মাজৰ এটা বিন্দুৰ পৰা খুটা দুটাৰ মূৰৰ উন্নতি কোণ ক্ৰমে \\\\(60^\\circ\\\\) আৰু \\\\(30^\\circ\\\\)। প্ৰত্যেকটো খুটাৰ উচ্চতা হ’ব:",
+        "options": [
+          "\\\\(25\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(50\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(20\\sqrt{3}\\text{ m}\\\\)",
+          "\\\\(40\\sqrt{3}\\text{ m}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা বহিঃবিন্দু \\\\(T\\\\)-ৰ পৰা \\\\(O\\\\) কেন্দ্ৰযুক্ত বৃত্তলৈ \\\\(TP\\\\) আৰু \\\\(TQ\\\\) স্পৰ্শক দুডাল টনা হ’ল। তেন্তে \\\\(\\angle PTQ\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(2 \\angle OPQ\\\\)",
+          "\\\\(\\angle OPQ\\\\)",
+          "\\\\(\\frac{1}{2} \\angle OPQ\\\\)",
+          "\\\\(90^\\circ - \\angle OPQ\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা বৃত্তক পৰিবেষ্টিত কৰি \\\\(ABCD\\\\) চতুৰ্ভুজ অংকন কৰা হৈছে। যদি \\\\(AB = 8\\text{ cm}\\\\), \\\\(BC = 7\\text{ cm}\\\\), আৰু \\\\(CD = 6\\text{ cm}\\\\) হয়, তেন্তে \\\\(DA\\\\)-ৰ দৈৰ্ঘ্য হ’ব:",
+        "options": [
+          "\\\\(7\\text{ cm}\\\\)",
+          "\\\\(5\\text{ cm}\\\\)",
+          "\\\\(9\\text{ cm}\\\\)",
+          "\\\\(6\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(21\\text{ cm}\\\\) ব্যাসাৰ্ধ আৰু \\\\(120^\\circ\\\\) কেন্দ্ৰীয় কোণ থকা বৃত্ত এটাৰ বৃত্তকলাৰ কালি হ’ব: (\\\\(\\pi = \\frac{22}{7}\\\\) ব্যৱহাৰ কৰা)",
+        "options": [
+          "\\\\(462\\text{ cm}^2\\\\)",
+          "\\\\(154\\text{ cm}^2\\\\)",
+          "\\\\(308\\text{ cm}^2\\\\)",
+          "\\\\(616\\text{ cm}^2\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি এটা সমবাহু ত্ৰিভুজত অন্তৰ্লিখিত বৃত্তৰ কালি \\\\(48\\pi\\text{ cm}^2\\\\) হয়, তেন্তে ত্ৰিভুজটোৰ পৰিসীমা হ’ব:",
+        "options": [
+          "\\\\(72\\text{ cm}\\\\)",
+          "\\\\(48\\sqrt{3}\\text{ cm}\\\\)",
+          "\\\\(72\\sqrt{3}\\text{ cm}\\\\)",
+          "\\\\(36\\sqrt{3}\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(24\\text{ cm}\\\\) উচ্চতা আৰু \\\\(6\\text{ cm}\\\\) ভূমি ব্যাসাৰ্ধৰ এটা গোটা ধাতুৰ শংকু গলাই এটা গোলক বনোৱা হ’ল। গোলকটোৰ ব্যাসাৰ্ধ হ’ব:",
+        "options": [
+          "\\\\(6\\text{ cm}\\\\)",
+          "\\\\(4\\text{ cm}\\\\)",
+          "\\\\(8\\text{ cm}\\\\)",
+          "\\\\(12\\text{ cm}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা গোটা অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি \\\\(108\\pi\\text{ cm}^2\\\\)। ইয়াৰ আয়তন হ’ব:",
+        "options": [
+          "\\\\(144\\pi\\text{ cm}^3\\\\)",
+          "\\\\(288\\pi\\text{ cm}^3\\\\)",
+          "\\\\(72\\pi\\text{ cm}^3\\\\)",
+          "\\\\(216\\pi\\text{ cm}^3\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(6, 7, x, 8, y, 14\\\\)-ৰ মাধ্য \\\\(9\\\\) হয়, তেন্তে \\\\(x + y\\\\)-ৰ মান হ’ব:",
+        "options": [
+          "\\\\(19\\\\)",
+          "\\\\(21\\\\)",
+          "\\\\(17\\\\)",
+          "\\\\(23\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "এটা শ্ৰেণীকৃত বাৰংবাৰতা বিভাজনৰ বাবে, যদি বহুলক শ্ৰেণীৰ উচ্চ সীমা \\\\(40\\\\), নিম্ন সীমা \\\\(30\\\\), বহুলক শ্ৰেণীৰ বাৰংবাৰতা \\\\(18\\\\), পূৰ্বৱৰ্তী শ্ৰেণীৰ বাৰংবাৰতা \\\\(12\\\\), আৰু পৰৱৰ্তী শ্ৰেণীৰ বাৰংবাৰতা \\\\(10\\\\) হয়, তেন্তে বহুলক হ’ব:",
+        "options": [
+          "\\\\(34.29\\\\)",
+          "\\\\(33.33\\\\)",
+          "\\\\(35.45\\\\)",
+          "\\\\(36.00\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "ইংৰাজী বৰ্ণমালাৰ পৰা যাদৃচ্ছিকভাৱে এটা আখৰ বাছি লোৱা হ’ল। আখৰটো 'MATHEMATICS' শব্দটোৰ আখৰ হোৱাৰ সংভাবিতা হ’ব:",
+        "options": [
+          "\\\\(\\frac{4}{13}\\\\)",
+          "\\\\(\\frac{11}{26}\\\\)",
+          "\\\\(\\frac{8}{26}\\\\)",
+          "\\\\(\\frac{7}{26}\\\\)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "তিনিটা মুদ্ৰা একেলগে টছ কৰা হ’ল। অন্ততঃ দুটা হেড পোৱাৰ সংভাবিতা হ’ব:",
+        "options": [
+          "\\\\(\\frac{1}{2}\\\\)",
+          "\\\\(\\frac{3}{8}\\\\)",
+          "\\\\(\\frac{5}{8}\\\\)",
+          "\\\\(\\frac{1}{4}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "\\\\(3x^2 - 2\\sqrt{6}x + 2 = 0\\\\) দ্বিঘাত সমীকৰণটোৰ মূল দুটা হ’ল:",
+        "options": [
+          "\\\\(\\sqrt{\\frac{2}{3}}, \\sqrt{\\frac{2}{3}}\\\\)",
+          "\\\\(\\sqrt{\\frac{3}{2}}, \\sqrt{\\frac{3}{2}}\\\\)",
+          "\\\\(\\frac{\\sqrt{2}}{3}, \\frac{\\sqrt{2}}{3}\\\\)",
+          "\\\\(\\sqrt{6}, \\sqrt{6}\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "যদি \\\\(A(x, 2)\\\\) আৰু \\\\(B(3, 4)\\\\) বিন্দু দুটাৰ মাজৰ দূৰত্ব \\\\(2\\sqrt{2}\\\\) হয়, তেন্তে \\\\(x\\\\)-ৰ মান হ’ব:\n---\n### খণ্ড খ: উক্তি আৰু যুক্তি প্ৰশ্ন",
+        "options": [
+          "\\\\(1\\\\) বা \\\\(5\\\\)",
+          "\\\\(-1\\\\) বা \\\\(5\\\\)",
+          "\\\\(1\\\\) বা \\\\(-5\\\\)",
+          "\\\\(-1\\\\) বা \\\\(-5\\\\)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): \\\\(7 \\times 11 \\times 13 + 13\\\\) সংখ্যাটো এটা যৌগিক সংখ্যা।\nযুক্তি (R): প্ৰতিটো যৌগিক সংখ্যাকে মৌলিক সংখ্যাৰ পূৰণফল হিচাপে প্ৰকাশ কৰিব পাৰি।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "উক্তি (A): যদি \\\\(ax^2 - 6x - 6\\\\) বহুপদটোৰ শূন্য দুটাৰ পূৰণফল \\\\(4\\\\) হয়, তেন্তে \\\\(a\\\\)-ৰ মান \\\\(-\\frac{3}{2}\\\\) হ’ব।\nযুক্তি (R): \\\\(ax^2 + bx + c\\\\) দ্বিঘাত বহুপদৰ শূন্য দুটাৰ পূৰণফল \\\\(\\frac{c}{a}\\\\) সূত্ৰৰে দিয়া হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): \\\\(2x + 3y - 9 = 0\\\\) আৰু \\\\(4x + 6y - 18 = 0\\\\) সমীকৰণযোৰে সম্পাতী ৰেখা সূচায়।\nযুক্তি (R): যদি \\\\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\\\) হয়, তেন্তে ৰৈখিক সমীকৰণযোৰৰ অসীম সংখ্যক সমাধান থাকে।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): প্ৰথম পদ \\\\(a\\\\) আৰু শেষ পদ \\\\(l\\\\) থকা সমান্তৰ প্ৰগতিৰ প্ৰথম \\\\(n\\\\) টা পদৰ যোগফল \\\\(S_n = \\frac{n}{2}(a + l)\\\\)।\nযুক্তি (R): এটা সমান্তৰ প্ৰগতিৰ \\\\(n\\\\)-তম পদ \\\\(a_n = a + (n - 1)d\\\\) সূত্ৰৰে দিয়া হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "উক্তি (A): যদি \\\\(\\triangle ABC \\sim \\triangle PQR\\\\) যাতে △ABC-ৰ কালি = 4 × △PQR-ৰ কালি আৰু \\\\(AB = 12\\text{ cm}\\\\) হয়, তেন্তে \\\\(PQ = 6\\text{ cm}\\\\)।\nযুক্তি (R): দুটা সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত সিহঁতৰ অনুৰূপ বাহুৰ অনুপাতৰ বৰ্গৰ সমান।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): \\\\((3, 0)\\\\) বিন্দুটো x-অক্ষত অৱস্থিত।\nযুক্তি (R): x-অক্ষত থকা যিকোনো বিন্দুৰ y-স্থানাংক সদায় শূন্য।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): সংজ্ঞাবদ্ধ সকলো \\\\(\\theta\\\\)-ৰ মানৰ বাবে \\\\(\\sin \\theta \\cdot \\csc \\theta = 1\\\\)।\nযুক্তি (R): \\\\(\\csc \\theta\\\\) হ’ল \\\\(\\sin \\theta\\\\)-ৰ অন্যোন্যক।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): \\\\(7\\text{ cm}\\\\) ব্যাসাৰ্ধৰ গোলক এটাৰ পৃষ্ঠকালি \\\\(616\\text{ cm}^2\\\\) ( \\\\(\\pi = \\frac{22}{7}\\\\) ব্যৱহাৰ কৰা)।\nযুক্তি (R): \\\\(r\\\\) ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি \\\\(4\\pi r^2\\\\) সূত্ৰৰে দিয়া হয়।",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "উক্তি (A): 52 পাত কাৰ্ডৰ থুপৰ পৰা ৰঙা মুখ কাৰ্ড টনাৰ সংভাবিতা \\\\(\\frac{3}{26}\\\\)।\nযুক্তি (R): 52 পাত কাৰ্ডৰ থুপত মোট 6 পাত ৰঙা মুখ কাৰ্ড থাকে।\n---\n### খণ্ড গ: স্তম্ভ মিলোৱা প্ৰশ্ন",
+        "options": [
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, আৰু যুক্তি (R) হ'ল উক্তি (A)-ৰ সঠিক ব্যাখ্যা।",
+          "উক্তি (A) আৰু যুক্তি (R) দুয়োটাই শুদ্ধ, কিন্তু যুক্তি (R) উক্তি (A)-ৰ সঠিক ব্যাখ্যা নহয়।",
+          "উক্তি (A) শুদ্ধ, কিন্তু যুক্তি (R) ভুল।",
+          "উক্তি (A) ভুল, কিন্তু যুক্তি (R) শুদ্ধ।"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা ৰাশিসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ অনুৰূপ গাণিতিক ধৰ্ম/মানসমূহ মিলোৱা:\nস্তম্ভ-I:\n(p) \\\\(2x^2 - 8x + 6 = 0\\\\)-ৰ মূল দুটাৰ পূৰণফল\n(q) \\\\(2x^2 - 8x + 6 = 0\\\\)-ৰ মূল দুটাৰ যোগফল\n(r) \\\\(2x^2 - 8x + 6 = 0\\\\)-ৰ নিশ্চয়ক\n(s) \\\\(12\\\\) আৰু \\\\(18\\\\)-ৰ গ.সা.গু.\nস্তম্ভ-II:\n(i) \\\\(4\\\\)\n(ii) \\\\(3\\\\)\n(iii) \\\\(16\\\\)\n(iv) \\\\(6\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iii), s-(iv)",
+          "p-(i), q-(ii), r-(iv), s-(iii)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা জ্যামিতিক চৰ্তসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ ফলাফলসমূহ মিলোৱা:\nস্তম্ভ-I:\n(p) \\\\((x_1, y_1)\\\\) আৰু \\\\((x_2, y_2)\\\\)-ৰ মধ্যবিন্দু সূত্ৰ\n(q) মূলবিন্দুৰ পৰা \\\\((x, y)\\\\) বিন্দুৰ দূৰত্ব\n(r) একৰেখীয় শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি\n(s) \\\\(m : n\\\\) অনুপাতত অন্তৰ্বিভক্ত কৰা বিভাজন সূত্ৰ\nস্তম্ভ-II:\n(i) \\\\(\\sqrt{x^2 + y^2}\\\\)\n(ii) \\\\(\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\\\)\n(iii) \\\\(\\left(\\frac{m x_2 + n x_1}{m + n}, \\frac{m y_2 + n y_1}{m + n}\\right)\\\\)\n(iv) \\\\(0\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা ত্রিকোণমিতিক মানসমূহৰ সৈতে স্তম্ভ-II মিলোৱা:\nস্তম্ভ-I:\n(p) \\\\(\\sin 45^\\circ\\\\)\n(q) \\\\(\\cos 30^\\circ\\\\)\n(r) \\\\(\\tan 60^\\circ\\\\)\n(s) \\\\(\\cot 45^\\circ\\\\)\nস্তম্ভ-II:\n(i) \\\\(\\frac{\\sqrt{3}}{2}\\\\)\n(ii) \\\\(\\frac{1}{\\sqrt{2}}\\\\)\n(iii) \\\\(1\\\\)\n(iv) \\\\(\\sqrt{3}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা ঘনমিতিৰ সূত্ৰসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ বীজগণিতীয় সূত্ৰসমূহ মিলোৱা:\nস্তম্ভ-I:\n(p) \\\\(l, b, h\\\\) পৰিসৰৰ আয়তঘনৰ মুঠ পৃষ্ঠকালি\n(q) \\\\(r\\\\) ব্যাসাৰ্ধ আৰু \\\\(l\\\\) হেলনীয়া উচ্চতাৰ শংকুৰ বক্ৰ পৃষ্ঠকালি\n(r) \\\\(r\\\\) ব্যাসাৰ্ধ আৰু \\\\(h\\\\) উচ্চতাৰ বেলনৰ আয়তন\n(s) \\\\(r\\\\) ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি\nস্তম্ভ-II:\n(i) \\\\(\\pi r l\\\\)\n(ii) \\\\(2(lb + bh + hl)\\\\)\n(iii) \\\\(4\\pi r^2\\\\)\n(iv) \\\\(\\pi r^2 h\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(iii), q-(ii), r-(i), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(i), q-(iv), r-(ii), s-(iii)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা পৰিসাংখ্যিক মাপসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংজ্ঞা/সূত্ৰসমূহ মিলোৱা:\nস্তম্ভ-I:\n(p) শ্ৰেণী চিহ্ন (\\\\(x_i\\\\))\n(q) আনুমানিক মাধ্য পদ্ধতিৰ বিচ্যুতি (\\\\(d_i\\\\))\n(r) ক্ৰম-বিচ্যুতি পদ্ধতিৰ ৰাশি (\\\\(u_i\\\\))\n(s) কেন্দ্ৰীয় প্ৰৱণতাৰ এম্পিৰিকেল সূত্ৰ\nস্তম্ভ-II:\n(i) \\\\(x_i - a\\\\)\n(ii) উচ্চ সীমা আৰু নিম্ন সীমাৰ যোগফলৰ আধা\n(iii) বহুলক = 3 × মধ্যমা − 2 × মাধ্য\n(iv) \\\\(\\frac{x_i - a}{h}\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(ii), q-(iv), r-(i), s-(iii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "স্তম্ভ-I-ত থকা সংভাবিতাৰ ঘটনাসমূহৰ সৈতে স্তম্ভ-II-ত থকা সিহঁতৰ সংখ্যাগত মানসমূহ মিলোৱা:\nস্তম্ভ-I:\n(p) এটা পাশা এবাৰ মাৰিলে মৌলিক সংখ্যা পোৱাৰ সংভাবিতা\n(q) দুটা মুদ্ৰা টছ কৰিলে কোনো হেড নোপোৱাৰ সংভাবিতা\n(r) অসম্ভৱ ঘটনাৰ সংভাবিতা\n(s) 52 পাত কাৰ্ডৰ থুপৰ পৰা এটা ৰজা (King) কাৰ্ড পোৱাৰ সংভাবিতা\nস্তম্ভ-II:\n(i) \\\\(\\frac{1}{4}\\\\)\n(ii) \\\\(\\frac{1}{2}\\\\)\n(iii) \\\\(\\frac{1}{13}\\\\)\n(iv) \\\\(0\\\\)",
+        "options": [
+          "p-(ii), q-(i), r-(iv), s-(iii)",
+          "p-(i), q-(ii), r-(iii), s-(iv)",
+          "p-(iii), q-(i), r-(iv), s-(ii)",
+          "p-(iv), q-(iii), r-(ii), s-(i)"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
   ]
 }
