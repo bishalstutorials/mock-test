@@ -7974,7 +7974,7 @@
         }
       ]
     },
-  {
+ {
       "id": "BT-X-MATH-EN-COMP-05",
       "title": "Complete Mock Test - Test 5",
       "class": "Class 10",
@@ -8139,7 +8139,7 @@
           "correctAnswer": 1
         },
         {
-          "question": "If \\(A = 30^\\circ\\), then the value of \\((1 - \\tan^2 A) / (1 + \\tan^2 A)\\) is:",
+          "question": "If \\(A = 30^\\circ\\), then the value of \\(\\frac{1-\\tan^2 A}{1+\\tan^2 A}\\) is:",
           "options": [
             "\\(\\frac{1}{2}\\)",
             "\\(\\frac{\\sqrt{3}}{2}\\)",
@@ -8605,7 +8605,7 @@
           "correctAnswer": 1
         },
         {
-          "question": "যদি \\(A = 30^\\circ\\) হয়, তেন্তে \\((1 - \\tan^2 A) / (1 + \\tan^2 A)\\)-ৰ মান হ’ব:",
+          "question": "যদি \\(A = 30^\\circ\\) হয়, তেন্তে \\(\\frac{1-\\tan^2 A}{1+\\tan^2 A}\\)-ৰ মান হ’ব:",
           "options": [
             "\\(\\frac{1}{2}\\)",
             "\\(\\frac{\\sqrt{3}}{2}\\)",
